@@ -1,0 +1,1676 @@
+{
+ "collection": "Śaraṇāgati",
+ "poet": "Bhaktivinoda Thakura",
+ "edition": "Bhaktivinoda_Thakura_Saranagati2.pdf",
+ "editionReason": "Saranagati2 (Dasaratha-suta dasa translation, 66 pp.) prints every stanza with full diacritics, numbered stanza by stanza, each followed by its own English translation, in clean typeset pages; Saranagati3 (39 pp.) prints the Bengali without any diacritics (e.g. \"bolobo duhkhera katha\", \"bidyara bilase\") and gives the translation as one block per song, so it is less exact. Saranagati2 was used for every song. Transcription conventions: the double spaces this edition prints after the mid-line comma are given as one space; the small endnote markers after some translations (i*, ii*, … xxxiv*) are left out, and this PDF contains no endnote text; the 19 Saranagati songs already in the app plus s045 (same song as Siddhi-Lalasa Song 1, filed in the app under Gitamala) are listed in present.",
+ "songs": [
+  {
+   "id": "s172",
+   "title": "Jauvane Jakhona",
+   "heading": "First Principle of Surrender: Dainya (Humility), Song 3",
+   "firstLine": "jauvane jakhona, dhana-upārjane,",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 5",
+   "parts": [
+    {
+     "v": "(1)\njauvane jakhona, dhana-upārjane,\nhoinu vipula kāmī\ndharama smariyā, gṛhinīra kara,\ndhorinu takhona āmi"
+    },
+    {
+     "t": "1) When I was young, I felt a boundless ambition for earning money. At that time, bearing in mind the codes of religion, I accepted the hand of a wife."
+    },
+    {
+     "v": "(2)\nsaṁsāra pātā’ye, tāhāra sahita,\nkāla-khoy koinu koto\nbahu suta-sutā, janama lobhilo,\nmarame hoinu hato"
+    },
+    {
+     "t": "2) Along with her I set up a household and therein wasted so much of my time. Many sons and daughters were born, and my spirit was totally crushed."
+    },
+    {
+     "v": "(3)\nsaṁsārera bhāra, bāḍe dine dine,\nacala hoilo gati\nbārdhakya āsiyā, gherilo āmāre,\nasthira hoilo mati"
+    },
+    {
+     "t": "3) The burden of family life increased day by day, and under its weight I felt my personal progress in life forcibly come to a halt. Old age came and beleaguered me on all sides, making my mind incessantly disturbed."
+    },
+    {
+     "v": "(4)\npīḍāya asthira, cintāya jwarita,\nabhāve jwalita cita\nupāya nā dekhi, andhakāra-moya,\nekhona ho’yechi bhīta"
+    },
+    {
+     "t": "4) Diseases trouble me, constant anxiety has made me feverish, and my heart burns with every want. I see no way out of this predicament, for all is darkness. Now I am very much afraid."
+    },
+    {
+     "v": "(5)\nsaṁsāra-taṭanī- srota nahe śeṣa,\nmaraṇa nikaṭe ghora\nsaba samāpiyā, bhojibo tomāya,\ne āśā biphala mora"
+    },
+    {
+     "t": "5) The current of this worldly river is strong and relentless; a frightening, gloomy death approaches. `Finishing my worldly duties, I will worship You, O Lord’—that hope is now fruitless as well."
+    },
+    {
+     "v": "(6)\nebe śuno prabhu! āmi gati-hīna,\nbhakativinoda koya\ntava kṛpā binā, sakali nirāśā,\ndeho’ more padāśroya"
+    },
+    {
+     "t": "6) Now please hear me, O Lord! I am utterly helpless. Bhaktivinoda says, “Without Your mercy, everything is lost. Please give me the shelter of Your lotus feet.”"
+    }
+   ],
+   "notes": "The book marks an endnote (ii*) after the translation of stanza 1; the endnote is commentary and is not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s173",
+   "title": "Suno Mor Duhkher Kahini",
+   "heading": "First Principle of Surrender: Dainya (Humility), Song 5",
+   "firstLine": "śuno mor duḥkher kāhinī",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 8",
+   "parts": [
+    {
+     "v": "(1)\n(prabhu he!) śuno mor duḥkher kāhinī\nviṣaya-halāhala, sudhā-bhāne piyaluṅ,\nāb avasāna dinamaṇi"
+    },
+    {
+     "t": "1) O Lord! Please hear the story of my sadness. I drank the deadly poison of worldliness, pretending it was nectar, and now the sun is setting on the horizon of my life."
+    },
+    {
+     "v": "(2)\nkhelā-rase śaiśava, poḍhaite kaiśora,\ngowāoluṅ, nā bhelo vivek\nbhoga-baśe yauvane, ghara pāti’ bosiluṅ,\nsuta-mita bāḍhalo anek"
+    },
+    {
+     "t": "2) I spent my childhood in play, my youth in academic pursuit, and in me there arose no sense of discrimination. In young manhood I set up a household and settled down to the spell of material enjoyment while my children and friends quickly multiplied."
+    },
+    {
+     "v": "(3)\nvṛddha-kāla āolo, saba sukha bhāgalo,\npīḍā-baśe hoinu kātar\nsarvendriya durbala, kṣīna kalevara,\nbhogābhāve duḥkhita antar"
+    },
+    {
+     "t": "3) Old age soon arrived, and all joys consequently departed. Subjected to the torments of disease, I am troubled and weak. All my senses are feeble now, my body is racked and exhausted, and my spirits are downcast in the absence of former sense pleasures."
+    },
+    {
+     "v": "(4)\njñāna-lava-hīna, bhakti-rase vañchita,\nāra mora ki habe upāy\npatita-bandhu, tuhuṅ, patitādhama hāma,\nkṛpāya uṭhāo tava pāy"
+    },
+    {
+     "t": "4) Devoid of even a particle of enlightenment, cheated of the mellows of devotion—what help is there for me now? O Lord, You are the friend of the fallen. I am certainly fallen, the lowest of men. Please, therefore, in mercy lift me to Your lotus feet."
+    },
+    {
+     "v": "(5)\nvicārite ābahi, guna nāhi pāobi,\nkṛpā koro, choḍato vicār\ntava pada-paṅkaja- sīdhu pibāoto,\nbhakativinoda karo pār"
+    },
+    {
+     "t": "5) Were You to judge me now, You would find no good qualities. Have mercy and judge me not. Cause me to drink the honey of Your lotus feet and thereby deliver this Bhaktivinoda."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s174",
+   "title": "Tuwa Pade E Minati Mor",
+   "heading": "First Principle of Surrender: Dainya (Humility), Song 6",
+   "firstLine": "tuwā pade e minati mor",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 9",
+   "parts": [
+    {
+     "v": "(1)\n(prabhu he!) tuwā pade e minati mor\ntuwā pada-pallava, tyajato maru-mana,\nviṣama viṣaye bhelo bhor"
+    },
+    {
+     "t": "1) O Lord! I offer this humble prayer at Your feet. I gave up the shelter of Your feet, which are soft as newly-grown leaves, and now my mind has become dried up like a desert, being scorched by the fire of absorption in horrible worldliness."
+    },
+    {
+     "v": "(2)\nuṭhayite tākata, puna nāhi milo-i,\nanudina korohuṅ hutāś\ndīna-jana-nātha, tuhuṅ kahāyasi,\ntumāri caraṇa mama āś"
+    },
+    {
+     "t": "2) I find no strength to rise again, and thus I spend my days bitterly lamenting. O Lord who is called the master of the meek and humble! Your lotus feet are my only hope."
+    },
+    {
+     "v": "(3)\naichana dīna-jana, kohi nāhi milo-i,\ntuhuṅ more koro parasād\ntuwā jana-saṅge, tuwā kathā-raṅge,\nchāḍahuṅ sakala paramād"
+    },
+    {
+     "t": "3) There has never been a soul as forlorn as me. Please be merciful and award me the association of Your devotees, for by tasting the pleasure of hearing discussions of Your pastimes I shall give up all evils."
+    },
+    {
+     "v": "(4)\ntuwā dhāma-māhe, tuwā nāma gāoto,\ngowāyabuṅ divā-niśi āś\ntuwā pada-chāyā, parama suśītala,\nmāge bhakativinoda dās"
+    },
+    {
+     "t": "4) One hope animates my soul: To spend day and night singing Your holy name while living in Your divine abode. Your servant Bhaktivinoda begs a place in the supremely cooling shade of Your lotus feet."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s175",
+   "title": "Na Korolun Karama",
+   "heading": "Second Principle of Surrender: Ātma-Nivedana (Dedication of the Self), Song 1",
+   "firstLine": "nā koroluṅ karama, geyāna nāhi bhelo,",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 12",
+   "parts": [
+    {
+     "v": "(1)\nnā koroluṅ karama, geyāna nāhi bhelo,\nnā sevilun caraṇa tohār\njaḍa-sukhe mātiyā, āpanaku vañca-i,\npekhahuṅ caudiśa āndhiyār"
+    },
+    {
+     "t": "1) I have not performed any good works. I have not amassed any transcendental knowledge. I have never worshiped Your feet. Being intoxicated by sensual pleasures, I have simply cheated myself. Now I see only darkness in all directions."
+    },
+    {
+     "v": "(2)\ntuhuṅ nātha! karunā-nidān\ntuwā pada-paṅkaje, ātma samarpiluṅ,\nmore kṛpā korobi vidhān"
+    },
+    {
+     "t": "2) You, O Lord, are the fountainhead of all mercy. I surrender myself at Your lotus feet; kindly show me Your compassion."
+    },
+    {
+     "v": "(3)\npratijñā tohāra oi, jo hi śaraṇāgata,\nnāhi so jānabo paramād\nso hāma duṣkṛti, gati nā hera-i āna,\nāb māgoṅ tuwā parasād"
+    },
+    {
+     "t": "3) It is Your promise that one who takes refuge in You will come to no harm. For a sinner like me I see no other shelter; therefore I beg You now for Your grace."
+    },
+    {
+     "v": "(4)\nāna mano-ratha, niḥśeṣa choḍato,\nkab hāma haubuṅ tohārā\nnitya-sevya tuhuṅ, nitya-sevaka mui,\nbhakativinoda bhāva sārā"
+    },
+    {
+     "t": "4) O when will I know freedom from incessant material desires and thus become exclusively Yours? This is the sum of Bhaktivinoda’s musings—You are eternally to be served, and I am Your eternal servant."
+    }
+   ],
+   "notes": "The book marks an endnote (v*) after the translation of stanza 1; endnotes are commentary and are not transcribed.",
+   "uncertain": "Song 1 stanza 1 line 2 \"nā sevilun\" — printed with plain n (not ṅ), checked at 2.2; kept as printed."
+  },
+  {
+   "id": "s176",
+   "title": "Kohobun Ki Sarama Ki Bat",
+   "heading": "Second Principle of Surrender: Ātma-Nivedana (Dedication of the Self), Song 2",
+   "firstLine": "kohobuṅ ki sarama ki bāt",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 13",
+   "parts": [
+    {
+     "v": "(1)\n(prāneśwar!) kohobuṅ ki sarama ki bāt\naichana pāp nāhi, jo hāma nā koraluṅ,\nsahasra sahasra beri nāth"
+    },
+    {
+     "t": "1) O Lord of my life! How shall I tell You of my shameful story? There is no sin which I have not committed thousands of times and more, O Lord."
+    },
+    {
+     "v": "(2)\nsohi karama-phala, bhave moke peśa-i,\ndokha deobo āb kāhi\ntakhonaka parinām, kachu nā bicāraluṅ,\nāb pachu taraite cāhi"
+    },
+    {
+     "t": "2) My life in this world has only been one of affliction and torment as a result of those sins. Who is there to blame for this misery? At the time I did not consider the consequences; but now, in the aftermath, I seek to be saved."
+    },
+    {
+     "v": "(3)\ndokha vicāra-i, tuṅhu danḍa deobi,\nhāma bhoga korabuṅ saṁsār\nkarato gatāgati, bhakata-jana-saṅge,\nmati rohu caraṇe tohār"
+    },
+    {
+     "t": "3) After judging my sins, You will surely punish me befittingly, and I shall suffer the pangs of rebirth in this world. I only pray that, as I come and go through repeated births and deaths, my mind may ever dwell at Your lotus feet as I keep the company of Your devotees."
+    },
+    {
+     "v": "(4)\nāpana caturpana, tuwā pade soṅpaluṅ,\nhṛdoya-garava dūre gelo\ndīna-doyā-moya, tuwā kṛpā niramala,\nbhakativinoda āśā bhelo"
+    },
+    {
+     "t": "4) I offer this judicious prayer at Your feet: The pride of my heart has gone far away. O You who are so kind to the meek, Your spotlessly pure mercy has become Bhaktivinoda’s only hope."
+    }
+   ],
+   "notes": "The book marks an endnote (vi*) after the translation of stanza 1; not transcribed.",
+   "uncertain": "Song 2 stanza 3 line 1 \"tuṅhu danḍa deobi\" — read at 2.2 as \"danḍa\" (plain n before ḍ) as printed, not \"daṇḍa\"."
+  },
+  {
+   "id": "s177",
+   "title": "Aham Mama Sabda Arthe",
+   "heading": "Second Principle of Surrender: Ātma-Nivedana (Dedication of the Self), Song 4",
+   "firstLine": "`ahaṁ mama’-śabda-arthe jāhā kichu hoy",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 15",
+   "parts": [
+    {
+     "v": "(1)\n`ahaṁ mama’-śabda-arthe jāhā kichu hoy\narpiluṅ tomāra pade, ohe doyā-moy!"
+    },
+    {
+     "t": "1) All there is that may be indicated by the words aham (“I”) and mama (“mine”), I offer at Your lotus feet, O merciful Lord!"
+    },
+    {
+     "v": "(2)\n`āmāra’ āmi to’ nātha! nā rohinu ār\nekhona hoinu āmi kevala tomār"
+    },
+    {
+     "t": "2) I no longer consider even myself to be “mine”, O Lord! Now I have become exclusively Yours."
+    },
+    {
+     "v": "(3)\n`āmi’ śabde dehī jīva ahaṁtā chāḍilo\ntwadīyābhimāna āji hṛdoye paśilo"
+    },
+    {
+     "t": "3) The soul inhabiting this mortal body has given up the false ego attached to the word “I”, for today the spiritual sense of being Yours has entered his heart."
+    },
+    {
+     "v": "(4)\nāmār sarvasva—deho, geho anucar\nbhāi, bandhu, dārā, suta, dravya, dwāra, ghar"
+    },
+    {
+     "t": "4) All my possessions—body, home, servants, brothers, friends, wife, sons, personal belongings, fencing and gateways…"
+    },
+    {
+     "v": "(5)\nse saba hoilo tava, āmi hoinu dās\ntomāra gṛhete ebe āmi kori bās"
+    },
+    {
+     "t": "5) …all of these things are now Yours, for I have become Your servant. I am but a mere occupant in Your house."
+    },
+    {
+     "v": "(6)\ntumi gṛha-swāmī, āmi sevaka tomār\ntomāra sukhete ceṣṭā ekhona āmār"
+    },
+    {
+     "t": "6) You are the owner of the house, and I am Your most obedient servant. My only activity now is endeavoring for Your happiness."
+    },
+    {
+     "v": "(7)\nsthūla-liṅga-dehe mora sukṛta duṣkṛta\nāra mora nahe, prabhu! āmi to’ niṣkṛta"
+    },
+    {
+     "t": "7) Whatever pious or impious activities that were performed by me, either with my gross or subtle bodies, are no longer mine, O Lord, for I am redeemed!"
+    },
+    {
+     "v": "(8)\ntomāra icchāya mora icchā miśāilo\nbhakativinoda āja āpane bhulilo"
+    },
+    {
+     "t": "8) My will has become merged with Your will. From this day forward Bhaktivinoda has completely for-gotten himself."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s178",
+   "title": "Amara Bolite Prabhu",
+   "heading": "Second Principle of Surrender: Ātma-Nivedana (Dedication of the Self), Song 5",
+   "firstLine": "`āmāra’ bolite prabhu! āre kichu nāi",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 16",
+   "parts": [
+    {
+     "v": "(1)\n`āmāra’ bolite prabhu! āre kichu nāi\ntumi-i āmāra mātra pitā-bandhu-bhāi"
+    },
+    {
+     "t": "1) O Lord, nothing further remains that may be called “mine.” Father, friend, brother—You alone are all these to me."
+    },
+    {
+     "v": "(2)\nbandhu, dārā, suta, sutā—tava dāsī dās\nsei to’ sambandhe sabe āmāra prayās"
+    },
+    {
+     "t": "2) My friends, wife, sons and daughters are now Your servants and maidservants. Whatever care I take for them is only as they are related to You."
+    },
+    {
+     "v": "(3)\ndhana, jana, gṛha, dāra `tomāra’ boliyā\nrakhā kori āmi mātro sevaka hoiyā"
+    },
+    {
+     "t": "3) Declaring that my wealth, family members, home, and wife are truly Yours, I continue as a mere servant to dutifully protect them."
+    },
+    {
+     "v": "(4)\ntomāra kāryera tore uparjibo dhan\ntomāra saṁsāre-vyaya koribo vahan"
+    },
+    {
+     "t": "4) For the purpose of Your service I will earn money and bear the expense of maintaining Your household."
+    },
+    {
+     "v": "(5)\nbhālo-manda nāhi jāni sevā mātro kori\ntomāra saṁsāre āmi viṣaya-praharī"
+    },
+    {
+     "t": "5) I know nothing of what is good or bad; I simply render my service. I am but a watchman set to guard the properties of Your household."
+    },
+    {
+     "v": "(6)\ntomāra icchāya mora indriya-cālanā\nśravana, darśana, ghrāna, bhojana-vāsanā"
+    },
+    {
+     "t": "6) I exercise my senses only according to Your direction, and thus I desire to hear, see, smell, and taste."
+    },
+    {
+     "v": "(7)\nnija-sukha lāgi’ kichu nāhi kori ār\nbhakativinoda bole, tava sukha-sār"
+    },
+    {
+     "t": "7) I no longer do anything for my own pleasure. Bhaktivinoda says, “Your pleasure is the essence of everything.”"
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s179",
+   "title": "Bastutah Sakali Tava",
+   "heading": "Second Principle of Surrender: Ātma-Nivedana (Dedication of the Self), Song 6",
+   "firstLine": "bastutaḥ sakali tava, jīva keho noy",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 18",
+   "parts": [
+    {
+     "v": "(1)\nbastutaḥ sakali tava, jīva keho noy\n`aham’-`mama’-bhrame bhromi’ bhoge śoka-bhoy"
+    },
+    {
+     "t": "1) In truth, all things belong to You; no jīva is ever the owner of anything. The tiny soul wanders in this world mistakenly thinking in terms of aham (“I am this material body and mind”), and mama (“everything related to this body is mine”). Thus he suffers the consequences of both sorrow and fear."
+    },
+    {
+     "v": "(2)\nahaṁ-mama-abhimāna ei-mātro dhan\nbaddha-jīva nija boli’ jāne mane man"
+    },
+    {
+     "t": "2) The conditioned soul thinks that all the things related to the false conceptions of “I” and “mine” are his exclusive treasures. Calling them his own, his mind is firmly convinced of this gross delusion."
+    },
+    {
+     "v": "(3)\nsei abhimāne āmi saṁsāre poḍiyā\nhābuḍubu khāi bhava-sindhu sāṁtāriyā"
+    },
+    {
+     "t": "3) Due to such vanity, I also fell into this material world. Floundering in the ocean of mundane existence like a drowning man, I suffer the pangs of rising and sinking in that ocean."
+    },
+    {
+     "v": "(4)\ntomāra abhoya-pade loiyā śaraṇ\nāji āmi korilāma ātma-nivedan"
+    },
+    {
+     "t": "4) I take shelter at Your lotus feet, which deliver one from fear, and dedicate the whole of myself to You on this day."
+    },
+    {
+     "v": "(5)\n`ahaṁ’-`mama’-abhimāna chāḍilo āmāy\nār jeno mama hṛde stāna nāhi pāy"
+    },
+    {
+     "t": "5) The false conception of thinking in terms of “I” and “mine” has left me now. May it never again find a place to settle within my heart."
+    },
+    {
+     "v": "(6)\nei mātro bala prabhu! dibe he āmāre\nahaṁtā-mamatā dūre pāri rākhibāre"
+    },
+    {
+     "t": "6) Please give me this strength alone, O Lord, that I may be able to keep the false conceptions of “I” and “mine” far away."
+    },
+    {
+     "v": "(7)\nātma-nivedana-bhāva hṛde dṛḍha roy\nhasti-snāna sama jeno khanika nā hoy"
+    },
+    {
+     "t": "7) May the mood of self-surrender to You remain firmly fixed in my heart and not prove to be momentary like the cleanliness of an elephant after a bath."
+    },
+    {
+     "v": "(8)\nbhakativinoda prabhu nityānanda pāy\nmāge parasāda, jāhe abhimāna jāy"
+    },
+    {
+     "t": "8) Bhaktivinoda begs at the lotus feet of Lord Nityānanda for that grace which causes all illusory concepts of false pride to flee."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s180",
+   "title": "Nivedana Kori Prabhu",
+   "heading": "Second Principle of Surrender: Ātma-Nivedana (Dedication of the Self), Song 7",
+   "firstLine": "nivedana kori prabhu! tomāra caraṇe",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 19",
+   "parts": [
+    {
+     "v": "(1)\nnivedana kori prabhu! tomāra caraṇe\npatita adhama āmi, jāne tri-bhuvane"
+    },
+    {
+     "t": "1) I submit at Your lotus feet, O Lord, that I am fallen and most wretched. This fact is known to the three worlds."
+    },
+    {
+     "v": "(2)\nāmā-sama pāpī nāhi jagat-bhitore\nmama sama aparādhī nāhiko saṁsāre"
+    },
+    {
+     "t": "2) There is no sinner in the world more sinful than me. In the entire universe there is no offender whose offenses equal mine."
+    },
+    {
+     "v": "(3)\nsei saba pāpa āra aparādha, āmi\nparihāre pāi lajjā, saba jāno’ tumi"
+    },
+    {
+     "t": "3) By attempting to clear myself of all these sins and offenses I am put to shame. All this is surely understood by You."
+    },
+    {
+     "v": "(4)\ntumi binā kā’ra āmi loibo śaraṇ?\ntumi sarveśvareśvara, brajendra-nandan!"
+    },
+    {
+     "t": "4) Of whom will I take shelter except for You? You are the Lord of all lords, O son of the King of Vraja!"
+    },
+    {
+     "v": "(5)\njagat tomāra nātha! tumi sarva-moy\ntomā prati aparādha tumi koro’ kṣoy"
+    },
+    {
+     "t": "5) This world is Yours, O Lord, and You pervade all things in it. You dispel the sinful result of offenses committed against You."
+    },
+    {
+     "v": "(6)\ntumi to’ skhalita-pada janera āśroy\ntumi binā āra kibā āche, doyā-moy!"
+    },
+    {
+     "t": "6) You alone are the shelter of those whose feet stumble off the proper path. Apart from You, what else exists, O merciful Lord?"
+    },
+    {
+     "v": "(7)\nsei-rūpa tava aparādhī jana jata\ntomāra śaraṇāgata hoibe satata"
+    },
+    {
+     "t": "7) All persons like me who have offended You will ultimately seek to achieve Your shelter."
+    },
+    {
+     "v": "(8)\nbhakativinoda ebe loiyā śaraṇ\ntuwā pade kore āj ātma-samarpan"
+    },
+    {
+     "t": "8) Bhaktivinoda now takes full shelter of You and surrenders himself at Your lotus feet on this very day."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s181",
+   "title": "Dara Putra Nija Deho",
+   "heading": "Third Principle of Surrender: Goptṛtve-Varaṇa (Acceptance of the Lord as Sole Maintainer), Song 2",
+   "firstLine": "dārā-putra-nija-deho-kuṭumba-pālane",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 23",
+   "parts": [
+    {
+     "v": "(1)\ndārā-putra-nija-deho-kuṭumba-pālane\nsarvadā vyākula āmi chinu mane mane"
+    },
+    {
+     "t": "1) Within my mind I have always been anxious for the maintenance of my wife and children, my own body and relatives."
+    },
+    {
+     "v": "(2)\nkemone arjibo artha, yaśa kise pābo\nkanyā-putra-vivāha kemone sampādibo"
+    },
+    {
+     "t": "2) How will I earn money? How will I acquire fame? How will I arrange the marriages of my sons and daughters?"
+    },
+    {
+     "v": "(3)\nebe ātma-samarpane cintā nāhi ār\ntumi nirvāhibe prabhu, saṁsāra tomār"
+    },
+    {
+     "t": "3) Now, through self-surrender, I have been relieved of all anxiety. O Lord, surely You will provide for the maintenance of Your own household."
+    },
+    {
+     "v": "(4)\ntumi to’ pālibe more nija-dāsa jāni’\ntomāra sevāya prabhu boḍo sukha māni"
+    },
+    {
+     "t": "4) Recognizing me as Your own servant, You will certainly maintain me. While rendering devotional service unto You I feel the greatest happiness."
+    },
+    {
+     "v": "(5)\ntomāra icchaya prabhu sab kārya hoy\njīva bole,—`kori āmi’, se to’ satya noy"
+    },
+    {
+     "t": "5) All events take place only by Your will, O Lord. The deluded soul of this world declares “I am the doer!” but this is pure folly."
+    },
+    {
+     "v": "(6)\njīva ki korite pare, tumi nā korile?\nāśā-mātra jīva kore, tava icchā-phale"
+    },
+    {
+     "t": "6) What is a tiny soul actually able to do unless You act? The jīva can only desire to act, and unless You fulfill his desire by Your own sweet will, he cannot do anything."
+    },
+    {
+     "v": "(7)\nniścinta hoiyā āmi sevibo tomāy\ngṛhe bhālo-manda ho’le nāhi mora dāy"
+    },
+    {
+     "t": "7) Being free from all anxiety, I will humbly render service unto You. If any good or evil should occur while serving in Your home, it will not be my responsibility."
+    },
+    {
+     "v": "(8)\nbhakativinoda nija-swātantrya tyajiyā\ntomāra caraṇa seve’ akiñcana hoiyā"
+    },
+    {
+     "t": "8) Bhaktivinoda thus completely renounces his own independence and engages in the exclusive service of Your lotus feet with no other interest in life."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s182",
+   "title": "Tumi To Maribe Jare",
+   "heading": "Fourth Principle of Surrender: `Avaśya Rakṣibe Kṛṣṇa’—Viśvāsa, Pālana (Faith in Kṛṣṇa as Protector), Song 2",
+   "firstLine": "tumi to’ māribe jāre, ke tāre rākhite pāre,",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 29",
+   "parts": [
+    {
+     "v": "(1)\ntumi to’ māribe jāre, ke tāre rākhite pāre,\nicchā-baśa tribhuvan\nbrahmā-ādi deva-gaṇa, tava dāsa aganaṇa,\nkore tava ājñāra pālan"
+    },
+    {
+     "t": "1) If You wish to slay someone, then who could possibly protect them? The three worlds are subservient to Your will. The demigods headed by Lord Brahmā are Your countless servants who stand ready to execute Your command."
+    },
+    {
+     "v": "(2)\ntava icchā-mate jata, graha-gaṇa avirata,\nśubhāśubha phala kore dān\nroga-śoka-mṛti-bhoy, tava icchā-mate hoy,\ntava ājñā sadā balavān"
+    },
+    {
+     "t": "2) By Your will the planets incessantly exercise their auspicious or inauspicious influences. Illness, grief, death, and fear occur by Your will. Your command is all-powerful."
+    },
+    {
+     "v": "(3)\ntava bhoye vāyu boy, candra sūrya samudoy,\nswa-swa niyamita karya kore\ntumi to’ parameśwar, para-brahma parātpar,\ntava bāsa bhakata-antare"
+    },
+    {
+     "t": "3) In fear of You the wind blows, the sun and moon rise and set, all performing their regulated tasks. You are the Supreme Lord, the ultimate spirit, transcendentally situated beyond even the beyond. Your residence is in the heart of Your loving devotee."
+    },
+    {
+     "v": "(4)\nsadā-śuddha siddha-kāma, `bhakata-vatsala’ nāma,\nbhakata-janera nitya-swāmī\ntumi to’ rākhibe jāre, ke tāre mārite pāre,\nsakala vidhira vidhi tumi"
+    },
+    {
+     "t": "4) You are eternally pure. All Your desires are already fulfilled. Your name is Bhakta-vatsala, for You are the eternally affectionate Lord of Your dear devotees. If You wish to protect someone, then who could possibly slay them? You are the law of all laws."
+    },
+    {
+     "v": "(5)\ntomāra caraṇe nātha! koriyāche pranipāta,\nbhakativinoda tava dās\nvipada hoite swāmī! avaśya tāhāre tumi,\nrakṣibe,—tāhāra e viśvās"
+    },
+    {
+     "t": "5) Your servant Bhaktivinoda has bowed down submissively at Your lotus feet, O Lord! He cherishes the faith, O master, that You will surely protect him from all dangers."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s183",
+   "title": "Atma Samarpane Gela Abhiman",
+   "heading": "Fourth Principle of Surrender: `Avaśya Rakṣibe Kṛṣṇa’—Viśvāsa, Pālana (Faith in Kṛṣṇa as Protector), Song 3",
+   "firstLine": "ātma-samarpane gelā abhimān",
+   "lang": "bn",
+   "cats": [
+    "surrender",
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 30",
+   "parts": [
+    {
+     "v": "(1)\nātma-samarpane gelā abhimān\nnāhi korobuṅ nija rakhā-vidhān"
+    },
+    {
+     "t": "1) Surrendering my soul unto You has lifted from me the burden of false pride. No longer will I try to provide for my own safety."
+    },
+    {
+     "v": "(2)\ntuwā dhana jāni’ tuhuṅ rākhobi, nāth!\npālya godhana jñāna kori’ tuwā sāth"
+    },
+    {
+     "t": "2) I know that You will give protection to Your treasured possessions, O Lord. I now understand the mentality of Your treasured cows safely maintained by Your side."
+    },
+    {
+     "v": "(3)\ncarāobi mādhava! jāmuna-tīre\nbaṁśī bājāoto ḍākobi dhīre"
+    },
+    {
+     "t": "3) When You lead Your herds to pasture, O Mādhava, on the banks of the Yamunā river, You will call to them by softly playing on Your flute."
+    },
+    {
+     "v": "(4)\nagha-baka mārato rakhā-vidhān\nkorobi sadā tuhuṅ gokula-kān!"
+    },
+    {
+     "t": "4) By slaying great demons such as Aghāsura and Bakāsura You will always provide full protection, O Kān of the cowherd settlement!"
+    },
+    {
+     "v": "(5)\nrakhā korobi tuhuṅ niścoy jāni\npāna korobuṅ hāma jāmuna-pāni"
+    },
+    {
+     "t": "5) Fearless and confident of Your protection, I will drink the water of the Yamunā."
+    },
+    {
+     "v": "(6)\nkāliya-dokha korobi vināśā\nśodhobi nadī-jala, bāḍāobi āśā"
+    },
+    {
+     "t": "6) The Kāliya serpent’s venom poisoned the Yamunā’s waters, yet that poison will be vanquished. You will purify the Yamunā, and by such heroic deeds enhance our faith."
+    },
+    {
+     "v": "(7)\npiyato dāvānala rākhobi mo’y\n`gopāla’, `govinda’ nāma tava hoy"
+    },
+    {
+     "t": "7) You will surely protect me by swallowing the forest fire. Thus You are called Gopāla (protector of the cows) and Govinda (pleaser of the cows)."
+    },
+    {
+     "v": "(8)\nsura-pati-durmati-nāśa vicāri’\nrākhobi varṣane, giri-vara-dhāri!"
+    },
+    {
+     "t": "8) In order to curb the malice of Indra, king of the demigods, You will protect me from his torrents of rain, O lifter of the mighty Govardhana Hill!"
+    },
+    {
+     "v": "(9)\ncatur-ānana korabo jab cori\nrakhā korobi mujhe, gokula-hari!"
+    },
+    {
+     "t": "9) When the four-headed Brahmā abducts me along with Your cowherd boyfriends and calves, then also You will surely protect me, O Gokula Hari!"
+    },
+    {
+     "v": "(10)\nbhakativinoda—tuwā gokula-dhan\nrākhobi keśava! korato jatan"
+    },
+    {
+     "t": "10) Bhaktivinoda is now the property of Gokula, Your holy abode. O Keśava! Kindly protect him with gentle loving care."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s184",
+   "title": "Chodato Purusa Abhiman",
+   "heading": "Fourth Principle of Surrender: `Avaśya Rakṣibe Kṛṣṇa’—Viśvāsa, Pālana (Faith in Kṛṣṇa as Protector), Song 4",
+   "firstLine": "choḍato puruṣa-abhimān",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 32",
+   "parts": [
+    {
+     "v": "(1)\nchoḍato puruṣa-abhimān\nkiṅkorī hoiluṅ āji, kān!"
+    },
+    {
+     "t": "1) I give up the vanity of the error that I am a male. Today I have become Your faithful maidservant, O Kāna!"
+    },
+    {
+     "v": "(2)\nbaraja-bipine sakhī-sāth\nsevana korobuṅ, rādhā-nāth!"
+    },
+    {
+     "t": "2) In the groves of Vraja I will render personal service as a follower of one of the confidential sakhīs, O Lord of Rādhā!"
+    },
+    {
+     "v": "(3)\nkusume gāṅthobuṅ hār\ntulasī-maṇi-mañjarī tār"
+    },
+    {
+     "t": "3) I will string together a garland of forest flowers, in which tulasī buds shall be the jewelled pendants."
+    },
+    {
+     "v": "(4)\njatane deobuṅ sakhī-kare\nhāte laobo sakhī ādare"
+    },
+    {
+     "t": "4) With utmost care I will place the garland in the hands of my superior sakhī, and she will take it out of my hands with loving regard."
+    },
+    {
+     "v": "(5)\nsakhī dibo tuwā duhuk gale\ndūrato herobuṅ kutūhale"
+    },
+    {
+     "t": "5) Then she will place the garland around both of Your necks, while from afar I watch in wonder."
+    },
+    {
+     "v": "(6)\nsakhī kahabo,—“śuno sundarī!\nrahobi kuñje mama kiṅkorī"
+    },
+    {
+     "t": "6) The confidante will then say to me, “Listen, O beautiful one, you shall remain in this grove as my attendant."
+    },
+    {
+     "v": "(7)\ngāṅthobi mālā mano-hārinī\nniti rādhā-kṛṣṇa-vimohinī"
+    },
+    {
+     "t": "7) “Daily you will string together beautiful flower garlands that will enchant Rādhā and Kṛṣṇa."
+    },
+    {
+     "v": "(8)\ntuwā rakhana-bhāra hāmārā\nmama kuñja-kuṭīra tohārā"
+    },
+    {
+     "t": "8) “The responsibility for your maintenance is mine. My cottage in this grove is yours."
+    },
+    {
+     "v": "(9)\nrādhā-mādhava-sevana-kāle\nrahobi hāmāra antarāle"
+    },
+    {
+     "t": "9) “When the time comes for me to go and serve Rādhā and Mādhava, you will stay close to me while remaining hidden."
+    },
+    {
+     "v": "(10)\ntāmbula sāji’ karpūra āni’\ndeobi moe āpana jāni’ ”"
+    },
+    {
+     "t": "10) “After dressing packets of betel nuts and fetching the camphor, you will hand them to me, knowing me to be your very own.”"
+    },
+    {
+     "v": "(11)\nbhakativinoda śuni’ bāt\nsakhī-pade kare pranipāt"
+    },
+    {
+     "t": "11) Bhaktivinoda, having heard all these instructions, bows down at the lotus feet of that confidential sakhī."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s185",
+   "title": "Tuwa Bhakti Pratikula Dharma",
+   "heading": "Fifth Principle of Surrender: Bhakti-Pratikūla-Bhāva Varjanāṅgīkāra (Renunciation of Conduct Unfavorable to Pure Devotion), Song 2",
+   "firstLine": "tuwā-bhakti-pratikūla dharma jā’te roy",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 35",
+   "parts": [
+    {
+     "v": "(1)\ntuwā-bhakti-pratikūla dharma jā’te roy\nparama jatane tāhā tyajibo niścoy"
+    },
+    {
+     "t": "1) I will assuredly abandon with utmost endeavor all things in which aversion to Your devotional service is inherent."
+    },
+    {
+     "v": "(2)\ntuwā-bhakti-bahir-mukha saṅga nā koribo\ngaurāṅga-virodhi-jana-mukha nā heribo"
+    },
+    {
+     "t": "2) I will not keep company with those opposed to Your devotional service, nor even look at the faces of those inimical toward Lord Gaurāṅga."
+    },
+    {
+     "v": "(3)\nbhakti-pratikūla sthāne nā kori vasati\nbhaktira apriya kārye nāhi kori rati"
+    },
+    {
+     "t": "3) I will never reside at a place unfavorable for devotional practices, and I will never take pleasure in non-devotional activities."
+    },
+    {
+     "v": "(4)\nbhaktira virodhī grantha pāṭha nā koribo\nbhaktira virodhī vyākhyā kabhu nā śunibo"
+    },
+    {
+     "t": "4) I will read no book opposed to pure devotion, nor listen to any scriptural explanation which counters pure devotional principles."
+    },
+    {
+     "v": "(5)\ngaurāṅga-varjita sthāna tīrtha nāhi māni\nbhaktira bādhaka jñāna-karma tuccha jāni"
+    },
+    {
+     "t": "5) I will never regard as sacred any place where Lord Gaurāṅga is rejected. All knowledge or action hindering pure devotional service I consider worthless."
+    },
+    {
+     "v": "(6)\nbhaktira bādhaka kāle nā kori ādar\nbhakti bahir-mukha nija-jane jāni par"
+    },
+    {
+     "t": "6) Any seasonal observance which poses obstacles to the execution of devotional service finds no favor with me, and I consider as strangers all my own relatives or family members who are averse to devotional service."
+    },
+    {
+     "v": "(7)\nbhaktira bādhikā spṛhā koribo varjan\nabhakta-pradatta anna nā kori grahan"
+    },
+    {
+     "t": "7) I will totally abandon all desires that hinder devotion, and I will never touch foodstuffs offered to me by non-devotees."
+    },
+    {
+     "v": "(8)\njāhā kichu bhakti-pratikūla boli’ jāni\ntyajibo jatane tāhā, e niścoya vānī"
+    },
+    {
+     "t": "8) I vow to carefully avoid whatever I know to be contrary to devotional service. This is a most definite proclamation."
+    },
+    {
+     "v": "(9)\nbhakativinoda poḍi’ prabhura caraṇe\nmāgaye śakati pratikūlyera varjane"
+    },
+    {
+     "t": "9) Bhaktivinoda falls down at the feet of the Lord and begs for the strength to give up all things that are unfavorable to pure devotion."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s186",
+   "title": "Visaya Vimudha Ar Mayavadi Jan",
+   "heading": "Fifth Principle of Surrender: Bhakti-Pratikūla-Bhāva Varjanāṅgīkāra (Renunciation of Conduct Unfavorable to Pure Devotion), Song 3",
+   "firstLine": "viṣaya-vimūḍha ār māyāvādī jan",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 36",
+   "parts": [
+    {
+     "v": "(1)\nviṣaya-vimūḍha ār māyāvādī jan\nbhakti-śūnya duṅhe prāna dhare akāraṇ"
+    },
+    {
+     "t": "1) One who is intoxicated by worldly affairs of sense gratification, as well as one who subscribes to impersonal philosophy, both maintain their lives uselessly, for they are devoid of devotion to You."
+    },
+    {
+     "v": "(2)\nei dui-saṅga nātha! nā hoy āmār\nprārthanā koriye āmi caraṇe tomār"
+    },
+    {
+     "t": "2) I pray at Your lotus feet, O Lord, that I may be spared the company of these two kinds of people."
+    },
+    {
+     "v": "(3)\nse duwera madhye viṣayī tabu bhālo\nmāyāvādī-saṅga nāhi māgi kono kālo"
+    },
+    {
+     "t": "3) Yet of the two, the association of a worldly man is better. I never covet the company of a māyāvādī."
+    },
+    {
+     "v": "(4)\nviṣayī-hṛdoya jabe sādhu-saṅga pāy\nanāyāse labhe bhakti bhaktera kṛpāy"
+    },
+    {
+     "t": "4) When by chance the hearts of worldly persons come into contact with Your saintly devotees, they easily attain devotion by the mercy of the devotees."
+    },
+    {
+     "v": "(5)\nmāyāvāda-doṣa jā’ra hṛdoye paśilo\nkutarke hṛdoya tā’ra vajra-sama bhelo"
+    },
+    {
+     "t": "5) But the heart which is penetrated by the offensive influence of impersonal philosophy becomes hard as a thunderbolt by degraded sophistry."
+    },
+    {
+     "v": "(6)\nbhaktira swarūpa, āra `viṣaya’, `āśroy’\nmāyāvādī `anitya’ boliyā saba koy"
+    },
+    {
+     "t": "6) The māyāvādī declares that the true form of bhakti, its object (Śrī Kṛṣṇa), and its possessor (the devotee) are all transitory and thus illusory."
+    },
+    {
+     "v": "(7)\ndhik tā’ra kṛṣṇa-sevā-śravana-kīrtan\nkṛṣṇa-aṅge vajra hāne tāhāra stavan"
+    },
+    {
+     "t": "7) Fie on his pretense of so-called service to Kṛṣṇa! Fie on his pretense of engaging in so-called hearing and chanting of Kṛṣṇa’s glories! His recitation of prayers strikes the body of Kṛṣṇa with blows more cruel than thunderbolts."
+    },
+    {
+     "v": "(8)\nmāyāvāda sama bhakti-pratikūla nāi\nataeva māyāvādī-saṅga nāhi cāi"
+    },
+    {
+     "t": "8) There is no philosophy in the world as antagonistic to devotional service as the impersonal māyāvāda philosophy. Therefore I do not ever desire the association of the māyāvādī."
+    },
+    {
+     "v": "(9)\nbhakativinoda māyāvāda dūra kori\nvaiṣṇava-saṅgete baise nāmāśraya dhori’"
+    },
+    {
+     "t": "9) Bhaktivinoda drives away the philosophy of impersonalism and sits safely in the society of Vaiṣṇavas under the shelter of Your holy name."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s187",
+   "title": "Ami To Swananda Sukhada Basi",
+   "heading": "Fifth Principle of Surrender: Bhakti-Pratikūla-Bhāva Varjanāṅgīkāra (Renunciation of Conduct Unfavorable to Pure Devotion), Song 4",
+   "firstLine": "āmi to’ swānanda-sukhada-bāsī",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 38",
+   "parts": [
+    {
+     "v": "(1)\nāmi to’ swānanda-sukhada-bāsī\nrādhikā-mādhava-caraṇa-dāsī"
+    },
+    {
+     "t": "1) Oh I am a resident of Svānanda-sukhada-kuñja, and a maidservant of the lotus feet of Rādhikā and Mādhava."
+    },
+    {
+     "v": "(2)\nduṅhāra milane ānanda kori\nduṅhāra viyoge duḥkhete mari"
+    },
+    {
+     "t": "2) I happily rejoice at the union of the Divine Couple, and in Their separation I die in utter anguish."
+    },
+    {
+     "v": "(3)\nsakhī-sthalī nāhi heri nayane\ndekhile śaibyāke paraye mane"
+    },
+    {
+     "t": "3) I never look at the area in Vraja called Sakhī-sthalī where Candrāvalī and her friends live. If I were to see that place it reminds me of Candrāvalī’s sharp-tongued gopī friend named Śaibyā."
+    },
+    {
+     "v": "(4)\nje-je pratikūla candrāra sakhī\nprāne duḥkha pāi tāhāre dekhi’"
+    },
+    {
+     "t": "4) I feel pain in my heart whenever I happen to catch sight of Candrāvalī’s proud girlfriends, for they are all inimical to Rādhā’s camp."
+    },
+    {
+     "v": "(5)\nrādhikā-kuñja āṅdhāra kori’\nloite cāhe se rādhāra hari"
+    },
+    {
+     "t": "5) Candrāvalī wants to take away Rādhā’s Lord Hari, thus causing the love-grove of Rādhikā to be overcast with the darkness of gloom."
+    },
+    {
+     "v": "(6)\nśrī-rādhā-govinda-milana-sukha\npratikūla-jana nā heri mukha"
+    },
+    {
+     "t": "6) I never look at the faces of those who wish to obstruct the joy of the union of Śrī Rādhā and Govinda."
+    },
+    {
+     "v": "(7)\nrādhā-pratikūla jateka jana-\nsambhāṣane kabhu nā hoy mana"
+    },
+    {
+     "t": "7) Nor do I find any pleasure in conversing with those who are members of a camp opposed to Rādhā."
+    },
+    {
+     "v": "(8)\nbhakativinoda śrī-rādhā-caraṇe\nsaṅpeche parāna atīva jatane"
+    },
+    {
+     "t": "8) Bhaktivinoda has entrusted his soul with great care unto the lotus feet of Śrīmatī Rādhārāṇī."
+    }
+   ],
+   "notes": "In the book the next section heading (\"Sixth Principle of Surrender: Bhakti-Anukūla-Mātra Kāryera\") is run on at the end of translation 8 by a typesetting slip; it is left out of the translation.",
+   "uncertain": ""
+  },
+  {
+   "id": "s188",
+   "title": "Tuwa Bhakti Anukula",
+   "heading": "Sixth Principle of Surrender: Bhakti-Anukūla-Mātra Kāryera Svīkara (Acceptance of Activities Favorable to Pure Devotion), Song 1",
+   "firstLine": "tuwā-bhakti-anukūla je-je kārya hoy",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 39",
+   "parts": [
+    {
+     "v": "(1)\ntuwā-bhakti-anukūla je-je kārya hoy\nparama-jatane tāhā koribo niścoy"
+    },
+    {
+     "t": "1) I will surely execute with utmost care those activities favorable to Your pure devotional service."
+    },
+    {
+     "v": "(2)\nbhakti-anukūla jata viṣaya saṁsāre\nkoribo tāhāte rati indriyera dwāre"
+    },
+    {
+     "t": "2) I will feel fondness for those things in this world which are conducive to pure devotion, and with my senses I will engage them in Your service."
+    },
+    {
+     "v": "(3)\nśunibo tomāra kathā jatana koriyā\ndekhibo tomāra dhāma nayana bhoriyā"
+    },
+    {
+     "t": "3) I will carefully listen to all discussions concerning You, and the satisfaction of my eyes will be to behold Your divine abode."
+    },
+    {
+     "v": "(4)\ntomāra prasāde deho koribo poṣan\nnaivedya-tulasī-ghrāna koribo grahan"
+    },
+    {
+     "t": "4) I will nourish my body with the sacred remnants of Your food, and I will smell the sweet scent of tulasī leaves adorning those offerings."
+    },
+    {
+     "v": "(5)\nkara-dwāre koribo tomāra sevā sadā\ntomāra vasati-sthale basibo sarvadā"
+    },
+    {
+     "t": "5) With my hands I will always execute Your service, and I will forever dwell at that place where You abide."
+    },
+    {
+     "v": "(6)\ntomāra sevāya kāma niyoga koribo\ntomāra vidveṣi-jane krodha dekhāibo"
+    },
+    {
+     "t": "6) I will employ my desires in Your devotional service, and will show my anger to those who are envious of You."
+    },
+    {
+     "v": "(7)\nei-rūpe sarva-vṛtti āra sarva-bhāva\ntuwā anukūla hoye labhuka prabhāva"
+    },
+    {
+     "t": "7) In this way, may all of my propensities and emotions earn spiritual potency by being favorably dovetailed in Your interest."
+    },
+    {
+     "v": "(8)\ntuwā bhakta-anukūla jāhā jāhā kori\ntuwā bhakti-anukūla boli’ tāhā dhori"
+    },
+    {
+     "t": "8) Anything I do which gives pleasure to Your devotee I will embrace as conducive to Your devotional service."
+    },
+    {
+     "v": "(9)\nbhakativinoda nāhi jāne dharmādharma\nbhakti-anukūla tāra hau saba karma"
+    },
+    {
+     "t": "9) Bhaktivinoda knows neither religion nor irreligion. He simply prays that all his activities be favorable for pure devotion unto You."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s189",
+   "title": "Godruma Dhame Bhajana Anukule",
+   "heading": "Sixth Principle of Surrender: Bhakti-Anukūla-Mātra Kāryera Svīkara (Acceptance of Activities Favorable to Pure Devotion), Song 2",
+   "firstLine": "godruma-dhāme bhajana-anukūle",
+   "lang": "bn",
+   "cats": [
+    "gaura",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 41",
+   "parts": [
+    {
+     "v": "(1)\ngodruma-dhāme bhajana-anukūle\nmāthura-śrī-nandīśvara-samatule"
+    },
+    {
+     "t": "1) In the land of Godruma in Navadvīpa, which is very conducive for performing devotional worship of the Supreme Lord, and which is non-different from the sacred place in Vraja called Nandagrām in the holy district of Mathurā…"
+    },
+    {
+     "v": "(2)\ntahi māha surabhi-kuñja-kuṭīre\nbaiṭhobuṅ hāma sura-taṭinī-tīre"
+    },
+    {
+     "t": "2) …There I will settle down in a small cottage within the grove called Surabhi-kuñja on the bank of the celestial Gaṅgā river."
+    },
+    {
+     "v": "(3)\ngaura-bhakata-priya-veśa dadhānā\ntilaka-tulasī-mālā-śobhamānā"
+    },
+    {
+     "t": "3) I will put on the garb that is dear to the devotees of Lord Gaura-sundara, including the twelve Vaiṣṇava tilaka markings on my body and beautiful beads of tulasī wood around my neck."
+    },
+    {
+     "v": "(4)\ncampaka, bakula, kadamba, tamāl\nropato niramibo kuñja viśāl"
+    },
+    {
+     "t": "4) Then, by planting flowering trees like campaka, bakula, kadamba, and tamāl, I will cultivate an extensive grove by my cottage."
+    },
+    {
+     "v": "(5)\nmādhavī mālatī uṭhābuṅ tāhe\nchāyā-manḍapa korobuṅ taṅhi māhe"
+    },
+    {
+     "t": "5) I will drape mādhavī and mālatī jasmine creepers upon the trees, and in this way make a shady bower in their midst."
+    },
+    {
+     "v": "(6)\nropobuṅ tatra kusuma-vana-rāji\njūthi, jāti, mallī virājabo sāji’"
+    },
+    {
+     "t": "6) I will plant row upon row of various forest flowers, including different kinds of jasmine like yuthī, jāti, and mallī. All these will be present there, arrayed in a charming fashion."
+    },
+    {
+     "v": "(7)\nmañce basāobuṅ tulasī-mahārāṇī\nkīrtana-sajja taṅhi rākhabo āni’"
+    },
+    {
+     "t": "7) I will install the empress tulasī on an elevated platform in this garden, then procure all necessary paraphernalia for having kīrtana, such as mṛdaṅga drums, karatālas, and gongs, and place them there."
+    },
+    {
+     "v": "(8)\nvaiṣṇava-jana-saha gāobuṅ nām\njaya godruma jaya gaura ki dhām"
+    },
+    {
+     "t": "8) Then I will commence singing the holy names of the Lord in the company of the Vaiṣṇavas. We will sing, “All glories to the island of Godruma! All glories to the divine abode of Lord Gauracandra!”"
+    },
+    {
+     "v": "(9)\nbhakativinoda bhakti-anukūl\njaya kuñja, muñja, sura-nadī-kūl"
+    },
+    {
+     "t": "9) Bhaktivinoda is favorably disposed to pure devotional service. All glories to Surabhi-kuñja, to its tall reeds, and to the banks of the celestial Gaṅgā!"
+    }
+   ],
+   "notes": "The book marks an endnote (x*) after the translation of stanza 2; not transcribed.",
+   "uncertain": "Song 2 stanza 5 line 2 \"chāyā-manḍapa\" — printed with plain n before ḍ, checked at 2.2; kept as printed."
+  },
+  {
+   "id": "s190",
+   "title": "Arthera Sancaye",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 2",
+   "firstLine": "arthera sañcaye, viṣaya-prayāse,",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 47",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\narthera sañcaye, viṣaya-prayāse,\nāno-kathā-prajalpane\nāno-adhikāra, niyama āgrahe,\nasat-saṅga-saṁghaṭane"
+    },
+    {
+     "t": "1) O my Lord Hari! I have become absorbed in accumulating wealth and endeavoring for material possessions. I am addicted to idle conversations on topics apart from You. I mistakenly accept duties apart from my own qualifications, and am always eager to adhere to the letter of the law. This is the consequence of associating with worldly men."
+    },
+    {
+     "v": "(2)\nasthira siddhānte, rohinu mojiyā,\nhari-bhakti roilo dūre\ne hṛdoye mātro, para-hiṁsā, mada,\npratiṣṭhā, śaṭhatā sphure"
+    },
+    {
+     "t": "2) I remain deeply absorbed in the quicksand of ever-changing, uncertain opinions. Therefore, devotion to You has remained distant from me. In this heart of mine dwells only envy and malice towards others, false pride, the desire for fame and honor, and deceitfulness."
+    },
+    {
+     "v": "(3)\ne saba āgraha, chāḍite nārinu,\nāpana doṣate mari\njanama biphala, hoilo āmāra,\nekhona ki kori, hari!"
+    },
+    {
+     "t": "3) I have not been able to give up any of these inclinations. Thus my own faults have been my downfall. My birth as a human being has been totally wasted. O Lord Hari, what am I to do now?"
+    },
+    {
+     "v": "(4)\nāmi to’ patita, patita-pāvana,\ntomāra pavitra nāma\nse sambandha dhori’, tomāra caraṇe,\nśaraṇa loinu hāma"
+    },
+    {
+     "t": "4) I am indeed fallen (patita); but Your pure holy name is Patita-pāvana—the savior of the fallen. Clinging to our relationship as implied by that holy name, I have taken shelter of Your lotus feet."
+    }
+   ],
+   "notes": "The book marks an endnote (xv*) after the translation of stanza 1; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s191",
+   "title": "Bhajane Utsaha",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 3",
+   "firstLine": "bhajane utsāha, bhaktite viśvāsa,",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 48",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\nbhajane utsāha, bhaktite viśvāsa,\nprema-labhe dhairya-dhana\nbhakti-anukūla, karma-pravartana,\nasat-saṅga-visarjana"
+    },
+    {
+     "t": "1) O my Lord Hari! Enthusiasm in devotional service, faith in the process of devotional service, the treasure of patience in the attainment of love of God, performing activities favorable to pure devotion, abandoning the company of worldly people…"
+    },
+    {
+     "v": "(2)\nbhakti-sadācāra, ei chaya guna,\nnāhilo āmāra nātha!\nkemone bhojibo, tomāra caraṇa,\nchāḍiyā māyāra sātha"
+    },
+    {
+     "t": "2) …performing approved devotional practices—I have never possessed these six devotional qualities, O Lord. How, then, shall I give up my affinity for Māyā and worship Your lotus feet?"
+    },
+    {
+     "v": "(3)\ngarhita ācāre, rohilāma moji’,\nnā korinu sādhu-saṅga\nlo’ye sādhu-veśa, āne upadeśi,\ne boḍo māyāra raṅga"
+    },
+    {
+     "t": "3) Remaining absorbed in abominable activities, I never kept company with sādhus. Now I adopt the garb of a sādhu and act out the role of instructing others. This is Māyā’s big joke."
+    },
+    {
+     "v": "(4)\ne heno daśāya, ahaitukī kṛpā,\ntomāra pāibo, hari!\nśrī-guru-āśroye, ḍākibo tomāya,\nkabe vā minati kori’"
+    },
+    {
+     "t": "4) O Lord Hari, in such a helpless condition surely I will receive Your causeless mercy. O when, under the shelter of my spiritual master, will I call out to You with my humble entreaty?"
+    }
+   ],
+   "notes": "The book marks an endnote (xvi*) after the translation of stanza 2; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s192",
+   "title": "Dana Pratigraha",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 4",
+   "firstLine": "dāna, pratigraha, mitho gupta-kathā,",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 49",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\ndāna, pratigraha, mitho gupta-kathā,\nbhakṣana, bhojana-dāna\nsaṅgera lakṣana, ei chaya hoya,\nihāte bhaktira prāna"
+    },
+    {
+     "t": "1) O my Lord Hari! Offering and receiving gifts, giving and receiving spiritual food, revealing one’s thoughts, and making confidential inquiries—these are the six characteristics of loving association, and in them is found the very life of devotion."
+    },
+    {
+     "v": "(2)\ntattva nā bujhiye, jñāne vā ajñāne,\nasate e saba kori’\nbhakti hārāinu, saṁsārī hoinu,\nsudūre rohile hari"
+    },
+    {
+     "t": "2) I have failed to understand the truth, and by practicing these six activities with non-devotees, either knowingly or unknowingly, I lost all devotional inclination and have become a materialist. Consequently You, O Lord, still remain far away."
+    },
+    {
+     "v": "(3)\nkṛṣṇa-bhakta-jane, ei saṅga-lakṣane,\nādara koribo jabe\nbhakti-mahā-devī, āmāra hṛdoya-\nāsane bosibe tabe"
+    },
+    {
+     "t": "3) The day I cherish these activities of intimate association with the devotees of Śrī Kṛṣṇa, that very day the high goddess of devotion will take her seat upon the throne of my heart."
+    },
+    {
+     "v": "(4)\nyoṣit-saṅgī-jana, kṛṣṇaābhakta āra,\nduṅhu-saṅga-parihari’\ntava bhakta-jana- saṅga anukṣana,\nkabe vā hoibe hari!"
+    },
+    {
+     "t": "4) When will I give up the company of those who are addicted to the company of materialistic women and those who are averse to You? And when will I cultivate the constant association of Your devotees, O Lord?"
+    }
+   ],
+   "notes": "The book marks an endnote (xvii*) after the translation of stanza 1; not transcribed.",
+   "uncertain": "Song 4 stanza 4 line 1 \"kṛṣṇaābhakta\" is printed so (checked at 2.2); kept as printed."
+  },
+  {
+   "id": "s193",
+   "title": "Sanga Dosa Sunya",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 5",
+   "firstLine": "saṅga-doṣa-śūnya, dīkṣitādīkṣita,",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 50",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\nsaṅga-doṣa-śūnya, dīkṣitādīkṣita,\njadi tava nāma gā’ya\nmānase ādara, koribo tāhāre,\njāni’ nija-jana tāya"
+    },
+    {
+     "t": "1) O my Lord Hari! Within my mind I will honor and consider as my own relative one who naturally avoids the offense of bad association and sings Your holy name, be he formally initiated or not."
+    },
+    {
+     "v": "(2)\ndīkṣita hoiyā, bhaje tuwā pada,\ntāhāre pranati kori\nananya-bhajane, vijña yei jana,\ntāhāre sevibo, hari!"
+    },
+    {
+     "t": "2) I offer obeisances to that devotee who is initiated and worships Your lotus feet, and I will faithfully serve, O Hari, a devotee who is fixed in unalloyed devotion to You."
+    },
+    {
+     "v": "(3)\nsarva-bhūte sama, ye bhaktera mati,\ntāhāra darśane māni\nāpanāke dhanya, se saṅga pāiyā,\ncaritārtha hoiluṅ jāni"
+    },
+    {
+     "t": "3) I consider myself greatly fortunate to even see that devotee who regards all living beings equally. Obtaining his association I consider myself fortunate, for I know that I have become successful in life."
+    },
+    {
+     "v": "(4)\nniṣkapaṭa-mati, vaiṣṇavera prati,\nei dharma kabe pā’bo\nkabe saṁsāra- sindhu-pāra ho’ye,\ntava braja-pure jā’bo"
+    },
+    {
+     "t": "4) When will my attitude toward the Vaiṣṇavas become simple and innocent? And when will I cross over this ocean of worldly existence and reach Your transcendental abode of Vraja?"
+    }
+   ],
+   "notes": "The book marks an endnote (xviii*) after the translation of stanza 1; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s194",
+   "title": "Nira Dharma Gata",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 6",
+   "firstLine": "nīra-dharma-gata, jāhnavī-salile,",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 51",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\nnīra-dharma-gata, jāhnavī-salile,\npaṅka-phena dṛṣṭa hoya\ntathāpi kakhona, brahma-drava-dharma,\nse salila nā chāḍoya"
+    },
+    {
+     "t": "1) O my Lord Hari! Mud and foam are seen in the waters of the Gaṅgā, for that is the inherent nature of river water. Yet the water of the sacred Gaṅgā never loses its purely spiritual nature."
+    },
+    {
+     "v": "(2)\nvaiṣṇava-śarīra, aprākṛta sadā,\nswabhāva-vapura dharme\nkabhu nāhe jaḍa, tathāpi ye ninde,\npoḍe se viṣamādharme"
+    },
+    {
+     "t": "2) One may likewise find natural defects in the body of a Vaiṣṇava, yet his body is always spiritual. It is never to be considered material. That person who criticizes the body of a Vaiṣṇava falls into deadly irreligion."
+    },
+    {
+     "v": "(3)\nsei aparādhe, yamera jātanā,\npāya jīva avirata\nhe nanda-nandana! sei aparādhe,\nyeno nāhi hoi hata"
+    },
+    {
+     "t": "3) For such an offense, the fallen soul ceaselessly suffers the tortures of Yamarāja, lord of death. O youthful son of Nanda! I pray that I will not be destroyed by committing such an offense."
+    },
+    {
+     "v": "(4)\ntomāra vaiṣṇava, vaibhava tomāra,\nāmāre korunā doyā\ntabe mora gati, ha’be tava prati,\npā’bo tava pada-chāyā"
+    },
+    {
+     "t": "4) The Vaiṣṇava is Your own, representing Your glorious divine potency. May he be merciful to me. Then my life’s journey will turn toward You, and I will attain shelter in the shade of Your lotus feet."
+    }
+   ],
+   "notes": "The book marks an endnote (xix*) after the translation of stanza 1; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s195",
+   "title": "Tomare Bhuliya",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 8",
+   "firstLine": "tomāre bhuliyā, avidyā-pīḍāya,",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 53",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\ntomāre bhuliyā, avidyā-pīḍāya,\npīḍita rasanā mora\nkṛṣṇa-nāma-sudhā, bhālo nāhi lāge,\nviṣaya-sukhate bhora"
+    },
+    {
+     "t": "1) O my Lord Hari! Because of forgetting You, my tongue has become embittered with the disease of ignorance. I cannot relish the sweet nectar of Your holy name of Kṛṣṇa, for I have become addicted to the taste of worldly pleasures."
+    },
+    {
+     "v": "(2)\nprati-dina jadi, ādara koriyā,\nse nāma kīrtana kori\nsitapala jeno, nāśi’ roga-mūla,\nkrame swādu hoya, hari!"
+    },
+    {
+     "t": "2) If I sing that holy name of Yours aloud every day with warm affection, then as sugar candy taken medicinally destroys the very disease which makes it taste bitter (jaundice), so Your holy name, O Lord Hari, will cure my spiritual disease and allow me to gradually taste Your sweetness."
+    },
+    {
+     "v": "(3)\ndurdaiva āmāra, se nāme ādara,\nnā hoilo, doyāmoya!\ndaśa aparādha, āmāra durdaiva,\nkemone hoibe kṣoya"
+    },
+    {
+     "t": "3) How great is my misfortune that I feel no appreciation for Your holy name, O merciful Lord! In such a lamentable state, how will I be freed from committing the ten offenses to the holy name?"
+    },
+    {
+     "v": "(4)\nanudina jeno, tava nāma gāi,\nkramete kṛpāya tava\naparādha jā’be, nāme ruci ha’be,\nāswādibo nāmāsava"
+    },
+    {
+     "t": "4) If I sing Your name every day, then gradually by Your mercy the ten offenses will disappear, taste for Your holy name will grow within me, and then I shall relish the intoxicating wine of that name."
+    }
+   ],
+   "notes": "The book marks an endnote (xxi*) after the translation of stanza 1; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s196",
+   "title": "Sri Rupa Gosai",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 9",
+   "firstLine": "śrī-rūpa-gosāi, śrī-guru-rūpete,",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 54",
+   "parts": [
+    {
+     "v": "(1)\nhari he!\nśrī-rūpa-gosāi, śrī-guru-rūpete,\nśikṣā dila mora kāne\n“jāno mora kathā, nāmera kāṅgāla!\nrati pā’be nāma-gāne"
+    },
+    {
+     "t": "1) O my Lord Hari! Śrī Rūpa Goswāmī, in the form of the spiritual master, spoke these instructions into my ears: “Try to understand my words, O you who beg for the gift of the holy name! You will then develop attraction for singing the holy name."
+    },
+    {
+     "v": "(2)\nkṛṣṇa-nāma-rūpa- guna-sucarita,\nparama jatane kori’\nrasanā-mānase, koraho niyoga,\nkrama-vidhi anusari’"
+    },
+    {
+     "t": "2) “Following the scriptural rules and regulations, engage your tongue and your mind in carefully cultivating Lord Kṛṣṇa’s nāma (holy names), rūpa (divine forms), guna (transcendental qualities), and sucarita (wonderful pastimes). This should be done according to the recommended order of ascending progression."
+    },
+    {
+     "v": "(3)\nbraje kori’ bāsa, rāgānugā hoiyā,\nsmaraṇa kīrtana koro\ne nikhila kāla, koraho jāpana,\nupadeśa-sāra dharo’ ”"
+    },
+    {
+     "t": "3) “Always dwelling in the holy land of Vraja, become a practitioner of rāgānugā-bhakti (spontaneous loving devotion) while engaging in smaraṇa (remembrance) and kīrtana (glorification). Spend every moment of your time in these ways. Just accept this as the essence of all instructions.”"
+    },
+    {
+     "v": "(4)\nhā! rūpa-gosāi, doyā kori’ kabe,\ndibe dine braja-bāsa\nrāgātmika tumi, tava padānuga,\nhoite dāsera āśā"
+    },
+    {
+     "t": "4) O Rūpa Goswāmī! When will you, out of your causeless mercy, enable this poor wretched soul to reside in Vraja? You are a rāgātmika devotee—an eternally liberated, intimate associate of Rādhā and Kṛṣṇa. This humble servant of yours desires to become a loyal follower of your lotus feet."
+    }
+   ],
+   "notes": "The book marks an endnote (xxii*) after the translation of stanza 2; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s197",
+   "title": "Kabe Mora Sei Din Habe",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 12",
+   "firstLine": "kabe mora sei din ha’be",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 57",
+   "parts": [
+    {
+     "v": "(1)\ngurudev!\nkabe mora sei din ha’be\nmana sthira kori’, nirjane bosiyā,\nkṛṣṇa-nāma gā’bo jabe\nsaṁsāra-phukāra, kāne nā poṣibe,\ndeho-roga dūre ro’be"
+    },
+    {
+     "t": "1) O Gurudeva! When will that day be mine? With a steady mind, sitting in a secluded place, I will sing the name of Śrī Kṛṣṇa. The tumultuous pandemonium of worldly existence will no longer echo in my ears, and the diseases of the body will remain far away."
+    },
+    {
+     "v": "(2)\n`hare kṛṣṇa’ boli’, gāhite gāhite,\nnayane bohibe lora\ndehete pulaka, udita hoibe,\npremete koribe bhora"
+    },
+    {
+     "t": "2) When I chant “Hare Kṛṣṇa” tears of love will flow and flow from my eyes. Ecstatic rapture will arise within my body, causing my hair to stand on end and my entire being to become overwhelmed with divine love."
+    },
+    {
+     "v": "(3)\ngada-gada vānī, mukhe bāhiribe,\nkāṅpibe śarīra mama\ngharma muhur muhuḥ, virvarna hoibe,\nstambhita pralaya sama"
+    },
+    {
+     "t": "3) Faltering words choked with emotion will issue from my mouth. My body will tremble, constantly perspire, turn pale and discolored, and become stunned. All of this will be like a devastation of ecstatic love and cause me to fall unconscious."
+    },
+    {
+     "v": "(4)\nniṣkapaṭe heno, daśā kabe ha’be,\nnirantara nāma gā’bo\nāveśe rohiyā, deha-yātrā kori’,\ntomāra karunā pā’bo"
+    },
+    {
+     "t": "4) When will such a genuine ecstatic condition be mine? I will constantly sing the holy name and remain absorbed in profound devotion while traveling in the material body. In this way I will receive your mercy."
+    }
+   ],
+   "notes": "The book marks an endnote (xxv*) after the translation of stanza 3; not transcribed. The first stanza is printed with six lines under \"gurudev!\".",
+   "uncertain": "Song 12 stanza 3 line 3 \"virvarna\" is printed so (checked at 2.2); kept as printed."
+  },
+  {
+   "id": "s198",
+   "title": "Kabe Tava Karuna Prakase",
+   "heading": "Bhajana-Lālasā (Hankering for Divine Service), Song 13",
+   "firstLine": "kabe tava karunā-prakāśe",
+   "lang": "bn",
+   "cats": [
+    "gaura",
+    "guru"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 58",
+   "parts": [
+    {
+     "v": "(1)\ngurudev!\nkabe tava karunā-prakāśe\nśrī-gaurāṅga-līlā, hoya nitya-tattwa,\nei dṛḍha viśvāse\n`hari hari’ boli’, godruma-kānane,\nbhromibo darśana-āśe"
+    },
+    {
+     "t": "1) O Gurudeva! When will it be, as a manifestation of your mercy? I will become fixed in the firm faith that Lord Gaurāṅga’s pastimes are eternal realities. Chanting “Hari! Hari!” I will wander throughout the groves of Godruma, hoping to catch a glimpse of those pastimes."
+    },
+    {
+     "v": "(2)\nnitāi, gaurāṅga, adwaita, śrīvāsa,\ngadādhara,—pañca-jana\nkṛṣṇa-nāma-rase, bhāsā’be jagat,\nkori’ mahā-saṅkīrtana"
+    },
+    {
+     "t": "2) The five personalities—Nitāi, Gaurāṅga, Advaita, Śrīvāsa, and Gadādhara—will flood the entire universe with the intoxicating nectar of the holy name of Śrī Kṛṣṇa by performing a mahā-saṅkīrtan."
+    },
+    {
+     "v": "(3)\nnartana-vilāsa, mṛdaṅga-vādana,\nśunibo āpana-kāne\ndekhiyā dekhiyā, se līlā-mādhurī,\nbhāsibo premera bāne"
+    },
+    {
+     "t": "3) With my own ears I will hear the sounds of playful dancing and the rhythmic pulsations of the mṛdaṅga drums. By constantly looking and looking upon the sweetness and beauty of that pastime, I will float in the floodtide of divine love."
+    },
+    {
+     "v": "(4)\nnā dekhi’ ābāra, se līlā-ratana,\nkāṅdi hā gaurāṅga! boli’\nāmāre viṣayī, pāgala boliyā,\naṅgete dibeka dhūli"
+    },
+    {
+     "t": "4) The next moment losing sight of the jewel of that pastime, I shall weep and cry out, “O my Lord Gaurāṅga!” Materialists will then proclaim me thoroughly mad and will throw dust upon my body."
+    }
+   ],
+   "notes": "The book closes this song with \"Thus ends the section on Bhajana-Lālasā.\" (not part of the song).",
+   "uncertain": ""
+  },
+  {
+   "id": "s199",
+   "title": "Dekhite Dekhite",
+   "heading": "Siddhi-Lālasā (Hankering for Spiritual Perfection), Song 2",
+   "firstLine": "dekhite dekhite, bhulibo vā kabe,",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 60",
+   "parts": [
+    {
+     "v": "(1)\ndekhite dekhite, bhulibo vā kabe,\nnija-sthūla-paricoya\nnayane heribo, braja-pura-śobhā,\nnitya cid-ānanda-moya"
+    },
+    {
+     "t": "1) When, in a flash, will I forget my gross bodily indentity? I will behold the exquisite beauty of the realm of Vraja, full of eternal spiritual bliss."
+    },
+    {
+     "v": "(2)\nbṛṣabhānu-pure, janama loibo,\nyāvaṭe vivāha ha’be\nbraja-gopī-bhāva, hoibe swabhāva,\nāno-bhāva nā rohibe"
+    },
+    {
+     "t": "2) I shall have my birth in the town of King Vṛṣabhānu, and eventually be married nearby in Yāvaṭ-grām. My sole disposition and character shall be that of a cowherd girl, and I shall know no other mood."
+    },
+    {
+     "v": "(3)\nnija-siddha-deha, nija-siddha-nāma,\nnija-rūpa-swa-vasana\nrādhā-kṛpā-bale, lobhibo vā kabe,\nkṛṣṇa-prema-prakaraṇa"
+    },
+    {
+     "t": "3) When will I obtain, by the power of Rādhā’s mercy, my own eternal spiritual body, my own realized name, my own form, and my own dress? And when, by Her mercy, will I receive initiation into the techniques of expressing divine love for Kṛṣṇa?"
+    },
+    {
+     "v": "(4)\njamunā-salila- āharaṇe giyā,\nbujhibo yugala-rasa\nprema-mugdha ho’ye, pāgalinī-prāya,\ngāibo rādhāra yaśa"
+    },
+    {
+     "t": "4) As I go to draw water from the Yamunā, I shall cherish knowing the confidential mellows that unite the divine pair Rādhā and Kṛṣṇa. Being enchanted by sublime love, I will sing Śrī Rādhā’s glories just like a madwoman."
+    }
+   ],
+   "notes": "The book marks endnotes (xxvii*, xxviii*) after the translations of stanzas 2 and 3; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s200",
+   "title": "Brsabhanu Suta Carana Sevane",
+   "heading": "Siddhi-Lālasā (Hankering for Spiritual Perfection), Song 3",
+   "firstLine": "bṛṣabhānu-sutā- caraṇa-sevane,",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 61",
+   "parts": [
+    {
+     "v": "(1)\nbṛṣabhānu-sutā- caraṇa-sevane,\nhoibo ye pālya-dāsī\nśrī-rādhāra sukha, satata sādhane,\nrohibo āmi prayāsī"
+    },
+    {
+     "t": "1) For serving the lotus feet of the daughter of Vṛṣabhānu, I shall become a protected maidservant of one of the gopīs in Vraja. I will always strive to bring about the pleasure of Śrī Rādhā."
+    },
+    {
+     "v": "(2)\nśrī-rādhāra sukhe, kṛṣṇaera ye sukha,\njānibo manete āmi\nrādhā-pada chāḍi’, śrī-kṛṣṇa-saṅgame,\nkabhu nā hoibo kāmī"
+    },
+    {
+     "t": "2) Within my heart I will know that Rādhā’s pleasure is Kṛṣṇa’s only source of joy. Therefore, I will never desire to abandon Her lotus feet for enjoying His exclusive company."
+    },
+    {
+     "v": "(3)\nsakhī-gaṇa mama, parama-suhṛt,\nyugala-premera guru\ntad-anugā ho’ye, sevibo rādhāra,\ncaraṇa-kalapa-taru"
+    },
+    {
+     "t": "3) The sakhīs are my best friends and teachers concerning the love uniting Rādhā with Kṛṣṇa. By following their example, I shall serve Rādhā’s lotus feet, which are like wish-fulfilling trees."
+    },
+    {
+     "v": "(4)\nrādhā-pakṣa chāḍi’, ye-jana se-jana,\nye bhāve se bhāve thāke\nāmi to’ rādhikā- pakṣa-pātī sadā,\nkabhu nāhi heri tā’ke"
+    },
+    {
+     "t": "4) I myself am always partial to Rādhikā’s camp and therefore never look upon those who have abandoned Rādhā’s entourage, whoever they may be and whatever their ways."
+    }
+   ],
+   "notes": "The book marks endnotes (xxix*, xxx*, xxxi*) after the translations of stanzas 1, 2 and 4; not transcribed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s201",
+   "title": "Krsna Nama Dhare Koto Bal",
+   "heading": "Śrī Nāma-Māhātmya (The Glories of the Holy Name)",
+   "firstLine": "kṛṣṇa-nāma dhare koto bal",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 64",
+   "parts": [
+    {
+     "v": "(1)\nkṛṣṇa-nāma dhare koto bal\nviṣaya-vāsanānale, mora citta sadā jwale,\nravi-tapta maru-bhūmi-sam\nkarna-randhra-patha diyā, hṛdi mājhe praveśiyā,\nvariṣoya sudhā anupam"
+    },
+    {
+     "t": "1) What power does the name of Kṛṣṇa possess? My heart constantly burns in the fire of worldly desires, just like a desert scorched by the rays of the sun. The holy name, entering the core of my heart through the holes of my ears, showers unparalleled nectar upon my soul."
+    },
+    {
+     "v": "(2)\nhṛdoya hoite bole, jihvāra agrete cale,\nśabda-rūpe nāce anukṣan\nkanṭhe mora bhaṅge swara, aṅga kāṅpe thara thara,\nsthira hoite nā pāre caraṇ"
+    },
+    {
+     "t": "2) The holy name speaks from within my heart, moves onto the tip of my tongue, and constantly dances on it in the form of transcendental sound. My throat becomes choked up, my body shivers again and again, and my feet cannot remain still."
+    },
+    {
+     "v": "(3)\ncakṣe dhārā, dehe gharma, pulakita saba carma,\nvivarna hoilo kalevara\nmūrchita hoilo man, pralayera āgaman,\nbhāve sarva-deha jara jara"
+    },
+    {
+     "t": "3) Rivers of tears flow from my eyes, perspiration completely soaks my body, all my skin thrills with rapture, my hairs stand on end, and my complexion turns pale and discolored. My mind grows faint, I begin to experience devastation, and my entire body is shattered in a flood of ecstatic emotions."
+    },
+    {
+     "v": "(4)\nkori’ eto upadrava, citte varṣe sudhā-drava,\nmore ḍāre premera sāgare\nkichu nā bujhite dilo, more to’ bātula koilo,\nmora citta-vitta saba hare"
+    },
+    {
+     "t": "4) While causing such an ecstatic disturbance, the holy name showers liquid nectar on my heart and drowns me in the ocean of divine love of Godhead. He does not allow me to understand anything, for He has made me truly mad by having stolen away my mind and all my resources."
+    },
+    {
+     "v": "(5)\nloinu āśroya jā’r, heno vyavahāra tā’r,\nvarnite nā pāri e sakal\nkṛṣṇa-nāma icchā-moy, jāhe jāhe sukhī hoy,\nsei mora sukhera sambal"
+    },
+    {
+     "t": "5) Such is the behavior of Him in whom I have taken shelter. I am not capable of describing all this. The holy name of Kṛṣṇa is independent and thus acts on His own sweet will. In whatever way He becomes happy, that is also my way of happiness."
+    },
+    {
+     "v": "(6)\npremera kalikā nām, adbhuta rasera dhām,\nheno bala karaye prakāś\nīṣat vikaśi’ punaḥ, dekhāy nija-rūpa-guna,\ncitta hari’ loya kṛṣṇa-pāś"
+    },
+    {
+     "t": "6) The holy name is the bud of the flower of divine love, and is the very abode of astonishing mellows. Such is the power He manifests that when His holy name starts to blossom a little further, it then reveals His own divine form and qualities. Thus my heart is abducted and taken directly to Kṛṣṇa."
+    },
+    {
+     "v": "(7)\npūrna vikaśita hoiyā, braje more jāya loiyā,\ndekhāy more swarūpa-vilās\nmore siddha-deha diyā, kṛṣṇa-pāśe rākhe giyā,\ne dehera kore sarva-nāś"
+    },
+    {
+     "t": "7) Blossoming fully, the flower of the holy name takes me to Vraja and reveals to me His own love-dalliance. This name gives to me my own eternal spiritual body, keeps me right by Kṛṣṇa’s side, and completely destroys everything related to this mortal frame of mine."
+    },
+    {
+     "v": "(8)\nkṛṣṇa-nāma-cintāmaṇi, akhila rasera khani,\nnitya-mukta śuddha-rasa-moy\nnāmera bālāi jata, saba lo’ye hoi hata,\ntabe mora sukhera udoy"
+    },
+    {
+     "t": "8) The name of Kṛṣṇa is a transcendental touchstone, a mine of all devotional mellows. It is eternally liberated, and the embodiment of pure rasa. When all impediments to the pure chanting of the holy name are taken away and destroyed, then my happiness will know its true awakening."
+    }
+   ],
+   "notes": "The book closes with \"Thus ends Śaraṇāgati by Ṭhākura Bhaktivinoda.\" (not part of the song).",
+   "uncertain": ""
+  }
+ ],
+ "present": [
+  {
+   "existingId": "s068",
+   "firstLine": "śrī-kṛṣṇa-caitanya prabhu jīve doyā kori’",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 1"
+  },
+  {
+   "existingId": "s026",
+   "firstLine": "bhuliyā tomāre, saṁsāre āsiyā,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 2"
+  },
+  {
+   "existingId": "s074",
+   "firstLine": "vidyāra vilāse, kāṭāinu kāla,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 4"
+  },
+  {
+   "existingId": "s016",
+   "firstLine": "āmāra jīvana, sadā pāpe rata,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 7"
+  },
+  {
+   "existingId": "s032",
+   "firstLine": "emona durmati, saṁsāra bhitore,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 10"
+  },
+  {
+   "existingId": "s056",
+   "firstLine": "mānasa, deho, geho, jo kichu mor",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 14"
+  },
+  {
+   "existingId": "s022",
+   "firstLine": "ātma-nivedana, tuwā pade kori’,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 20"
+  },
+  {
+   "existingId": "s053",
+   "firstLine": "ki jāni ki bale, tomāra dhāmete,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 22"
+  },
+  {
+   "existingId": "s067",
+   "firstLine": "sarvasva tomār, caraṇe saṁpiyā,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 25"
+  },
+  {
+   "existingId": "s071",
+   "firstLine": "tumi sarveśvareśvara, brajendra-kumāra!",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 26"
+  },
+  {
+   "existingId": "s031",
+   "firstLine": "ekhona bujhinu prabhu! tomāra caraṇa",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 27"
+  },
+  {
+   "existingId": "s052",
+   "firstLine": "keśava! tuwā jagata vicitra",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 34"
+  },
+  {
+   "existingId": "s070",
+   "firstLine": "śuddha-bhakata- caraṇa-reṇu,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 42"
+  },
+  {
+   "existingId": "s066",
+   "firstLine": "rādhā-kunḍa-taṭa-kuñja-kuṭīr",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 44"
+  },
+  {
+   "existingId": "s064",
+   "firstLine": "prapañce poḍiyā, agati hoiyā,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 46"
+  },
+  {
+   "existingId": "s061",
+   "firstLine": "vaiṣṇava ṭhākura, doyāra sāgara,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 52"
+  },
+  {
+   "existingId": "s039",
+   "firstLine": "boḍo kṛpā kori’, gauḍa-vana mājhe,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 55"
+  },
+  {
+   "existingId": "s038",
+   "firstLine": "kṛpā-bindu diyā, koro’ ei dāse,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 56"
+  },
+  {
+   "existingId": "s045",
+   "firstLine": "kabe gaura-vane, suradhunī-taṭe,",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 59"
+  },
+  {
+   "existingId": "s046",
+   "firstLine": "kabe ha’be bolo se-dina āmār",
+   "source": "Bhaktivinoda_Thakura_Saranagati2.pdf, p. 62"
+  }
+ ],
+ "leftOut": []
+}

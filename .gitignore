@@ -1,0 +1,62 @@
+# Sadhana Record — what never goes into git.
+# Decided 13 Oct 2026 (roadmap phase 0.1, docs/DECISIONS/0007): the paintings in
+# frontend/public/darshan ARE committed (a clone must be able to build a complete deploy);
+# the generated PDFs in docs/ are NOT (regenerate with tools/docs, skill sadhana-docs-pdf).
+
+# ---- secrets (never, under any name) ----
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+!**/jdk/**/*.md
+service-account*.json
+sa-key*.json
+.pepper
+
+# ---- installed or built, always reproducible ----
+node_modules/
+frontend/dist/
+frontend/.vite/
+.wrangler/
+**/.wrangler/
+frontend/screenshots/
+loadtest/out/
+
+# ---- generated documents (the Markdown is the source) ----
+docs/**/*.pdf
+docs/**/*.html
+
+# ---- big local-only tool payloads (see tools/README.md to restore) ----
+tools/video/
+tools/devices/android-sdk/
+tools/devices/jdk/
+tools/devices/avd/
+# device-check recordings and screenshots: evidence of one run, 271 MB, regenerate with tools/devices
+tools/devices/results/**/*.mp4
+tools/devices/results/**/*.png
+tools/devices/results/**/*.jpg
+tools/brand/esr/realesrgan-ncnn-vulkan
+tools/brand/esr/models/
+
+# ---- macOS / editor noise ----
+.DS_Store
+**/.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Play Store signing — NEVER commit. Losing the keystore means the app can never be updated again;
+# leaking it means someone else can publish as you. Back it up outside the repo (tools/store/README.md).
+tools/store/*.jks
+tools/store/keystore-password.txt
+tools/store/gradle-8.7/
+tools/store/bundletool.jar
+tools/store/.gradle/
+tools/store/twa/build/
+tools/store/local.properties

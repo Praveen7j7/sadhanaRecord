@@ -1,0 +1,133 @@
+# Sadhana Record API — Cloudflare Worker + D1 (design §2d, API contract v1)
+name = "sadhana-record-api"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true          # https://sadhana-record-api.iyfdelhi-sadhana.workers.dev
+preview_urls = false
+
+# Keep logs (errors, runs cut short by the CPU limit) in the dashboard: Workers & Pages › sadhana-record-api › Logs
+[observability]
+enabled = true
+
+# Run the API next to its database rather than next to the caller, so each of a screen's round trips is a short hop
+# instead of a trip from India to Singapore (phase 6 load test, 3 Oct 2026).
+# A PLACEMENT HINT, not Smart Placement (22 Oct 2026, G0). Smart never moved this Worker: every live call answered
+# `cf-placement: local-<colo>`, because 16 devotees in one city is below the traffic Smart needs to learn from. The
+# database is served from Singapore (`wrangler d1 execute … --json` → served_by_colo "SIN"), so the hint names the cloud
+# region there and Cloudflare runs the API in its data centre closest to it. Hints and `mode = "smart"` cannot be
+# combined. Placement applies to fetch only; the cron runs are unaffected.
+# Check after the deploy: `curl -sI -X POST <api>` → cf-placement must no longer read "local-…". If the deploy refuses
+# the key (Cloudflare's page does not say whether hints are on the free plan), put back `mode = "smart"`.
+[placement]
+region = "aws:ap-southeast-1"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sadhana"
+database_id = "8b771fe4-abfd-4bd8-9a50-dfc1ae1b739a"
+migrations_dir = "migrations"
+
+# One schedule, every minute: copies changed tables to Google Sheets (at most 300 rows a run); at :00 and :30
+# also refreshes the IYF ID registry copy. A run with nothing to copy makes no Google calls.
+# (Free plan: at most 5 schedules per account, 100,000 runs + requests a day.)
+[triggers]
+# + two evening schedules that only send 9 PM reminders, each run claiming its own 35 phones (src/push.js): about 105
+#   phones a minute, 5,000 in under an hour. Different hour sets (19:30 and 20:30 IST onwards, both to 23:29) so Cloudflare
+#   treats them as two schedules; runs before the reminder time stop at once. Free plan: 5 schedules per account (3 used).
+crons = ["* * * * *", "0-59 14-17 * * *", "0-59 15-17 * * *"]
+
+[vars]
+# The copy to Google Sheets: "on" to copy, anything else (or absent) to pause it.
+# PAUSED on 13 October 2026 by the head's decision: the app is the system of record. Coordinators use the Batch
+# board, Members and Stats screens; a file comes from the export screen; anything unusual is a query against D1.
+# Nothing is lost while it is off — every change still queues in mirror_log and the copy resumes from where it
+# stopped, so expect a long catch-up (300 entries a minute) and a view-sheet rebuild when it is switched back on.
+# The INBOUND read of the dashboard's Devotees tab is NOT affected and keeps running every 30 minutes: that is
+# where IYF allocates IYF IDs and facilitator names, and the app still has to learn them.
+SHEETS_COPY = "off"
+TZ_OFFSET_MIN = "330"
+REGISTRY_SHEET_ID = "165UBdHjeNfcQjCZ8dXbM9vfOJhBj0d19odmLg6rNGZA"
+# Origins allowed to call the API from a browser (comma-separated): the app, and local previews.
+ALLOWED_ORIGINS = "https://sadhana-record.iyfdelhi-sadhana.workers.dev,http://localhost:4173,http://localhost:5173"
+# Web Push (the 9 PM reminder): the public half of the VAPID key; the private half is the secret VAPID_PRIVATE_JWK
+VAPID_PUBLIC = "BBsI66qmA2yph_tdhJjwDnHbDRVGHEZ90fNuUDGbfiIXhrcraw8UTYkWv_h10O3k4L6w9EXMRFTrv6AhzrAEjeI"
+VAPID_SUBJECT = "mailto:iyfdelhi.database@gmail.com"
+
+# Secrets (never in git):  wrangler secret put PW_PEPPER   ·   wrangler secret put GOOGLE_SA_KEY   ·   wrangler secret put VAPID_PRIVATE_JWK
+# Recovery only: wrangler secret put MASTER_RESET_PASSWORD (applied once by the next 5-minute run; then delete it)
+
+# ---------------------------------------------------------------------------------------------------------------
+# Load test (phase 6) — a SEPARATE Worker and database, never the live ones:
+#   npx wrangler deploy --env load   ·   npx wrangler d1 migrations apply sadhana-load --env load --remote
+# No Google key, no phone-notification key, so it never writes the real Sheets or messages anyone.
+# LOAD_METER makes it report each call's D1 rows (src/loadmeter.js); LOAD_CLOCK_SKEW_MS shifts its clock only.
+[env.load]
+name = "sadhana-record-api-load"
+workers_dev = true
+preview_urls = false
+[env.load.observability]
+enabled = true
+[env.load.placement]
+mode = "smart"
+
+[[env.load.d1_databases]]
+binding = "DB"
+database_name = "sadhana-load"
+database_id = "7617b76f-4638-4da8-8de8-a871d3bb3e31"
+migrations_dir = "migrations"
+[env.load.triggers]
+crons = []
+[env.load.vars]
+TZ_OFFSET_MIN = "330"
+REGISTRY_SHEET_ID = ""
+ALLOWED_ORIGINS = ""
+LOAD_METER = "1"
+LOAD_CLOCK_SKEW_MS = "0"
+
+# ---------------------------------------------------------------------------------------------------------------
+# Staging (roadmap 6.8; audit T F-19) — the schedules, rehearsed.
+#
+# WHY IT IS NOT THE LOAD WORKER. [env.load] above has `crons = []` on purpose: it measures what one call costs,
+# and a schedule firing underneath would spoil the measurement. So nothing anywhere ran the SCHEDULED work
+# before production did: the every-minute copy, the Monday 21:00 deadline, the 9 PM reminders, retention. Those
+# are the jobs that touch every row and are hardest to undo, and they were only ever exercised live.
+#
+#   npx --no-install wrangler deploy --env staging
+#   npx --no-install wrangler d1 migrations apply sadhana-staging --env staging --remote
+#
+# Deliberately crippled so it CANNOT reach a real person or a real sheet:
+#   · no GOOGLE_SA_KEY secret  → the Sheets copy and the registry read fail closed and log; nothing is written
+#   · no VAPID_PRIVATE_JWK    → no notification can be sent, so no phone is ever reached
+#   · SHEETS_COPY = "off"     → the copy stays paused here too (decision 46's sibling: the app is the record)
+#   · REGISTRY_SHEET_ID = ""  → no dashboard tab to read
+#   · its own database        → `sadhana-staging`, never the live `sadhana`
+#
+# Set PW_PEPPER here (a DIFFERENT value from production) or no password will verify:
+#   npx --no-install wrangler secret put PW_PEPPER --env staging
+#
+# Free plan: 5 cron schedules per account. Live uses 3, this uses 1 (the every-minute run, which is the one
+# that drives the deadline, retention and the mirror), leaving 1 spare. The reminder schedules are left off
+# because without VAPID they would do nothing anyway.
+# Before creating it: npx --no-install wrangler d1 create sadhana-staging, then paste the id below.
+[env.staging]
+name = "sadhana-record-api-staging"
+workers_dev = true
+preview_urls = false
+[env.staging.observability]
+enabled = true
+[env.staging.placement]
+mode = "smart"
+
+[[env.staging.d1_databases]]
+binding = "DB"
+database_name = "sadhana-staging"
+database_id = "TODO-run-wrangler-d1-create-sadhana-staging-and-paste-the-id"
+migrations_dir = "migrations"
+[env.staging.triggers]
+crons = ["* * * * *"]
+[env.staging.vars]
+TZ_OFFSET_MIN = "330"
+REGISTRY_SHEET_ID = ""
+ALLOWED_ORIGINS = ""
+SHEETS_COPY = "off"

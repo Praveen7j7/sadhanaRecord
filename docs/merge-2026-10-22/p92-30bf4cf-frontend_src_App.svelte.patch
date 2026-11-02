@@ -1,0 +1,31 @@
+diff --git a/frontend/src/App.svelte b/frontend/src/App.svelte
+index a18e7cb..3e8e65f 100644
+--- a/frontend/src/App.svelte
++++ b/frontend/src/App.svelte
+@@ -10,7 +10,7 @@
+   import { scopesOf, canRequests } from './lib/scopes.js';
+   import { areaOf } from './lib/area.js';
+   import { knownRoute } from './lib/nav.js';
+-  import { screenOf, LOADERS } from './routes.js';
++  import { screenOf, LOADERS, PUBLIC_PATHS, REDIRECTS } from './routes.js';
+   import { setArea } from './lib/theme.js';
+   import { whenIdle } from './lib/pro.svelte.js';
+   import { entry } from './lib/cache.svelte.js';
+@@ -19,7 +19,7 @@
+   restore();
+   const SPLASH_MIN_MS = 1400;
+ 
+-  const PUBLIC = ['/welcome', '/login', '/signup', '/forgot'];
++  const PUBLIC = PUBLIC_PATHS;   // the one list (routes.js), not a copy
+   // the same lists as the navigation model (lib/nav.js)
+   const user = $derived(session.user);
+   const path = $derived(route.path);
+@@ -48,7 +48,7 @@
+       go('/home', true);
+     }
+     // reopen requests moved into the one Requests inbox (8 Oct 2026): old links land there
+-    if (user && path.split('?')[0] === '/reopens') go('/requests?type=reopen', true);
++    if (user && REDIRECTS[path.split('?')[0]]) go(REDIRECTS[path.split('?')[0]], true);
+   });
+   // the accent family of the whole page (body, overscroll, browser bar) follows the area of the screen
+   $effect(() => setArea(areaOf(path, user ? sc : null, !!user?.mustChangePassword || !!user?.needsYear)));

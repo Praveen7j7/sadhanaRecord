@@ -1,0 +1,24 @@
+/* Sadhana Record — contrast preferences (linked from index.html with media="(prefers-contrast: more), (forced-colors: active)").
+   Unlayered on purpose: it overrides the app's layered rules. ---- more contrast, asked for by the phone or computer (8 Oct 2026): stronger edges, darker supporting text, no glass,
+   a thicker focus ring. And Windows high-contrast (forced colours): the system colours, with outlines that keep dots and
+   day marks visible. ---- */
+@media (prefers-contrast: more) {
+  :root, [data-area], :root[data-theme='dark'], :root[data-theme='dark'] [data-area] {
+    --border: var(--border-strong); --divider: var(--border-strong); --text-muted: var(--text-secondary);
+  }
+  .nav, .glass, .drawer, .sheet, .topbar[data-scrolled] { background: var(--surface-floating); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  :focus-visible { outline-width: 3px; }
+}
+@media (forced-colors: active) {
+  .status::before, .strip i, .chip b, .menu-area::before { forced-color-adjust: none; background: CanvasText; outline: 1px solid CanvasText; }
+  .chip-done b, .chip-part b, .chip-miss b { color: Canvas; }
+  :focus-visible { outline: 3px solid Highlight; }
+  /* Phase 8 (9 Oct 2026): bars, meters and rings are drawn with background colour, which forced colours removes —
+     draw them in the text colour on an outlined track; chosen buttons and the current page get a Highlight outline */
+  .m-bar, .cb-bar, .hh-bar, .ov-bar, .wk-bar { outline: 1px solid CanvasText; }
+  .m-bar i, .cb-bar i, .hh-bar i, .ov-bar i, .wk-bar i, .bars .bar i, .fr-dots i.on { forced-color-adjust: none; background: CanvasText; }
+  .rg-i { forced-color-adjust: none; background: Canvas; color: CanvasText; outline: 2px solid CanvasText; }
+  [aria-pressed='true'], [aria-current='page'], .sc-cell[aria-pressed='true'] { outline: 2px solid Highlight; outline-offset: -2px; }
+  .score-pill, .pa-wait, .pill, .chip-x { border: 1px solid CanvasText; }
+  .toast { border: 2px solid CanvasText; }
+}

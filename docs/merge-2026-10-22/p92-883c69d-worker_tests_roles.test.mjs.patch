@@ -1,0 +1,12 @@
+diff --git a/worker/tests/roles.test.mjs b/worker/tests/roles.test.mjs
+index d38718d..e9cfc5b 100644
+--- a/worker/tests/roles.test.mjs
++++ b/worker/tests/roles.test.mjs
+@@ -193,6 +193,7 @@ const GATE_OF_RECORD = {
+   'resets.reject':              'STAFF',
+   'rules.get':                  'ANY',
+   'runlog.list':                'MASTER',
++  'home.staff':                 'MASTER',
+   'settings.get':               'MASTER',
+   'settings.update':            'MASTER',
+   'stats.all':                  'MASTER',

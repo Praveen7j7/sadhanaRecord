@@ -1,0 +1,30 @@
+iPhone 18 Pro Max · iOS 27.0 · Safari 27.0
+PASS [ios] live: the welcome screen opens
+PASS [ios] live: look tier "balanced", theme light, 440×796, no sideways scroll
+PASS [ios] live build: index-DbtPpmAE.js
+PASS [ios] live: Login opens from Welcome
+PASS [ios] app: the login screen (mock data)
+PASS [ios] app: signed in, Home shows
+PASS [ios] app: bottom bar Home, Week, Group, Report, Account, inside the screen (786 ≤ 796)
+PASS [ios] app: Home, no sideways scroll at 440px
+PASS [ios] app: Week shows statuses as a dot and a word (Complete, Complete, Complete, Complete)
+PASS [ios] app: Week, no sideways scroll
+PASS [ios] app: "How your day is scored" opens as a bottom sheet
+PASS [ios] app: the sheet's ✕ closes it
+PASS [ios] app: a tap outside the sheet closes it
+PASS [ios] app: Escape closes the sheet and stays on the day
+PASS [ios] app: the time wheel opens with Cancel and Done ({"rows":170,"btns":2})
+PASS [ios] app: Day form, no sideways scroll
+PASS [ios] app: Account has no Appearance section
+PASS [ios] app: the Theme row says Automatic, no list of choices
+PASS [ios] app: one tap: Light
+PASS [ios] app: another tap: Dark
+PASS [ios] app: a third tap: back to Automatic
+PASS [ios] app: the menu leaves out This week and Report (on the bar) and has Report issue
+PASS [ios] app: Report, Daily and Weekly each inside its button
+PASS [ios] app: Delete account opens a sheet (password + DELETE), warns it can't be undone, Delete disabled until both are filled
+PASS [ios] app: Cancel closes it, still on Account, nothing deleted
+PASS [ios] staff: the batch board shows dot-and-word statuses (Not started, Filling, Submitted, No attendance:Not active)
+PASS [ios] staff: batch board, no sideways scroll
+PASS [ios] staff: a devotee's day with "That day's practice" (That day's practice Hearing and reading show here once the week is submitted.)
+PASS [ios] staff: day view, no sideways scroll

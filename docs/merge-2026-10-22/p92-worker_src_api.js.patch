@@ -1,0 +1,41 @@
+diff --git a/worker/src/api.js b/worker/src/api.js
+index a1c2fa2..824a935 100644
+--- a/worker/src/api.js
++++ b/worker/src/api.js
+@@ -21,6 +21,7 @@ import * as facs from './facilitators.js';
+ import * as groups from './groups.js';
+ import * as fac from './facilitator.js';
+ import * as exp from './exports.js';
++import * as lb from './leaderboard.js';
+ 
+ export const API_VERSION = 1;
+ // Who may call an action, by scope (decision 34): ANY signed-in person · DEVOTEE has their own form ·
+@@ -113,6 +114,10 @@ export const ROUTES = {
+   'facilitators.add':           { roles: MASTER, write: true, fields: ['name'], fn: facs.add },
+   'facilitators.setActive':     { roles: MASTER, write: true, fields: ['name', 'active'], fn: facs.setActive },
+   'facilitators.delete':        { roles: MASTER, write: true, fields: ['name', 'reason'], fn: facs.remove },
++  // ADR 0014: one rename, everywhere; the students whose facilitator stopped facilitating, for the head to decide
++  'facilitators.rename':        { roles: MASTER, write: true, fields: ['name', 'newName', 'reason'], fn: facs.rename },
++  'facilitators.orphans':       { roles: MASTER, fields: [], fn: facs.orphans },
++  'facilitators.setLasting':    { roles: MASTER, write: true, fields: ['name', 'reason'], fn: facs.setLasting },
+   'facLogins.list':             { roles: MASTER, fields: [], fn: fac.loginsList },
+   'facLogins.create':           { roles: MASTER, write: true, fields: ['username', 'facilitator', 'tempPassword'], fn: fac.loginsCreate },
+   'facLogins.setDisabled':      { roles: MASTER, write: true, fields: ['username', 'disabled'], fn: fac.loginsSetDisabled },
+@@ -200,6 +205,9 @@ export const ROUTES = {
+   // one person's card, opened from a scoreboard row: the head, or the coordinator of their training
+   'card.of':                    { roles: ANY, fields: ['login', 'phaseId', 'weekId'], fn: phases.cardOfPerson },
+   'board.get':                  { roles: ANY, fields: ['phaseId', 'weekId', 'batchId'], fn: phases.boardGet },
++  // the sadhana leaderboard (ADR 0013): staff rank their batches (the head: any, or all IYF); a devotee their own place
++  'leaderboard.get':            { roles: STAFF, fields: ['period', 'weekId', 'month', 'year', 'from', 'to', 'batchId', 'page'], fn: lb.leaderboardGet },
++  'leaderboard.mine':           { roles: ANY, fields: [], fn: lb.leaderboardMine },
+   // a training's own class attendance, marked by its coordinator (the head, 18 Oct 2026). Separate
+   // from attendance.set, which marks a devotee's own batch class: an ETP student sits in both.
+   'training.attendance':        { roles: STAFF, write: true, fields: ['batchId', 'weekId', 'marks'], fn: phases.trainingAttendanceSet },
+@@ -213,6 +221,7 @@ export const ROUTES = {
+   'enrol.add':                  { roles: STAFF, write: true, fields: ['batchId', 'login', 'reason'], fn: enrol.enrolAdd },
+   'enrol.remove':               { roles: STAFF, write: true, fields: ['batchId', 'login', 'reason'], fn: enrol.enrolRemove },
+   'eligible.list':              { roles: STAFF, fields: ['batchId', 'from', 'to'], fn: eligible.eligibleList },
++  'criteria.get':               { roles: MASTER, fields: ['batchId'], fn: eligible.criteriaGet },
+   'criteria.set':               { roles: MASTER, write: true, fields: ['batchId', 'criteria', 'reason'], fn: eligible.criteriaSet },
+   'weeks.setClass':             { roles: STAFF, write: true, fields: ['batchId', 'weekId', 'kind', 'note', 'everyonePresent', 'reason'], fn: coord.weeksSetClass },
+   'attendance.set':             { roles: STAFF, write: true, fields: ['batchId', 'weekId', 'marks'], fn: coord.attendanceSet },

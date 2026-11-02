@@ -1,0 +1,22 @@
+diff --git a/frontend/src/lib/api.js b/frontend/src/lib/api.js
+index 68a4ca6..b76f5ff 100644
+--- a/frontend/src/lib/api.js
++++ b/frontend/src/lib/api.js
+@@ -15,7 +15,7 @@ const WRITES = new Set([
+   // a closing promotes people between batches, so a retry must never do it twice (ADR 0009)
+   'batches.update', 'batches.close', 'devotees.promote',
+   // the card: a retried fill must not count twice, and a phase is opened once
+-  'phases.open', 'phases.close', 'card.fill', 'training.attendance', 'targets.set', 'card.unlock',
++  'phases.open', 'phases.update', 'phases.close', 'card.fill', 'training.attendance', 'targets.set', 'card.unlock',
+   // a batch's promotion criteria: a retry must not write them twice
+   'criteria.set', 'stages.set',
+   // enrolling somebody twice on a retry would double-count a training's students
+@@ -25,7 +25,7 @@ const WRITES = new Set([
+   'ids.link', 'ids.unlink', 'ids.reviewDuplicate',
+   'identity.link', 'identity.mint', 'identity.supersede', 'identity.merge', 'identity.mintBatch', 'identity.serviceToken', 'push.register', 'push.detach', 'profile.update', 'photo.upload', 'photo.remove',
+   'devotees.setActive', 'devotees.setDisabled', 'devotees.delete', 'devotees.setPeople',
+-  'announcements.like', 'announcements.comment', 'announcements.uncomment', 'facilitators.add', 'facilitators.setActive', 'facilitators.delete',
++  'announcements.like', 'announcements.comment', 'announcements.uncomment', 'facilitators.add', 'facilitators.setActive', 'facilitators.delete', 'facilitators.rename', 'facilitators.setLasting',
+   'books.setCurrent', 'announcements.report', 'announcements.resolve', 'mutes.set', 'mutes.setAll',
+   'facLogins.create', 'facLogins.setDisabled', 'facLogins.resetPassword', 'facLogins.link', 'facLogins.unlink', 'batches.create', 'weeks.setClass', 'masters.set',
+   'attendance.set', 'attendance.override', 'group.mark', 'leaders.set', 'leaders.assign', 'push.subscribe', 'push.unsubscribe', 'settings.update', 'reopen.request', 'reopen.reject', 'weeks.reopen',

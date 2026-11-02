@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- the public pages, at the clean addresses the host serves (the .html names redirect there); the address changes with the own domain -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://sadhana-record.iyfdelhi-sadhana.workers.dev/</loc></url>
+  <url><loc>https://sadhana-record.iyfdelhi-sadhana.workers.dev/privacy</loc></url>
+  <url><loc>https://sadhana-record.iyfdelhi-sadhana.workers.dev/delete-account</loc></url>
+</urlset>

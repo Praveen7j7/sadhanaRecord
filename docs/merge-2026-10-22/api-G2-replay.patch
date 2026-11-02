@@ -1,0 +1,43 @@
+--- a/worker/src/api.js	2026-10-22 16:20:07
++++ b/worker/src/api.js	2026-10-22 16:48:45
+@@ -2,7 +2,7 @@
+ // answer is HTTP 200 with { ok, data | error, serverTime }.
+ // Order of checks: version → action → fields → session (unless public) → forced password change → role → replay → action.
+ import { ApiError, apiError, isoIst, csv } from './util.js';
+-import { one, run, requestDb } from './db.js';
++import { q, one, run, requestDb } from './db.js';
+ import { sessionCtx } from './session.js';
+ import * as auth from './auth.js';
+ import * as reqs from './requests.js';
+@@ -258,8 +258,16 @@
+   if (!data || typeof data !== 'object' || Array.isArray(data)) throw apiError('BAD_REQUEST', 'Bad data');
+   for (const k of Object.keys(data)) if (!route.fields.includes(k)) throw apiError('BAD_REQUEST', 'Unknown field ' + k);
+ 
++  const rid = String(req.requestId || '');
++  /* The replay check of a signed-in write rides in the batch that reads the caller's scopes (22 Oct 2026, G2): one
++   * round trip less on every save. Its key needs the caller's login, which only the session read knows, so it is
++   * handed over as a statement made from the login. It is only READ early; every check below still runs in the same
++   * order, so a refused call answers exactly as before. */
++  const replay = route.write && !route.noReplay && route.roles !== PUBLIC && /^[A-Za-z0-9-]{8,64}$/.test(rid)
++    ? { stmt: (login) => q(ctx.db, 'SELECT body FROM replies WHERE key = ?', `${login || 'anon'}:${req.action}:${rid}`) }
++    : null;
+   if (route.roles !== PUBLIC) {
+-    Object.assign(ctx, await sessionCtx(ctx, req.token));
++    Object.assign(ctx, await sessionCtx(ctx, req.token, replay ? [replay] : []));
+     if (ctx.mustChange && !route.mustChangeOk) throw apiError('MUST_CHANGE_PASSWORD', 'Please choose a new password first.');
+     if (!allowed(route.roles, ctx.scopes)) throw apiError('FORBIDDEN', 'You do not have access to this.');
+     // A service account (migration 0041) may call ONLY the actions it was created for, whatever its role
+@@ -271,12 +279,11 @@
+   }
+   if (!route.write) return (await route.fn(data, ctx, req)) ?? {};
+ 
+-  const rid = String(req.requestId || '');
+   if (!/^[A-Za-z0-9-]{8,64}$/.test(rid)) throw apiError('BAD_REQUEST', 'Missing request id');
+   // saves that are safe to repeat by themselves (a retried save returns ok) skip the replay cache: one write less
+   if (route.noReplay) return (await route.fn(data, ctx, req)) ?? {};
+   const key = `${ctx.login || 'anon'}:${req.action}:${rid}`;
+-  const seen = await one(ctx.db, 'SELECT body FROM replies WHERE key = ?', key);
++  const seen = replay && 'row' in replay ? replay.row : await one(ctx.db, 'SELECT body FROM replies WHERE key = ?', key);
+   if (seen) return JSON.parse(seen.body);
+   const out = (await route.fn(data, ctx, req)) ?? {};
+   ctx.waitUntil(run(ctx.db, 'INSERT OR IGNORE INTO replies (key, body, at) VALUES (?, ?, ?)', key, JSON.stringify(out), Date.now()));

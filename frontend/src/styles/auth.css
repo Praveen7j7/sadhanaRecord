@@ -1,0 +1,125 @@
+/* Signed-out screens (welcome, log in, sign up, forgot password): loaded with those screens, never in the startup CSS.
+   The royal public accent, the ambient wash (accent from the top centre, gold from the top right), one raised card
+   with a gold rule. The brand lockup's base styles stay in app.css: the static splash in index.html uses them. */
+@layer components {
+  .auth { min-height: 100vh; display: grid; place-items: start center; padding: calc(var(--safe-t) + clamp(24px, 6vh, 64px)) var(--gutter) calc(var(--safe-b) + 32px); box-sizing: border-box;
+    background: var(--wash, none) no-repeat, var(--bg); }
+  /* ladder #12 (22 Oct 2026): in dark the signed-out screens start from the brand navy, as the launch screen now does,
+     and fade to the night colour by 45vh — they had no brand blue at all */
+  :root[data-theme='dark'] .auth { background: var(--wash, none) no-repeat, linear-gradient(180deg, #0f1a3a, var(--bg) 45vh) no-repeat, var(--bg); }
+  .auth-in { width: 100%; max-width: 420px; }
+  .auth.wide .auth-in { max-width: 560px; }
+  .auth-brand { text-align: center; margin-bottom: var(--sp-6); }
+  .auth-brand .t-over { color: var(--gold-text); }
+  .auth-brand h1 { margin: 0; font-size: var(--fs-display); line-height: var(--lh-display); letter-spacing: -0.01em; color: var(--text); }
+  .auth-brand p { margin: 8px auto 0; max-width: 30ch; color: var(--text-secondary); font-family: var(--font-serif); font-style: italic; font-size: 1.0625rem; line-height: 1.45; }
+  .auth-card { padding: var(--sp-6) var(--sp-5); border-radius: var(--r-xl); border: 1px solid var(--border); border-top: 2px solid var(--gold-decorative); background: var(--surface-elevated); box-shadow: var(--shadow-2); }
+  @media (min-width: 480px) { .auth-card { padding: var(--sp-7); } }
+  .auth-card > h2 { margin: 0 0 var(--sp-5); font-size: var(--fs-h1); }
+  .auth-foot { margin-top: var(--sp-5); text-align: center; color: var(--text-muted); font-size: var(--fs-sm); }
+  .auth-back { position: fixed; top: calc(var(--safe-t) + 8px); left: 8px; z-index: 5; }
+
+  /* welcome */
+  .welcome .auth-brand h1 { font-size: clamp(1.75rem, 1.3rem + 2.2vw, 2.5rem); }
+  /* the devotional line under the name (9 Oct 2026): one short line, understated — regular weight, charcoal (muted in
+     dark), 15–16 px; the name stays the dominant text. Welcome, sign-in and create-account each have their own line. */
+  .welcome .auth-brand .by-tag, .auth-brand .byline { margin: 6px auto 0; max-width: none; font-family: var(--font-serif); font-style: italic; font-weight: 400;
+    font-size: clamp(0.9375rem, 4.1vw, 1rem); line-height: 1.4; color: var(--text-secondary); text-wrap: balance; }
+  .welcome .lead { margin: 12px auto 0; max-width: 40ch; text-wrap: balance; color: var(--text-secondary); font-size: 1.0625rem; font-family: var(--font-sans); font-style: normal; }
+  /* devotional: a parchment tint (gold over the raised surface) with a gold rule */
+  .wl-quote { margin: var(--sp-6) 0 0; padding: var(--sp-4) var(--sp-5); border-left: 3px solid var(--gold-decorative); border-radius: 0 var(--r-lg) var(--r-lg) 0;
+    background: color-mix(in srgb, var(--gold-decorative) 9%, var(--surface-elevated)); }
+  /* Phase 9 (9 Oct 2026): the signed-out verse reads as a printed page — a raised serif opening mark,
+     the verse, then a gold rule and its source. Type only: no image, no extra bytes on the sign-in path. */
+  .wl-quote { position: relative; overflow: hidden; }
+  .wl-quote::before { content: '\201C'; position: absolute; top: -.18em; left: .06em; font-family: var(--font-serif); font-size: 4.5rem; line-height: 1;
+    color: var(--gold-decorative); opacity: .26; pointer-events: none; }
+  .wl-quote blockquote { position: relative; margin: 0; font-family: var(--font-serif); font-size: var(--fs-quote); line-height: var(--lh-quote); font-style: italic;
+    text-wrap: pretty; hanging-punctuation: first; }
+  .wl-quote.wl-wait { min-height: 9rem; }   /* the verse loads a moment after the screen: its space is kept */
+  .wl-quote blockquote, .wl-quote figcaption { animation: wl-in .45s var(--ease) both; }
+  .wl-quote figcaption { animation-delay: .08s; }
+  @keyframes wl-in { from { opacity: 0; transform: translateY(6px); } }
+  @media (prefers-reduced-motion: reduce) { .wl-quote blockquote, .wl-quote figcaption { animation: none; transform: none; } }
+  /* the source on one baseline with a short gold rule before it */
+  .wl-quote figcaption { display: flex; align-items: center; gap: 10px; margin-top: var(--sp-3); font-size: var(--fs-sm); color: var(--text-muted); }
+  .wl-quote figcaption::before { content: ''; flex: none; width: 22px; height: 1px; background: var(--gold-decorative); }
+  .wl-quote cite { font-style: normal; font-weight: 550; letter-spacing: .01em; }
+}
+
+/* outside the layer, like the lockup's base rules in app.css (which they adjust) */
+/* the lockup's gold subline sits on the wash: a deeper gold keeps it ≥ 4.5:1 */
+.auth .lk-sub { color: color-mix(in srgb, var(--gold-text) 70%, var(--text-primary)); }
+.lockup-sm { gap: 10px; margin-bottom: 14px; }
+.lockup-sm .lk-emblem { width: 40px; height: 40px; }
+.lockup-sm .lk-rule { height: 30px; }
+.lockup-sm .lk-org { font-size: 1.125rem; }
+.lockup-sm .lk-sub { font-size: .625rem; }
+/* Welcome (9 Oct 2026): the compact lockup above the painting on phones; the full one beside the panel on desktop */
+.welcome .wl-mlock { display: flex; width: fit-content; margin: 0 auto 12px; }
+.welcome .wl-dlock { display: none; }
+@media (min-width: 1024px) { .welcome .wl-mlock { display: none; } .welcome .wl-dlock { display: inline-flex; } }
+
+/* Phase 3 (8 Oct 2026): the Welcome and sign-in split screens, the sign-up steps */
+@layer components {
+  /* Welcome, Phase 3 (8 Oct 2026): darshan band on phones; split screen on the desktop */
+  .wl-band { margin: 0 0 var(--sp-5); }
+  /* phones and tablets (9 Oct 2026): compact lockup, the painting hero with the verse, then title and buttons */
+  .auth.welcome { padding-top: calc(var(--safe-t) + 16px); }
+  .wl-hero { margin: 0 0 var(--sp-5); }
+  .welcome .auth-brand { margin-bottom: var(--sp-5); }
+  .welcome .wl-hero + .auth-brand h1 { font-size: 1.75rem; }
+  .welcome .wl-hero + .auth-brand .lead { margin-top: 6px; font-size: var(--fs-sm); }
+  .wl-trust { display: flex; align-items: center; justify-content: center; gap: 6px; margin: var(--sp-2) 0 0; color: var(--text-muted); font-size: var(--fs-sm); }
+  .wl-side { display: none; }
+  /* over the painting (the panel and the phone hero) the card styling and the big quote mark are dropped:
+     the panel guarantees the contrast, and a decorative glyph over the Lord's form is not allowed (§8 dignity) */
+  .wl-quote.wl-in-panel { margin: 0; padding: 0; border: 0; background: none; overflow: visible; }
+  .wl-quote.wl-in-panel::before { content: none; }
+  @media (min-width: 1024px) {
+    .auth.wl-split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); place-items: stretch; padding: 0; }
+    .wl-side { display: block; position: sticky; top: 0; height: 100vh; }
+    .wl-split .auth-in { align-self: center; justify-self: center; padding: 48px var(--gutter); }
+    .wl-split .wl-band, .wl-split .wl-in-page, .wl-split .wl-hero { display: none; }
+    .auth.welcome { padding-top: 0; }
+    .welcome .wl-hero + .auth-brand h1 { font-size: clamp(1.75rem, 1.3rem + 2.2vw, 2.5rem); }
+    .welcome .wl-hero + .auth-brand .lead { margin-top: 12px; font-size: 1.0625rem; }
+  }
+  /* sign-in and sign-up on the desktop: today's darshan panel on the left, the form on the right — the SAME 50/50 split
+     as Welcome, so tapping Sign in changes only the right half and the painting stays put (the head, 22 Oct 2026) */
+  .auth-side { display: none; }
+  @media (min-width: 1024px) {
+    .auth.auth-split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); place-items: stretch; padding: 0; }
+    .auth-split .auth-side { display: block; position: sticky; top: 0; height: 100vh; }
+    .auth-split .auth-in { align-self: center; justify-self: center; padding: 48px var(--gutter); }
+    .auth-split .auth-back { left: calc(50% + 12px); }
+  }
+  .auth-approve { margin: var(--sp-4) 0 0; }
+  .auth-trust { display: flex; align-items: center; justify-content: center; gap: 6px; margin: var(--sp-3) 0 0; color: var(--text-muted); font-size: var(--fs-sm); }
+  .side-note { margin: 0; font-family: var(--font-serif); font-size: var(--fs-quote); line-height: var(--lh-quote); }
+  .side-steps { margin: 8px 0 0; padding-left: 1.4em; list-style: decimal; font-size: var(--fs-sm); line-height: 1.5; }
+  /* sign-up steps (Phase 3) */
+  /* The steps are buttons now: tap a step already reached to go back to it (18 Oct 2026). The bar
+     still looks like a progress bar — the tap target is a transparent 44px band above each line,
+     so the visual stays a 4px rule while the finger gets a full-height target. */
+  .su-prog { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin: -4px 0 var(--sp-3); }
+  .su-dot { display: flex; align-items: center; min-height: 44px; padding: 0; margin: -20px 0;
+            background: none; border: 0; cursor: pointer; }
+  .su-dot[disabled] { cursor: default; }
+  .su-dot i { display: block; width: 100%; height: 4px; border-radius: 2px; background: var(--border);
+              transition: background var(--dur-1) var(--ease); }
+  /* ladder #16 (22 Oct 2026): steps done are gold, the current one brand blue and a little taller — where you are reads at a glance */
+  .su-dot.on i { background: var(--gold-decorative); }
+  .su-dot[aria-current='step'] i { background: var(--accent); height: 6px; }
+  .su-dot:not([disabled]):hover i { background: color-mix(in srgb, var(--accent) 65%, var(--border)); }
+  .su-dot:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { .su-dot i { transition: none; } }
+  .su-step { margin: 0 0 var(--sp-4); font-family: var(--font-sans); font-size: var(--fs-sm); font-weight: 650; color: var(--text-secondary); }
+  .su-nav { display: flex; gap: 8px; margin-top: var(--sp-4); }
+  .su-nav > * { flex: 1; }
+  /* "we recognise you" at sign-up (11 Oct 2026): quiet, not a warning — their history is waiting, nothing is wrong */
+  .su-known { margin: calc(var(--sp-2) * -1) 0 var(--sp-3); font-size: var(--fs-sm); line-height: 1.45; color: var(--text-secondary);
+    border-left: 3px solid var(--accent); padding: var(--sp-2) var(--sp-3); background: var(--surface-2); border-radius: 0 8px 8px 0; }
+  .su-known.muted { border-left-color: var(--border); color: var(--text-muted); }
+  .su-known strong { color: var(--text); font-weight: 650; letter-spacing: .04em; }
+}

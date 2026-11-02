@@ -1,0 +1,36 @@
+--- a/worker/b/worker/src/closing.js	2026-10-22 16:09:01
++++ b/worker/src/closing.js	2026-10-22 16:17:58
+@@ -14,7 +14,7 @@
+ // Nothing is decided automatically, and a closing cannot be half done: the whole batch is settled in
+ // one call, or none of it is.
+ import { apiError, invalid, isoIst, cleanName } from './util.js';
+-import { q, one, all, audit, dirty, batchesAll } from './db.js';
++import { q, one, all, audit, dirty, batchesAll, reads, rows } from './db.js';
+ import { requireBatch } from './requests.js';
+ import { boardRows } from './board.js';
+ import { addDays } from './weeks.js';
+@@ -106,13 +106,18 @@
+   // A training's class is marked in its OWN table (training_attendance, migration 0057): a trainee is marked in
+   // their own batch's `attendance` the same week, under that batch's id. Reading `attendance` for a training found
+   // nothing, so every trainee showed 0 weeks present at closing (18 Oct 2026).
+-  const presentSql = training
+-    ? "SELECT COUNT(*) AS n FROM training_attendance WHERE login = ? AND batch_id = ? AND mark = 'P'"
+-    : "SELECT COUNT(*) AS n FROM attendance WHERE login = ? AND batch_id = ? AND mark_used = 'P'";
+-  for (const m of members) {
+-    const n = await one(db, presentSql, m.login, batchId);
+-    out.push({ login: m.login, name: m.name, fromWeek: m.from_week, present: n?.n || 0 });
++  // Everyone's count in ONE round trip (22 Oct 2026, G6: it was one per member, 629 at 625): the same keyed count,
++  // grouped by login, the IN list in chunks of 90 (D1 binds at most 100). Somebody never present has no row: 0.
++  const presentSql = (marks) => training
++    ? `SELECT login, COUNT(*) AS n FROM training_attendance WHERE login IN (${marks}) AND batch_id = ? AND mark = 'P' GROUP BY login`
++    : `SELECT login, COUNT(*) AS n FROM attendance WHERE login IN (${marks}) AND batch_id = ? AND mark_used = 'P' GROUP BY login`;
++  const stmts = [];
++  for (let i = 0; i < members.length; i += 90) {
++    const part = members.slice(i, i + 90).map(m => m.login);
++    stmts.push(rows(q(db, presentSql(part.map(() => '?').join(',')), ...part, batchId)));
+   }
++  const present = new Map((await reads(db, stmts)).flat().map(r => [r.login, r.n]));
++  for (const m of members) out.push({ login: m.login, name: m.name, fromWeek: m.from_week, present: present.get(m.login) || 0 });
+   // only the batches this level may move up to. The head sees the others too, marked offLadder, so
+   // they can make the judgement the ladder cannot — a coordinator is not offered them at all.
+   const allowed = nextLevels(b.level);

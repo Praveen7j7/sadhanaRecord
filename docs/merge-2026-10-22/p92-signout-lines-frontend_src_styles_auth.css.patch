@@ -1,0 +1,12 @@
+diff --git a/frontend/src/styles/auth.css b/frontend/src/styles/auth.css
+index bc27bc8..62af5cf 100644
+--- a/frontend/src/styles/auth.css
++++ b/frontend/src/styles/auth.css
+@@ -90,6 +90,7 @@
+     .auth-split .auth-in { align-self: center; justify-self: center; padding: 48px var(--gutter); }
+     .auth-split .auth-back { left: calc(45% + 12px); }
+   }
++  .auth-approve { margin: var(--sp-4) 0 0; }
+   .auth-trust { display: flex; align-items: center; justify-content: center; gap: 6px; margin: var(--sp-3) 0 0; color: var(--text-muted); font-size: var(--fs-sm); }
+   .side-note { margin: 0; font-family: var(--font-serif); font-size: var(--fs-quote); line-height: var(--lh-quote); }
+   .side-steps { margin: 8px 0 0; padding-left: 1.4em; list-style: decimal; font-size: var(--fs-sm); line-height: 1.5; }

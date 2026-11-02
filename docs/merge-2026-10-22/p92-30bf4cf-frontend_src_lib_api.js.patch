@@ -1,0 +1,13 @@
+diff --git a/frontend/src/lib/api.js b/frontend/src/lib/api.js
+index b76f5ff..ffed7ac 100644
+--- a/frontend/src/lib/api.js
++++ b/frontend/src/lib/api.js
+@@ -25,7 +25,7 @@ const WRITES = new Set([
+   'ids.link', 'ids.unlink', 'ids.reviewDuplicate',
+   'identity.link', 'identity.mint', 'identity.supersede', 'identity.merge', 'identity.mintBatch', 'identity.serviceToken', 'push.register', 'push.detach', 'profile.update', 'photo.upload', 'photo.remove',
+   'devotees.setActive', 'devotees.setDisabled', 'devotees.delete', 'devotees.setPeople',
+-  'announcements.like', 'announcements.comment', 'announcements.uncomment', 'facilitators.add', 'facilitators.setActive', 'facilitators.delete', 'facilitators.rename', 'facilitators.setLasting',
++  'announcements.like', 'announcements.comment', 'announcements.uncomment', 'facilitators.add', 'facilitators.setActive', 'facilitators.delete', 'facilitators.rename', 'facilitators.setLasting', 'access.set',
+   'books.setCurrent', 'announcements.report', 'announcements.resolve', 'mutes.set', 'mutes.setAll',
+   'facLogins.create', 'facLogins.setDisabled', 'facLogins.resetPassword', 'facLogins.link', 'facLogins.unlink', 'batches.create', 'weeks.setClass', 'masters.set',
+   'attendance.set', 'attendance.override', 'group.mark', 'leaders.set', 'leaders.assign', 'push.subscribe', 'push.unsubscribe', 'settings.update', 'reopen.request', 'reopen.reject', 'weeks.reopen',

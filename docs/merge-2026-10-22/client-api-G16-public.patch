@@ -1,0 +1,11 @@
+--- a/frontend/src/lib/api.js	2026-10-22 16:48:29
++++ b/frontend/src/lib/api.js	2026-10-22 16:29:58
+@@ -6,7 +6,7 @@
+ // an account — but it answers a SIGNED-IN caller with their staff batch list as well, so its token is
+ // sent when there is one. The others are stripped: a token has no meaning on them and sending it to a
+ // public route is a disclosure for nothing.
+-const PUBLIC = new Set(['auth.signUp', 'auth.login', 'auth.requestReset']);
++const PUBLIC = new Set(['auth.signUp', 'auth.login', 'auth.requestReset', 'auth.lookup', 'push.register', 'push.unsubscribe']);
+ const PUBLIC_WITH_TOKEN = new Set(['meta.get']);
+ const WRITES = new Set([
+   'auth.signUp', 'auth.requestReset', 'auth.changePassword', 'auth.logoutAll', 'auth.sessionEnd', 'account.delete',

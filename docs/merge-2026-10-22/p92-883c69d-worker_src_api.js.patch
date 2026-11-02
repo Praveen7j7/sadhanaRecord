@@ -1,0 +1,21 @@
+diff --git a/worker/src/api.js b/worker/src/api.js
+index c31038d..2684059 100644
+--- a/worker/src/api.js
++++ b/worker/src/api.js
+@@ -24,6 +24,7 @@ import * as exp from './exports.js';
+ import * as lb from './leaderboard.js';
+ import * as mc from './monthcard.js';
+ import * as grants from './grants.js';
++import * as staffhome from './staffhome.js';
+ 
+ export const API_VERSION = 1;
+ // Who may call an action, by scope (decision 34): ANY signed-in person · DEVOTEE has their own form ·
+@@ -251,6 +252,8 @@ export const ROUTES = {
+   'audit.list':                 { roles: MASTER, fields: ['who', 'what', 'target', 'from', 'to', 'before', 'limit', 'q', 'actions'], fn: coord.auditList },
+   'runlog.list':                { roles: MASTER, fields: ['limit'], fn: coord.runlogList },
+   'settings.get':               { roles: MASTER, fields: [], fn: coord.settingsGet },
++  // the head's Home in one request (Phase 6): the eight reads it opened with, answered together
++  'home.staff':                 { roles: MASTER, fields: ['weeks'], fn: staffhome.homeStaff },
+   // exports (Phase 9, item 21): a page at a time; the first page is checked, rate-limited and logged in Activity
+   'exports.catalog':            { roles: STAFF, fields: [], fn: exp.catalog },
+   'exports.page':               { roles: STAFF, fields: ['grain', 'fields', 'batchIds', 'from', 'to', 'filters', 'cursor'], fn: exp.page },

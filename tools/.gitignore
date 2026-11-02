@@ -1,0 +1,8 @@
+# Real-ESRGAN (AI upscaler, ~66 MB): kept on this machine for offline use, never committed.
+# Re-download if missing: see tools/README.md.
+brand/esr/realesrgan-ncnn-vulkan
+brand/esr/models/
+# device testing (iOS simulator scripts are small; the Android SDK, emulator and JDK are ~4 GB): kept on this machine only
+devices/android-sdk/
+devices/jdk/
+devices/avd/

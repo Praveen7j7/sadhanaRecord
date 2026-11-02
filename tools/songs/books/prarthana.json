@@ -1,0 +1,1559 @@
+{
+ "collection": "Prārthanā",
+ "poet": "Narottama Dasa Thakura",
+ "edition": "Narottama_dasa_Thakura_Prarthana.pdf",
+ "editionReason": "Only edition given for this task (84 pages, BBT-style layout: Text N, verse in italics, word-for-word synonyms, translation). It prints NO diacritics (plain ASCII transliteration), so the verse text here is plain letters exactly as printed; word-for-word synonyms are not transcribed, only the verse and the translation. Printed half-line gaps (caesura spaces inside a line) are rendered as a single space; line breaks kept as printed. Obvious misprints in the translations (e.g. 'chamring') are kept as printed.",
+ "songs": [
+  {
+   "id": "s246",
+   "title": "Radha Krsna Nibedana Ei Jana Kore",
+   "heading": "Samprarthanatmika (Appeal), Song 2",
+   "firstLine": "radha-krsna nibedana ei jana kore",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 2",
+   "parts": [
+    {
+     "v": "(1)\nradha-krsna nibedana ei jana kore\ndonhe ati rasamaya sa-karuna-hrdaya\nabadhana kara natha more"
+    },
+    {
+     "t": "1) O Radha and Krsna, this person presents an appeal before you. You are both very chamring and full of nectar, and Your hearts are full of compassion. My Lords, please listen to my request."
+    },
+    {
+     "v": "(2)\nhe krsna gokulacandra gopijana-vallabha\nhe krsna-preyasi-siromani\nhema-gauri syama-gaya sravane parasa paya\nguna suni' judaya parani"
+    },
+    {
+     "t": "2) O dark-complexioned Krsna, O moon of Gokula, O lover of the gopis, O golden-complexioned Radha, O crest-jewel of the gopis who are so dear to Krsna, please hear my glorification of Your transcendental virtues, and please accept the offering of my entire life that I place before You. Please let my appeal touch Your ears."
+    },
+    {
+     "v": "(3)\nadhama-durgati-jane kevala karuna mane\ntribhuvana e jasah-kheyati\nsuniya sadhura mukhe sravana lai nu sukhe\nupekhile nahi mora gati"
+    },
+    {
+     "t": "3) O My Lords, the narration of Your transcendental glories is like a ferryboat which enables the devotees to cross beyond the three material worlds. O my Lords, You are very merciful to this fallen and misdirected person. Please listen to this appeal from the mouth of Your devotee. Let his words touch Your ears. Please do not neglect me."
+    },
+    {
+     "v": "(4)\njaya radhe jaya krsna jaya jaya radhe krsna\nkrsna krsna jaya jay radhe\nanjali mastake kori' narottama bhume padi'\nkahe donhe purao manah-sadhe"
+    },
+    {
+     "t": "4) O Radha, all glories to You. O Krsna all glories to You. O Radha and Krsna, all glories, all glories to You. O Krsna, O Krsna, all glories to You, O Radha, all glories to You. Narottama dasa places His folded hands upon his head, and falls to the ground before You. Please fulfill the desires of his heart."
+    }
+   ],
+   "notes": "Translation misprint 'chamring' kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s247",
+   "title": "Hari Hari Ki Mora Karama Gati Manda",
+   "heading": "Dainya-bodhika (The Author Describes His Fallen Condition), Song 3",
+   "firstLine": "hari hari ki mora karama-gati manda",
+   "lang": "bn",
+   "cats": [
+    "surrender",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 4",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ki mora karama-gati manda\nbraje radha-krsna-pada na bhajinu tila-ardha\nna bujhinu ragera sambandha"
+    },
+    {
+     "t": "1) O Lord Hari, Lord Hari, how slow I am! I refuse to worship the lotus feet of Radha and Krsna in Vrajabhumi even for half a moment, and I am completely unable to understand the mellows of transcendental love."
+    },
+    {
+     "v": "(2)\nswarupa sanatana rupa raghunatha bhatta-yuga\nbhugarbha sri-jiva lokanatha\ninha sabhara pada-padma na sevinu tila-ardha\nara kise puribeka sadha"
+    },
+    {
+     "t": "2) Even for half a moment I will not worship the lotus feet of Srila Svarupa Damodara Gosvami, Srila Sanatana Gosvami, Srila Rupa Gosvami, Srila Raghunatha dasa Gosvami, Srila Raghunatha Bhatta Gosvami, Srila Gopala Bhatta Gosvami, Srila Bhugarbha Gosvami, Srila Jiva Srila, and Srila Lokanatha Gosvami. How will it be possible for me to attain my desire?"
+    },
+    {
+     "v": "(3)\nkrsnadasa kaviraja rasika bhakata-majha\njenho kaila caitanya-carita\ngaura-govinda-lila sunite galaye sila\ntahate na haila mora cite"
+    },
+    {
+     "t": "3) Among the devotees Krsnadasa Kaviraja is extremely expert at relishing the transcendental nectar of the mellows of love of God. When the stones hear his Caitanya-caritamrta and Govinda-lilamrta, they begin to melt in ecstasy. In spite of this, I cannot appreciate him within my heart."
+    },
+    {
+     "v": "(4)\nse saba bhakata-sanga je karila tara sanga\ntara sange kene nahila basa\nki mora duhkhera katha janama gonainu vrtha\ndhik dhik narottama dasa"
+    },
+    {
+     "t": "4) Furthermore, I refuse even to associate with the friends and companions of these great souls. How sad is my tale. I have spent my life uselessly. Fie, fie on this Narottama dasa."
+    }
+   ],
+   "notes": "Verse 3 line 3 is printed in roman (not italic) type in the book.",
+   "uncertain": ""
+  },
+  {
+   "id": "s248",
+   "title": "Praneswara Nibedana Ei Jana Kore",
+   "heading": "Dainya-bodhika (The Author Describes His Fallen Condition), Song 5",
+   "firstLine": "praneswara nibedana ei jana kore",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 7",
+   "parts": [
+    {
+     "v": "(1)\npraneswara nibedana ei jana kore\ngovinda gokulacandra parama ananda-kanda\ngopi-kula-priya dekha more"
+    },
+    {
+     "t": "1) O master of my life, this person places an appeal before You. O Govinda, O moon of Gokula, O source of all transcendental bliss, O beloved of the gopis, please cast Your glance upon me."
+    },
+    {
+     "v": "(2)\ntuya pada-padma-seba eidhana more diba\ntumi natha karunara nidhi\nparama mangala jasa sravane parama rasa\nkara kiba karya nahe siddhi"
+    },
+    {
+     "t": "2) O my Lord, You are an ocean of mercy, and the service of Your lotus feet are my constant treasure. Hearing Your supremely auspicious glories is the greatest nectar for the ears. If You bestow Your mercy, then what difficult task cannot be accomplished?"
+    },
+    {
+     "v": "(3)\ndaruna-samsara-gati bisama-bisaya-mati\ntuya bismarana-sela buke\njarajara tanu mana acetana anuksana\njiyante marana bhela duhkhe"
+    },
+    {
+     "t": "3) I wander through this world of suffering, my mind fixed on the objects of the senses which bring only pain, and my chest pierced by the javelin of forgetfulness of You. My body and mind are withered and shattered, and from moment I become unconscious. Immersed in pain, I am like a living corpse."
+    },
+    {
+     "v": "(4)\nmo-hena adhama jane kara krpa-niriksane\ndasa kari' rakha vrndabane\nsri-krsna-caitanya-nama prabhu mora gaura-dhama\nnarottama laila sarane"
+    },
+    {
+     "t": "4) Please give me Your merciful glance. Make me Your servant, and allow me to stay in Vrndavana. That goledn-complexioned person who bears the name Sri Krsna Caitanya is my master, Narottama dasa takes shelter of Him."
+    }
+   ],
+   "notes": "Verse 3 begins at the top of p. 8. Misprints 'goledn' and 'from moment I become' kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s249",
+   "title": "Hari Hari Krpa Kari Rakha Nija Pade",
+   "heading": "Dainya-bodhika (The Author Describes His Fallen Condition), Song 6",
+   "firstLine": "hari hari krpa kari' rakha nija-pade",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 8",
+   "parts": [
+    {
+     "v": "(1)\nhari hari krpa kari' rakha nija-pade\nkama krodha chaya jane lana phire nana sthane\nbisaya-bhunjaya nana-mate"
+    },
+    {
+     "t": "1) O Lord Hari, O Lord Hari, please give me shelter at Your feet. Lust and anger are the leaders of the group of six men who impell me to wander here and there in the attempt to enjoy varieties of sense-gratification."
+    },
+    {
+     "v": "(2)\nhaiya mayara dasa kari' nana abhilasa\ntomara smarana gela dure\nartha-labha ei ase kapata-baisnaba-bese\nbhramiya bulaye ghare ghare"
+    },
+    {
+     "t": "2) I am full of material desires and I have become the servant of material illusion. My memory of You has fled far asay. Disguised as a Vaisnava I wander from house to house, motivated by the desire to accumulate wealth."
+    },
+    {
+     "v": "(3)\naneka duhkhera pare layechile braja-pure\nkrpa-dora galaya bandhiya\ndaiva-maya balat kare khasaiya sei dore\nbhaba kupe dileka dhariya"
+    },
+    {
+     "t": "3) In this town of Vraja, which is situated beyond all these sufferings, You have tied me about the neck with your rope of mercy. Seeing this outrage, the illusory energy loosened those ropes and again threw my into the well of material existence."
+    },
+    {
+     "v": "(4)\npunah yadi krpa-kari' e janare kese dhari'\ntaniya tulai braja-dhame\ntabe se dekhiya bhala natuba parana gela\nkahne dina dasa narottama"
+    },
+    {
+     "t": "4) If You are again merciful You will grasp this person by the hair, rescue him from illusion's well, and place him in the abode of Vraja. Seeing that the Lord placed him in an auspicious condition of life, whereas otherwise his life would have perished, the poor and fallen Narottama dasa sings this song."
+    }
+   ],
+   "notes": "Misprints in translation ('asay', 'threw my') and 'kahne' in verse 4 kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s250",
+   "title": "Hari Hari Bada Sela Marame Rahila",
+   "heading": "Dainya-bodhika (The Author Describes His Fallen Condition), Song 7",
+   "firstLine": "hari hari bada sela marame rahila",
+   "lang": "bn",
+   "cats": [
+    "surrender",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 10",
+   "parts": [
+    {
+     "v": "(1)\nhari hari bada sela marame rahila\npaiya durlabha tanu sri-krsna-bhajan binu\njanma mora biphala haila"
+    },
+    {
+     "t": "1) O Lord Hari, O Lord Hari, a great javelin has pierced me in the core of the heart.\nHaving attained this difficult to get human body, I have neglected the worship of Sri Krsna, and in this way my life has become useless."
+    },
+    {
+     "v": "(2)\nbrajendranandana hari nabadwipe abatari'\njagat bhariya prema dila\nmuni se pamara-mati bisese kathina ati\nteni more karuna nahila"
+    },
+    {
+     "t": "2) Although Lord Hari, the prince of Vraja, has descended in Navadvipa and filled the universe with pure love of God, I remain very sinful at heart, cruel, and merciless."
+    },
+    {
+     "v": "(3)\nswarupa sanatana rupa raghunatha bhatta-yuga\ntahate na haila mora mati\ndibya cintamani dhama brndabana hena sthana\nsei dhame na kainu vasati"
+    },
+    {
+     "t": "3) My mind refuses to think of Srila Svarupa Damodara Gosvami, Srila Sanatana Gosvami, Srila Rupa Gosvami, Srila Raghunatha dasa Gosvami, Srila Raghunatha Bhatta Gosvami, Srila Gopala Bhatta Gosvami. I decline to make my residence in Vrndavana-dhama, the abode full of transcendental cintamani gems."
+    },
+    {
+     "v": "(4)\nbisesa bisaye mati nahila baisnabe rati\nnirantara kheda uthe mane\nnarottma dasa kahe jibara ucita nahe\nsri-guru-baisnaba-seba bine"
+    },
+    {
+     "t": "4) My mind is absorbed in sense-gratification, and I do not take pleasure in the association of devotees. For this reason pain and regret arise within my heart. Narottama dasa says: It is not good to live without serving the spiritual master and the Vaisnavas."
+    }
+   ],
+   "notes": "'narottma' in verse 4 printed so.",
+   "uncertain": ""
+  },
+  {
+   "id": "s251",
+   "title": "Hari Hari Ki Mora Karama Abhaga",
+   "heading": "Dainya-bodhika prarthana (Prayer Wherein the Author Describes His Fallen Condition), Song 8",
+   "firstLine": "hari hari ki mora karama abhaga",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 11",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ki mora karama abhaga\nbiphale jibana gela hrdaye rahila sela\nnahi bhela hari-anuraga"
+    },
+    {
+     "t": "1) O Lord Hari, Lord Hari, everything that I do is inauspicious. I have uselessly wasted my life, and I have no love for You. It is as if my heart were pierced by a sharp javelin."
+    },
+    {
+     "v": "(2)\nyajna dhana tirtha-snana punya-karma japa dhyana\nakarane saba gela mohe\nbujhilama mane hena upahasa haya jena\nbastraphina alankara dehe"
+    },
+    {
+     "t": "2) Vedic sacrifices, charity, bathing in holy places of pilgrimage, pious deeds, mantra-chanting, and meditation, are all useless and illusory. When I think of these things laughter arises within my mind. Engaging in these activities without performing devotional service is like placing valuable ornaments on a body colthed in rags."
+    },
+    {
+     "v": "(3)\nsadhu-mukhe kathamrta suniya bimala cita\nnahi bhela aparadha-karana\nsatata asat-sanga sakali haila bhanga\nki kariba aile samana"
+    },
+    {
+     "t": "3) Although I sometimes hear the nectarean message of Godhead from the mouths of the devotees, because I commit so many offenses, I do not become purified. I continually associate with non-devotees, and in this way all my spiritual advancement is broken apart. Furthermore, death will soon appear on my horizon."
+    },
+    {
+     "v": "(4)\nsruti smrti sada rabe suniyachi ei sabe\nhari-pada abhaya sarana\njanama laiya sukhe krsna na balinu mukhe\nna karinu se rupa-bhabana"
+    },
+    {
+     "t": "4) Although I have repeatedly heard the Sruti and Smrti scriptures' declaration that one should take shelter of the Lord Hari's lotus feet in order to become fearless, nevertheless I refuse to happily chant the holy name of Lord Krsna, and I decline to meditate on His transcendental form."
+    },
+    {
+     "v": "(5)\nradha-krsna dunhu-paya tanu mana rahu taya\nara dure jauka basana\nnarottama dase kaya ara mora hani bhaya\ntanu mana sampinu apana"
+    },
+    {
+     "t": "5) I shall now concentrate my mind on the lotus feet of Sri Sri Radha and Krsna, and all my material desires will flee far away. Narottama dasa says---Now that I have fixed my mind on Sri Sri Radha and Krsna, I am no longer afraid of my future."
+    }
+   ],
+   "notes": "Verse 2 'bastraphina' printed so (synonyms give bastra--, hina--). Misprint 'colthed' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s252",
+   "title": "Hari Hari Hena Dina Haibe Amara",
+   "heading": "Swabhista-lalasa (Longings), Song 9",
+   "firstLine": "hari hari hena dina haibe amara",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 13",
+   "parts": [
+    {
+     "v": "(1)\nhari hari hena dina haibe amara\ndunhu anga parasiba hunhu anga nirakhiba\nsebana kariba donhakara"
+    },
+    {
+     "t": "1) O Lord Hari, O Lord Hari, when will this day be mine? When will I see Your lotus feet? When will I drectly serve Your lotus feet? When will I touch Your lotus feet?"
+    },
+    {
+     "v": "(2)\nlalita-bisakha-sange sebana kariba range\nmala ganthi' diba nana phule\nkanaka-samputa kari' karpura tambula puri'\nyogaiba adhara-jugale"
+    },
+    {
+     "t": "2) When, in the association of Lalita and Visakha, will I be able to directly serve You; When will I be albe to spend my days making garlands for You? When will I be able to fill a golden casket with camphor and betel-nuts, and then place these betel-nuts directly in Your mouth?"
+    },
+    {
+     "v": "(3)\nradha-krsna brndabana ei mora prana-dhana\nei mora jibana-upaya\njaya patita-pabana deha more ei dhana\ntoma-bine anya nahi bhaya"
+    },
+    {
+     "t": "3) Sri Sri Radha-Krsna, and Their abode of Vrndavana are the valuable treasure of my life. It is they who sustain me. O deliverer of the fallen, please give this treasure to me, for I have no one to turn to, except for You."
+    },
+    {
+     "v": "(4)\nsri-guru karuna-sindhu adhama-janera bandhu\nlokantha lokera jibana\nha ha prabhu kara daya deha more pada-chaya\nnarottama laila sarana"
+    },
+    {
+     "t": "4) O my spiritual master, O ocean of mercy, O friend of the fallen , O Lokanatha Gosvami, O life of the people, O master, please be merciful to me. Please give me the shade of your lotus feet. Narottama dasa takes shelter of you."
+    }
+   ],
+   "notes": "Verse 1 'hunhu' and verse 4 'lokantha' printed so. Misprints 'drectly', 'albe' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s253",
+   "title": "Hari Hari Kabe Mora Haibe Su Dine",
+   "heading": "Swabhista-lalasa (Longings), Song 10",
+   "firstLine": "hari hari kabe mora haibe su-dine",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 15",
+   "parts": [
+    {
+     "v": "(1)\nhari hari kabe mora haibe su-dine\nkeli-kautuka-range kariba sebane"
+    },
+    {
+     "t": "1) O Lord Hari, Lord Hari, when will I directly serve You as You engage in blissful transcendental pastimes? When will that auspicious day be mine?"
+    },
+    {
+     "v": "(2)\nlalita-visakha sane jateka sangira gane\nmandali kariba donha\nmeli' rai kanu kare dhari' nrtya kare phiri' phiri'\nnirakhi' gona'ba kutuhali"
+    },
+    {
+     "t": "2) When in the company of Lalita, Visakha, and their friends, will I directly meet Sri Sri Radha and Krsna? When, seeing Them dancing in Their transcendental pastimes, will my voice become choked up with ecstatic love?"
+    },
+    {
+     "v": "(3)\nalasa-bisrama-ghare gobardhana giri-bare\nrai kanu karibe sayana\nnarottama dasa kaya ei jena mora haya\nanuksana carana sebana"
+    },
+    {
+     "t": "3) After the dancing pastimes are concluded, Sri Sri Radha and Krsna will take rest in a cottage on Govardhana Hill, the best of mountains. Narottama dasa says: I pray that I shall be able to continually serve the lotus feet of the Divine couple."
+    }
+   ],
+   "notes": "Differs from s086 (hari hari! kobe mora hoibe sudina? / bhajibo sri radha-krsna ...): second line here is 'keli-kautuka-range kariba sebane'. Verse 3 ends at top of p. 16.",
+   "uncertain": ""
+  },
+  {
+   "id": "s254",
+   "title": "Gobardhana Giri Bare",
+   "heading": "Swabhista-lalasa (Longings), Song 11",
+   "firstLine": "gobardhana giri-bare kebala nirjana sthala",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 16",
+   "parts": [
+    {
+     "v": "(1)\ngobardhana giri-bare kebala nirjana sthala\nrai kanu karibe sayane\nlalita-bisakha-sange sebana kariba range\nsukhamaya ratula carane"
+    },
+    {
+     "t": "1) In a solitary place on Govardhana Hill, the best of mountains, Sri Sri Radha and Krsna sit on a couch, when, accompanied by Lalita and Visakha, will I jubilantly serve Their reddish lotus feet?"
+    },
+    {
+     "v": "(2)\nkanaka samputa kari' karpura tambula bhari'\njogaiba badana-kamale\nmanimaya kinkini ratana nupura ani'\nparaiba carana-jugale"
+    },
+    {
+     "t": "2) When will I take camphor and betel-nuts from a golden box, and place it in Their lotus mouths? When will I give them sashes made with jewelled bells, and when will I place jewelled ankle-bells on Their lotus feet?"
+    },
+    {
+     "v": "(3)\nkanaka katora puri' sugandhi candana buri'\ndonhakara sri-ange dhaliba\nguru-rupa sakhi bame tribhanga bhangima thame\ncamarera batasa kariba"
+    },
+    {
+     "t": "3) When will I fill a golden goblet for the Divine couple? When will I anoint Their limbs with aromatic sandalwood paste? When, my spiritual master in his original form as a gopi, at my left, will I fan Their three-fold bending forms with a camara wisk?"
+    },
+    {
+     "v": "(4)\ndonhara kamala ankhi pulaka haiya dekhi'\ndunhu pada parisaba kare\ncaitanya-darsea dasa mane matra abhilasa\nnarottama dase sada sphure"
+    },
+    {
+     "t": "4) When, seeing the lotus eyes of the Divine couple, will the hairs of my body stand up in ecstasy? When will I be able to directly touch Their lotus feet? Narottama dasa, who is the servant of Lord Caitanya's servants, desires in this way. He has no other desires."
+    }
+   ],
+   "notes": "Verse 1 lines 3-4 printed in roman type. Verse 4 'caitanya-darsea dasa' printed so (checked at 3x; synonyms give 'dasera--of the servant').",
+   "uncertain": "Song 11 verse 4: 'caitanya-darsea' is as printed, likely a misprint for 'caitanya-dasera'."
+  },
+  {
+   "id": "s255",
+   "title": "Hari Hari Ara Ki Emana Dasa",
+   "heading": "Swabhista-lalasa (Longings), Song 12",
+   "firstLine": "hari hari ara ki emana dasa",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 17",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ara ki emana dasa\nkabe brsabhanu-pure ahiri gopera ghare\ntanaya haiya janamiba"
+    },
+    {
+     "t": "1) When will I take birth as a gopi in the town of Maharaja Vrsabhanu, where many gopas and gopis live? O Lord Hari, Lord Hari, will I someday attain this condition of life?"
+    },
+    {
+     "v": "(2)\njabate amara kabe e prani-grahana habe\nbasati kariba bake taya\nsakhira parama srestha je tahara haya prestha\nsevana kariba tanra paya"
+    },
+    {
+     "t": "2) When will I live in the city of Vrsabhanu and be accepted by its residents as one of their kin? When will I become the dear friend of the exalted gopis, and when will I be able to directly serve them?"
+    },
+    {
+     "v": "(3)\ntenha krpaban haina ratula carane lana\namare karibe samarpana\nsaphala haibe dasa puribe manera asa\nse dunhara jugala-carana"
+    },
+    {
+     "t": "3) When Lord Krsna is merciful to me I will be able to attain His reddish lotus feet. When I attain the louts feet of the Divine couple, then my life will be successful, and all the desires of my mind will be fulfilled."
+    },
+    {
+     "v": "(4)\nbrndabane dui-jana caturddike sakhi-gana\nsebana kariba abasese\nsakhi-gana caribhite nana jantra laina hate\ndekhiba manera abhilase"
+    },
+    {
+     "t": "4) When will I be able to directly serve the Divine Couple, who are surrounded by Their gopi-friends? When I obtain the facility to directly serve the Divine Couple in the association of the gopis, then all the desires of my mind will be fulfilled."
+    },
+    {
+     "v": "(5)\ndunhu canda-mukha dekhi' judabe tapita ankhi\nnayane bahibe asru-dhara\nbrndara nidesa paba donhara nikate jaba\nhena dina haiba amara"
+    },
+    {
+     "t": "5) When will I be able to approach very near to the Divine Couple? When will streams of tears flow from my eyes by seeing the moonlike faces of the Divine Couple? when will I receive direct orders from Vrnda-devi, the close friend of the the Divine Couple? When will that day be mine?"
+    },
+    {
+     "v": "(6)\nsri-rupa-manjari sakhi more anathini dekhi'\nrakhibe ratula duti paya\nnarottama dasa bhane priya-narma-sakhi-gane\nkabe dasi karibe amara"
+    },
+    {
+     "t": "6) When will Sri Rupa-manjari, seeing me helpless and without any shelter, become my protectress? When will I attain the shelter of the reddish lotus feet of the Divine Couple? Narottama dasa; When will I become one of the maidservants of the gopis?"
+    }
+   ],
+   "notes": "Verses 4-6 printed in roman type. Misprints 'louts', 'the the' kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s256",
+   "title": "Hari Hari Ara Ki Emana Dasa Haba",
+   "heading": "Swabhista-lalasa (Longings), Song 13",
+   "firstLine": "hari hari ara ki emana dasa haba",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 19",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ara ki emana dasa haba\nchadiya purusa--deha kabe ba prakrti haba\ndunhu ange candana paraba"
+    },
+    {
+     "t": "1) When, relinquishing this male material body, and obtaining the spiritual body of a gopi, will I anoint the limbs of the Divine Couple with sandalwood paste? O Lord Hari, Lord Hari, when will this day be mine?"
+    },
+    {
+     "v": "(2)\ntaniya bandhiba cuca naba gunja-hare beda\nnana phule ganthi diba hara\npita-basana ange paraiba sakhi-sange\nbadane tambula diba ara"
+    },
+    {
+     "t": "2) When will I arrange the hair of the Divine Couple? When will I give them gunja-necklaces and garlands; strung with various flowers? When will I give Them yellow garments? When, accompanied by the other gopis, will I place betel-nuts in Their lotus mouths?"
+    },
+    {
+     "v": "(3)\ndunhu rupa manohari deriba nayana bhari'\nnilambare rai sajaiya\nnaba-ratna-jari ani bandhiba bicitra beni\ntate phula malati ganthiya"
+    },
+    {
+     "t": "3) When will gaze at the beautiful forms of the Divine Couple? When will I dress Srimati Radharani in blue garments, and decorate her braided hair with garlands of jasmine flowers and strings of nine different kinds of jewels on a golden thread."
+    },
+    {
+     "v": "(4)\nsei rupa-madhuri dekhiba nayana bhari'\nei kari mane abhilasa\njaya rupa sanatana deha more ei dhana\nnibedaye narottama dasa"
+    },
+    {
+     "t": "4) My desire is that some day I shall be able to directly see the sweet beauty of the transcendental forms of the Divine Couple. O Srila Rupa Gosvami and Srila Sanatana Gosvami, all glories to you both. Please bestow this treasure upon me. Please grant my desire. Narottama dasa appeals to you in this way."
+    }
+   ],
+   "notes": "The heading 'Text 1' is at the foot of p. 19; the verse starts on p. 20. Verses printed in roman type. Verse 1 'purusa--deha' (double hyphen) and verse 2 'cuca' printed so (checked at 3x; synonyms give 'cuda--hair'). Differs from Song 12 (same opening words 'hari hari ara ki emana dasa', different lines after).",
+   "uncertain": ""
+  },
+  {
+   "id": "s257",
+   "title": "Hari Hari Kabe Mora Haibe Sudina Gobardhana Giri Bare",
+   "heading": "Punah Svabhista-lalasa (The Author Continues the Description of His Longings, Song 15",
+   "firstLine": "hari hari kabe mora haibe sudina",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 24",
+   "parts": [
+    {
+     "v": "(1)\nhari hari kabe mora haibe sudina\ngobardhana giri-bare parama nibhrta ghare\nrai kanu karaiba sayana"
+    },
+    {
+     "t": "1) When, in a secluded cottage on Govardhana Hill, the best of mountains, will I prepare a couch for Sri Sri Radha and Krsna? O Lord Hari, Lord Hari, when will that auspicious day be mine?"
+    },
+    {
+     "v": "(2)\nbhrngarera jale ranga- carana dhoyaiba\nmuchaba apana cikure\nkanaka-samputa kar'i karpura tambula puri'\njogaiba dunhuka adhare"
+    },
+    {
+     "t": "2) When will I take water from a jar and wash the lotus feet of the Divine Couple? When will I then dry Their feet using my own har as a towel? When, from a golden box will I take betel-nuts and camphor, and place them on the lotus-lips of the Divine Couple?"
+    },
+    {
+     "v": "(3)\npriya-sakhi-gana-sange sebana kariba range\ncarana sebiba nija-kare\nkunhuka kamala-dithi kautuka heraba\ndunhu anga pulaka antare"
+    },
+    {
+     "t": "3) When, in the association of the gopis, will I directly serve the lotus feet of the Divine Couple with my own hand? When, by seeing the lotus eyes of the Divine Couple, will the hairs of my body stand erect because of the ecstasy within my heart?"
+    },
+    {
+     "v": "(4)\nmallika malati juthi nana phule mala ganthi\nkabe diba donhara galaya\nsonara katora kari karpura candana bhari'\nkabe diba donhakara gaya"
+    },
+    {
+     "t": "4) When shall I string garlands of mallika and malati flowers and place them on the necks of the Divine Couple? When shall I fill a golden goblet with camphor and sandalwood paste, and then anoint the transcendental forms of the Divine Couple with this mixture?"
+    },
+    {
+     "v": "(5)\nara kabe emana habe dunu--mukha-nirakhiba\nlila-rasa nijunja-sayane\nsri-kundalatara sange keli-kautuka range\nnarottama karibe srabane"
+    },
+    {
+     "t": "5) When will I directly see the lotus faces of the Divine Couple? When will Narottama dasa jubilantly hear Kundalata-devi's narration of the nectarean pastimes performed by the Divine Couple in the groves of Vrndavana? When will that day be?"
+    }
+   ],
+   "notes": "Same first line as s086 (hari hari! kobe mora hoibe sudina?) but a different song: s086 continues 'bhajibo sri radha-krsna hoiyā premādhīna', this one 'gobardhana giri-bare parama nibhrta ghare'. Heading printed without closing parenthesis. Verses printed in roman type. Verse 2 'ranga- carana' (hyphen then gap) and 'kar'i', verse 3 'kunhuka', verse 5 'dunu--mukha' and 'nijunja' printed so (checked at 3x). Misprint 'har' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s258",
+   "title": "Ei Naba Dasi Bali Sri Rupa Cahibe",
+   "heading": "Lalasa (Longings), Song 18",
+   "firstLine": "ei naba-dasi bali sri-rupa cahibe",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 29",
+   "parts": [
+    {
+     "v": "(1)\nei naba-dasi bali sri-rupa cahibe\nhena subha-ksana mora kati-dine habe"
+    },
+    {
+     "t": "1) When will I be a young gopi-maidservant? When will Sri Rupa-manjari directly order me? When will that auspicious time be?"
+    },
+    {
+     "v": "(2)\nsighra ajna karibena---dasi hetha aya\nsebara susajja-karya karaha twaraya"
+    },
+    {
+     "t": "2) When will Sri Rupa-manjari repeatedly order me about, saying: \"O maidservant, come here. Quickly arrange for my fancy garments and ornaments.\""
+    },
+    {
+     "v": "(3)\nanandita hana hiya ajna-bale\npabitra manete karya karibe tat-kale"
+    },
+    {
+     "t": "3) By hearing these orders I will become delighted. These orders will completely absorb the attention of my purified."
+    },
+    {
+     "v": "(4)\nsebara samagri ratna-khalate kariya\nsubasita bari swarna-jharite puriya"
+    },
+    {
+     "t": "4) When, in Sri Rupa-manjari's service, will I fill a jewelled tray with various paraphernalia for worship? When, engaged in her service. will I fill a golden goblet with aromatic water?"
+    },
+    {
+     "v": "(5)\ndonhara sammukhe la' ye diba sighra-gati\nnarottamera dasa kabe haibe e-mati"
+    },
+    {
+     "t": "5) When will I be able to quickly approach the Divine Couple? When will Narottama dasa attain this condition of life?"
+    }
+   ],
+   "notes": "Verse 5 'la' ye' (apostrophe then space) printed so (checked at 3x). Translation 3 ends 'my purified.' as printed (a word appears to be missing in the book).",
+   "uncertain": ""
+  },
+  {
+   "id": "s259",
+   "title": "Sri Rupa Pascate Ami Rahiba Bhita Hana",
+   "heading": "Lalasa (Longings), Song 19",
+   "firstLine": "sri-rupa pascate ami rahiba bhita hana",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 30",
+   "parts": [
+    {
+     "v": "(1)\nsri-rupa pascate ami rahiba bhita hana\ndonhe punah kahibena ama pane cana"
+    },
+    {
+     "t": "1) I timidly follow behind Sri Rupa-manjari. When will she say to me; \"Fetch some water for the Divine Couple?"
+    },
+    {
+     "v": "(2)\nsadaya hrdaya donhe kahibena hasi\nkothaya paile rupa ei naba dasi"
+    },
+    {
+     "t": "2) When will the Divine Couple, compassionately smiling, say: \"Where has Rupa-manjari gotten this young maidservant?\""
+    },
+    {
+     "t": "3) Hearing these words, Sri Rupa-manjari will say: \"Manjunali gave this maidservant to me."
+    },
+    {
+     "v": "(4)\nati namra-citta ami haibe janila\nseba-karya niya tabe hethaya rakhila"
+    },
+    {
+     "t": "4) At tha time I will feel very humble at heart, and I will diligently engage in the service of the Divine Couple."
+    },
+    {
+     "v": "(5)\nhena tattwa konhakare saksate kahiya\nnarottame sebaya dibe mijukta kariya"
+    },
+    {
+     "t": "5) When will the Divine Couple directly speak in this way to Narottama dasa, engaging him in Their service?"
+    }
+   ],
+   "notes": "TEXT 3 VERSE IS NOT PRINTED in this edition (p. 31): under 'Text 3' the book gives only the word-for-word synonyms (sri-rupa-manjari, tabe, donha, bakya, suni', manjunali, dila, more, ei, dasi, ani') and the translation. The verse lines were not reconstructed; only the translation of text 3 is kept. Verse 5 'konhakare' and 'mijukta' printed so (synonyms give 'donhakare', 'nijukta').",
+   "uncertain": "Song 19 text 3: Bengali verse missing from the book; the song is incomplete without it."
+  },
+  {
+   "id": "s260",
+   "title": "Ha Ha Prabhu Lokanatha Rakha Pada Dwandwe",
+   "heading": "Lalasa (Longings), Song 20",
+   "firstLine": "ha ha prabhu lokanatha rakha pada--dwandwe",
+   "lang": "bn",
+   "cats": [
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 31",
+   "parts": [
+    {
+     "v": "(1)\nha ha prabhu lokanatha rakha pada--dwandwe\nkrpa-drste caha jadi haiya anande"
+    },
+    {
+     "t": "1) O Lokanatha Gosvami, O my master, please place me at your lotus feet. If you are pleased with me, please place your merciful glance upon me."
+    },
+    {
+     "v": "(2)\nmano-bancha siddhi tabe nana purna-trsna\nhethaya caitanya mile setha radha-krsna"
+    },
+    {
+     "t": "2) If you are satisfied with me, then all the wishes of my mind will be fulfilled, and attained, and my thirst for happiness will be satiated. If you are satisfied with me, then I will attain the association of Lord Caitanya. If you are satisied with me, then I may be able to attain the association of Sri Sri Radha and Krsna."
+    },
+    {
+     "v": "(3)\ntumi na karile daya ke karibe are\nmanera basana purna kara ei bara"
+    },
+    {
+     "t": "3) O master, if you do not become merciful to me, then what will become of me? Please fulfill my mind's desire, at least this one time."
+    },
+    {
+     "v": "(4)\ne tina samsare mora ara keha nai\nkrpa kari' pada-tale deha thani"
+    },
+    {
+     "t": "4) In the entire world there is no one as much in need of your mercy as I am.. Please be merciful to me, and give me shelter at the soles of your lotus feet."
+    },
+    {
+     "v": "(5)\nradha-krsna-lila-guna gana ratri-dine\nnarottma -baancha purna nahe tuya bine"
+    },
+    {
+     "t": "5) Although he spends all his days and nights glorifying the transcendental pastimes and attributes of Sri Sri Radha and Krsna, nevertheless Narottama dasa knows that his desire to attain Their association cannot be fulfilled without your mercy."
+    }
+   ],
+   "notes": "Verse 1 'pada--dwandwe' (double hyphen) and verse 5 'narottma -baancha' printed so (checked at 3x). Verse 2 'nana' printed so (synonyms give 'hana').",
+   "uncertain": ""
+  },
+  {
+   "id": "s261",
+   "title": "Lokanatha Prabhu Tumi Daya Kara More",
+   "heading": "Lalasa (Longings), Song 21",
+   "firstLine": "lokanatha prabhu tumi daya kara more",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 33",
+   "parts": [
+    {
+     "v": "(1)\nlokanatha prabhu tumi daya kara more\nradha-krsna-carana jena sada citte sphure"
+    },
+    {
+     "t": "1) O Lokanatha, O my master, please be merciful to me and bless me tha Sri Sri Radha-Krsna's lotus feet may be always manifested within my mind."
+    },
+    {
+     "v": "(2)\ntomara sahita thaki sakhira sahite\nei ta' basana mora sada uthe cite"
+    },
+    {
+     "t": "2) I wish to have your association when you manifest your form as a gopi-friend of the Divine Couple. This desire continually arises in my mind."
+    },
+    {
+     "v": "(3)\nsakhi-gan-jyestha jenho tanhara carana\nmora samarpibe kabe sebara karane"
+    },
+    {
+     "t": "3) O master, when, by your mercy, will I be allowed to serve the lotus feet of Srimati Radharani, the best of all gopis."
+    },
+    {
+     "v": "(4)\ntabe se haibe mora banchita purana\nanande sebiba donhara jugala carana"
+    },
+    {
+     "t": "4) If you fulfill my desire, then I shall be able to blissfully serve the lotus feet of the Divine Couple."
+    },
+    {
+     "v": "(5)\nsri-rupa-manjari sakhi krpa-drste cana\ntapi narottame sinca sebamrta diya"
+    },
+    {
+     "t": "5) O Sri Rupa-manjari, O friend of the Divine Couple, please cast your glance of mercy upon me. Please sprinkle this disreessed Narottama dasa with the nectar of your devotional service."
+    }
+   ],
+   "notes": "Verse 3 'sakhi-gan-jyestha' printed so. Misprints 'tha', 'disreessed' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s262",
+   "title": "Ha Ha Prabhu Kara Daya Karuna Tomara",
+   "heading": "Lalasa (Longings), Song 22",
+   "firstLine": "ha ha prabhu kara daya karuna tomara",
+   "lang": "bn",
+   "cats": [
+    "guru",
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 34",
+   "parts": [
+    {
+     "v": "(1)\nha ha prabhu kara daya karuna tomara\nmicha maya-jale tanu dahiche amara"
+    },
+    {
+     "t": "1) My body and mind burn in the network of material illusion. O master, be merciful to me, and rescue me from it."
+    },
+    {
+     "v": "(2)\nkabe hena dasa habe sakhi-sanga paba\nbrndabane phula ganthi donhake paraba"
+    },
+    {
+     "t": "2) When will I attain the association of the gopis? When will I string flower garlands in the forest of Vrndavana, and then place those garlands on the necks of the Divine Couple?"
+    },
+    {
+     "v": "(3)\nsammukhe basiya kabe camara dhulaba\naguru-candana-gandha donha ange diba"
+    },
+    {
+     "t": "3) When will I meet the Divine Couple face-to-face? When will I fan Them with a camara wisk? When will I anoint Their limbs with aguru, sandalwood paste, and other fragrant substances?"
+    },
+    {
+     "v": "(4)\nsakhira ajnaya kabe tambula jogaba\nsindura tilaka kabe donhake paraba"
+    },
+    {
+     "t": "4) When, following the gopis' orders, will I offer betel-nuts to the Divine Couple? When will I draw artistic tilaka markings in red sindura on the Divine Couple's foreheads?"
+    },
+    {
+     "v": "(5)\nbilasa-kautuka keli dekhiba nayane\ncandra-jukha nirakhiba basaye simhasane"
+    },
+    {
+     "t": "5) When, with my own eyes, will I see the Divine Couple jubilantly perform pastimes? When will I see Their moonlike faces as They sit on Their thrones?"
+    },
+    {
+     "v": "(6)\nsada se madhuri dekhi manera lalase\nkata-dine habe daya narottama dase"
+    },
+    {
+     "t": "6) O my master, if at some time you are merciful to me, then the desire of my mind will be fulfilled, and I will be able to directly see the transcendental sweetness of the Divine Couple."
+    }
+   ],
+   "notes": "Verse 5 'candra-jukha' printed so (synonyms give 'mukha--faces').",
+   "uncertain": ""
+  },
+  {
+   "id": "s263",
+   "title": "Hari Hari Kabe Hena Dasa Habe Mora",
+   "heading": "Lalasa (Longings), Song 23",
+   "firstLine": "hari hari kabe hena dasa habe mora",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 36",
+   "parts": [
+    {
+     "v": "(1)\nhari hari kabe hena dasa habe mora\nsebiba donhara pada anande bibhora"
+    },
+    {
+     "t": "1) When, overwhelmed with bliss, will I directly serve the lotus feet of the Divine Couple? O Lord Hari, Lord Hari, when will I attain this?"
+    },
+    {
+     "v": "(2)\nbhramara haiya sada rahiba carane\nsri-caranamrta sada kariba aswadane"
+    },
+    {
+     "t": "2) When will I become a bumble-bee staying continually at the lotus feet of the Divine Couple, and continually drinking the honey of those lotus feet?"
+    },
+    {
+     "v": "(3)\neiasa kari ami---jata sakhi-gana\ntomadera krpaya je banchita purana"
+    },
+    {
+     "t": "3) This is my desire---to join the company of the gopi-frineds of the Divine Couple. O my master, by your mercy only can my desire be fulfilled."
+    },
+    {
+     "v": "(4)\nbahu-dina bancha kari purna jate haya\nsabe meli daya kara haiya sadaya"
+    },
+    {
+     "t": "4) For many days I have desired in this way. Please be merciful to me and fulfill my request."
+    },
+    {
+     "v": "(5)\nseba ase narottama kande diba-nisi\nkrpa kari' kara more anugata dasi"
+    },
+    {
+     "t": "5) Yearning and hoping in this way, Narottama dasa weeps day and night. Please be merciful to me, and make me your follower and gopi-maidservant."
+    }
+   ],
+   "notes": "'Song 23' heading printed in plain (not bold) type. Verse 3 'eiasa' printed as one word.",
+   "uncertain": ""
+  },
+  {
+   "id": "s264",
+   "title": "Hari Hari Ara Ki Emana Dasa Haba Ei Bhaba Samsara",
+   "heading": "Sadhaka-dehocita-Sri-brndabana-basa-lalasa (The Devotee's Aspiration to Reside in Sri Vrndavana), Song 26",
+   "firstLine": "hari hari ara ki emana dasa haba",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 40",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ara ki emana dasa haba\nei bhaba samsara tyaji' parama anande maji'\nara kabe brajabhume jaba"
+    },
+    {
+     "t": "1) When will I renounce the circle of material family life, and, drowning in transcendental bliss, go to Vrajabhumi? O Lord Hari, Lord Hari, when will this be?"
+    },
+    {
+     "v": "(2)\nsukhamaya brndaba kaba habe darsana\nse dhuli lagibe kabe gaya\npreme gadagada haina radha-krsna-nama laina\nkandiya bedaba ubharaya"
+    },
+    {
+     "t": "2) When will I see the blissful land of Vrndavana? When will I smear the dust of Vrndavana over my body? When will I walk about Vrndavana, loudly singing the names of Radha and Krsna, and crying, my voice choked with ecstatic love."
+    },
+    {
+     "v": "(3)\nnibhrta nikunja jana astange pranama haina\ndakiba ha radha-natha bali\nkabe jamunara tire parasa kariba nire\nkabe piba kara-pute tuli'"
+    },
+    {
+     "t": "3) When, in a solitary grove in Vrndavana, will I offer my full obeisances to the Divine Couple? When will I call out: \"O Krsna, O master of Srimati Radharani\"? When, standing on the shore of the Yamuna, will I drink some of its water in my cupped hands?"
+    },
+    {
+     "v": "(4)\nara kabe emana haba sri-rasa-mandale jaba\nkabe gadagadi diba taya\nbamsibata-chaya pana parama ananda hana\npadiya rahiba tara chaya"
+    },
+    {
+     "t": "4) When will this be? When will I go to the arena of the rasa-dance, and roll about in the dust, overwhelmed with ecstasy? When will I visit Vamsivata, and fall down to the ground, overwhelmed by transcendental bliss?"
+    },
+    {
+     "v": "(5)\nkabe gobardhana giri dekhiba nayane bhari'\nkabe habe radha-kunde basa\nbhramite bhramite kabe ei deha patana habe\nkahe dina narottama dasa"
+    },
+    {
+     "t": "5) When will I see Govardhana Hill, my eyes filling with tears? When will I reside at Radha-kunda? When, as a result of constantly wandering Vrndavana, will this body fall down? Poor-hearted Narottama dasa speaks in this way."
+    }
+   ],
+   "notes": "Song heading at the foot of p. 40; 'Text 1' starts p. 41. Same opening line as Song 13, different song (second line 'ei bhaba samsara tyaji''). Verse 2 'brndaba' and 'kaba' printed so (checked at 3x).",
+   "uncertain": ""
+  },
+  {
+   "id": "s265",
+   "title": "Hari Hari Ara Kabe Palatibe Dasa",
+   "heading": "Sadhaka-dehocita-Sri-brndabana-basa-lalasa (The Devotee's Aspiration to Reside in Sri Vrndavana), Song 27",
+   "firstLine": "hari hari ara kabe palatibe dasa",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 42",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ara kabe palatibe dasa\ne saba kariya bame jaba brndabana-dhame\nei mane kariyachi asa"
+    },
+    {
+     "t": "1) When will I renounce all material impediments and go to Vrndavana dhama? O Lord Hari, Lord Hari, when will my life change in this way? I hope I shall be able to change my mode of living in this way."
+    },
+    {
+     "v": "(2)\ndhana jana putra dare e saba kariya dure\nekanta haiya kabe jaba\nsaba duhkha parihari brndabane basa kari'\nmadhukari magiya khaiba"
+    },
+    {
+     "t": "2) When will I leave all my wealth, followers, children, and wife far behind, and with only one desire, go to Vrndavana? When will I lelave all material miseries, and live in Vrndavana, eating only whatever foodstuff I can obtain by begging?"
+    },
+    {
+     "v": "(3)\njamunara jala jena amrta samana hena\nkabe piba udara puriya\nkabe radha-kunda-jale snana kari' kutuhale\nsyama-kunda rahiba padiya"
+    },
+    {
+     "t": "3) When will I take long drinks of the Yamuna's water, which is as sweet as nectar? When, with great happiness, will I bathe at Radha-kunda? When will I premanently reside at Syama-kunda?"
+    },
+    {
+     "v": "(4)\nbhramiba dwadasa bane rasa-keli je je sthane\npremabese gadagadi diya\nsudhaiba jane jane draja-basi-gana-sthane\nnibediba carana dhariya"
+    },
+    {
+     "v": "(5)\nbhajanera sthana kabe nayana-gocara habe\nara jata ache upabana\nara madhye brndabana narottma dasera mana\nasa kare jugala carana"
+    },
+    {
+     "t": "5) When will I be able to see the gardens of Vrndavana where the great devotees whrshipped the Lord? Narottama dasa hopes to one day attain the lotus feet of the Divine Couple."
+    }
+   ],
+   "notes": "The book prints NO translation for text 4 (p. 44 has only the word-for-word synonyms, then Text 5); verse 4 is kept without a translation. Verse 4 'draja-basi' printed so (checked at 3x; synonyms give 'braja--of vraja'). Verse 5 'narottma' printed so.",
+   "uncertain": "Song 27 text 4: no translation in the book."
+  },
+  {
+   "id": "s266",
+   "title": "Karanga Kaupina Lana",
+   "heading": "Sadhaka-dehocita-Sri-brndabana-basa-lalasa (The Devotee's Aspiration to Reside in Sri Vrndavana), Song 28",
+   "firstLine": "karanga kaupina lana chenda kanha gaya diya",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 44",
+   "parts": [
+    {
+     "v": "(1)\nkaranga kaupina lana chenda kanha gaya diya\ntejagiba sakala bisaya\nkrsna anuraga habe brajera nikunja kabe\njaina kariba nijalaya"
+    },
+    {
+     "t": "1) When will I renounce all sense-gratification? When will I accept only a water-pot and torn garment? When will I constantly sing Lord Krsna's holy names? When will I go to the groves of Vraja and make my permanent residence there? When will I attain ecstatic love for Lord Krsna?"
+    },
+    {
+     "v": "(2)\nhari hari kabe mora haibe su-dina\nphala-amula brndabane khana diba-abasane\nbhramiba haiya udasina"
+    },
+    {
+     "t": "2) When will I wander in Vrndavana, detached from material affairs, and only eating some roots and fruit at the end of the day? O Lord Hari, Lord Hari, when will that auspicious day be mine?"
+    },
+    {
+     "v": "(3)\nsitala jamuna jale snana kari kutuhale\npremabese anandita hana\nbahura upara bahu tuli' brndabane kuli kuli\nkrsna bali bedaba kandiya"
+    },
+    {
+     "t": "3) When will I become full of bliss, overwhelmed by ecstatic love by bathing in the cool waters of the Yamuna river? When will I wander about Vrndavana with my arms upraised calling out the name of Lord Krsna, and crying?"
+    },
+    {
+     "v": "(4)\ndekhiba sanketa-sthana judabe tapita prana\npremabese gadagadi diba\nkanha radha praneswari kanha giribara-dhari\nkanha natha baliya dakiba"
+    },
+    {
+     "t": "4) When will I see the place where Radha and Krsna secretly met? When, overwhelmed with ecstatic love, will I roll about in the dust at that place? When will I call out; \"O Radha, O controller of my life, where are You? O Krsna, O lifter of Govardhana Hill, where are You? O my masters, where are You?\""
+    },
+    {
+     "v": "(5)\nmadhavi-kunjera 'pari sukhe basi' suka-sari\ngaibeka radha-krsna-rasa\ntaru-mule basi' taha suni' judaiba hiya\nkabe sukhe gonaba dibasa"
+    },
+    {
+     "t": "5) When will I happily pass my days at the roots of a tree in the grove of madhavi creepers, listening to a parrot-couple jubilantly sing the glories of the nectarean pastimes of Sri Sri Radha and Krsna?"
+    },
+    {
+     "v": "(6)\nsri-govinda gopinatha srimati-radhika-sakha\ndekhiba ratana-simhasane\ndina narottama dasa karaye durlabha asa\ne-mati haibe kata dine"
+    },
+    {
+     "t": "6) When will I see Lord Govinda, the master of the gopis, accompanied by Srimati Radharani, asa They both sit on a jewelled throne? Poor-hearted Narottama dasa hopes that some day he will be able to obtain this so-difficult-to-obtain desire."
+    }
+   ],
+   "notes": "Verse 2 'phala-amula' printed so. Misprint 'asa They' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s267",
+   "title": "Hari Hari Kabe Haba Brndabana Basi",
+   "heading": "Sadhaka-dehocita-Sri-brndabana-basa-lalasa (The Devotee's Aspiration to Reside in Sri Vrndavana), Song 29",
+   "firstLine": "hari hari kabe haba brndabana-basi",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 46",
+   "parts": [
+    {
+     "v": "(1)\nhari hari kabe haba brndabana-basi\nnirakhiba nayane jugala-rupa-rasi"
+    },
+    {
+     "t": "1) O Lord Hari, Lord Hari, when will I become a resident of Vrndavana? When with my own eyes, will I see the great beauty of the Divine Couple."
+    },
+    {
+     "v": "(2)\ntyajiya sayana-sukha bicitra palanka\nkabe brajera dhulaya dhurasa habe anga"
+    },
+    {
+     "t": "2) When will I renounce very comfortable sleeping arrangements and instead take rest on the ground of Vraja?"
+    },
+    {
+     "v": "(3)\njada-rasa-bhojana dure parihari\nkabe braje magiya khaiba madhukari"
+    },
+    {
+     "t": "3) When will I renounce materially palatable foodstuffs, and simply eat whatever I can obtain by begging in the land of Vraja?"
+    },
+    {
+     "v": "(4)\nparikrama kariya bedaba bane bane\nbisrama kariba jai jamuna-puline"
+    },
+    {
+     "t": "4) When will I circumambulate the land of Vraja, wandering from forest to forest? When, becoming fatigued, will I stop to rest on the shore of the Yamuna?"
+    },
+    {
+     "v": "(5)\ntapa dura kariba sitala bamsibate\nkabe kunje baithaba hama baisnaba-nikate"
+    },
+    {
+     "t": "5) When will I find relief from the heat of midday by resting in the cooling shade of Vamsivata? When will I associate with the Vaisnavas in the froves of Vrndavana?"
+    },
+    {
+     "v": "(6)\nnarottama dasa kahe kari' parihara\nkabe ba emana dasa haibe amara"
+    },
+    {
+     "t": "6) Narottama dasa renounces the materialistic way of life and says: \"When will I attain this perfection of spiritual life?\""
+    }
+   ],
+   "notes": "Misprint 'froves' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s268",
+   "title": "Ara Ki Emana Dasa Haba",
+   "heading": "Sa-bilapa Sri -brndabana-basa-lalasa (Lamentation and Yearning to Reside in Sri Vrndavana), Song 30",
+   "firstLine": "ara ki emana dasa haba",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 48",
+   "parts": [
+    {
+     "v": "(1)\nara ki emana dasa haba\nsaba chadi' brndabane jaba"
+    },
+    {
+     "t": "1) When will I renounce everything and go to Vrndavana? When will this be?"
+    },
+    {
+     "v": "(2)\nara kabe sri-rasa-mandale\ngadagadi diba kutuhale"
+    },
+    {
+     "t": "2) When in great ecstasy will I roll about on the ground where Lord Krsna performed the rasa-dance?"
+    },
+    {
+     "v": "(3)\nara kabe gobardhana giri\ndekhiba nayana-juga bhari"
+    },
+    {
+     "t": "3) When will I see Govardhana Hill, my eyes filling with tears."
+    },
+    {
+     "v": "(4)\nsyama-kunde radha-kunde snana\nkari' kabe judaba parana"
+    },
+    {
+     "t": "4) When by bathing in Syama-kunda and Radha-kunda, will I attain the stage of dedicating my entire life and soul to the service of the Divine Couple?"
+    },
+    {
+     "v": "(5)\nara kabe jamunara jale\nmajjane haiba niramale"
+    },
+    {
+     "t": "5) When will I become pure at heart by bathing in the waters of the yamuna river?"
+    },
+    {
+     "v": "(6)\nsadhu-sange brndabane basa\nnarottama dasa kabe asa"
+    },
+    {
+     "t": "6) Narottama dasa hopes that he will be able to reside in Vrndavana in the association of the saintly devotees."
+    }
+   ],
+   "notes": "Verse 6 line 2 'narottama dasa kabe asa' printed so (synonyms give 'kare--does').",
+   "uncertain": ""
+  },
+  {
+   "id": "s269",
+   "title": "Kabe Krsna Dhana Paba",
+   "heading": "Mathura-virahocita Darsana-lalasa (The Author Yearns to Again see Mathura), Song 31",
+   "firstLine": "kabe krsna-dhana paba hiyara majhare thoba",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 49",
+   "parts": [
+    {
+     "v": "(1)\nkabe krsna-dhana paba hiyara majhare thoba\njudaiba tapita-parana\nsajaiya diba hiya basaiba prana-priya\nnirakhiba se candra-bayana"
+    },
+    {
+     "t": "1) When will I attain the dark treasure known as Lord Krsna? When, agitated with ecstatic love, will I give my heart to Lord Krsna? When will I consider Lord Krsna more dear to me than my own life's breath? When will I be able to see Lord Krsna's moonlike face?"
+    },
+    {
+     "v": "(2)\nhe sajani kabe mora haibe su-dina\nseprana-nathera sanga kabe ba phiriba range\nsukhamaya jamuna-pulina"
+    },
+    {
+     "t": "2) When will I regain my master's association? When will I happily return with singing and dancing to the shore of the Yamuna? O friend, when will this auspicious day be mine."
+    },
+    {
+     "v": "(3)\nlalita bisakha lana tanhare bhetiba giya\nsajaiya nana upahare\nsadaya haiya bidhi milaibe guna-nidhi\nhena bhagya haibe amara"
+    },
+    {
+     "t": "3) When, in the company of Lalita and Visakha, will I meet Lord Krsna? When will I be able to offer various gifts to please Him? When will destiny be compassionate to me? When will my destiny become like a virtuous person who is an ocean of good qualities? When will this good fortune be mine?"
+    },
+    {
+     "v": "(4)\ndaruna bidhira nata alinga premera hata\ntila-matra na rakhila ta'ra\nkahe narottama dasa ki mora jibane asa\nchadi' gela brajendra-kumara"
+    },
+    {
+     "t": "4) Cruel fate has made me poverty-stricken and i do not have even a penny to purchase the goods sold in the markdetplace of pure love for Krsna. Nevertheless, Narottama dasa says: \"My life's hope is to renounce everything and attain the prince of Vraja."
+    }
+   ],
+   "notes": "Verse 2 'seprana-nathera' printed as one word (checked at 3x; synonyms give 'se--this; prana--of my life'). Misprint 'markdetplace' kept; the closing quotation mark is missing in the book.",
+   "uncertain": ""
+  },
+  {
+   "id": "s270",
+   "title": "Ei Bara Paile Dekha Carana Du Khani",
+   "heading": "Mathura-virahocita Darsana-lalasa (The Author Yearns to Again see Mathura), Song 32",
+   "firstLine": "ei-bara paile dekha carana du' khani",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 51",
+   "parts": [
+    {
+     "v": "(1)\nei-bara paile dekha carana du' khani\nhiyara majhare rakhi' juda'ba parani"
+    },
+    {
+     "t": "1) I pray that I may now see the two lotus feet of Lord Krsna. I shall place these lotus feet in my heart. I will dedicate my entire life and soul to them."
+    },
+    {
+     "v": "(2)\ntan're na dekhiya mora mane bada tapa\nanale pasiba kimba jale diba jhampa"
+    },
+    {
+     "t": "2) If I am not able to see Lord Krsna's lotus feet, my heart will burn with suffering. I will end this life by entering a blazing fire, or jumping into the water."
+    },
+    {
+     "v": "(3)\nmukhera muchaba ghama khaojaba pana guja\nghamete batasa diba candanadi cuja"
+    },
+    {
+     "t": "3) When I meet Lord Krsna I will serve Him in various ways. I will wipe the perspiration from His face. I will give Him nice food and drink. I will offer Him betel-nuts. I will fan Him. I will anoint His body with sandalwood paste and other aromatic substances."
+    },
+    {
+     "v": "(4)\nbrndabandera phulera ganthiya diba hara\nbinaiya bandhiba cuda kuntalera bhara"
+    },
+    {
+     "t": "4) I will string a garland of Vrndavana forest flowers, and then present that garland to Lord Krsna. I will carefully arrange His hair and tie His topknot."
+    },
+    {
+     "v": "(5)\nkalape tilaka diba candanera canda\nnarottama dasa kahe piritera phanda"
+    },
+    {
+     "t": "5) I will decorate Lord Krsna with a peacock feather, tilaka markings, and a moon drawn in sandalwood paste. Narottamadasa says; In this way I will gradually attain love for Lord Krsna."
+    }
+   ],
+   "notes": "Verse 4 'brndabandera' printed so (synonyms give 'brndabanera').",
+   "uncertain": ""
+  },
+  {
+   "id": "s271",
+   "title": "Kadamba Tarura Dala",
+   "heading": "Mathura-virahocita Darsana-lalasa (The Author Yearns to Again see Mathura), Song 34",
+   "firstLine": "kadamba tarura dala namiyache bhume bhala",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 53",
+   "parts": [
+    {
+     "v": "(1)\nkadamba tarura dala namiyache bhume bhala\nphutiyache phula sari sari\nparimale bharala sakala brndabana\nkeli kare bhramara bhramari"
+    },
+    {
+     "t": "1) In Vrndavana the kadamba trees offer obeisances, their flowering branches reverentially touching the ground. bumvle bees perform pastimes in that Vrndavana, which is filled with a very sweet fragrance."
+    },
+    {
+     "v": "(2)\nrai kanu bilasai range\nkiba rupa labani baidagadha-khani dhani\nmanimaya abharana ange"
+    },
+    {
+     "t": "2) Radha and Krsna stay in the place where They perform pastimes. How beauriful They are. Their bodies are decorated with jewelled ornaments, and They are like two wealthy aristocrats who own many gem mines of intelligence and with."
+    },
+    {
+     "v": "(3)\nradhara daksina kare dhari' priya giridhari\nmadhura madhura cali' jaya\nage pache sakhi-gana kare phula barisana\nkona sakhi camara dhulaya"
+    },
+    {
+     "t": "3) Dear Giridhari holds Srimati Radharani's right hand, and together They gracefully stroll about. The gopis shower flowers before and behind Them, and one gopi fans them with a camara wisk."
+    },
+    {
+     "v": "(4)\nparage dhusara sthala candra-kare su-sitala\nmanimaya bedira upare\nrai kanu kara jodi' nrtya kare phiri' phiri'\nparase pulake tanu bhare"
+    },
+    {
+     "t": "4) That place is filled with the aromatic pollen of the lotus, and it is made pleasantly cool by the shining of the moon. On a raised platform there, Radha and Krsna dance, holding hands, the hairs of Their bodies standing up in ecstasy."
+    }
+   ],
+   "notes": "Misprints 'bumvle', 'beauriful', 'intelligence and with.' kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s272",
+   "title": "Mrgamada Candana Kare Kari Sakhi Gana",
+   "heading": "Mathura-virahocita Darsana-lalasa (The Author Yearns to Again see Mathura), Song 35",
+   "firstLine": "mrgamada-candana kare kari' sakhi-gana",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 55",
+   "parts": [
+    {
+     "v": "(1)\nmrgamada-candana kare kari' sakhi-gana\nbarikhaye phula gandha-raje\nsrama-jala bindu bindu sobha kare mukha-indu\nadhare murali kiba raje"
+    },
+    {
+     "t": "1) The gopis decorate the Divine Couple with musk and sandalwood paste, and shower Them with aromatic flower. Drops of perspiration make Lord Krsna's moonlike face appear splendidly beautiful. The flute is gracefully placed agains Lord Krsna's lips."
+    },
+    {
+     "v": "(2)\nhasa-bilasa-rasa sarala madhura bhasa\nnarottama-manoratha bharu\ndunhuka bicitra besa kusuma racita kesa\nlocana-mohana lila karu"
+    },
+    {
+     "t": "2) With the nectar of Their joking and laughter, and the sweetness of Their charming talks, the Divine Couple fulfills all the desires of Narottama dasa. Dressed in wonderful colorful garments, Their hair decorated with flowers, the Divine Couple performs pastimes, enchanting the eyes of everyone."
+    }
+   ],
+   "notes": "Misprint 'agains' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s273",
+   "title": "Hari Hari Ki Mora Karama Anurata",
+   "heading": "Aksepa (regret), Song 43",
+   "firstLine": "hari hari ki mora karama anurata",
+   "lang": "bn",
+   "cats": [
+    "surrender",
+    "gaura"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 67",
+   "parts": [
+    {
+     "v": "(1)\nhari hari ki mora karama anurata\nbisaye kutila-mati sat-sange na haila rati\nkise ara taribara patha"
+    },
+    {
+     "t": "1) My crooked mind delights in sense-gratification, but not in the association of the saintly devotees. Why do I follow this dangerous pathy? O Lord Hari, Lord Hari, how have I become so attached to materialism?"
+    },
+    {
+     "v": "(2)\nswarupa sanatana rupa raghunatha bhatta-juga\nlokanatha siddhanta-sagara\nsunitama se-saba katha ghucita manera byatha\ntabe bhala haita antara"
+    },
+    {
+     "t": "2) In the past I continually heard the philosophy of Krsna consciousness from Srila Svarupa Damodara Gosvami, Srila Sanatana Gosvami, Srila Rupa Gosvami; Srila Raghunatha dasa Gosvami, Srila Raghunatha Bhatta Gosvami, Srila Gopala Bhatta Gosvami, and Srila Lokanatha Gosvami, who is like a great ocean of devotional truth. By hearing their words the pain within my mind subsided, and I attained an auspicious condition of life."
+    },
+    {
+     "v": "(3)\njakhana gaura-nityananda adwaitadi-bhakta-brnda\nnadiya-nagare abatara\ntakhana na haila janma ebe dehe kiba karma\nmicha matra bahi phiri bhara"
+    },
+    {
+     "t": "3) Lord Caitanya, Lord Nityananda, Lord Advaita, and the devotees who are Their personal associates have descended from the spiritual world to the town of Nadiya. They have not taken birth as ordinary mortals do. How wonderful are Their transcendental activities! I am not like Them. I simply trudge along carrying a great heap of illusory materialistic burdens."
+    },
+    {
+     "v": "(4)\nharidasa adi bule mahotsabapadi kare\nna herinu se sukha-bilasa\nki mora duhkhera katha janama gonanu brtha\ndhik dhik narottama dasa"
+    },
+    {
+     "t": "4) Haridasa Thakura and the other devotees travelled about absorbed in a sonstant festival of the glorification of Lord Krsna, but i myself was unable to see these blissful pastimes. How sad is my tale. I have wasted my life. Fie, fie on Narottama dasa."
+    }
+   ],
+   "notes": "Printed under the section heading Aksepa (regret), after Song 42. Misprints 'pathy', 'sonstant' kept. Verse 4 'mahotsabapadi' printed as one word (checked at 3x).",
+   "uncertain": ""
+  },
+  {
+   "id": "s274",
+   "title": "Radha Krsna Sebon Muni Jibane Marane",
+   "heading": "Sri - rupa-rati manjaryah Vijnaptih (Prayer to Sri Rupa manjari and Sri Rati-manjari), Song 48",
+   "firstLine": "radha-krsna-sebon muni jibane marane",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "guru"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 74",
+   "parts": [
+    {
+     "v": "(1)\nradha-krsna-sebon muni jibane marane\ntanra sthana tanra lila dekhon ratri dine"
+    },
+    {
+     "t": "1) I shall serve Sri Sri Radha and Krsna in this life and also afer my death. Night aned day I shall see Their transcendental abode and pastimes."
+    },
+    {
+     "v": "(2)\nje sthane lila kare jugala-kisora\nsakhira sangini hana tanhe hana bhora"
+    },
+    {
+     "t": "2) Wherever the youthful Divine Couple shall go to perform transcendental pastimes I shall follow as an associate of Their gopi-frineds, and I shall stay with Them until sunrise."
+    },
+    {
+     "v": "(3)\nsri-rupa-manjari-pada sebon nirabadhi\ntanra pada-padma mora mantra-mahausadhi"
+    },
+    {
+     "t": "3) I shall continually serve the lotus feet of Sri Rupa-manjari. Her lotus feet are my purifying mantra and my medicinal herb."
+    },
+    {
+     "v": "(4)\nsri-rati-manjari devi more kara daya\nanuksana deha tuya pada-padma-chaya"
+    },
+    {
+     "t": "4) O Sri Rati-manjari-devi, please be merciful to me. Please give me the continual shade of your lotus feet."
+    },
+    {
+     "v": "(5)\nsri-rasa-manjari devi kara abadhana\nanuksana deha tuya pada-padma-dhyana"
+    },
+    {
+     "t": "5) O Sri Rasa-manjari-devi, please notice me. please allow me to constantly meditate on your lotus feet."
+    },
+    {
+     "v": "(6)\nbrndabane nitya nitya jugala-bilasa\nprarthana karaye sada narottama dasa"
+    },
+    {
+     "t": "6) Please allow me to join the eternal pastimes of the Divine Couple in Vrndavana. Narottama dasa constantly prays in this way."
+    }
+   ],
+   "notes": "Misprints 'afer', 'aned', 'frineds' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s275",
+   "title": "Praneswari Ei Bara Karuna Kara More",
+   "heading": "Siddha-dehena Sri -vrndavanaisvaryam saksad-vijnaptih (The Author Prays to Attain a Spiritual body in Sri Vrndavana-dhama), Song 50",
+   "firstLine": "praneswari ei bara karuna kara more",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 78",
+   "parts": [
+    {
+     "v": "(1)\npraneswari ei bara karuna kara more\ndasanete trna dhari' anjali mastake kari'\nei-jana nibedana kare"
+    },
+    {
+     "t": "1) This person places a straw between his teeth and his folded hands over his head. This person appeals to you. O queen of my life, please be merciful to me."
+    },
+    {
+     "v": "(2)\npriya-sahacari-sange sebana kariba range\nange besa karibeka sadhe\nrakha ei seba-kaje nija pada-pankaje\npriya-sahacari-gana--majhe"
+    },
+    {
+     "t": "2) Please engage me in the service of Your lotus feet. Please place me among Your gopi--associates. In their company I shall serve You with great happiness. I shall dress You in nice garments, and serve You in various ways."
+    },
+    {
+     "v": "(3)\nsugandhi candana manimaya abharana\nkausika basana nana range\nei saba seba janra dasi jena hana tanra\nanhuksana thaki tanra sange"
+    },
+    {
+     "t": "3) I shall anoint You with aromatic sandalwood paste. I shall happily decorate You with various silken garments and jewelled ornaments. I shall always stay near You as Your maidservant."
+    },
+    {
+     "v": "(4)\njala subasita kari' ratana bhrngare bhari'\nkarpura-basita guya pana\ne-saba sajaiya dala labanga malati-mala\nbhaksya-dravya nana anupama"
+    },
+    {
+     "t": "4) I shall bring You fragrant water in a jewelled pitcher, and betel-nuts mixed with camphor. I shall bring You a clove-twig, a garland of jasmine flowers, and various imcomparably palatable foods."
+    },
+    {
+     "v": "(5)\nsakhira ingita habe e-saba aniya kabe\njogaiba lalitara kache\nnarottama dasa kaya ei jena mora haya\ndandaiya bahu sakhira pache"
+    },
+    {
+     "t": "5) When shall I carry out every order hinted or gestured by the gopis? When shall I attain the association of Lalita--devi? Narottama dasa says: I hope that by praying in this way I shall some day become eligible to follow behind the gopi-frineds of the Divine Couple."
+    }
+   ],
+   "notes": "Verse 2 'gana--majhe' (double hyphen) and verse 3 'anhuksana' printed so (checked at 3x). Misprints 'imcomparably', 'frineds' kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s276",
+   "title": "Aruna Kamala Dale Sesa Bichaiba",
+   "heading": "Siddha-dehena Sri -vrndavanaisvaryam saksad-vijnaptih (The Author Prays to Attain a Spiritual body in Sri Vrndavana-dhama), Song 51",
+   "firstLine": "aruna-kamala-dale sesa bichaiba",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 79",
+   "parts": [
+    {
+     "v": "(1)\naruna-kamala-dale sesa bichaiba\nbasaiba kisora-kisori\nalaka-abrta-mukha- pankaja manohyara\nmarakata-syam hema-gauri"
+    },
+    {
+     "t": "1) When will I scatter red lotus petals before the charming youthful Divine Couple, whose lotus faces are nicely decorated with curling locks of hair, and who appear like a dark emerald accompanied by glittering gold?"
+    },
+    {
+     "v": "(2)\npraneswari kabe more habe krpa dithi\najnaya aniya kabe bibidha phula-bara\nsunaba racana dunhu mithi"
+    },
+    {
+     "t": "2) O queen of my life, when will you place Your merciful glance upon me? When, directly hearing the orders of the Divine Couple, will I bring them various flowers and sweet candies?"
+    },
+    {
+     "v": "(3)\nmrgamada tilaka sa-sindura banayaba\nlepaba candana-gandhe\nganthi malati-phula hara pahiraoba\ndhaoyaba madhukara-brnde"
+    },
+    {
+     "t": "3) When will I anoint the Divine Couple with tilaka markings made of musk and red sindura? When will I anoint Their bodies with sandalwood paste? When will I string a garland of jasmine flowers for Them, and then have to flee from the swarm of bumble-bees eager to claim the honey of those flowers?"
+    },
+    {
+     "v": "(4)\nlalita kabe more bijana deoyaba\nbijana maruta mande\nsrama-jala sakala mitaba dunhu-kalebara\nheraba parama anande"
+    },
+    {
+     "t": "4) When, on Lalita's order, will I gently fan the Divine Couple, banishing the perspiration from Their transcendental bodies? When, will I see the Divine Couple, my heart filling with spiritual bliss?"
+    },
+    {
+     "v": "(5)\nnarottama dasa asa pada-pankaja\nsebana madhuri-pane\nho-oyaba hena dina na dekhiye kona cihna\ndunhu-jana heraba nayane"
+    },
+    {
+     "t": "5) Narottama dasa hopes that some day he will be able to drink the sweet honey of the service of the lotus feet of the Divine Couple. Will that day ever be? I do not see any indication that I will become able to directly see the Divine Couple with my own eyes."
+    }
+   ],
+   "notes": "'Song 51 / Text 1' at the foot of p. 79; the verse begins on p. 80. Verse 1 'alaka-abrta-mukha- pankaja manohyara' printed so (hyphen then gap; 'manohyara'), checked at 3x. Text 4: the book's synonyms paragraph repeats part of the translation; only the separate translation paragraph is kept.",
+   "uncertain": ""
+  },
+  {
+   "id": "s277",
+   "title": "Prabhu He Ei Bara Karaha Karuna",
+   "heading": "Sri Krsne Vijnaptih (Prayer to Sri Krsna), Song 52",
+   "firstLine": "prabhu he ei-bara karaha karuna",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 81",
+   "parts": [
+    {
+     "v": "(1)\nprabhu he ei-bara karaha karuna\njugala-carana dekhi saphala kariba ankhi\nei mora manera kamana"
+    },
+    {
+     "t": "1) The sight of the lotus feet of the Divine Couple will be the crowning success of my eyes. My heart and mind yearn to attain this sight. O Lord, please be merciful and grant this sight to me."
+    },
+    {
+     "v": "(2)\nnija-pada-seba diba nahi more upekhiba\ndunju pahu karuna-sagara\ndunhu binu nahi janon ei bada bhagya manon\nmui bada patita pamara"
+    },
+    {
+     "t": "2) Please grant me the service of Your lotus feet. Do not neglect me, for You, my two Lords, are like two oceans filled with compassion. I know that You are full of all transcendental glory and opulence, and I do not know anyone except You. I am very fallen and sinful. Please be merciful to me."
+    },
+    {
+     "v": "(3)\nlalita adesa pana carana sebiba yana\npriya-sakhi sange haya mane\ndunhu data-siromani ati dina more jani'\nnikate carana dibe dane"
+    },
+    {
+     "t": "3) By Your mercy I will attain the association of the gopis. By Your mercy I will become Lalita's maidservant, to be ordered about by her. By Your mercy I will attain the service of Your lotus feet. I know that You are both the two crest-jewels among all wealthy philanthropists, and You know that I am the poorest of the poor. Please, therefore, give me the charity of Your lotus feet."
+    },
+    {
+     "v": "(4)\npaba radha-krsna-pa ghucibe manera gha\ndure jabe e--saba biphala\nnarottama dase kaya ei bancha siddhi haya\ndeha prana sakala saphala"
+    },
+    {
+     "t": "4) By Your mercy I will attain Your lotus feet. By Your mercy all the painful wounds in my mind will heal. By Your mercy my lack of success will go far away. Narottama dasa says: by Your mercy all my desires will be fulfilled, and this body and life will at last become fruitful."
+    }
+   ],
+   "notes": "Verse 2 'dunju' printed so (checked at 3x; synonyms give 'dunhu'). Verse 4 'e--saba' (double hyphen) printed so; verse 4 starts at the top of p. 83.",
+   "uncertain": ""
+  },
+  {
+   "id": "s278",
+   "title": "Aji Rase Badara Nisi",
+   "heading": "Sri Krsne Vijnaptih (Prayer to Sri Krsna), Song 53",
+   "firstLine": "aji rase badara nisi",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 83",
+   "parts": [
+    {
+     "v": "(1)\naji rase badara nisi\npreme bhasala saba brndabana-basi"
+    },
+    {
+     "t": "1) Soon all the residents of Vrndavana will float in the nectar of pure love fror Radha and Krsna."
+    },
+    {
+     "v": "(2)\nsyama-ghana barikhaye prema-sudha-dhara\nkore rangini radha bijuri-sancara"
+    },
+    {
+     "t": "2) Sri Krsna is like a dark cloud which showers the nectar of pure love, and Srimati Radharani is like a movinglightning bolt sittting in the lap of that cloud."
+    },
+    {
+     "v": "(3)\npreme pichala patha gamana bhela banka\nmrgamada-candana-kunkume bhela panka"
+    },
+    {
+     "t": "3) The path of love for Krsna is winding and crooked. It is slippery, and filled with mud mixed with kunkuma, sandalwood paste, and musk."
+    },
+    {
+     "v": "(4)\ndig bidig nahi premera pathara\ndubila narottama na jane santara"
+    },
+    {
+     "t": "4) The great ocean of love of Krsna stretches without limit in all directions. Although Narottama dasa does not know how to swim across that ocean, he plunges headfirst into it."
+    }
+   ],
+   "notes": "Last song of the book (ends p. 84). In the book, the second line of text 4 ('dubila narottama na jane santara') is printed after the translation, at the very end of the page, not under 'Text 4'; it is placed here as verse 4 line 2 because the book's own word-for-word synonyms for text 4 include dubila, narottama, na, jane, santara. Misprints 'fror', 'movinglightning', 'sittting' kept.",
+   "uncertain": "Song 53 verse 4 line 2: misplaced in the book (printed after the translation); placement confirmed only by the synonyms."
+  }
+ ],
+ "present": [
+  {
+   "existingId": "s082",
+   "firstLine": "`gauranga' bolite habe pulaka-sarira",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 1",
+   "notes": "Lalasamayi (Longings), Song 1; app copy has no book name"
+  },
+  {
+   "existingId": "s085",
+   "firstLine": "hari hari! bifale janama gonainu",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 5",
+   "notes": "Song 4"
+  },
+  {
+   "existingId": "s090",
+   "firstLine": "kusumita brndabane nacate sikhi-gane",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 21",
+   "notes": "Swabhista-lalasa, Song 14 (8 texts; text 2 begins 'hari hari manoratha phalibe amare')"
+  },
+  {
+   "existingId": "s094",
+   "firstLine": "sri-rupa-manjari-pada, sei mora sampada,",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 26",
+   "notes": "Lalasa (Longings), Song 16"
+  },
+  {
+   "existingId": "s095",
+   "firstLine": "suniyachi sadhu-mukhe bale sarba-jana",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 27",
+   "notes": "Song 17"
+  },
+  {
+   "existingId": "s088",
+   "firstLine": "jaya jaya sri-krsna-caitanya nityanda",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 37",
+   "notes": "Song 24 (book misprints 'nityanda')"
+  },
+  {
+   "existingId": "s086",
+   "firstLine": "hari hari kabe mora haibe su-dina / bhajiba sri-radha-krsna haina premadhina",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 39",
+   "notes": "Sadhaka-dehocita Lalasa (The Devotee's Aspiration), Song 25"
+  },
+  {
+   "existingId": "s098",
+   "firstLine": "brndabana ramya-sthana dibya-cintamani-dhama",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 52",
+   "notes": "Song 33"
+  },
+  {
+   "existingId": "s078",
+   "firstLine": "dhana mora nityananda pati mora gauracandra",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 56",
+   "notes": "Swa-nistha (My Faith), Song 36"
+  },
+  {
+   "existingId": "s091",
+   "firstLine": "nitai-pada-kamala, koti-candra-susitala",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 57",
+   "notes": "Nityanda-nistha (Faith in Lord Nityananda), Song 37"
+  },
+  {
+   "existingId": "s077",
+   "firstLine": "are bhai bhaja mora gauranga-carana",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 59",
+   "notes": "Gauranga-nistha (Faith in Lord Caitanya), Song 38"
+  },
+  {
+   "existingId": "s081",
+   "firstLine": "gaurangera duti pada, jar dhana sampada,",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 60",
+   "notes": "Sabarana-Gaura-mahima (The Glories of Lord Gauranga), Song 39"
+  },
+  {
+   "existingId": "s093",
+   "firstLine": "sri-krsna-caitanya prabhu doya koro more",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 62",
+   "notes": "Punah Prarthana (Another Prayer), Song 40"
+  },
+  {
+   "existingId": "s087",
+   "firstLine": "je anilo prema-dhana koruna pracur",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 64",
+   "notes": "Sa-parsada-bhagavad-viraha-janita-vilapa, Song 41"
+  },
+  {
+   "existingId": "s083",
+   "firstLine": "gora panhu na bhajiya mainu",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 65",
+   "notes": "Aksepa (regret), Song 42"
+  },
+  {
+   "existingId": "s097",
+   "firstLine": "thakura baisnaba-pada abanira su-sampada",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 68",
+   "notes": "Baisnaba-mahima (Glorification of the Devotees), Song 44"
+  },
+  {
+   "existingId": "s096",
+   "firstLine": "thakura baisnaba-gana kari ei nibedana",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 70",
+   "notes": "Baisnaba-bijnapti (Prayer to the Vaisnavas), Song 45"
+  },
+  {
+   "existingId": "s079",
+   "firstLine": "ei-baro karuna koro baisnava gosai",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 71",
+   "notes": "Song 46"
+  },
+  {
+   "existingId": "s089",
+   "firstLine": "ki-rupe paiba seba mui duracara",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 73",
+   "notes": "Song 47"
+  },
+  {
+   "existingId": "s092",
+   "firstLine": "radha-krsna p[rana mora jugala-kisora",
+   "source": "Narottama_dasa_Thakura_Prarthana.pdf, p. 76",
+   "notes": "Sakhi-vrnde Vijnaptih (Prayer to the Gopis), Song 49 (book misprints 'p[rana')"
+  }
+ ],
+ "leftOut": []
+}

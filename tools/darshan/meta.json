@@ -1,0 +1,22 @@
+{
+ "12":  { "title": "Mother Yashoda dresses Krishna", "deity": "Krishna", "pastime": "Mother Yashoda adorns child Krishna", "focal": "45% 40%" },
+ "21":  { "title": "Krishna rests in the garden", "deity": "Krishna", "pastime": "Krishna rests beneath the trees of Vrindavan", "focal": "40% 35%" },
+ "60":  { "title": "Lord Vishnu on the lotus", "deity": "Vishnu", "pastime": "The four-armed Lord, source of all energies", "focal": "50% 30%", "flagship": true },
+ "61":  { "title": "Maha-Vishnu and the universes", "deity": "Maha-Vishnu", "pastime": "Universes emanate from the Lord's breath", "focal": "60% 55%" },
+ "79":  { "title": "Lord Vishnu and Durga Devi", "deity": "Vishnu", "pastime": "Durga Devi, the Lord's external energy, serves Him", "focal": "40% 55%" },
+ "80":  { "title": "Lord Vishnu in the forest", "deity": "Vishnu", "pastime": "The Lord offers His blessings", "focal": "45% 28%", "flagship": true },
+ "81":  { "title": "Maha-Vishnu among the universes", "deity": "Maha-Vishnu", "pastime": "The Lord rests on the Causal Ocean", "focal": "45% 35%" },
+ "83":  { "title": "Lord Vishnu with His associates", "deity": "Vishnu", "pastime": "The Lord with His eternal associates", "focal": "60% 25%" },
+ "84":  { "title": "The Lord among the planets", "deity": "Vishnu", "pastime": "Lord Vishnu reclines in the cosmos", "focal": "70% 45%" },
+ "85":  { "title": "Lord Shiva meditates on Lord Vishnu", "deity": "Vishnu and Shiva", "pastime": "Lord Shiva, the greatest Vaishnava, meditates on the Lord", "focal": "50% 30%" },
+ "86":  { "title": "Lord Vishnu on Ananta Shesha", "deity": "Vishnu", "pastime": "The Lord rests on Ananta Shesha", "focal": "50% 45%", "flagship": true },
+ "88":  { "title": "The Lord appears at Daksha's sacrifice", "deity": "Vishnu", "pastime": "Lord Vishnu arrives on Garuda", "focal": "65% 30%" },
+ "89":  { "title": "Lord Vishnu on Garuda", "deity": "Vishnu", "pastime": "Garuda carries the Lord above the mountains", "focal": "35% 40%" },
+ "90":  { "title": "The Lord appears in the cave", "deity": "Vishnu", "pastime": "The Lord reveals Himself", "focal": "58% 68%" },
+ "91":  { "title": "The Lord appears to Vasudeva and Devaki", "deity": "Krishna", "pastime": "Krishna's appearance in Kamsa's prison", "focal": "70% 30%", "flagship": true },
+ "93":  { "title": "Lord Vishnu in the temple", "deity": "Vishnu", "pastime": "The four-armed Lord stands on the lotus", "focal": "50% 28%", "flagship": true },
+ "103": { "title": "The Lord appears to Dhruva", "deity": "Vishnu", "pastime": "Lord Vishnu and Garuda before Dhruva Maharaja", "focal": "40% 28%" },
+ "104": { "title": "The Lord's many four-armed forms", "deity": "Vishnu", "pastime": "Every form shines with the same four arms", "focal": "55% 40%" },
+ "110": { "title": "Lord Brahma is born on the lotus", "deity": "Vishnu and Brahma", "pastime": "Brahma appears on the lotus from the Lord's navel", "focal": "50% 30%", "flagship": true },
+ "111": { "title": "Lord Vishnu becomes baby Krishna", "deity": "Krishna", "pastime": "The Lord appears as the child Krishna", "focal": "55% 30%" }
+}

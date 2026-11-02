@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+const require = createRequire('/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/package.json');
+const puppeteer = require('puppeteer-core');
+const b = await puppeteer.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true, args: ['--no-sandbox'] });
+const p = await b.newPage();
+await p.setViewport({ width: 680, height: 960, deviceScaleFactor: 1 });
+await p.emulateMediaType('print');
+await p.goto('file://' + process.cwd() + '/' + (process.argv[2] || 'brief.html'), { waitUntil: 'networkidle0' });
+const h = await p.evaluate(() => document.body.scrollHeight);
+for (let y = 0, i = 1; y < h; y += 960, i++) await p.screenshot({ path: `${(process.argv[2] || 'brief.html').replace('.html','')}-s${i}.png`, clip: { x: 0, y, width: 680, height: Math.min(960, h - y) } });
+console.log(h);
+await b.close();

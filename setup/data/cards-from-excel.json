@@ -1,0 +1,488 @@
+{
+ "BVS/DPS/BSS": {
+  "file": "BVS, DPS, BSS Sadhana Score Card.xlsx",
+  "categories": {
+   "to_bed": [
+    {
+     "label": "09:45 - 10:00 PM",
+     "marks": 25
+    },
+    {
+     "label": "10:00 - 10:15 PM",
+     "marks": 20
+    },
+    {
+     "label": "10:15 - 10:30 PM",
+     "marks": 15
+    },
+    {
+     "label": "10:30 - 10:45 PM",
+     "marks": 10
+    },
+    {
+     "label": "10:45 - 11:00 PM",
+     "marks": 5
+    },
+    {
+     "label": "11:00 - 11:15 PM",
+     "marks": 0
+    },
+    {
+     "label": "After 11:15 PM",
+     "marks": -5
+    }
+   ],
+   "wake_up": [
+    {
+     "label": "03:45 - 04:00 AM",
+     "marks": 25
+    },
+    {
+     "label": "04:00 - 04:15 AM",
+     "marks": 20
+    },
+    {
+     "label": "04:15 - 04:30 AM",
+     "marks": 15
+    },
+    {
+     "label": "04:30 - 04:45 AM",
+     "marks": 10
+    },
+    {
+     "label": "04:45 - 05:00 AM",
+     "marks": 5
+    },
+    {
+     "label": "05:00 - 05:15 AM",
+     "marks": 0
+    },
+    {
+     "label": "After 05:15 AM",
+     "marks": -5
+    }
+   ],
+   "day_sleep": [
+    {
+     "label": "1 hr or less",
+     "marks": 25
+    },
+    {
+     "label": "1 to 1:15 hr",
+     "marks": 20
+    },
+    {
+     "label": "01:15 - 01:30 hr",
+     "marks": 15
+    },
+    {
+     "label": "01:30 - 01:45 hr",
+     "marks": 10
+    },
+    {
+     "label": "01:45 - 02:00 hr",
+     "marks": 5
+    },
+    {
+     "label": "02:00 - 02:15 hr",
+     "marks": 0
+    },
+    {
+     "label": "After 02:15 hr",
+     "marks": -5
+    }
+   ],
+   "japa": [
+    {
+     "label": "Before 07:15 AM",
+     "marks": 25
+    },
+    {
+     "label": "07:15 - 09:30 AM",
+     "marks": 20
+    },
+    {
+     "label": "09:30 - 01:00 PM",
+     "marks": 15
+    },
+    {
+     "label": "01:00 - 07:00 PM",
+     "marks": 10
+    },
+    {
+     "label": "07:00 - 09:00 PM",
+     "marks": 5
+    },
+    {
+     "label": "09:00 - 11:00 PM",
+     "marks": 0
+    },
+    {
+     "label": "After 11:00 PM",
+     "marks": -5
+    }
+   ],
+   "pathan": [
+    {
+     "label": "1 hr to 45 min",
+     "marks": 25
+    },
+    {
+     "label": "45 to 35 min",
+     "marks": 20
+    },
+    {
+     "label": "35 to 25 min",
+     "marks": 15
+    },
+    {
+     "label": "25 to 15 min",
+     "marks": 10
+    },
+    {
+     "label": "15 to 5 min",
+     "marks": 5
+    },
+    {
+     "label": "below 5 min",
+     "marks": 0
+    }
+   ],
+   "sravan": [
+    {
+     "label": "1 hr to 45 min",
+     "marks": 25
+    },
+    {
+     "label": "45 to 35 min",
+     "marks": 20
+    },
+    {
+     "label": "35 to 25 min",
+     "marks": 15
+    },
+    {
+     "label": "25 to 15 min",
+     "marks": 10
+    },
+    {
+     "label": "15 to 5 min",
+     "marks": 5
+    },
+    {
+     "label": "below 5 min",
+     "marks": 0
+    }
+   ]
+  }
+ },
+ "SPS": {
+  "file": "DOC-20260914-WA0028.xlsx",
+  "categories": {
+   "to_bed": [
+    {
+     "label": "10:00 - 10:15 PM",
+     "marks": 25
+    },
+    {
+     "label": "10:15 - 10:30 PM",
+     "marks": 20
+    },
+    {
+     "label": "10:30 - 10:45 PM",
+     "marks": 15
+    },
+    {
+     "label": "10:45 - 11:00 PM",
+     "marks": 10
+    },
+    {
+     "label": "11:00 - 11:15 PM",
+     "marks": 5
+    },
+    {
+     "label": "11:15 - 11:30 PM",
+     "marks": 0
+    }
+   ],
+   "wake_up": [
+    {
+     "label": "04:30 - 04:45 AM",
+     "marks": 25
+    },
+    {
+     "label": "04:45 - 05:00 AM",
+     "marks": 20
+    },
+    {
+     "label": "05:00 - 05:15 AM",
+     "marks": 15
+    },
+    {
+     "label": "05:15 - 05:30 AM",
+     "marks": 10
+    },
+    {
+     "label": "05:30 - 05:45 AM",
+     "marks": 5
+    },
+    {
+     "label": "05:45 - 06:00 AM",
+     "marks": 0
+    }
+   ],
+   "day_sleep": [
+    {
+     "label": "1 hr or less",
+     "marks": 25
+    },
+    {
+     "label": "1 to 1:15 hr",
+     "marks": 20
+    },
+    {
+     "label": "01:15 - 01:30 hr",
+     "marks": 15
+    },
+    {
+     "label": "01:30 - 01:45 hr",
+     "marks": 10
+    },
+    {
+     "label": "01:45 - 02:00 hr",
+     "marks": 5
+    },
+    {
+     "label": "02:00 - 02:15 hr",
+     "marks": 0
+    },
+    {
+     "label": "After 02:15 hr",
+     "marks": -5
+    }
+   ],
+   "japa": [
+    {
+     "label": "Before 07:15 AM",
+     "marks": 25
+    },
+    {
+     "label": "07:15 - 09:30 AM",
+     "marks": 20
+    },
+    {
+     "label": "09:30 - 01:00 PM",
+     "marks": 15
+    },
+    {
+     "label": "01:00 - 07:00 PM",
+     "marks": 10
+    },
+    {
+     "label": "07:00 - 09:00 PM",
+     "marks": 5
+    },
+    {
+     "label": "09:00 - 11:00 PM",
+     "marks": 0
+    },
+    {
+     "label": "After 11:00 PM",
+     "marks": -5
+    }
+   ],
+   "pathan": [
+    {
+     "label": "30 to 25 min",
+     "marks": 25
+    },
+    {
+     "label": "24 to 20 min",
+     "marks": 20
+    },
+    {
+     "label": "19 to 10 min",
+     "marks": 15
+    },
+    {
+     "label": "09 to 05 min",
+     "marks": 10
+    },
+    {
+     "label": "below 5 min",
+     "marks": 5
+    },
+    {
+     "label": "No Reading",
+     "marks": 0
+    }
+   ],
+   "sravan": [
+    {
+     "label": "30 to 25 min",
+     "marks": 25
+    },
+    {
+     "label": "24 to 20 min",
+     "marks": 20
+    },
+    {
+     "label": "19 to 10 min",
+     "marks": 15
+    },
+    {
+     "label": "09 to 05 min",
+     "marks": 10
+    },
+    {
+     "label": "below 5 min",
+     "marks": 5
+    },
+    {
+     "label": "No Hearing",
+     "marks": 0
+    }
+   ]
+  }
+ },
+ "spsSample": {
+  "days": [
+   {
+    "day": "MON",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "Before 07:15 AM",
+    "pathan": "30 to 25 min",
+    "sravan": "30 to 25 min",
+    "seva_min": 300.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": "25",
+     "pathan": "25",
+     "sravan": "25"
+    }
+   },
+   {
+    "day": "TUE",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "Before 07:15 AM",
+    "pathan": "30 to 25 min",
+    "sravan": "30 to 25 min",
+    "seva_min": 300.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": "25",
+     "pathan": "25",
+     "sravan": "25"
+    }
+   },
+   {
+    "day": "WED",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "After 11:00 PM",
+    "pathan": "30 to 25 min",
+    "sravan": "30 to 25 min",
+    "seva_min": 300.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": 20.0,
+     "pathan": "25",
+     "sravan": "25"
+    }
+   },
+   {
+    "day": "THU",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "After 11:00 PM",
+    "pathan": "30 to 25 min",
+    "sravan": "30 to 25 min",
+    "seva_min": 300.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": 25.0,
+     "pathan": "25",
+     "sravan": "25"
+    }
+   },
+   {
+    "day": "FRI",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "After 11:00 PM",
+    "pathan": "30 to 25 min",
+    "sravan": "30 to 25 min",
+    "seva_min": 300.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": 25.0,
+     "pathan": "25",
+     "sravan": "25"
+    }
+   },
+   {
+    "day": "SAT",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "After 11:00 PM",
+    "pathan": "30 to 25 min",
+    "sravan": "30 to 25 min",
+    "seva_min": 500.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": 25.0,
+     "pathan": "25",
+     "sravan": "25"
+    }
+   },
+   {
+    "day": "SUN",
+    "to_bed": "10:00 - 10:15 PM",
+    "wake_up": "04:30 - 04:45 AM",
+    "day_sleep": "1 hr or less",
+    "japa": "Before 07:15 AM",
+    "pathan": "No Reading",
+    "sravan": "30 to 25 min",
+    "seva_min": 500.0,
+    "marks": {
+     "to_bed": "25",
+     "wake_up": "25",
+     "day_sleep": "25",
+     "japa": "25",
+     "pathan": "0",
+     "sravan": "25"
+    }
+   }
+  ],
+  "percent": {
+   "to_bed": "100",
+   "wake_up": "100",
+   "day_sleep": "100",
+   "japa": "97",
+   "pathan": "86",
+   "sravan": "100",
+   "seva": "2778"
+  },
+  "note": "Japa on Wed\u2013Sat was hand-typed (20, 25, 25, 25) over the formula; the app computes it from the card instead."
+ }
+}

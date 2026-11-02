@@ -1,0 +1,13 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.iyfdelhi.sadhana",
+    "sha256_cert_fingerprints": [
+      "9F:A5:CE:53:28:1D:38:3A:6D:DA:D0:AF:87:29:5C:F9:80:67:8A:84:3D:3B:F3:82:E9:76:72:5D:F7:7E:63:F7",
+      "D4:60:A0:A6:F1:DB:F1:ED:FA:9D:83:40:1E:5C:CB:B6:93:2A:FB:F6:21:80:07:1E:AF:43:EA:7E:E0:AA:2A:21",
+      "C4:AD:50:49:C0:66:C6:45:6B:68:1F:55:4A:68:DE:7D:95:79:68:80:EC:6A:8F:C8:30:71:82:9E:CB:93:1D:7F",
+      "FE:23:F6:C8:00:B7:61:11:15:8A:15:6B:58:7F:92:C4:64:13:5A:92:E8:77:56:49:6A:F3:C6:4C:0C:8C:81:7C"
+    ]
+  }
+}]

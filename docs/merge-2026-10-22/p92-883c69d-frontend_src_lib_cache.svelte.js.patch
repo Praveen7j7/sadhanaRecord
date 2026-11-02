@@ -1,0 +1,19 @@
+diff --git a/frontend/src/lib/cache.svelte.js b/frontend/src/lib/cache.svelte.js
+index a9d2642..4dd4b5f 100644
+--- a/frontend/src/lib/cache.svelte.js
++++ b/frontend/src/lib/cache.svelte.js
+@@ -97,6 +97,14 @@ export function load(key, fetcher = READS[key.split(':')[0]], { force = false }
+ }
+ 
+ // Apply a local change after a write (never refetch).
++/** File an answer that came inside a bigger one (home.staff) under its own name, unless a fresher copy is there. */
++export function seed(key, data, at = Date.now()) {
++  if (data === undefined) return;
++  const e = entry(key);
++  if (e.data !== undefined && e.at >= at) return;
++  e.data = data; e.at = at; e.error = '';
++  persist(key, data, at);
++}
+ export function patch(key, fn) {
+   const e = entry(key);
+   if (e.data === undefined) return;

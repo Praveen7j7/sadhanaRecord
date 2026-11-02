@@ -1,0 +1,1226 @@
+TOTALS {"cover:under top bar at page top": 9, "clip:ellipsis": 96, "cover:under bottom bar at page end": 1, "overlap:hitarea/text": 22, "wrap": 24, "cover:bar under bar": 8, "overlap:text/text": 13, "overlap:control/text": 25}
+
+## access / master  (/access) shots=10 actual=['#/access']
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  COLUMN 1024l: used 501px = 67% of 744 (vw 1024), empty L 16 R 227
+  COLUMN 1440l: used 699px = 61% of 1140 (vw 1440), empty L 16 R 425
+  TITLE 1024l: 'Access' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Access' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## account / devotee  (/account) shots=10 actual=['#/account']
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Account' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Account' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Profile', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 82}
+  DOCH {'1024l': 1540, '1440l': 1472, '320l': 2537, '390l': 2447, '768l': 1581}
+
+## account / master  (/account) shots=10 actual=['#/account']
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Account' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Account' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Profile', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 82}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 2056, '390l': 1992, '768l': 1024}
+
+## account / natvar  (/account) shots=10 actual=['#/account']
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Account' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Account' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Profile', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 82}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 2016, '390l': 1950, '768l': 1024}
+
+## account / sps  (/account) shots=10 actual=['#/account']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Account' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Account' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Profile', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 82}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 2011, '390l': 1947, '768l': 1024}
+
+## activity / master  (/activity) shots=10 actual=['#/activity']
+  COVER under bottom bar at page end: 'Technical log (for the app kee' [summary.text-sm] by div.toasts @ 1440l
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. All=64x40; Sign-ups=91x40; Attendance=107x40; Devotees=93x40
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Activity' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Activity' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 910, '1440l': 910, '320l': 1207, '390l': 1135, '768l': 1024}
+
+## analysis / master  (/analysis) shots=10 actual=['#/analysis']
+  COVER under top bar at page top: 'All batches' [a#ad-t0.tab] by nav.nav @ 768d,768l
+  SMALL {'320d': 7, '320l': 7, '390d': 8, '390l': 8} e.g. Last 4 weeks=117x40; Last 12 weeks=144x40; Phase=71x40; All batches=122x40; SPS=57x40; Card figures=109x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Analysis' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Analysis' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': '10 Aug 2026 – 26 Oct 2026', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 78}
+  DOCH {'1024l': 1348, '1440l': 1249, '320l': 2531, '390l': 1889, '768l': 1564}
+
+## batch / etp  (/batch) shots=10 actual=['#/batch']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Batch status' (9x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Batch status' has 92 needs 117 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.bd-find: 2 rows, last 30% ['Compact Refresh'] first ['Search by name', 'No regular class t'] @ 768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Export=95x36; No regular class thi=234x36; Compact=87x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Batch status' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Batch status' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Batch status'
+  TITLECLIP 320l: 'Batch status'
+  INPAGE-H {'tag': 'H2', 'text': 'ETP · Batch 21', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 841, '390l': 820, '768l': 1024}
+
+## batch / master  (/batch) shots=10 actual=['#/batch']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Batch status' (9x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  COVER bar under bar: 'DevoteeThis weekAttendance' [div.board-head.t-over] by header.topbar.has-search @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Batch status' has 92 needs 117 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch All of IYF D'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  WRAP div.bd-find: 2 rows, last 30% ['Compact Refresh'] first ['Search by name', 'Nudge 4 not starte'] @ 768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Export=95x36; Nudge 4 not started=185x36; Compact=87x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Batch status' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Batch status' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Batch status'
+  TITLECLIP 320l: 'Batch status'
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 137}
+  DOCH {'1024l': 1205, '1440l': 1205, '320l': 2092, '390l': 1912, '768l': 1358}
+
+## batch / sps  (/batch) shots=10 actual=['#/batch']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Batch status' (9x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Batch status' has 92 needs 117 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch All my batch'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  WRAP div.bd-find: 2 rows, last 30% ['Compact Refresh'] first ['Search by name', 'Nudge 3 not starte'] @ 768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Export=95x36; Nudge 3 not started=185x36; Compact=87x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Batch status' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Batch status' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Batch status'
+  TITLECLIP 320l: 'Batch status'
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 137}
+  DOCH {'1024l': 1140, '1440l': 1140, '320l': 1946, '390l': 1799, '768l': 1293}
+
+## batches / master  (/batches) shots=10 actual=['#/batches']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Batch setup' (4x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  CLIP ellipsis: 'Batch setup' has 92 needs 112 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Batch setup' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Batch setup' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Batch setup'
+  TITLECLIP 320l: 'Batch setup'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1294, '390l': 1032, '768l': 1024}
+
+## board / etp  (/board) shots=10 actual=['#/board']
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Board' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Board' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'ETP · Batch 21', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## board / master  (/board) shots=10 actual=['#/board']
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 21, '320l': 21, '390d': 21, '390l': 21} e.g. Export=95x36; P=40x40; A=40x40; P=40x40; A=40x40; P=40x40
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Board' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Board' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Kartik Phase', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 158}
+  DOCH {'1024l': 1020, '1440l': 1004, '320l': 2039, '390l': 2021, '768l': 1120}
+
+## board / sps  (/board) shots=10 actual=['#/board']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 21, '320l': 21, '390d': 21, '390l': 21} e.g. Export=95x36; P=40x40; A=40x40; P=40x40; A=40x40; P=40x40
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Board' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Board' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Kartik Phase', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 158}
+  DOCH {'1024l': 1020, '1440l': 1004, '320l': 2039, '390l': 2021, '768l': 1120}
+
+## card / devotee  (/card) shots=10 actual=['#/card']
+  OVERLAP text/text: 'Sunday VL-2 / VL-3 facilitatio' x 'Every week' (23x17px) [span.cd-label / button] @ 1024d,1024l
+  OVERLAP text/text: 'Every month' x 'Facilitation journal updated' (6x7px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-1 facilitation atten' (27x8px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-2 / VL-3 facilitatio' (33x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'FTP training attendance' (5x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every month' x 'Facilitation journal updated' (47x17px) [button / span.cd-label] @ 1024d,1024l
+  SMALL {'320d': 10, '320l': 10, '390d': 10, '390l': 10} e.g. This week=121x42; This phase=121x42; Every week=121x42; Not for me=121x42; Every week=121x42; Not for me=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'My targets' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'My targets' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Kartik Phase', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 94}
+  DOCH {'1024l': 2282, '1440l': 1950, '320l': 4385, '390l': 3937, '768l': 2847}
+
+## card / master  (/card) shots=10 actual=['#/card']
+  OVERLAP text/text: 'Sunday VL-2 / VL-3 facilitatio' x 'Every week' (23x17px) [span.cd-label / button] @ 1024d,1024l
+  OVERLAP text/text: 'Every month' x 'Facilitation journal updated' (6x7px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-1 facilitation atten' (27x8px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-2 / VL-3 facilitatio' (33x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'FTP training attendance' (5x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every month' x 'Facilitation journal updated' (47x17px) [button / span.cd-label] @ 1024d,1024l
+  CLIP ellipsis: 'My targets' has 92 needs 101 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 10, '320l': 10, '390d': 10, '390l': 10} e.g. This week=121x42; This phase=121x42; Every week=121x42; Not for me=121x42; Every week=121x42; Not for me=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'My targets' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'My targets' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'My targets'
+  TITLECLIP 320l: 'My targets'
+  INPAGE-H {'tag': 'H2', 'text': 'Kartik Phase', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 94}
+  DOCH {'1024l': 2282, '1440l': 1950, '320l': 4385, '390l': 3937, '768l': 2847}
+
+## card / natvar  (/card) shots=10 actual=['#/card']
+  OVERLAP text/text: 'Sunday VL-2 / VL-3 facilitatio' x 'Every week' (23x17px) [span.cd-label / button] @ 1024d,1024l
+  OVERLAP text/text: 'Every month' x 'Facilitation journal updated' (6x7px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-1 facilitation atten' (27x8px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-2 / VL-3 facilitatio' (33x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'FTP training attendance' (5x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every month' x 'Facilitation journal updated' (47x17px) [button / span.cd-label] @ 1024d,1024l
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  SMALL {'320d': 10, '320l': 10, '390d': 10, '390l': 10} e.g. This week=121x42; This phase=121x42; Every week=121x42; Not for me=121x42; Every week=121x42; Not for me=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'My targets' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'My targets' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Kartik Phase', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 94}
+  DOCH {'1024l': 2282, '1440l': 1950, '320l': 4385, '390l': 3937, '768l': 2847}
+
+## card / sps  (/card) shots=10 actual=['#/card']
+  OVERLAP text/text: 'Sunday VL-2 / VL-3 facilitatio' x 'Every week' (23x17px) [span.cd-label / button] @ 1024d,1024l
+  OVERLAP text/text: 'Every month' x 'Facilitation journal updated' (6x7px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-1 facilitation atten' (27x8px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-2 / VL-3 facilitatio' (33x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'FTP training attendance' (5x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every month' x 'Facilitation journal updated' (47x17px) [button / span.cd-label] @ 1024d,1024l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'My targets' has 92 needs 101 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 10, '320l': 10, '390d': 10, '390l': 10} e.g. This week=121x42; This phase=121x42; Every week=121x42; Not for me=121x42; Every week=121x42; Not for me=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'My targets' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'My targets' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'My targets'
+  TITLECLIP 320l: 'My targets'
+  INPAGE-H {'tag': 'H2', 'text': 'Kartik Phase', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 94}
+  DOCH {'1024l': 2282, '1440l': 1950, '320l': 4385, '390l': 3937, '768l': 2847}
+
+## card / trainee  (/card) shots=10 actual=['#/card']
+  OVERLAP text/text: 'Sunday VL-2 / VL-3 facilitatio' x 'Every week' (23x17px) [span.cd-label / button] @ 1024d,1024l
+  OVERLAP text/text: 'Every month' x 'Facilitation journal updated' (6x7px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-1 facilitation atten' (27x8px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'Sunday VL-2 / VL-3 facilitatio' (33x18px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every week' x 'ETP attendance' (33x8px) [button / span.cd-label] @ 1024d,1024l
+  OVERLAP control/text: 'Every month' x 'Facilitation journal updated' (47x17px) [button / span.cd-label] @ 1024d,1024l
+  SMALL {'320d': 10, '320l': 10, '390d': 10, '390l': 10} e.g. This week=121x42; This phase=121x42; Every week=121x42; Not for me=121x42; Every week=121x42; Not for me=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'ETP · Batch 21' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'ETP · Batch 21' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'ETP · Batch 21', 'sameAsBar': True, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 94}
+  DOCH {'1024l': 2271, '1440l': 1950, '320l': 4385, '390l': 3916, '768l': 2847}
+
+## change-password / devotee  (/change-password) shots=10 actual=['#/change-password']
+  COLUMN 1024l: used 448px = 60% of 744 (vw 1024), empty L 148 R 148
+  COLUMN 1440l: used 448px = 39% of 1140 (vw 1440), empty L 346 R 346
+  TITLE 1024l: 'Change password' x=304 content x=428 dx=-124 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Change password' x=324 content x=646 dx=-322 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## closing / master  (/closing) shots=10 actual=['#/closing']
+  CLIP ellipsis: 'Close batch' has 92 needs 110 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Close batch' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Close batch' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Close batch'
+  TITLECLIP 320l: 'Close batch'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## closing / sps  (/closing) shots=10 actual=['#/closing']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Close batch' has 92 needs 110 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Close batch' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Close batch' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Close batch'
+  TITLECLIP 320l: 'Close batch'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## coordinators / master  (/coordinators) shots=10 actual=['#/coordinators']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Coordinators' (17x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  COVER under top bar at page top: 'Reports' [a#ad-t2.tab] by nav.nav @ 768d,768l
+  CLIP ellipsis: 'Coordinators' has 92 needs 125 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Coordinators' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Coordinators' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Coordinators'
+  TITLECLIP 320l: 'Coordinators'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## day / devotee  (/day/2026-10-26/2026-10-26) shots=10 actual=['#/day/2026-10-26/2026-10-26']
+  COVER bar under bar: 'Day score0/100 BodyChantingHearingReadin' [aside.dayrail] by nav.sticky-top.chips @ 1024d,1024l,1440d,1440l
+  WRAP div.chiprow.mb-4: 2 rows, last 29% ['Overate'] first ['Anger', 'Wasted time', 'Gossip'] @ 320d,320l,390d,390l
+  SMALL {'320d': 17, '320l': 17, '390d': 15, '390l': 15} e.g. Monday, missing, not=38x56; Tuesday, missing, no=38x56; Wednesday, not fille=38x56; Body=59x36; Chanting=84x36; Hearing=77x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Daily sadhana' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Daily sadhana' x=368 content x=326 dx=42 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Monday, 26 Oct 2026', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 159}
+  DOCH {'1024l': 2264, '1440l': 2214, '320l': 2700, '390l': 2532, '768l': 2401}
+
+## day / trd  (/day/2026-10-26/2026-10-26) shots=10 actual=['#/day/2026-10-26/2026-10-26']
+  COVER bar under bar: 'Day score0/100 BodyChantingHearingReadin' [aside.dayrail] by nav.sticky-top.chips @ 1024d,1024l,1440d,1440l
+  WRAP div.chiprow.mb-4: 2 rows, last 29% ['Overate'] first ['Anger', 'Wasted time', 'Gossip'] @ 320d,320l,390d,390l
+  SMALL {'320d': 29, '320l': 29, '390d': 27, '390l': 27} e.g. Monday, missing, not=38x56; Tuesday, missing, no=38x56; Wednesday, not fille=38x56; Body=59x36; Chanting=84x36; Hearing=77x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Daily sadhana' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Daily sadhana' x=368 content x=326 dx=42 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Monday, 26 Oct 2026', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 159}
+  DOCH {'1024l': 2718, '1440l': 2667, '320l': 3154, '390l': 2986, '768l': 2855}
+
+## devotee / master  (/devotee/6000000011) shots=10 actual=['#/devotee/6000000011']
+  SMALL {'320d': 8, '320l': 8, '390d': 8, '390l': 8} e.g. View=41x44; View=41x44; View=41x44; View=41x44; View=41x44; View=41x44
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Devotee' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Devotee' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Aarav Gupta', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 161}
+  DOCH {'1024l': 1543, '1440l': 1376, '320l': 2963, '390l': 2437, '768l': 1816}
+
+## devotee / sps  (/devotee/6000000011) shots=10 actual=['#/devotee/6000000011']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Devotee' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Devotee' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Aarav Gupta', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 161}
+  DOCH {'1024l': 1165, '1440l': 1161, '320l': 2351, '390l': 2044, '768l': 1298}
+
+## devotee-week / master  (/devotee/6000000011/week/2026-10-19) shots=10 actual=['#/devotee/6000000011/week/2026-10-19']
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Week of 12 Oct – 18 =93x36; Week of 26 Oct – 1 N=85x36; Show as table=120x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Week' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Week' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 19 Oct – 25 Oct', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 159}
+  DOCH {'1024l': 1141, '1440l': 900, '320l': 1855, '390l': 1696, '768l': 1455}
+
+## devotee-week / sps  (/devotee/6000000011/week/2026-10-19) shots=10 actual=['#/devotee/6000000011/week/2026-10-19']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. Week of 12 Oct – 18 =93x36; Week of 26 Oct – 1 N=85x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Week' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Week' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## explorer / natvar  (/explorer) shots=10 actual=['#/explorer']
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  SMALL {'320d': 7, '320l': 7, '390d': 7, '390l': 7} e.g. Phase so far=130x40; Last week=97x40; Last 4 weeks=117x40; All routes=111x40; SPS → DPS / BVS=145x40; Qualify=86x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 768px = 67% of 1140 (vw 1440), empty L 186 R 186
+  TITLE 1024l: 'Promotion explorer' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Promotion explorer' x=324 content x=486 dx=-162 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Period', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 95}
+  DOCH {'1024l': 1077, '1440l': 1077, '320l': 1803, '390l': 1666, '768l': 1119}
+
+## fac-team / ftp  (/fac-team) shots=10 actual=['#/fac-team']
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. 4All=65x40; 4Switched on=130x40; 0Switched off=132x40
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Facilitators' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Facilitators' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Facilitators', 'sameAsBar': True, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 77}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 980, '390l': 863, '768l': 1024}
+
+## facilitators / master  (/facilitators) shots=10 actual=['#/facilitators']
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  CLIP ellipsis: 'Facilitators' has 92 needs 106 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Export=95x36; 4All=65x40; 4Switched on=130x40; 0Switched off=132x40
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Facilitators' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Facilitators' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Facilitators'
+  TITLECLIP 320l: 'Facilitators'
+  INPAGE-H {'tag': 'H2', 'text': 'Facilitators', 'sameAsBar': True, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 93}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1178, '390l': 1041, '768l': 1024}
+
+## fill-day / sps  (/fill/6000000011/day/2026-10-26/2026-10-26?n=Aarav%20Gupta) shots=10 actual=['#/fill/6000000011/day/2026-10-26/2026-10-26?n=Aarav%20Gupta']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Fill for · Day' (11x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  OVERLAP control/text: 'Done, back to Aarav Gupta' x 'Filling for Aarav Gupta' (12x15px) [a.btn.btn-sm.acting-done / b.block.truncate] @ 320d,320l
+  COVER bar under bar: 'A Filling for Aarav GuptaSaved as filled' [div.acting] by nav.sticky-top.chips @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  COVER bar under bar: 'Day score0/100 BodyChantingHearingReadin' [aside.dayrail] by nav.sticky-top.chips @ 1024d,1024l,1440d,1440l
+  COVER bar under bar: 'A Filling for Aarav GuptaSaved as filled' [div.acting] by nav.jumpbar @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Fill for · Day' has 92 needs 119 (h 24/26) [h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Filling for Aarav Gupta' has 150 needs 172 (h 24/24) [b.block.truncate] @ 320d,320l
+  WRAP div.chiprow.mb-4: 2 rows, last 29% ['Overate'] first ['Anger', 'Wasted time', 'Gossip'] @ 320d,320l,390d,390l
+  SMALL {'320d': 17, '320l': 17, '390d': 15, '390l': 15} e.g. Monday, missing, not=38x56; Tuesday, missing, no=38x56; Wednesday, not fille=38x56; Body=59x36; Chanting=84x36; Hearing=77x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Fill for · Day' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Fill for · Day' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Fill for · Day'
+  TITLECLIP 320l: 'Fill for · Day'
+  INPAGE-H {'tag': 'H2', 'text': 'Monday, 26 Oct 2026', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 231}
+  DOCH {'1024l': 2336, '1440l': 2286, '320l': 2784, '390l': 2604, '768l': 2473}
+
+## fill-week / master  (/fill/6000000011/week/2026-10-26?n=Aarav%20Gupta) shots=10 actual=['#/fill/6000000011/week/2026-10-26?n=Aarav%20Gupta']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Fill for · Week' (26x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  OVERLAP control/text: 'Done, back to Aarav Gupta' x 'Filling for Aarav Gupta' (12x15px) [a.btn.btn-sm.acting-done / b.block.truncate] @ 320d,320l
+  CLIP ellipsis: 'Fill for · Week' has 92 needs 134 (h 24/26) [h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Filling for Aarav Gupta' has 150 needs 172 (h 24/24) [b.block.truncate] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Fill for · Week' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Fill for · Week' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Fill for · Week'
+  TITLECLIP 320l: 'Fill for · Week'
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 152}
+  DOCH {'1024l': 931, '1440l': 900, '320l': 1628, '390l': 1437, '768l': 1024}
+
+## fill-week / sps  (/fill/6000000011/week/2026-10-26?n=Aarav%20Gupta) shots=10 actual=['#/fill/6000000011/week/2026-10-26?n=Aarav%20Gupta']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Fill for · Week' (26x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  OVERLAP control/text: 'Done, back to Aarav Gupta' x 'Filling for Aarav Gupta' (12x15px) [a.btn.btn-sm.acting-done / b.block.truncate] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Fill for · Week' has 92 needs 134 (h 24/26) [h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Filling for Aarav Gupta' has 150 needs 172 (h 24/24) [b.block.truncate] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Fill for · Week' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Fill for · Week' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Fill for · Week'
+  TITLECLIP 320l: 'Fill for · Week'
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 152}
+  DOCH {'1024l': 931, '1440l': 900, '320l': 1628, '390l': 1437, '768l': 1024}
+
+## forgot / public  (/forgot) shots=10 actual=['#/forgot']
+  COLUMN 1024l: used 420px = 41% of 1024 (vw 1024), empty L 302 R 302
+  COLUMN 1440l: used 420px = 29% of 1440 (vw 1440), empty L 510 R 510
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## group / devotee  (/group) shots=10 actual=['#/group']
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Nudge all (1)=138x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'My group' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'My group' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': '4 devotees', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 103}
+  DOCH {'1024l': 1002, '1440l': 1002, '320l': 1085, '390l': 1085, '768l': 1044}
+
+## hearing / devotee  (/hearing) shots=10 actual=['#/hearing?w=3']
+  SMALL {'320d': 8, '320l': 8, '390d': 10, '390l': 10} e.g. One week=138x42; All weeks=138x42; Week 1=44x40; Week 2=44x40; Week 3, suggested=44x40; Week 4=44x40
+  COLUMN 1024l: used 672px = 90% of 744 (vw 1024), empty L 36 R 36
+  COLUMN 1440l: used 672px = 59% of 1140 (vw 1440), empty L 234 R 234
+  TITLE 1024l: 'Hearing' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Hearing' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1077, '390l': 1005, '768l': 1024}
+
+## history / devotee  (/history) shots=10 actual=['#/history']
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Daily=138x42; Weekly=138x42; October=140x40; 2026=140x40
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'History' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'History' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week by week', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 73}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1245, '390l': 1234, '768l': 1024}
+
+## history-week / devotee  (/history/2026-10-19) shots=10 actual=['#/history/2026-10-19']
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Try again=112x36
+  COLUMN 1024l: used 687px = 92% of 744 (vw 1024), empty L 33 R 24
+  COLUMN 1440l: used 1063px = 93% of 1140 (vw 1440), empty L 43 R 34
+  TITLE 1024l: 'History' x=348 content x=313 dx=35 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'History' x=368 content x=343 dx=25 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## home / devotee  (/home) shots=10 actual=['#/home']
+  CLIP ellipsis: 'Ekadashi kirtan this Saturday' has 198 needs 221 (h 24/24) [span.at] @ 1024d,1024l,320d,320l,768d,768l
+  CLIP ellipsis: 'IYF Head · 1 Oct — Join us at 6 PM in the temple hall. Bring' has 198 needs 690 (h 21/21) [span.ab] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  CLIP ellipsis: 'Share today' has 74 needs 81 (h 18/18) [span.qt] @ 320d,320l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Skip=56x36; Monday, missing, not=32x56; Tuesday, missing, no=32x56; Wednesday, not fille=32x56
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna, Sunil', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1600, '1440l': 1625, '320l': 2099, '390l': 1997, '768l': 1482}
+
+## home / etp  (/home) shots=10 actual=['#/home']
+  OVERLAP text/text: 'Not started' x 'Missed' (6x15px) [span / span] @ 320d,320l
+  CLIP ellipsis: 'Sādhana RecordHome' has 92 needs 152 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Sādhana RecordHome'
+  TITLECLIP 320l: 'Sādhana RecordHome'
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1154, '1440l': 1108, '320l': 1660, '390l': 1566, '768l': 1471}
+
+## home / ftp  (/home) shots=10 actual=['#/home']
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna, Madhavi', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1105, '390l': 1016, '768l': 1101}
+
+## home / master  (/home) shots=10 actual=['#/home']
+  CLIP ellipsis: 'Sādhana RecordHome' has 92 needs 152 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Sādhana RecordHome'
+  TITLECLIP 320l: 'Sādhana RecordHome'
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1759, '1440l': 1648, '320l': 2394, '390l': 2297, '768l': 2349}
+
+## home / natvar  (/home) shots=10 actual=['#/home']
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna, Natvar', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1024, '1440l': 980, '320l': 1341, '390l': 1284, '768l': 1328}
+
+## home / sps  (/home) shots=10 actual=['#/home']
+  OVERLAP text/text: 'Not started' x 'Missed' (6x15px) [span / span] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS2, SPSO' has 173 needs 177 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  CLIP ellipsis: 'Sādhana RecordHome' has 92 needs 152 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Sādhana RecordHome'
+  TITLECLIP 320l: 'Sādhana RecordHome'
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1737, '1440l': 1692, '320l': 2544, '390l': 2388, '768l': 2054}
+
+## home / trainee  (/home) shots=10 actual=['#/home']
+  CLIP ellipsis: 'Ekadashi kirtan this Saturday' has 198 needs 221 (h 24/24) [span.at] @ 1024d,1024l,320d,320l,768d,768l
+  CLIP ellipsis: 'IYF Head · 1 Oct — Join us at 6 PM in the temple hall. Bring' has 198 needs 690 (h 21/21) [span.ab] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  CLIP ellipsis: 'Share today' has 74 needs 81 (h 18/18) [span.qt] @ 320d,320l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Skip=56x36; Monday, missing, not=32x56; Tuesday, missing, no=32x56; Wednesday, not fille=32x56
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna, Raman', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1801, '1440l': 1828, '320l': 2136, '390l': 2057, '768l': 1682}
+
+## home / trd  (/home) shots=10 actual=['#/home']
+  CLIP ellipsis: 'Ekadashi kirtan this Saturday' has 198 needs 221 (h 24/24) [span.at] @ 1024d,1024l,320d,320l,768d,768l
+  CLIP ellipsis: 'IYF Head · 1 Oct — Join us at 6 PM in the temple hall. Bring' has 198 needs 690 (h 21/21) [span.ab] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  CLIP ellipsis: 'Share today' has 74 needs 81 (h 18/18) [span.qt] @ 320d,320l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Skip=56x36; Monday, missing, not=32x56; Tuesday, missing, no=32x56; Wednesday, not fille=32x56
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Sādhana RecordHome' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Sādhana RecordHome' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Hare Krishna, Raman', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '38px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 1600, '1440l': 1625, '320l': 1895, '390l': 1817, '768l': 1482}
+
+## ids / master  (/ids) shots=10 actual=['#/ids']
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Search=138x42; Duplicates=138x42; Created here=138x42; Person records=138x42
+  COLUMN 1024l: used 448px = 60% of 744 (vw 1024), empty L 16 R 280
+  COLUMN 1440l: used 448px = 39% of 1140 (vw 1440), empty L 16 R 676
+  TITLE 1024l: 'IYF IDs' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'IYF IDs' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'IYF IDs', 'sameAsBar': True, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 73}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## leaderboard / master  (/leaderboard) shots=10 actual=['#/leaderboard']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Leaderboard' (10x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Leaderboard' has 92 needs 118 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Week=67x42; Month=67x42; Year=67x42; Dates=67x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Leaderboard' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Leaderboard' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Leaderboard'
+  TITLECLIP 320l: 'Leaderboard'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## leaderboard / sps  (/leaderboard) shots=10 actual=['#/leaderboard']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Leaderboard' (10x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Leaderboard' has 92 needs 118 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. Week=67x42; Month=67x42; Year=67x42; Dates=67x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Leaderboard' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Leaderboard' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Leaderboard'
+  TITLECLIP 320l: 'Leaderboard'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## leaders / master  (/leaders) shots=10 actual=['#/leaders']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Group leaders' (25x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Group leaders' has 92 needs 133 (h 24/26) [h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Sunil Kumar' has 88 needs 97 (h 22/22) [span.truncate] @ 320d,320l
+  CLIP ellipsis: 'Aarav GuptaSPS' has 109 needs 124 (h 24/24) [a.min-w-0.flex-1.truncate] @ 320d,320l
+  CLIP ellipsis: 'Bhavesh JainSPS' has 109 needs 130 (h 24/24) [a.min-w-0.flex-1.truncate] @ 320d,320l
+  CLIP ellipsis: 'Chetan AroraSPS' has 109 needs 131 (h 24/24) [a.min-w-0.flex-1.truncate] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 8, '320l': 8, '390d': 8, '390l': 8} e.g. Export=95x36; Appoint a group lead=204x36; Aarav GuptaSPS=109x24; Bhavesh JainSPS=109x24; Chetan AroraSPS=109x24; Deepak YadavSPS=138x24
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Group leaders' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Group leaders' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Group leaders'
+  TITLECLIP 320l: 'Group leaders'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 934, '390l': 826, '768l': 1024}
+
+## leaders / sps  (/leaders) shots=10 actual=['#/leaders']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Group leaders' (25x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Group leaders' has 92 needs 133 (h 24/26) [h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Sunil Kumar' has 88 needs 97 (h 22/22) [span.truncate] @ 320d,320l
+  CLIP ellipsis: 'Aarav GuptaSPS' has 109 needs 124 (h 24/24) [a.min-w-0.flex-1.truncate] @ 320d,320l
+  CLIP ellipsis: 'Bhavesh JainSPS' has 109 needs 130 (h 24/24) [a.min-w-0.flex-1.truncate] @ 320d,320l
+  CLIP ellipsis: 'Chetan AroraSPS' has 109 needs 131 (h 24/24) [a.min-w-0.flex-1.truncate] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 8, '320l': 8, '390d': 8, '390l': 8} e.g. Export=95x36; Appoint a group lead=204x36; Aarav GuptaSPS=109x24; Bhavesh JainSPS=109x24; Chetan AroraSPS=109x24; Deepak YadavSPS=138x24
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Group leaders' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Group leaders' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Group leaders'
+  TITLECLIP 320l: 'Group leaders'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 934, '390l': 826, '768l': 1024}
+
+## learn / devotee  (/learn) shots=10 actual=['#/hearing?w=3']
+  SMALL {'320d': 8, '320l': 8, '390d': 10, '390l': 10} e.g. One week=138x42; All weeks=138x42; Week 1=44x40; Week 2=44x40; Week 3, suggested=44x40; Week 4=44x40
+  COLUMN 1024l: used 672px = 90% of 744 (vw 1024), empty L 36 R 36
+  COLUMN 1440l: used 672px = 59% of 1140 (vw 1440), empty L 234 R 234
+  TITLE 1024l: 'Hearing' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Hearing' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1077, '390l': 1005, '768l': 1024}
+
+## login / public  (/login) shots=10 actual=['#/login']
+  COLUMN 1024l: used 388px = 38% of 1024 (vw 1024), empty L 574 R 62
+  COLUMN 1440l: used 388px = 27% of 1440 (vw 1440), empty L 886 R 166
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## members-empty / sps  (/members?q=zzqx) shots=10 actual=['#/members?q=zzqx']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Lalit Chauhan' has 82 needs 106 (h 24/24) [b.block.truncate] @ 320d,320l
+  CLIP ellipsis: 'Manish Tiwari' has 82 needs 107 (h 24/24) [b.block.truncate] @ 320d,320l
+  SMALL {'320d': 5, '320l': 5, '390d': 5, '390l': 5} e.g. All12=67x40; Active10=90x40; Inactive1=92x40; Disabled1=97x40; Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 860px = 75% of 1140 (vw 1440), empty L 140 R 140
+  TITLE 1024l: 'Devotees' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Devotees' x=324 content x=440 dx=-116 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 1157, '1440l': 1157, '320l': 2145, '390l': 1538, '768l': 1262}
+
+## members / master  (/members) shots=10 actual=['#/members']
+  CLIP ellipsis: 'Lalit Chauhan' has 82 needs 106 (h 24/24) [b.block.truncate] @ 320d,320l
+  CLIP ellipsis: 'Manish Tiwari' has 82 needs 107 (h 24/24) [b.block.truncate] @ 320d,320l
+  SMALL {'320d': 5, '320l': 5, '390d': 5, '390l': 5} e.g. All13=67x40; Active11=90x40; Inactive1=92x40; Disabled1=97x40; Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 860px = 75% of 1140 (vw 1440), empty L 140 R 140
+  TITLE 1024l: 'Devotees' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Devotees' x=324 content x=440 dx=-116 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 1229, '1440l': 1229, '320l': 2284, '390l': 1656, '768l': 1334}
+
+## members / sps  (/members) shots=10 actual=['#/members']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Lalit Chauhan' has 82 needs 106 (h 24/24) [b.block.truncate] @ 320d,320l
+  CLIP ellipsis: 'Manish Tiwari' has 82 needs 107 (h 24/24) [b.block.truncate] @ 320d,320l
+  SMALL {'320d': 5, '320l': 5, '390d': 5, '390l': 5} e.g. All12=67x40; Active10=90x40; Inactive1=92x40; Disabled1=97x40; Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 860px = 75% of 1140 (vw 1440), empty L 140 R 140
+  TITLE 1024l: 'Devotees' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Devotees' x=324 content x=440 dx=-116 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 1157, '1440l': 1157, '320l': 2145, '390l': 1538, '768l': 1262}
+
+## my-devotees / natvar  (/my-devotees) shots=10 actual=['#/my-devotees']
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'My students' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'My students' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': '8 students', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 103}
+  DOCH {'1024l': 999, '1440l': 999, '320l': 1211, '390l': 1154, '768l': 1135}
+
+## my-devotees-student / natvar  (/my-devotees/6000000011) shots=10 actual=['#/my-devotees/6000000011']
+  COVER bar under bar: '8 students Refresh 26 Oct – 1 NovThis we' [div.fc-list] by header.topbar @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  COLUMN 1024l: used 252px = 34% of 744 (vw 1024), empty L 476 R 16
+  COLUMN 1440l: used 648px = 57% of 1140 (vw 1440), empty L 476 R 16
+  TITLE 1024l: 'Student' x=348 content x=756 dx=-408 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Student' x=368 content x=776 dx=-408 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': '8 students', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 103}
+  DOCH {'1024l': 1867, '1440l': 1436, '320l': 1620, '390l': 1468, '768l': 1475}
+
+## my-devotees-week / natvar  (/my-devotees/6000000011/2026-10-19) shots=10 actual=['#/my-devotees/6000000011/2026-10-19']
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Week of 12 Oct – 18 =93x36; Week of 26 Oct – 1 N=85x36; Show as table=120x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Week' x=348 content x=296 dx=52 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Week' x=368 content x=316 dx=52 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 19 Oct – 25 Oct', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 159}
+  DOCH {'1024l': 1141, '1440l': 900, '320l': 1855, '390l': 1696, '768l': 1455}
+
+## newbatch / etp  (/newbatch) shots=10 actual=['#/newbatch']
+  CLIP ellipsis: 'New batch' has 92 needs 102 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'New batch' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'New batch' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'New batch'
+  TITLECLIP 320l: 'New batch'
+  INPAGE-H {'tag': 'H2', 'text': 'Ask to start a batch', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 91}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 956, '390l': 956, '768l': 1024}
+
+## newbatch / master  (/newbatch) shots=10 actual=['#/newbatch']
+  CLIP ellipsis: 'New batch' has 92 needs 102 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'New batch' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'New batch' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'New batch'
+  TITLECLIP 320l: 'New batch'
+  INPAGE-H {'tag': 'H2', 'text': 'Ask to start a batch', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 91}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 956, '390l': 956, '768l': 1024}
+
+## newbatch / sps  (/newbatch) shots=10 actual=['#/newbatch']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'New batch' has 92 needs 102 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'New batch' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'New batch' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'New batch'
+  TITLECLIP 320l: 'New batch'
+  INPAGE-H {'tag': 'H2', 'text': 'Ask to start a batch', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 91}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 956, '390l': 956, '768l': 1024}
+
+## notfound / devotee  (/no-such-page) shots=10 actual=['#/no-such-page']
+  COLUMN 1024l: used 209px = 28% of 744 (vw 1024), empty L 267 R 267
+  COLUMN 1440l: used 209px = 18% of 1140 (vw 1440), empty L 465 R 465
+  TITLE 1024l: 'Not found' x=304 content x=547 dx=-243 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Not found' x=324 content x=765 dx=-441 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## overview / master  (/overview) shots=10 actual=['#/overview']
+  CLIP ellipsis: 'All batches' has 92 needs 106 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 11, '320l': 11, '390d': 11, '390l': 11} e.g. Export=95x36; 10 active in SPS=32x32; 1 inactive in SPS=32x32; 0 active in SPS Grou=32x32; 0 active in SPS Onli=32x32; 0 active in DPS=32x32
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'All batches' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'All batches' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'All batches'
+  TITLECLIP 320l: 'All batches'
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 78}
+  DOCH {'1024l': 1237, '1440l': 1238, '320l': 1664, '390l': 1549, '768l': 1363}
+
+## phases / master  (/phases) shots=10 actual=['#/phases']
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Add phase=121x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Phases' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Phases' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## reading / devotee  (/reading) shots=10 actual=['#/reading']
+  SMALL {'320d': 6, '320l': 6, '390d': 6, '390l': 6} e.g. English=138x42; हिन्दी=138x42; VL-1=62x40; VL-2=62x40; VL-3=62x40; SPS/DPS (yours)=160x40
+  COLUMN 1024l: used 672px = 90% of 744 (vw 1024), empty L 36 R 36
+  COLUMN 1440l: used 672px = 59% of 1140 (vw 1440), empty L 234 R 234
+  TITLE 1024l: 'Reading' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Reading' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1119, '390l': 911, '768l': 1024}
+
+## ready / master  (/ready) shots=10 actual=['#/ready']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Ready to move up' (44x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  OVERLAP hitarea/text: 'Announcements, 4 new' x 'Ready to move up' (18x24px) [a.iconbtn.bell / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Ready to move up' has 92 needs 170 (h 24/26) [h1.pagetitle] @ 320d,320l,390d,390l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Export=95x36; Ready (0)=138x42; Everyone (10)=138x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Ready to move up' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Ready to move up' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Ready to move up'
+  TITLECLIP 320l: 'Ready to move up'
+  TITLECLIP 390d: 'Ready to move up'
+  TITLECLIP 390l: 'Ready to move up'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## ready / sps  (/ready) shots=10 actual=['#/ready']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Ready to move up' (44x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  OVERLAP hitarea/text: 'Announcements, 3 new' x 'Ready to move up' (18x24px) [a.iconbtn.bell / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Ready to move up' has 92 needs 170 (h 24/26) [h1.pagetitle] @ 320d,320l,390d,390l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Export=95x36; Ready (0)=138x42; Everyone (10)=138x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Ready to move up' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Ready to move up' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Ready to move up'
+  TITLECLIP 320l: 'Ready to move up'
+  TITLECLIP 390d: 'Ready to move up'
+  TITLECLIP 390l: 'Ready to move up'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## report / devotee  (/report) shots=10 actual=['#/report']
+  SMALL {'320d': 35, '320l': 35, '390d': 35, '390l': 35} e.g. Daily=138x42; Weekly=138x42; October=140x40; 2026=140x40; 1 Oct 2026, no recor=33x44; 2 Oct 2026, no recor=33x44
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Report' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Report' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Day by day', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 73}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1071, '390l': 1071, '768l': 1024}
+
+## report / trd  (/report) shots=10 actual=['#/report']
+  SMALL {'320d': 35, '320l': 35, '390d': 35, '390l': 35} e.g. Daily=138x42; Weekly=138x42; October=140x40; 2026=140x40; 1 Oct 2026, no recor=33x44; 2 Oct 2026, no recor=33x44
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Report' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Report' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Day by day', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 73}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1071, '390l': 1071, '768l': 1024}
+
+## reports / master  (/reports) shots=10 actual=['#/reports']
+  WRAP div.chiprow: 3 rows, last 25% ['Custom'] first ['This week', 'Last week'] @ 390d,390l,768d,768l
+  SMALL {'320d': 10, '320l': 10, '390d': 10, '390l': 10} e.g. This week=97x40; Last week=115x40; This month=105x40; A phase=84x40; A training=94x40; Custom=82x40
+  COLUMN 1024l: used 670px = 90% of 744 (vw 1024), empty L 37 R 37
+  COLUMN 1440l: used 1066px = 94% of 1140 (vw 1440), empty L 37 R 37
+  TITLE 1024l: 'Reports' x=304 content x=317 dx=-13 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Reports' x=324 content x=337 dx=-13 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 1042, '390l': 998, '768l': 1024}
+
+## requests / etp  (/requests) shots=10 actual=['#/requests']
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. All=66x42; Sign-ups=111x42; Resets=95x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Requests' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Requests' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Requests 0', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 153}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## requests / master  (/requests) shots=10 actual=['#/requests']
+  OVERLAP control/text: '' x 'Natvar Gopinath Prabhuji' (79x13px) [input#lv-6000000087.input / span.truncate] @ 1024d,1024l
+  COVER bar under bar: 'You're offline — changes stay on this ph' [p.netbar] by header.topbar.has-search @ 1440d
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 51 needs 181 (h 24/24) [span.truncate] @ 1024d,1024l
+  WRAP div.rq-top: 2 rows, last 22% ['Batch All my batch'] first ['All5Sign-ups4Reset'] @ 1024d,1024l,1440d,1440l,768d,768l
+  SMALL {'320d': 4, '320l': 4, '390d': 4, '390l': 4} e.g. All5=61x42; Sign-ups4=106x42; Resets1=90x42; Reopens1=104x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Requests' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Requests' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Requests 5', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 153}
+  DOCH {'1024l': 1285, '1440l': 1005, '320l': 828, '390l': 800, '768l': 1024}
+
+## requests-reopen / master  (/requests?type=reopen) shots=10 actual=['#/requests?type=reopen']
+  WRAP div.rq-top: 2 rows, last 22% ['Batch All my batch'] first ['All5Sign-ups4Reset'] @ 1024d,1024l,1440d,1440l,768d,768l
+  SMALL {'320d': 5, '320l': 5, '390d': 5, '390l': 5} e.g. All5=60x42; Sign-ups4=106x42; Resets1=90x42; Reopens1=106x42; Harish Rawat=100x18
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Requests' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Requests' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Reopen requests 1', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 136}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## requests / sps  (/requests) shots=10 actual=['#/requests']
+  OVERLAP control/text: '' x 'Natvar Gopinath Prabhuji' (79x13px) [input#lv-6000000087.input / span.truncate] @ 1024d,1024l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 51 needs 181 (h 24/24) [span.truncate] @ 1024d,1024l
+  WRAP div.rq-top: 2 rows, last 22% ['Batch All my batch'] first ['All4Sign-ups3Reset'] @ 1024d,1024l,1440d,1440l,768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. All4=66x42; Sign-ups3=111x42; Resets1=95x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Requests' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Requests' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Requests 4', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 153}
+  DOCH {'1024l': 1186, '1440l': 927, '320l': 800, '390l': 800, '768l': 1024}
+
+## scoreboards / etp  (/scoreboards) shots=10 actual=['#/scoreboards']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Scoreboards' (8x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Scoreboards' has 92 needs 116 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Scoreboards' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Scoreboards' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Scoreboards'
+  TITLECLIP 320l: 'Scoreboards'
+  INPAGE-H {'tag': 'H2', 'text': 'ETP · Batch 21', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 74}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## scoreboards / ftp  (/scoreboards) shots=10 actual=['#/scoreboards']
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. This week=122x42; This phase=122x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Scoreboards' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Scoreboards' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Facilitators', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 74}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## scoreboards / master  (/scoreboards) shots=10 actual=['#/scoreboards']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Scoreboards' (8x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Scoreboards' has 92 needs 116 (h 24/26) [h1.pagetitle] @ 320d,320l
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. ETP · Batch 21=138x42; Facilitators=138x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Scoreboards' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Scoreboards' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Scoreboards'
+  TITLECLIP 320l: 'Scoreboards'
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## scoreboards / natvar  (/scoreboards) shots=10 actual=['#/scoreboards']
+  CLIP ellipsis: 'Natvar Gopinath Prabhuji' has 173 needs 190 (h 24/24) [span.block.truncate.font-semibold] @ 1024d,1024l
+  CLIP ellipsis: 'Facilitator · TRD (temple resident)' has 173 needs 191 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. This week=122x42; This phase=122x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Scoreboards' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Scoreboards' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Facilitators', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 74}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## scoreboards / trainee  (/scoreboards) shots=10 actual=['#/scoreboards']
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Scoreboards' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Scoreboards' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'ETP · Batch 21', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '18px', 'weight': '600', 'top': 74}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## settings / master  (/settings) shots=10 actual=['#/settings']
+  COVER under top bar at page top: 'Staff' [a#ad-t3.tab] by nav.nav @ 768d,768l
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Settings' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Settings' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 919, '390l': 822, '768l': 1024}
+
+## share / devotee  (/share) shots=10 actual=['#/share']
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Remove Raman D.=80x36
+  COLUMN 1024l: used 695px = 93% of 744 (vw 1024), empty L 16 R 33
+  COLUMN 1440l: used 720px = 63% of 1140 (vw 1440), empty L 26 R 394
+  TITLE 1024l: 'Share sadhana' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Share sadhana' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## share-with-me / devotee  (/share/with-me) shots=10 actual=['#/share/with-me']
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Remove Aarav Gupta f=80x36
+  COLUMN 1024l: used 694px = 93% of 744 (vw 1024), empty L 17 R 33
+  COLUMN 1440l: used 720px = 63% of 1140 (vw 1440), empty L 26 R 394
+  TITLE 1024l: 'Share sadhana' x=304 content x=297 dx=7 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Share sadhana' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## shared / devotee  (/shared/shareAarav) shots=10 actual=['#/shared/shareAarav']
+  COLUMN 1024l: used 670px = 90% of 744 (vw 1024), empty L 37 R 37
+  COLUMN 1440l: used 1046px = 92% of 1140 (vw 1440), empty L 47 R 47
+  TITLE 1024l: 'Shared sadhana' x=304 content x=317 dx=-13 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Shared sadhana' x=324 content x=347 dx=-23 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Aarav Gupta', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 95}
+  DOCH {'1024l': 1379, '1440l': 1380, '320l': 1564, '390l': 1412, '768l': 1419}
+
+## shared-week / devotee  (/shared/shareAarav/2026-10-19) shots=10 actual=['#/shared/shareAarav/2026-10-19']
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Week of 12 Oct – 18 =93x36; Week of 26 Oct – 1 N=85x36; Show as table=120x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'Week' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Week' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 19 Oct – 25 Oct', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 159}
+  DOCH {'1024l': 1141, '1440l': 900, '320l': 1855, '390l': 1696, '768l': 1455}
+
+## signup / public  (/signup) shots=10 actual=['#/signup']
+  OVERLAP hitarea/text: 'Step 1: About you' x 'Step 1 of 4' (74x8px) [button.su-dot.on / h3#su-step-h.su-step] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  OVERLAP hitarea/text: 'Step 2: Your batch and class (' x 'Step 1 of 4' (12x8px) [button.su-dot / h3#su-step-h.su-step] @ 320d,320l
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. Yes=117x42; No=117x42
+  COLUMN 1024l: used 480px = 47% of 1024 (vw 1024), empty L 528 R 16
+  COLUMN 1440l: used 528px = 37% of 1440 (vw 1440), empty L 816 R 96
+  DOCH {'1024l': 980, '1440l': 982, '320l': 1015, '390l': 932, '768l': 1024}
+
+## song / devotee  (/songs/s034) shots=10 actual=['#/songs/s034']
+  OVERLAP text/text: 'gāy gorācānd jīver tore hare k' x 'Refrain' (8x15px) [p.sg-v / span.sg-n] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 3, '320l': 3, '390d': 3, '390l': 3} e.g. Small=85x42; Medium=85x42; Large=85x42
+  COLUMN 1024l: used 656px = 88% of 744 (vw 1024), empty L 44 R 44
+  COLUMN 1440l: used 656px = 58% of 1140 (vw 1440), empty L 242 R 242
+  TITLE 1024l: 'Vaishnava Songs' x=304 content x=324 dx=-20 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Vaishnava Songs' x=324 content x=542 dx=-218 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Gay Goracand Jiver Tore', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '28px', 'weight': '600', 'top': 164}
+  DOCH {'1024l': 1332, '1440l': 1332, '320l': 1859, '390l': 1654, '768l': 1372}
+
+## songs / devotee  (/songs) shots=10 actual=['#/songs']
+  SMALL {'320d': 6, '320l': 6, '390d': 6, '390l': 6} e.g. All=48x40; Prayers51=107x40; Songs235=107x40; Bhajans11=109x40; Bhaktivinoda Thakura=210x40; Narottama Dasa Thaku=222x40
+  COLUMN 1024l: used 672px = 90% of 744 (vw 1024), empty L 36 R 36
+  COLUMN 1440l: used 672px = 59% of 1140 (vw 1440), empty L 234 R 234
+  TITLE 1024l: 'Vaishnava Songs' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Vaishnava Songs' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Song books', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 95}
+  DOCH {'1024l': 21436, '1440l': 21436, '320l': 24147, '390l': 22080, '768l': 21478}
+
+## songs-empty / devotee  (/songs?q=zzqx) shots=10 actual=['#/songs?q=zzqx']
+  SMALL {'320d': 7, '320l': 7, '390d': 7, '390l': 7} e.g. All=48x40; Prayers51=107x40; Songs235=107x40; Bhajans11=109x40; Bhaktivinoda Thakura=210x40; Narottama Dasa Thaku=222x40
+  COLUMN 1024l: used 672px = 90% of 744 (vw 1024), empty L 36 R 36
+  COLUMN 1440l: used 672px = 59% of 1140 (vw 1440), empty L 234 R 234
+  TITLE 1024l: 'Vaishnava Songs' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Vaishnava Songs' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Song books', 'sameAsBar': False, 'font': 'system-ui', 'size': '12px', 'weight': '700', 'top': 95}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 817, '768l': 1024}
+
+## stats / master  (/stats) shots=10 actual=['#/stats']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Filling chart' (7x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Filling chart' has 92 needs 115 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch All of IYF D'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 13, '320l': 13, '390d': 13, '390l': 13} e.g. Export=95x36; Show as table=120x36; Show as table=120x36; 10 active in SPS=32x32; 1 inactive in SPS=32x32; 0 active in SPS Grou=32x32
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Filling chart' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Filling chart' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Filling chart'
+  TITLECLIP 320l: 'Filling chart'
+  DOCH {'1024l': 1811, '1440l': 1794, '320l': 2705, '390l': 2520, '768l': 1974}
+
+## stats / sps  (/stats) shots=10 actual=['#/stats']
+  OVERLAP hitarea/text: 'Go to a screen or devotee' x 'Filling chart' (7x24px) [button.iconbtn / h1.pagetitle] @ 320d,320l
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Filling chart' has 92 needs 115 (h 24/26) [h1.pagetitle] @ 320d,320l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch All my batch'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 9, '320l': 9, '390d': 9, '390l': 9} e.g. Export=95x36; Show as table=120x36; Show as table=120x36; 10 active in SPS=32x32; 1 inactive in SPS=32x32; 0 active in SPS Grou=32x32
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Filling chart' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Filling chart' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Filling chart'
+  TITLECLIP 320l: 'Filling chart'
+  DOCH {'1024l': 1599, '1440l': 1582, '320l': 2477, '390l': 2308, '768l': 1762}
+
+## students / etp  (/students) shots=10 actual=['#/students']
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Students' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Students' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'ETP · Batch 21', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 98}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## students / master  (/students) shots=10 actual=['#/students']
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Students' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Students' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## students / sps  (/students) shots=10 actual=['#/students']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  WRAP div.page-head: 2 rows, last 13% ['Export'] first ['Batch SPS Cancel B'] @ 1024d,1024l,1440d,1440l,320d,320l,390d,390l,768d,768l
+  SMALL {'320d': 1, '320l': 1, '390d': 1, '390l': 1} e.g. Export=95x36
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1108px = 97% of 1140 (vw 1440), empty L 16 R 16
+  TITLE 1024l: 'Students' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Students' x=324 content x=316 dx=8 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## wall / devotee  (/wall) shots=10 actual=['#/wall']
+  COLUMN 1024l: used 692px = 93% of 744 (vw 1024), empty L 36 R 16
+  COLUMN 1440l: used 880px = 77% of 1140 (vw 1440), empty L 234 R 26
+  TITLE 1024l: 'Announcements' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Announcements' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Ekadashi kirtan this Saturday', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '19px', 'weight': '600', 'top': 201}
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## wall / master  (/wall) shots=10 actual=['#/wall']
+  CLIP ellipsis: 'Announcements' has 92 needs 155 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 692px = 93% of 744 (vw 1024), empty L 36 R 16
+  COLUMN 1440l: used 890px = 78% of 1140 (vw 1440), empty L 234 R 16
+  TITLE 1024l: 'Announcements' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Announcements' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Announcements'
+  TITLECLIP 320l: 'Announcements'
+  INPAGE-H {'tag': 'H2', 'text': 'Ekadashi kirtan this Saturday', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '19px', 'weight': '600', 'top': 261}
+  DOCH {'1024l': 1193, '1440l': 1193, '320l': 1419, '390l': 1339, '768l': 1235}
+
+## wall / sps  (/wall) shots=10 actual=['#/wall']
+  CLIP ellipsis: 'Coordinator · SPS, SPS Group 2, SPS Online' has 173 needs 249 (h 16/16) [span.block.truncate.text-xs] @ 1024d,1024l,1440d,1440l
+  CLIP ellipsis: 'Announcements' has 92 needs 155 (h 24/26) [h1.pagetitle] @ 320d,320l
+  COLUMN 1024l: used 692px = 93% of 744 (vw 1024), empty L 36 R 16
+  COLUMN 1440l: used 890px = 78% of 1140 (vw 1440), empty L 234 R 16
+  TITLE 1024l: 'Announcements' x=304 content x=316 dx=-12 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'Announcements' x=324 content x=534 dx=-210 clipped=False topbar 300-1440 vs area 300-1440
+  TITLECLIP 320d: 'Announcements'
+  TITLECLIP 320l: 'Announcements'
+  INPAGE-H {'tag': 'H2', 'text': 'Ekadashi kirtan this Saturday', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '19px', 'weight': '600', 'top': 261}
+  DOCH {'1024l': 927, '1440l': 927, '320l': 1099, '390l': 1057, '768l': 1024}
+
+## week / devotee  (/week) shots=10 actual=['#/week/2026-10-26']
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. Present=121x42; Absent=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'This week' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'This week' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 84}
+  DOCH {'1024l': 995, '1440l': 935, '320l': 1724, '390l': 1520, '768l': 1036}
+
+## week-past / devotee  (/week/2026-10-19) shots=10 actual=['#/week/2026-10-19']
+  COLUMN 1024l: used 681px = 92% of 744 (vw 1024), empty L 33 R 30
+  COLUMN 1440l: used 1057px = 93% of 1140 (vw 1440), empty L 43 R 40
+  TITLE 1024l: 'This week' x=304 content x=313 dx=-9 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'This week' x=324 content x=343 dx=-19 clipped=False topbar 300-1440 vs area 300-1440
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 800, '768l': 1024}
+
+## week / trainee  (/week) shots=10 actual=['#/week/2026-10-26']
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. Present=121x42; Absent=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'This week' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'This week' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 84}
+  DOCH {'1024l': 995, '1440l': 935, '320l': 1724, '390l': 1520, '768l': 1036}
+
+## week / trd  (/week) shots=10 actual=['#/week/2026-10-26']
+  SMALL {'320d': 2, '320l': 2, '390d': 2, '390l': 2} e.g. Present=121x42; Absent=121x42
+  COLUMN 1024l: used 712px = 96% of 744 (vw 1024), empty L 16 R 16
+  COLUMN 1440l: used 1088px = 95% of 1140 (vw 1440), empty L 26 R 26
+  TITLE 1024l: 'This week' x=304 content x=296 dx=8 clipped=False topbar 280-1024 vs area 280-1024
+  TITLE 1440l: 'This week' x=324 content x=326 dx=-2 clipped=False topbar 300-1440 vs area 300-1440
+  INPAGE-H {'tag': 'H2', 'text': 'Week of 26 Oct – 1 Nov', 'sameAsBar': False, 'font': '"Iowan Old Style"', 'size': '22px', 'weight': '600', 'top': 84}
+  DOCH {'1024l': 995, '1440l': 935, '320l': 1724, '390l': 1520, '768l': 1036}
+
+## welcome / public  (/welcome) shots=10 actual=['#/welcome']
+  COLUMN 1024l: used 388px = 38% of 1024 (vw 1024), empty L 574 R 62
+  COLUMN 1440l: used 388px = 27% of 1440 (vw 1440), empty L 886 R 166
+  DOCH {'1024l': 900, '1440l': 900, '320l': 800, '390l': 822, '768l': 1024}
+
+# CARD SIGNATURES
+  r16 b1 solid shadow p0/0: 79 screens, cls ['board', 'board.gl-todo', 'cblock.dcard', 'cblock.dcard.staff-dcard', 'list', 'list.acc-rows', 'list.dv-list.shadow-none', 'list.mb-2.bk-list']
+  r16 b1 solid shadow p16/16: 63 screens, cls ['card', 'card.fac-add', 'card.mb-4', 'cblock', 'cblock.an-tr', 'cblock.fr', 'cblock.hh-main', 'cblock.hr-next']
+  r15 b1 solid flat p3/3: 57 screens, cls ['seg.ids-tools.mb-4', 'seg.mb-4', 'seg.mb-seg', 'seg.rp-mode', 'seg.rq-types', 'seg.seg-even']
+  r12 b1 solid flat p0/12: 49 screens, cls ['input', 'input.wsel', 'input.wsel.wsel-none', 'timebtn.empty']
+  r16 b1 solid shadow p20/20: 41 screens, cls ['cblock', 'cblock.an-tr', 'cblock.fr', 'cblock.hh-main', 'cblock.hr-next', 'cblock.needs', 'cblock.rp-pick', 'section']
+  r12 b1 solid flat p0/40: 29 screens, cls ['input']
+  r12 b1 solid flat p0/16: 25 screens, cls ['btn', 'btn.btn-block', 'btn.btn-block.mb-3', 'btn.btn-block.mt-3', 'btn.btn-danger', 'btn.btn-danger.btn-block', 'btn.cursor-pointer.focus-within:outline-2']
+  r12 b1 solid shadow p0/16: 24 screens, cls ['btn.btn-primary', 'btn.btn-primary.mt-3', 'btn.btn-primary.w-auto', 'btn.btn-primary.w-full']
+  r12 b0 flat p3/3: 18 screens, cls ['sc-row', 'sc-row.sc-five']
+  r12 b0 flat p12/14: 18 screens, cls ['banner.banner-err', 'banner.banner-info', 'banner.warn.mb-3']
+  r12 b1 solid flat p10/12: 17 screens, cls ['cd-stage', 'input']
+  r12 b0 shadow p0/10: 16 screens, cls ['button']
+  r16 b1 solid flat p0/0: 16 screens, cls ['as-tbl', 'mb-list', 'mb-list.fc-needs', 'ov-list']
+  r999 b1 solid flat p0/14: 12 screens, cls ['chipbtn', 'chipbtn.sg-morebtn', 'input.wsel']
+  r24 b0 flat p0/0: 11 screens, cls ['darshan.dv-card']
+  r12 b1 solid flat p8/12: 9 screens, cls ['rowlink', 'rowlink.mt-3', 'rowlink.sg-open']
+  r12 b1 solid flat p4/8: 7 screens, cls ['ws-label']
+  r12 b1 solid flat p10/14: 6 screens, cls ['pickrow']
+  r24 b1 solid shadow p20/20: 6 screens, cls ['hero-card.sblock']
+  r999 b0 shadow p6/6: 6 screens, cls ['s-pill']
+  r16 b1 solid flat p12/14: 6 screens, cls ['ann-teaser']
+  r12 b0 flat p8/10: 5 screens, cls ['li']
+  r16 b0 flat p0/0: 5 screens, cls ['darshan.dv-card']
+  r24 b2 solid shadow p32/32: 3 screens, cls ['auth-card']
+  r24 b2 solid shadow p24/20: 3 screens, cls ['auth-card']
+  r16 b0 flat p10/10: 3 screens, cls ['a']
+  r16 b1 solid shadow p12/12: 2 screens, cls ['card.fac-add']
+  r16 b1 solid flat p10/12: 2 screens, cls ['action.w-full.text-left']
+  r12 b0 shadow p12/12: 2 screens, cls ['stat']
+  r12 b1 solid flat p11/12: 2 screens, cls ['choice']
+  r12 b1 solid shadow p10/12: 1 screens, cls ['an-tile']
+  r24 b0 shadow p0/0: 1 screens, cls ['darshan.dv-hero']
+  r16 b0 shadow p12/16: 1 screens, cls ['dp-text']
+
+# HEADING SIGNATURES
+  div system-ui 16px 400: 73 screens, cls ['page-head', 'page-head.lb-head', 'page-head.ph-row'] e.g. 'Give a person a role, and give'
+  h2 Iowan Old Style 22px 600: 48 screens, cls ['-', 'm-0', 'm-0.break-words', 'mb-3.mt-3', 'mt-1', 'sr-only'] e.g. '10 Aug 2026 – 26 Oct 2026'
+  h2 Iowan Old Style 19.09px 600: 48 screens, cls ['-', 'm-0', 'm-0.break-words', 'mb-3.mt-3', 'mt-1', 'sr-only'] e.g. '10 Aug 2026 – 26 Oct 2026'
+  h3 system-ui 18px 650: 39 screens, cls ['-', 'cd-h', 'justify-center', 'm-0', 'm-0.break-words', 'm-0.mb-1'] e.g. 'Photo'
+  h3 system-ui 17.065px 650: 36 screens, cls ['-', 'cd-h', 'justify-center', 'm-0', 'm-0.mb-1', 'm-0.mb-2'] e.g. 'Photo'
+  h2 system-ui 12px 700 uppercase: 22 screens, cls ['acc-h.t-over', 't-over.m-0', 't-over.m-0.mb-2', 't-over.m-0.mb-3'] e.g. 'Profile'
+  h2 Iowan Old Style 18px 600: 10 screens, cls ['m-0.mb-3.text-lg', 'sb-only'] e.g. 'Ask to start a batch'
+  h3 system-ui 14px 650: 9 screens, cls ['ac-day', 'fc-h', 'm-0', 'su-step'] e.g. 'Today'
+  h2 Iowan Old Style 38px 600: 8 screens, cls ['-'] e.g. 'Hare Krishna, Sunil'
+  h2 Iowan Old Style 28.66px 600: 8 screens, cls ['-'] e.g. 'Hare Krishna, Sunil'
+  h2 Iowan Old Style 17px 650: 6 screens, cls ['fr-t'] e.g. 'Fill each day'
+  h2 Iowan Old Style 19px 600: 6 screens, cls ['post-t'] e.g. 'Ekadashi kirtan this Saturday'
+  h3 Iowan Old Style 22px 600: 4 screens, cls ['t-h2.m-0.flex'] e.g. 'Sunil Kumar'
+  h3 Iowan Old Style 19.09px 600: 4 screens, cls ['t-h2.m-0.flex'] e.g. 'Sunil Kumar'
+  h2 Iowan Old Style 17.065px 600: 4 screens, cls ['sb-only'] e.g. 'ETP · Batch 21'
+  h1 Iowan Old Style 38px 600: 3 screens, cls ['-'] e.g. 'Sādhana Record'
+  h2 Iowan Old Style 26px 600: 3 screens, cls ['-'] e.g. 'Forgot password'
+  h1 Iowan Old Style 28.66px 600: 3 screens, cls ['-'] e.g. 'Sādhana Record'
+  h2 Iowan Old Style 21.345px 600: 3 screens, cls ['-'] e.g. 'Forgot password'
+  legend system-ui 12px 700 uppercase: 2 screens, cls ['t-over'] e.g. 'Period'
+  legend system-ui 16px 400: 2 screens, cls ['sr-only'] e.g. 'Compared with'
+  legend system-ui 14px 550: 2 screens, cls ['label'] e.g. 'Registry match'
+  h3 system-ui 12px 600 uppercase: 2 screens, cls ['sg-trh'] e.g. 'Translation'
+  h3 system-ui 16px 650: 2 screens, cls ['sg-sec'] e.g. 'Pranama Mantras · 1'
+  legend system-ui 18px 650: 1 screens, cls ['-'] e.g. 'About you'
+  legend system-ui 17.065px 650: 1 screens, cls ['-'] e.g. 'About you'
+  h2 Iowan Old Style 28px 600: 1 screens, cls ['-'] e.g. 'Gay Goracand Jiver Tore'
+  h2 Iowan Old Style 22.71px 600: 1 screens, cls ['-'] e.g. 'Gay Goracand Jiver Tore'
+  h1 Iowan Old Style 40px 600: 1 screens, cls ['-'] e.g. 'Sādhana Record'
+  h1 Iowan Old Style 28px 600: 1 screens, cls ['-'] e.g. 'Sādhana Record'
+
+# BUTTON SIGNATURES
+  h36 r12 14px 600: 79 screens, n=139
+  h44 r12 15px 600: 78 screens, n=122
+  h44 r12 14px 600: 67 screens, n=103
+  h42 r12 15px 550: 63 screens, n=171
+  h44 r12 16px 400: 58 screens, n=84
+  h44 r999 16px 400: 51 screens, n=165
+  h42 r12 15px 700: 49 screens, n=91
+  h40 r999 14px 550: 24 screens, n=168
+  h40 r999 14px 650: 22 screens, n=348
+  h52 r12 16px 400: 14 screens, n=28
+  h52 r12 16px 650: 14 screens, n=14
+  h65 r0 16px 400: 11 screens, n=14
+  h56 r0 16px 400: 8 screens, n=16
+  h52 r9 16px 400: 8 screens, n=40
+  h45 r12 15px 700: 7 screens, n=7
+  h45 r12 15px 550: 7 screens, n=9
+  h46 r12 16px 400: 6 screens, n=12
+  h40 r999 16px 600: 6 screens, n=12
+  h40 r12 14px 700: 6 screens, n=6
+  h40 r12 14px 550: 6 screens, n=18
+  h44 r999 22px 600: 4 screens, n=4
+  h44 r999 19.09px 600: 4 screens, n=4
+  h40 r12 16px 650: 4 screens, n=80
+  h44 r12 14px 400: 4 screens, n=120
+  h44 r12 14px 700: 4 screens, n=4
+  h86 r0 16px 400: 3 screens, n=10
+  h71 r0 14px 400: 3 screens, n=21
+  h104 r0 14px 400: 3 screens, n=21
+  h69 r0 16px 400: 3 screens, n=3
+  h113 r0 16px 400: 3 screens, n=3

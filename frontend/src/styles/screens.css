@@ -1,0 +1,375 @@
+@import './seg.css';
+/* Styles of the screens that load on demand (week, day, report, board, tables, photo crop, time picker):
+   shipped with those screens' files, not with the first page. */
+/* ============================================ charts, calendar, ring ============================================ */
+@layer components {
+  .barsx { position: relative; }
+  .barsx[data-more]::after { content: ''; position: absolute; top: 0; right: 0; bottom: 22px; width: 32px; pointer-events: none; background: linear-gradient(to right, transparent, var(--surface)); }
+  .bars { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(4.75rem, 1fr); gap: 4px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .bars::-webkit-scrollbar { display: none; }
+  .bar { display: flex; min-width: 0; flex-direction: column; align-items: center; gap: 8px; scroll-snap-align: start; text-align: center; }
+  .bar .plot { display: flex; width: 100%; height: 190px; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; }
+  .bar b { font-size: var(--fs-sm); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .bar .col { width: 34px; min-height: 8px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 72%, var(--surface)); transition: height var(--d-3) var(--ease); }
+  .bar[data-tone='lead'] .col { background: var(--gold, #d4a24c); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--gold, #d4a24c) 60%, #fff); }
+  .bar[data-tone='low'] .col { background: color-mix(in srgb, var(--danger) 55%, var(--surface)); }
+  /* a category's fixed colour (8 Oct 2026); under 50 % hatched in the same colour, never red alone */
+  .bar[data-cat='overall'] { --c: var(--accent); } .bar[data-cat='body'] { --c: var(--viz-body); } .bar[data-cat='soul'] { --c: var(--viz-soul); }
+  .bar[data-cat='seva'] { --c: var(--viz-seva); } .bar[data-cat='att'] { --c: var(--viz-att); }
+  .bar[data-cat] .col { background: var(--c); }
+  .bar[data-cat][data-low] .col { background: repeating-linear-gradient(135deg, var(--c) 0 5px, color-mix(in srgb, var(--c) 40%, var(--surface)) 5px 9px); }
+  /* a label breaks only between words (never "Attendanc-e"); columns are wide enough for the longest word, also
+     when the phone's font is set larger (rem follows it) */
+  .bar .lbl { display: -webkit-box; min-height: 2.5em; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical; font-size: var(--fs-caption); line-height: 1.25; color: var(--text-muted); overflow-wrap: normal; word-break: normal; hyphens: manual; }
+  .bars.mono .bar .col { background: var(--accent-muted); }
+  .bars.mono .bar:last-child .col { background: var(--accent); }
+  /* each dot is a 28 × 44 px target; the dot itself is drawn inside it (8 Oct 2026: 7 px targets) */
+  .bars-dots { display: flex; justify-content: center; margin-top: 0; }
+  .bars-dots button { display: grid; place-items: center; width: 28px; height: 44px; padding: 0; border: 0; background: none; cursor: pointer; }
+  .bars-dots button::before { content: ''; width: 7px; height: 7px; border-radius: 999px; background: var(--border-strong); transition: width var(--d-2) var(--ease), background-color var(--d-2) var(--ease); }
+  .bars-dots button[aria-current='true']::before { width: 18px; background: var(--accent); }
+  /* Report: one row of filters, then a clean month grid (numbers only; a day's colour is a soft tint; chosen day filled) */
+  .rp-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: var(--sp-4); }
+  .pillsel { position: relative; display: inline-flex; align-items: center; flex: none; }
+  .pillsel select { appearance: none; -webkit-appearance: none; height: var(--ctl-h); padding: 0 32px 0 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface-2);
+    color: var(--text); font: inherit; font-size: var(--fs-sm); font-weight: 650; letter-spacing: .02em; cursor: pointer; }
+  .pillsel select:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+  .pillsel svg { position: absolute; right: 11px; pointer-events: none; color: var(--text-muted); }
+  /* Daily / Weekly: each word always inside its button (the head, 5 Oct 2026: "Weekly" spilled out with a larger
+     phone font). The toggle keeps its natural width; when month, year and the toggle do not fit on one line it takes a
+     line of its own, full width. 44 px tall (touch target). */
+  /* min-width wins over max-width: never narrower than its words. On a phone it fills what is left of the line (or a
+     line of its own, full width); from 600 px it keeps a modest width at the right. */
+  .rp-mode { flex: 1 0 auto; height: var(--ctl-h); margin-left: auto; min-width: max-content; }
+  /* from 600 px the row starts at the cards' left edge (Phase 24, V21: margin-left: auto pushed all three to the right) */
+  @media (min-width: 600px) { .rp-mode { max-width: 260px; margin-left: 0; } }
+  /* a phone: Daily / Weekly on its own row, full width; month and year together on the row below (Phase 4 fix) */
+  @media (max-width: 599px) { .rp-mode { flex: 1 0 100%; margin-left: 0; } .rp-bar > .rp-wsel { flex: 1 1 0; } }
+  .rp-mode button { flex: 1 0 auto; min-height: 0; height: 100%; padding: 0 14px; font-size: var(--fs-sm); white-space: nowrap; }
+  .cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px 4px; }
+  @media (max-width: 419px) { .cal { gap: 4px 2px; } }   /* every px to the day cells on a small phone (Phase 24, G10) */
+  .cal-h { padding: 2px 0 6px; text-align: center; font-size: var(--fs-caption); color: var(--text-muted); font-weight: 650; }
+  .cal-d { position: relative; box-sizing: border-box; display: grid; place-items: center; justify-self: center; height: 44px; width: 100%; max-width: 48px; padding: 0; border: 1.5px solid transparent; border-radius: 12px;
+    background: transparent; color: var(--text); font: inherit; font-size: var(--fs-sm); font-variant-numeric: tabular-nums; cursor: pointer; transition: background-color var(--d-1) var(--ease), color var(--d-1) var(--ease); }
+  @media (hover: hover) { .cal-d:hover { background: var(--surface-hover); } }
+  .cal-d.cal-today { border-color: var(--border-strong); font-weight: 700; }
+  .cal-d.p-hi { background: var(--hi); }
+  .cal-d.p-mid { background: var(--mid); }
+  .cal-d.p-lo { background: var(--lo); }
+  .cal-d.missed { border: 1.5px dashed color-mix(in srgb, var(--danger) 45%, transparent); color: var(--text-muted); }
+  .cal-d.missing { background: var(--warning-soft); box-shadow: inset 0 0 0 1.5px var(--warning); }   /* a past day not filled (8 Oct 2026) */
+  .cal-d[aria-pressed='true'] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
+  .cal-key { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 12px; margin: var(--sp-3) 0 0; padding: 0; list-style: none; font-size: var(--fs-caption); color: var(--text-muted); }
+  .cal-key-2 { margin-top: 4px; }
+  .cal-key li { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+  .cal-key i { flex: none; width: 12px; height: 12px; border-radius: 3px; }
+  .cal-key i.missing { background: var(--warning-soft); box-shadow: inset 0 0 0 1.5px var(--warning); }
+  .cal-key i.p-hi { background: var(--hi); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ok) 40%, transparent); }
+  .cal-key i.p-mid { background: var(--mid); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--warn-line) 50%, transparent); }
+  .cal-key i.p-lo { background: var(--lo); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--danger) 40%, transparent); }
+  .cal-key i.missed { border: 1.5px dashed color-mix(in srgb, var(--danger) 45%, transparent); box-sizing: border-box; }
+}
+
+
+/* ============================================ coordinator tools ============================================ */
+@layer components {
+  .photo { display: inline-grid; place-items: center; flex: none; border-radius: 50%; overflow: hidden; background: var(--accent-soft); color: var(--accent); font-family: var(--font-serif); font-weight: 600; box-shadow: 0 0 0 3px var(--surface), 0 0 0 4px var(--border); }
+  .photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  /* the week as one 48 × 8 px heat bar (staff console #8, 22 Oct 2026): seven cells touching, 1 px apart, square ends —
+     read in one glance down a long list; Board, My group and My students draw it the same way */
+  .strip { display: inline-grid; grid-template-columns: repeat(7, 6px); gap: 1px; height: 8px; vertical-align: middle; }
+  .strip i { height: 8px; background: color-mix(in srgb, var(--border-strong) 35%, transparent); }
+  .strip i[data-s='complete'] { background: var(--ok); }
+  .strip i[data-s='partial'] { background: var(--warn-line); }
+  .strip i[data-s='missing'] { background: var(--warning); }   /* past, not filled */
+  .board-head { display: none; }
+  .brow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; align-items: center; padding: 10px 14px; box-sizing: border-box; background: var(--surface); }
+  .brow .who { display: flex; flex-direction: column; justify-content: center; min-width: 0; min-height: 44px; color: var(--text); text-decoration: none; border-radius: var(--r-xs); }   /* a 44 px target (8 Oct 2026) */
+  .board-off { border-top: 1px solid var(--border); }
+  .board-off > summary { display: flex; align-items: center; min-height: 44px; padding: 0 14px; color: var(--text-muted); font-size: var(--fs-sm); font-weight: 600; cursor: pointer; }
+  .board-off .brow { opacity: .85; }
+  .brow .who b { font-weight: 600; }
+  @media (hover: hover) { .brow .who:hover b { text-decoration: underline; text-underline-offset: 2px; } }
+  .brow .sub { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: var(--fs-sm); color: var(--text-muted); }
+  .brow > .who { grid-column: 1; grid-row: 1; }
+  .brow > .end { grid-column: 2; grid-row: 1 / 3; justify-self: end; }
+  .brow > .sub { grid-column: 1; grid-row: 2; }
+  @media (min-width: 720px) {
+    /* the last column holds P + A (92 px) and the ⋯ button (44 px): 148 px, so they never spill over the middle column
+       (the space audit, 10 Oct 2026, found them overlapping at 112 px) */
+    .board-head { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.4fr) 148px; gap: 12px; padding: 10px 14px; background: var(--surface); border-bottom: 2px solid color-mix(in srgb, var(--area) 35%, var(--border)); }   /* solid: it sticks over the rows (27 Oct 2026: they showed through it) */
+    .brow { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.4fr) 148px; }
+    .brow > .sub { grid-column: 2; grid-row: 1; }
+    .brow > .end { grid-column: 3; grid-row: 1; }
+  }
+  .pa { display: inline-flex; gap: 4px; }
+  .pa button { min-width: 44px; min-height: 44px; border: 1px solid var(--border-strong); border-radius: var(--r-md); background: var(--surface); color: var(--text); font: inherit; font-weight: 650; cursor: pointer;
+    transition: background-color var(--d-1) var(--ease), color var(--d-1) var(--ease), scale var(--d-1) var(--ease); }
+  @media (hover: hover) { .pa button:hover:not(:disabled) { background: var(--surface-hover); } }
+  .pa button[aria-pressed='true'] { background: var(--accent); color: var(--on-accent); border-color: transparent; }
+  .pa button[data-self] { border: 2px dashed var(--accent); color: var(--accent); }
+  .pa button:disabled { cursor: not-allowed; opacity: 0.6; }
+  .crop { position: relative; width: min(100%, 280px); aspect-ratio: 1; margin: 0 auto 12px; border-radius: var(--r-lg); overflow: hidden; background: #000; touch-action: none; cursor: grab; }
+  .crop:active { cursor: grabbing; }
+  .crop canvas { display: block; width: 100%; height: 100%; }
+  .crop::after { content: ''; position: absolute; inset: 0; border-radius: 50%; box-shadow: 0 0 0 999px rgb(0 0 0 / 0.45); pointer-events: none; }
+  /* week stepper (hearing, board) */
+  .wstep { display: grid; grid-template-columns: 44px 1fr 44px; align-items: center; gap: 8px; margin-bottom: 6px; padding: 3px; text-align: center; border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface-2); }
+  .wstep button { display: grid; place-items: center; min-height: 44px; border: 0; border-radius: var(--r-md); background: none; color: var(--text); cursor: pointer; transition: background-color var(--d-1) var(--ease); }
+  @media (hover: hover) { .wstep button:hover:not(:disabled) { background: var(--surface); } }
+  .wstep button:disabled { opacity: 0.3; cursor: default; }
+  .wstep h2 { font-size: 1rem; }
+  .swipe { touch-action: pan-y; }
+}
+
+
+@layer components {
+  /* raised like every field (ladder #1, 22 Oct 2026): a grey fill read as disabled beside the white text fields */
+  .timebtn { box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; min-height: var(--ctl-h); padding: 0 12px; border: 1px solid color-mix(in srgb, var(--accent) 10%, var(--border-strong)); border-radius: var(--r-md);
+    background: var(--surface-elevated); color: var(--text); font: inherit; font-size: 1rem; text-align: left; cursor: pointer; transition: border-color var(--d-1) var(--ease); }
+  @media (hover: hover) { .timebtn:hover { border-color: var(--text-muted); } }
+  .timebtn svg { color: var(--text-muted); }
+  .timebtn span { font-variant-numeric: tabular-nums; font-weight: 550; }
+  .timebtn.empty span { color: var(--text-muted); font-weight: 400; }
+  /* the time sheet: three snapping wheels (hour · minute · AM/PM) with a highlighted middle row */
+  .tp-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: var(--sp-3); }
+  .tp-preview { font-family: var(--font-serif); font-size: 1.75rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .tp-wheels { display: grid; grid-template-columns: 1fr 1fr 0.9fr; gap: 6px; margin: 0 auto; max-width: 340px; }
+  .tp-last { margin: var(--sp-3) auto 0; display: flex; }
+  .tbl { width: 100%; border-collapse: separate; border-spacing: 0; font-size: var(--fs-sm); border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow-1); overflow: hidden; }
+  /* staff console (audit §8.3, 22 Oct 2026): a header is a 2 px area-tinted rule, not a grey band; a row under the pointer
+     shows a 3 px area bar at its left edge */
+  .tbl th { text-align: left; font-weight: 600; font-size: var(--fs-caption); letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); background: transparent; border-bottom: 2px solid color-mix(in srgb, var(--area) 35%, var(--border)); padding: 10px 14px; }
+  .tbl td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  .tbl tr:last-child td { border-bottom: 0; }
+  @media (hover: hover) { .tbl tbody tr:hover td:first-child, .mrow:hover { box-shadow: inset 3px 0 0 var(--area); } }
+  .tbl td.num, .tbl th.num { text-align: right; }
+  .tbl .acts { display: flex; justify-content: flex-end; gap: 6px; white-space: nowrap; }
+  .tbl-wide { display: none; }
+  @media (min-width: 900px) { .tbl-wide { display: table; } .tbl-narrow { display: none; } }
+  .bk { border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); }
+  /* ladder #19 (22 Oct 2026): a book's level as a band at its left edge — Vedic levels gold, SPS/DPS brand blue,
+     BSS/BVS teal — so a long list reads by level at a glance (the level is also written on the row) */
+  .bk[data-level] { box-shadow: inset 4px 0 0 var(--lvl, transparent); }
+  .bk[data-level^='VL'] { --lvl: var(--gold-decorative); }
+  .bk[data-level='SPS/DPS'] { --lvl: var(--accent); }
+  .bk[data-level='BSS/BVS'] { --lvl: var(--viz-seva); }
+  /* the title keeps a readable width; on a narrow phone the level, Open PDF and Choose wrap under it (never a letter per line) */
+  .bk-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; min-height: 52px; padding: 8px 8px 8px 14px; box-sizing: border-box; }
+  .bk-row .t { flex: 1 1 11rem; min-width: 0; overflow-wrap: break-word; font-weight: 550; }
+  .bk summary { list-style: none; cursor: pointer; border-radius: var(--r-md); }
+  .bk summary::-webkit-details-marker { display: none; }
+  .bk summary .more { display: inline-flex; align-items: center; min-height: var(--ctl-h); padding: 0 6px; }
+  .bk summary .more::after { content: ''; width: 7px; height: 7px; margin-left: 8px; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-2px) rotate(45deg); transition: transform var(--d-2) var(--ease); }
+  .bk[open] summary .more::after { transform: translateY(1px) rotate(225deg); }
+  .bk-vols { display: grid; gap: 4px; margin: 0; padding: 0 12px 12px; list-style: none; }
+  /* .kv, the key-value list: one definition for every screen, in app.css (Phase 24, G4 / V27 — this one right-aligned the values) */
+}
+@layer components {
+  /* the day form's Save bar (and the board's attendance bar): floats above the bottom nav, never under it */
+  /* the day's Save bar: docked just above the bottom tabs on phones (fixed, one height whatever the message), so it never
+     drifts while scrolling; the space under the form keeps the last field clear of it. Sticky in the page on a computer. */
+  .actionbar { position: fixed; left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); bottom: calc(var(--nav-space) + 8px);
+    z-index: var(--z-sticky); display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.3fr); align-items: center; gap: 10px; max-width: 520px; margin: 0 auto;
+    padding: 8px 8px 8px 16px; box-sizing: border-box; border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface-floating); box-shadow: var(--shadow-3); }
+  /* medium (every role): the bar sits beside the navigation rail, not over it */
+  @media (min-width: 600px) and (max-width: 1023px) { .actionbar { left: calc(var(--rail-w) + env(safe-area-inset-left, 0px) + 16px); right: 16px; } }
+  .actionbar.behalf { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); }
+  .ab-space { height: 96px; }
+  .actionbar .sum { display: grid; min-width: 0; line-height: 1.2; }
+  .actionbar .sum-l { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--fs-caption); color: var(--text-muted); }
+  .actionbar .sum strong { font-family: var(--font-serif); font-size: 1.375rem; font-weight: 650; }
+  .actionbar .sum strong span { font-family: var(--font-sans); font-size: var(--fs-sm); }
+  .actionbar .ab-share { width: 48px; padding: 0; }
+  .actionbar .btn:not(.ab-share) { width: 100%; }
+  @media (min-width: 1024px) { .actionbar { position: sticky; bottom: 16px; left: auto; right: auto; max-width: none; margin-top: var(--sp-4); } .ab-space { display: none; } html.day-editor .actionbar { max-width: 720px; } }   /* the day's bar: as wide as its one-column form (8 Oct 2026) */
+  /* typing on a phone: the bottom tabs and the Save bar step aside for the keyboard (Day.svelte sets .typing) */
+  html.typing .nav, html.typing .actionbar { display: none; }
+  /* the day editor on a phone: one floating bar only (Save), the bottom tabs step aside; Back and the day chips move around (8 Oct 2026) */
+  @media (max-width: 599px) { html.day-editor .nav { display: none; } html.day-editor .actionbar { bottom: calc(var(--safe-b) + 10px); } html.day-editor .ab-space { height: 72px; } }
+}
+
+@layer components {
+  .board { border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow-1); overflow: hidden; }
+  .board ul > li + li { border-top: 1px solid var(--border); }
+  .board .empty { border: 0; }
+}
+
+@layer components {
+  .wk-bar { display: block; height: 6px; border-radius: var(--r-full); background: var(--surface-2); overflow: hidden; }
+  .wk-bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent), var(--gold-decorative)); }   /* ladder #14 */
+  .spark { display: flex; align-items: flex-end; gap: 3px; height: 32px; }
+  .spark i { flex: 1; min-height: 2px; border-radius: 2px 2px 0 0; background: var(--accent-muted); }
+  .spark i:last-child { background: var(--accent); }
+}
+
+/* ============================================ members ============================================ */
+@layer components {
+  /* Members (3 Oct 2026: compact and centred): search, a 2×2 grid of small filters on phones (one row from 720 px), status as one segmented row */
+  .members { max-width: 860px; margin-inline: 0; }   /* under the title (Phase 24, V15) */
+  /* min-width: 0 — a grid item will not shrink below its content without it, and the status row's
+     three buttons do not wrap. At 320 px that pushed the whole filter bar to 379 px and the page
+     scrolled sideways (found 16 Oct 2026; the bug was already live). */
+  .mb-filters { display: grid; gap: 10px; margin-bottom: var(--sp-4); min-width: 0; }
+  .mb-filters > * { min-width: 0; }
+  .mb-row { display: grid; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (min-width: 720px) { .mb-row { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); } }
+  .mb-row .input { min-height: var(--ctl-h); padding-block: 6px; font-size: var(--fs-sm); }
+  /* .seg.mb-seg, not .mb-seg (27 Oct 2026): seg.css loads after this file and its .seg { display: flex } and .seg button
+     { flex: 1 1 0 } won at equal weight, so at 320 px the four statuses shrank into each other ("Active 10Inactive 1") */
+  .seg.mb-seg { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 0; }
+  /* Four statuses with their counts do not fit 320 px, and squeezing them clipped "Inactive 1" and
+     "Disabled 1" mid-word. So the row scrolls on its own instead of widening the page: every label
+     stays whole and readable, and the one the coordinator is on is scrolled into view. The page
+     itself never scrolls sideways (16 Oct 2026). */
+  .seg.mb-seg { grid-auto-columns: max-content; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; scroll-snap-type: x proximity; }
+  .mb-seg::-webkit-scrollbar { display: none; }
+  .seg.mb-seg button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: var(--ctl-h); font-size: var(--fs-sm);
+                   padding-inline: 12px; white-space: nowrap; scroll-snap-align: center; }
+  /* from 420 px they share the width evenly again, as they always did */
+  @media (min-width: 420px) { .seg.mb-seg { grid-auto-columns: minmax(0, 1fr); overflow-x: visible; } }
+  .mb-seg b { font-weight: 700; font-variant-numeric: tabular-nums; opacity: .8; }
+  /* the count, then Refresh and Export as one unit: on a small phone the unit moves under the count, never split */
+  .mb-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; margin-bottom: var(--sp-2); }
+  .mb-head > .ph-tools { flex-wrap: nowrap; }
+  .mb-list { margin: 0; padding: 0; list-style: none; border: 1px solid var(--border); border-radius: var(--r-lg); overflow: hidden; background: var(--surface); }
+  .mrow { display: flex; align-items: center; gap: 8px; padding-right: 12px; border-top: 1px solid var(--border); }
+  .mrow:first-child { border-top: 0; }
+  .mrow-main { flex: 1; min-width: 0; display: flex; align-items: center; gap: 12px; padding: 12px 8px 12px 14px; color: var(--text); text-decoration: none; }
+  @media (hover: hover) { .mrow-main:hover b { text-decoration: underline; text-underline-offset: 2px; } }
+  .mrow-sub { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; margin-top: 2px; font-size: var(--fs-sm); color: var(--text-muted); }
+  .mrow-sub .pill { min-height: 0; padding: 0 8px; font-size: var(--fs-caption); }
+  .mrow-del { flex: none; }
+  .mrow-del-gap { flex: none; width: var(--ctl-h); }
+  .mrow-name { display: block; font-weight: 700; overflow-wrap: anywhere; }   /* the whole name, wrapping (K1), never "Lalit Ch…" */
+  .mrow-act { display: inline-flex; gap: 2px; flex: none; }
+  /* the Status board's counts: number over label, four in one row */
+  .stat-seg button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; min-height: 48px; padding: 4px 2px; line-height: 1.15; }
+  .stat-seg b { font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+  .stat-seg span { font-size: var(--fs-caption); white-space: nowrap; }
+  .mrow-act a { color: var(--accent); }   /* :global() here is Svelte syntax: in this plain stylesheet it voided the whole rule */
+  .tabular { font-variant-numeric: tabular-nums; }
+  @media (max-width: 479px) { .mrow { padding-right: 4px; gap: 0; } .mrow-main { gap: 10px; padding-right: 4px; } .mrow-act { gap: 0; } }   /* one line, the actions at the end (Phase 5) */
+}
+
+/* ============================================ wall pictures ============================================ */
+@layer components {
+  .annimg { display: block; width: 100%; max-height: 520px; margin: 0 0 var(--sp-3); padding: 0; border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden; background: var(--surface-2); cursor: zoom-in; }
+  .annimg:disabled { cursor: default; }
+  .annimg img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .annimg-sk { width: 100%; height: 100%; border-radius: 0; }
+  .annimg-msg { display: flex; height: 100%; align-items: center; justify-content: center; gap: 8px; color: var(--text-muted); font-size: var(--fs-sm); }
+  .annimg-full { max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; margin: 0; padding: 12px; border: 0; background: rgba(0, 0, 0, .92); display: none; place-items: center; box-sizing: border-box; }
+  .annimg-full[open] { display: grid; }
+  .annimg-full::backdrop { background: rgba(0, 0, 0, .92); }
+  .annimg-full img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: var(--r-sm); }
+  .pickpic { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: var(--sp-4); }
+  .pickpic img { width: 96px; height: 72px; object-fit: cover; border-radius: var(--r-sm); border: 1px solid var(--border); }
+}
+
+/* ============================================ facilitators (master) ============================================ */
+@layer components {
+  .fac-add { display: grid; gap: var(--sp-3); align-items: end; grid-template-columns: 1fr auto; margin-bottom: var(--sp-4); padding: var(--sp-4); }
+  .fac-add .btn { min-height: var(--ctl-h); }
+  /* one line on every phone too (the head, 7 Oct 2026): the name, and Add beside it */
+  @media (max-width: 420px) { .fac-add { gap: var(--sp-2); padding: var(--sp-3); } .fac-add .btn { padding-inline: 14px; } }
+  .fac-tools { display: grid; gap: var(--sp-3); margin-bottom: var(--sp-3); }
+  .fac-row { gap: 6px; }
+  .fac-row[data-off] .lt { color: var(--text-muted); }
+  .fac-switch { flex: none; min-height: 44px; padding: 0 4px; gap: 0; }
+}
+
+/* ============================================ the day form: scoring rules note ============================================ */
+@layer components {
+  /* headed plain sections (no card per section, so nothing nests), a hairline between them, fields on the muted surface */
+  .dform { max-width: var(--page-read); }   /* one column, top to bottom, at every width (8 Oct 2026) */
+  .sec-ok { display: inline-grid; place-items: center; width: 22px; height: 22px; margin-left: 4px; border-radius: 50%; background: var(--success); color: var(--surface-elevated); font-size: 0.75rem; }
+  .dform > .section { margin: 0; padding: var(--sp-5) 0; border: 0; border-radius: 0; background: none; box-shadow: none; }
+  .dform > .section + .section { border-top: 1px solid var(--divider); }
+  .dform > .section:first-child { padding-top: var(--sp-2); }
+  .dform > .section > h3 { margin-bottom: var(--sp-4); }
+  .dform > .section > h3 > svg { box-sizing: content-box; width: 18px; height: 18px; padding: 9px; border-radius: 12px; background: var(--accent-soft); }
+  .rulesnote { display: flex; align-items: center; gap: 10px; width: 100%; min-height: var(--ctl-h); margin: 0 0 var(--sp-3); padding: 10px 14px; box-sizing: border-box; border: 1px solid var(--border);
+    border-radius: var(--r-lg); background: var(--surface-elevated); color: var(--text); font: inherit; font-size: var(--fs-sm); font-weight: 600; cursor: pointer; }
+  .rulesnote > svg:first-child { color: var(--accent); flex: none; }
+  .rulesnote > svg:last-child { color: var(--text-muted); flex: none; }
+  .rules-sheet .ru-t { margin: var(--sp-3) 0 6px; font-size: var(--fs-sm); font-weight: 650; }
+  .ru-list { margin: 0; padding: 0; list-style: none; border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden; }
+  .ru-list li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; font-size: var(--fs-sm); font-variant-numeric: tabular-nums; }
+  .ru-list li + li { border-top: 1px solid var(--border); }
+  .ru-list b { font-weight: 650; } .ru-list b.neg { color: var(--danger); }
+}
+
+/* filter / choice chips and disclosure rows (only on screens that load this file; moved from the startup CSS) */
+@layer components {
+  .chiprow { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+  .chiprow > * { flex: none; }
+  /* a known set of options (Chetna): equal cells in a grid, so the last option never sits alone on a row (Phase 24, G6 / V22) */
+  .chiprow.chipgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 8.5rem), 1fr)); }
+  .chiprow.chipgrid > .chipbtn { justify-content: center; text-align: center; }
+  /* filter chips on one line: what doesn't fit scrolls sideways (no scrollbar); on a phone the row runs to the screen's
+     edges, so the chip cut off at the edge shows there is more */
+  .chiprow.one-line { flex-wrap: nowrap; overflow-x: auto; padding-block: 2px;  /* room for the focus ring */ overscroll-behavior-x: contain; scrollbar-width: none; scroll-snap-type: x proximity; }
+  .chiprow.one-line::-webkit-scrollbar { display: none; }
+  /* on a phone the row fades at its right edge: more chips are a swipe away (8 Oct 2026) */
+  @media (max-width: 599px) { .chiprow.one-line { mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); } }
+  @media (hover: hover) and (pointer: fine) { .chiprow.one-line { scrollbar-width: thin; padding-bottom: 6px; } .chiprow.one-line::-webkit-scrollbar { display: block; height: 6px; } }   /* a mouse user sees the chips scroll (8 Oct 2026) */
+  .chiprow.one-line > * { scroll-snap-align: start; }
+  @media (max-width: 599px) { .chiprow.one-line { margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); } }
+  /* 44 px on touch (Phase 24, G10); a mouse keeps 40 */
+  .chipbtn { box-sizing: border-box; display: inline-flex; align-items: center; gap: 6px; min-height: var(--ctl-h); margin: 2px 0; padding: 0 14px; border: 1px solid var(--border-strong); border-radius: var(--r-full); background: var(--surface-elevated);
+    color: var(--text); font: inherit; font-size: var(--fs-sm); font-weight: 550; cursor: pointer; transition: background-color var(--d-1) var(--ease), border-color var(--d-1) var(--ease), color var(--d-1) var(--ease), scale var(--d-1) var(--ease); }
+  @media (hover: hover) { .chipbtn:hover { background: var(--surface-hover); } }
+  @media (pointer: fine) { .chipbtn { min-height: 40px; } }
+  .chipbtn[aria-pressed='true'] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); font-weight: 650; }
+  .chipbtn[aria-pressed='true']::before { content: ''; width: 12px; height: 8px; margin-left: -2px; border: solid currentColor; border-width: 0 0 2px 2px; transform: translateY(-2px) rotate(-45deg); }
+  .chipbtn b { font-weight: 700; margin-right: 2px; }
+  .chiprow.counts .chipbtn[aria-pressed='true']::before { display: none; }
+  details.disclose > summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; cursor: pointer; list-style: none; font-weight: 600; }
+  details.disclose > summary::-webkit-details-marker { display: none; }
+  details.disclose > summary::after { content: ''; width: 8px; height: 8px; border: solid var(--text-muted); border-width: 0 2px 2px 0; transform: rotate(45deg); transition: transform var(--d-2) var(--ease); flex: none; margin-right: 4px; }
+  details.disclose[open] > summary::after { transform: rotate(225deg); }
+  details.disclose + details.disclose { border-top: 1px solid var(--border); }
+  /* action rows and inline confirmations (moved from the startup CSS) */
+  .action { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 10px 12px; box-sizing: border-box; border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); color: var(--text);
+    text-decoration: none; font: inherit; transition: background-color var(--d-1) var(--ease), border-color var(--d-1) var(--ease); }
+  @media (hover: hover) { a.action:hover, button.action:hover { border-color: var(--accent-line); background: var(--surface-tint); } }
+  button.action { cursor: pointer; }
+  button.action[aria-pressed='true'] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); background: var(--accent-soft); }
+  .action .ico { display: grid; place-items: center; width: 36px; height: 36px; border-radius: var(--r-md); background: var(--accent-soft); color: var(--accent); flex: none; }
+  .actions { display: grid; gap: 8px; }
+  .confirm { margin-top: var(--sp-3); padding: var(--sp-4); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: var(--r-md); background: var(--surface-2); color: var(--text); animation: rise var(--d-2) var(--ease); }
+  .confirm.danger { border-left-color: var(--danger); background: var(--danger-soft); }
+  .confirm > .q { margin: 0 0 8px; font-weight: 650; outline: none; }
+  .page-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 8px 16px; margin: 4px 0 var(--sp-4); }
+  .page-head h2 { margin: 0; min-width: 0; }
+  /* ui/PageHeader: the title (or a picker standing for it) and one meta line, the actions on the same row */
+  .page-head.ph { align-items: center; }
+  .ph-main { flex: 1 1 14rem; min-width: 0; }
+  .ph-t { margin: 0; overflow-wrap: anywhere; }
+  .ph-meta { margin: 4px 0 0; color: var(--text-muted); font-size: var(--fs-sm); }
+  .page-head.ph-one { flex-wrap: nowrap; align-items: center; }
+  .page-head.ph-one > * { min-width: 0; }
+  .page-head.ph-one > .btn { flex: none; }
+  /* the page's tools in one cluster at the end of its head — Refresh, Export, the primary action — so a phone
+     shows one line of chrome before the list, not three (19 Oct 2026) */
+  .ph-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 8px; margin-left: auto; }
+  .ph-tools .refresh { margin: 0; min-height: 0; }
+  /* a key in How to use (Phase 7 keyboard shortcuts) */
+  kbd { display: inline-block; min-width: 1.6em; padding: 0 4px; border: 1px solid var(--border-strong); border-radius: 4px; color: var(--text); font: 600 0.75rem/1.5 var(--font-sans); text-align: center; }
+}
+
+/* the day form's Hearing topic and Reading book: one row each that opens its sheet (8 Oct 2026) */
+@layer components {
+  .pickrow { display: flex; align-items: center; gap: 10px; width: 100%; min-height: var(--ctl-h); padding: 10px 14px; box-sizing: border-box; border: 1px solid var(--border-strong);
+    border-radius: var(--r-md); background: var(--surface); color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+  .pickrow > svg { color: var(--text-muted); flex: none; }
+  .pick-v { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+  .pick-v.pick-none { color: var(--text-muted); font-weight: 400; }
+  .pick-sheet .sheet-foot { position: sticky; bottom: 0; margin-top: var(--sp-3); padding: var(--sp-2) 0; background: var(--surface-floating); }
+}
+/* a week's score as a pill banded like the calendar (Phase 5): hi ≥ 80, mid 50–79, lo < 50 */
+@layer components {
+  .score-pill { flex: none; min-width: 3.25rem; padding: 2px 8px; border-radius: 999px; text-align: center; font-weight: 650; font-variant-numeric: tabular-nums; background: var(--surface-2); color: var(--text); }
+  .score-pill[data-b='hi'] { background: var(--hi); } .score-pill[data-b='mid'] { background: var(--mid); } .score-pill[data-b='lo'] { background: var(--lo); }
+}

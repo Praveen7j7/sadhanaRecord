@@ -1,0 +1,27 @@
+{
+ "at": "2026-10-28T10:53:54.085Z",
+ "routes": 60,
+ "findings": [
+  {
+   "persona": "signed-out@390",
+   "route": "#/welcome",
+   "level": "MINOR",
+   "kind": "generic-title",
+   "detail": "document.title is \"IYF Delhi Sadhana Record\" on every route"
+  },
+  {
+   "persona": "signed-out@1280",
+   "route": "#/welcome",
+   "level": "MINOR",
+   "kind": "generic-title",
+   "detail": "document.title is \"IYF Delhi Sadhana Record\" on every route"
+  },
+  {
+   "persona": "coordinator@390",
+   "route": "#/stats",
+   "level": "MINOR",
+   "kind": "focus-order",
+   "detail": "Tab order jumps back up the page 3× — reading order may not match the visual order"
+  }
+ ]
+}

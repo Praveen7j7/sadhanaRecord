@@ -1,0 +1,47 @@
+diff --git a/worker/src/api.js b/worker/src/api.js
+index 824a935..c31038d 100644
+--- a/worker/src/api.js
++++ b/worker/src/api.js
+@@ -22,6 +22,8 @@ import * as groups from './groups.js';
+ import * as fac from './facilitator.js';
+ import * as exp from './exports.js';
+ import * as lb from './leaderboard.js';
++import * as mc from './monthcard.js';
++import * as grants from './grants.js';
+ 
+ export const API_VERSION = 1;
+ // Who may call an action, by scope (decision 34): ANY signed-in person · DEVOTEE has their own form ·
+@@ -203,6 +205,8 @@ export const ROUTES = {
+   // the boards: a training batch's to its own coordinator and the head; the facilitators' to the head
+   'board.list':                 { roles: ANY, fields: [], fn: phases.boardList },
+   // one person's card, opened from a scoreboard row: the head, or the coordinator of their training
++  // the month scorecard (ADR 0012 D): their own; the head anyone's; a training's coordinator their trainees'
++  'card.months':                { roles: ANY, fields: ['login', 'phaseId'], fn: mc.cardMonths },
+   'card.of':                    { roles: ANY, fields: ['login', 'phaseId', 'weekId'], fn: phases.cardOfPerson },
+   'board.get':                  { roles: ANY, fields: ['phaseId', 'weekId', 'batchId'], fn: phases.boardGet },
+   // the sadhana leaderboard (ADR 0013): staff rank their batches (the head: any, or all IYF); a devotee their own place
+@@ -239,7 +243,12 @@ export const ROUTES = {
+   'push.message':               { roles: PUBLIC, fields: ['endpoint'], fn: push.message },
+   'push.renew':                 { roles: PUBLIC, write: true, noReplay: true, fields: ['oldEndpoint', 'endpoint', 'keys'], fn: push.renew },
+   'stats.all':                  { roles: MASTER, fields: ['weeks'], fn: coord.statsAll },
+-  'audit.list':                 { roles: MASTER, fields: ['who', 'what', 'target', 'from', 'to', 'before', 'limit'], fn: coord.auditList },
++  // permissions per person (ADR 0015): the head gives and takes, any devotee or staff
++  'access.search':              { roles: MASTER, fields: ['q'], fn: grants.accessSearch },
++  'access.get':                 { roles: MASTER, fields: ['login'], fn: grants.accessGet },
++  'access.list':                { roles: MASTER, fields: [], fn: grants.accessList },
++  'access.set':                 { roles: MASTER, write: true, fields: ['login', 'capability', 'effect', 'until', 'reason'], fn: grants.accessSet },
++  'audit.list':                 { roles: MASTER, fields: ['who', 'what', 'target', 'from', 'to', 'before', 'limit', 'q', 'actions'], fn: coord.auditList },
+   'runlog.list':                { roles: MASTER, fields: ['limit'], fn: coord.runlogList },
+   'settings.get':               { roles: MASTER, fields: [], fn: coord.settingsGet },
+   // exports (Phase 9, item 21): a page at a time; the first page is checked, rate-limited and logged in Activity
+@@ -269,7 +278,9 @@ async function handle(req, ctx) {
+   if (route.roles !== PUBLIC) {
+     Object.assign(ctx, await sessionCtx(ctx, req.token));
+     if (ctx.mustChange && !route.mustChangeOk) throw apiError('MUST_CHANGE_PASSWORD', 'Please choose a new password first.');
+-    if (!allowed(route.roles, ctx.scopes)) throw apiError('FORBIDDEN', 'You do not have access to this.');
++    // the role gate, then what the head has given or taken for this person (ADR 0015): read from the account row the
++    // session already loaded, so no extra round trip
++    if (!grants.gate(ctx, req.action, data, allowed(route.roles, ctx.scopes))) throw apiError('FORBIDDEN', 'You do not have access to this.');
+     // A service account (migration 0041) may call ONLY the actions it was created for, whatever its role
+     // otherwise allows: the dashboard's hourly job holds a token that mints IYF IDs and can do nothing else,
+     // so a Script Property every dashboard editor can read is no longer a master key. Empty = a person, no limit.

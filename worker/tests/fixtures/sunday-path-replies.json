@@ -1,0 +1,2596 @@
+{
+ "recorded": "2026-10-27 (weeks.js before S2)",
+ "replies": {
+  "get W2 not started": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "NOT_STARTED",
+    "opensAt": "2026-10-11T18:00:00+05:30",
+    "closesAt": "2026-10-12T21:00:00+05:30",
+    "canSubmit": false,
+    "days": [
+     {
+      "date": "2026-10-05",
+      "name": "Monday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-06",
+      "name": "Tuesday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-07",
+      "name": "Wednesday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-08",
+      "name": "Thursday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-09",
+      "name": "Friday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-10",
+      "name": "Saturday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-11",
+      "name": "Sunday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-10T18:00:00+05:30",
+     "open": false,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-11T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get bad week": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "Not a week.",
+    "fields": [
+     {
+      "path": "weekId",
+      "message": "Not a week."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get W1 not started": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-09-28",
+    "status": "NOT_STARTED",
+    "opensAt": "2026-10-04T18:00:00+05:30",
+    "closesAt": "2026-10-05T21:00:00+05:30",
+    "canSubmit": true,
+    "days": [
+     {
+      "date": "2026-09-28",
+      "name": "Monday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-09-29",
+      "name": "Tuesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-09-30",
+      "name": "Wednesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-01",
+      "name": "Thursday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-02",
+      "name": "Friday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-03",
+      "name": "Saturday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-04",
+      "name": "Sunday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-03T18:00:00+05:30",
+     "open": true,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-04T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get closed week": {
+   "ok": false,
+   "error": {
+    "code": "NOT_FOUND",
+    "message": "Nothing was filled for that week."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay new draft": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay retried": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay stale": {
+   "ok": false,
+   "error": {
+    "code": "STALE",
+    "message": "This day was updated on another device.",
+    "data": {
+     "current": {
+      "v": 1,
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     }
+    }
+   },
+   "data": {
+    "current": {
+     "v": 1,
+     "sleptAt": "22:05",
+     "wokeAt": "04:35",
+     "rounds": 16,
+     "chantingDoneAt": "06:50",
+     "chantingSameDay": true,
+     "dayRestMin": 30,
+     "hearingMin": 0,
+     "readingMin": 0,
+     "serviceMin": 60
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay future": {
+   "ok": false,
+   "error": {
+    "code": "FUTURE_DAY",
+    "message": "A day can be filled from that day onwards."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay not in week": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "That day is not in this week.",
+    "fields": [
+     {
+      "path": "date",
+      "message": "That day is not in this week."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay no version": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "Missing version.",
+    "fields": [
+     {
+      "path": "version",
+      "message": "Missing version."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay lookups": {
+   "ok": true,
+   "data": {
+    "version": 2,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "24 to 20 min",
+      "marks": 20
+     },
+     "sravan": {
+      "label": "30 to 25 min",
+      "marks": 25
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay bad lookups": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "Some answers need fixing.",
+    "fields": [
+     {
+      "path": "day.hearing",
+      "message": "That lecture is not in your journal."
+     },
+     {
+      "path": "day.reading",
+      "message": "Unknown book."
+     },
+     {
+      "path": "day.chetnaPositive",
+      "message": "Choose from the list."
+     },
+     {
+      "path": "day.rounds",
+      "message": "Rounds: a whole number from 0 to 64."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay unknown field": {
+   "ok": false,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Unknown field day.colour"
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay clears a field": {
+   "ok": true,
+   "data": {
+    "version": 3,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "24 to 20 min",
+      "marks": 20
+     },
+     "sravan": {
+      "label": "30 to 25 min",
+      "marks": 25
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay existing draft": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay W1 day 2": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay closed week": {
+   "ok": false,
+   "error": {
+    "code": "WINDOW_CLOSED",
+    "message": "This week is closed."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay behalf": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay behalf other batch": {
+   "ok": false,
+   "error": {
+    "code": "FORBIDDEN",
+    "message": "That batch is not yours."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get W2 draft": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "DRAFT",
+    "opensAt": "2026-10-11T18:00:00+05:30",
+    "closesAt": "2026-10-12T21:00:00+05:30",
+    "canSubmit": false,
+    "days": [
+     {
+      "date": "2026-10-05",
+      "name": "Monday",
+      "future": false,
+      "state": "complete",
+      "version": 3,
+      "day": {
+       "v": 3,
+       "sleptAt": "22:05",
+       "wokeAt": "04:35",
+       "rounds": 16,
+       "chantingDoneAt": "06:50",
+       "chantingSameDay": true,
+       "dayRestMin": 30,
+       "hearingMin": 30,
+       "readingMin": 20,
+       "serviceMin": 60,
+       "hearing": [
+        {
+         "lectureId": "SD-W001-SPL"
+        },
+        {
+         "text": "A class on Sunday"
+        }
+       ],
+       "reading": {
+        "bookId": "B01"
+       },
+       "chetnaPositive": [
+        "Appreciative"
+       ],
+       "chetnaNegative": [
+        "Angry"
+       ]
+      }
+     },
+     {
+      "date": "2026-10-06",
+      "name": "Tuesday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-07",
+      "name": "Wednesday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-08",
+      "name": "Thursday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-09",
+      "name": "Friday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-10",
+      "name": "Saturday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-11",
+      "name": "Sunday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-10T18:00:00+05:30",
+     "open": false,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-11T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get W2 behalf": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "DRAFT",
+    "opensAt": "2026-10-11T18:00:00+05:30",
+    "closesAt": "2026-10-12T21:00:00+05:30",
+    "canSubmit": false,
+    "days": [
+     {
+      "date": "2026-10-05",
+      "name": "Monday",
+      "future": false,
+      "state": "complete",
+      "version": 3,
+      "day": {
+       "v": 3,
+       "sleptAt": "22:05",
+       "wokeAt": "04:35",
+       "rounds": 16,
+       "chantingDoneAt": "06:50",
+       "chantingSameDay": true,
+       "dayRestMin": 30,
+       "hearingMin": 30,
+       "readingMin": 20,
+       "serviceMin": 60,
+       "hearing": [
+        {
+         "lectureId": "SD-W001-SPL"
+        },
+        {
+         "text": "A class on Sunday"
+        }
+       ],
+       "reading": {
+        "bookId": "B01"
+       },
+       "chetnaPositive": [
+        "Appreciative"
+       ],
+       "chetnaNegative": [
+        "Angry"
+       ]
+      }
+     },
+     {
+      "date": "2026-10-06",
+      "name": "Tuesday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-07",
+      "name": "Wednesday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-08",
+      "name": "Thursday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-09",
+      "name": "Friday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-10",
+      "name": "Saturday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-11",
+      "name": "Sunday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-10T18:00:00+05:30",
+     "open": false,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-11T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd too early": {
+   "ok": false,
+   "error": {
+    "code": "FUTURE_DAY",
+    "message": "Night Stay and the 4 regulative principles open on Saturday at 6 PM."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "attendance too early": {
+   "ok": false,
+   "error": {
+    "code": "FUTURE_DAY",
+    "message": "Mark attendance after the Sunday class."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "attendance bad mark": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "Choose Present or Absent.",
+    "fields": [
+     {
+      "path": "mark",
+      "message": "Choose Present or Absent."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "attendance W1": {
+   "ok": true,
+   "data": {
+    "devotee": "P",
+    "leader": null,
+    "coordinator": null,
+    "master": null,
+    "used": "P",
+    "by": "devotee",
+    "notice": null
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "submit incomplete": {
+   "ok": false,
+   "error": {
+    "code": "INCOMPLETE",
+    "message": "2 answers are missing.",
+    "fields": [
+     {
+      "path": "weekEnd.nightStay",
+      "message": "Night Stay missing"
+     },
+     {
+      "path": "weekEnd.principles",
+      "message": "4 regulative principles missing"
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd W1": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "chantingAverage": 16
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd retried": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "chantingAverage": 16
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd stale": {
+   "ok": false,
+   "error": {
+    "code": "STALE",
+    "message": "Updated on another device.",
+    "data": {
+     "current": {
+      "v": 1,
+      "nightStay": "YES",
+      "principles": "YES"
+     }
+    }
+   },
+   "data": {
+    "current": {
+     "v": 1,
+     "nightStay": "YES",
+     "principles": "YES"
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd bad value": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "Choose Yes or No.",
+    "fields": [
+     {
+      "path": "nightStay",
+      "message": "Choose Yes or No."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd no version": {
+   "ok": false,
+   "error": {
+    "code": "VALIDATION",
+    "message": "Missing version.",
+    "fields": [
+     {
+      "path": "version",
+      "message": "Missing version."
+     }
+    ]
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get W1 draft": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-09-28",
+    "status": "DRAFT",
+    "opensAt": "2026-10-04T18:00:00+05:30",
+    "closesAt": "2026-10-05T21:00:00+05:30",
+    "canSubmit": true,
+    "days": [
+     {
+      "date": "2026-09-28",
+      "name": "Monday",
+      "future": false,
+      "state": "complete",
+      "version": 1,
+      "day": {
+       "v": 1,
+       "sleptAt": "22:05",
+       "wokeAt": "04:35",
+       "rounds": 16,
+       "chantingDoneAt": "06:50",
+       "chantingSameDay": true,
+       "dayRestMin": 30,
+       "hearingMin": 0,
+       "readingMin": 0,
+       "serviceMin": 60
+      }
+     },
+     {
+      "date": "2026-09-29",
+      "name": "Tuesday",
+      "future": false,
+      "state": "complete",
+      "version": 1,
+      "day": {
+       "v": 1,
+       "sleptAt": "22:05",
+       "wokeAt": "04:35",
+       "rounds": 16,
+       "chantingDoneAt": "06:50",
+       "chantingSameDay": true,
+       "dayRestMin": 30,
+       "hearingMin": 0,
+       "readingMin": 0,
+       "serviceMin": 60
+      }
+     },
+     {
+      "date": "2026-09-30",
+      "name": "Wednesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-01",
+      "name": "Thursday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-02",
+      "name": "Friday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-03",
+      "name": "Saturday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-04",
+      "name": "Sunday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 1,
+     "nightStay": "YES",
+     "principles": "YES",
+     "opensAt": "2026-10-03T18:00:00+05:30",
+     "open": true,
+     "state": "complete"
+    },
+    "attendance": {
+     "devotee": "P",
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": "P",
+     "by": "devotee",
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-04T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "submit W1": {
+   "ok": true,
+   "data": {
+    "submittedAt": "2026-10-05T10:00:00+05:30",
+    "scores": {
+     "bed": 29,
+     "wake_up": 29,
+     "day_sleep": 29,
+     "japa": 29,
+     "pathan": 0,
+     "sravan": 0,
+     "seva": 100,
+     "attendance": 100,
+     "body": 29,
+     "soul": 10,
+     "overall": 60
+    },
+    "daysFilled": 2
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "submit again": {
+   "ok": false,
+   "error": {
+    "code": "ALREADY_SUBMITTED",
+    "message": "This week was already submitted."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "saveDay submitted": {
+   "ok": false,
+   "error": {
+    "code": "ALREADY_SUBMITTED",
+    "message": "This week was already submitted."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd submitted": {
+   "ok": false,
+   "error": {
+    "code": "ALREADY_SUBMITTED",
+    "message": "This week was already submitted."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get W1 submitted": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-09-28",
+    "status": "SUBMITTED",
+    "submittedAt": "2026-10-05T10:00:00+05:30",
+    "daysFilled": 2,
+    "days": [
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "marks": [
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "weekEnd": {
+     "nightStay": "YES",
+     "principles": "YES",
+     "chantingAverage": "16"
+    },
+    "scores": {
+     "bed": 29,
+     "wake_up": 29,
+     "day_sleep": 29,
+     "japa": 29,
+     "pathan": 0,
+     "sravan": 0,
+     "seva": 100,
+     "attendance": 100,
+     "body": 29,
+     "soul": 10,
+     "overall": 60
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "attendance submitted week": {
+   "ok": true,
+   "data": {
+    "devotee": "A",
+    "leader": null,
+    "coordinator": null,
+    "master": null,
+    "used": "A",
+    "by": "devotee",
+    "notice": null
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "get W1 submitted after mark": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-09-28",
+    "status": "SUBMITTED",
+    "submittedAt": "2026-10-05T10:00:00+05:30",
+    "daysFilled": 2,
+    "days": [
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "marks": [
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "weekEnd": {
+     "nightStay": "YES",
+     "principles": "YES",
+     "chantingAverage": "16"
+    },
+    "scores": {
+     "bed": 29,
+     "wake_up": 29,
+     "day_sleep": 29,
+     "japa": 29,
+     "pathan": 0,
+     "sravan": 0,
+     "seva": 100,
+     "attendance": 0,
+     "body": 29,
+     "soul": 10,
+     "overall": 35
+    }
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "submit before window": {
+   "ok": false,
+   "error": {
+    "code": "WINDOW_CLOSED",
+    "message": "You can submit from Sunday 6 PM."
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "history": {
+   "ok": true,
+   "data": {
+    "weeks": [
+     {
+      "weekId": "2026-09-28",
+      "status": "SUBMITTED",
+      "overall": 35,
+      "body": 29,
+      "soul": 10,
+      "attendance": 0,
+      "seva": 100,
+      "daysFilled": 2,
+      "dayPct": [
+       67,
+       67,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ],
+    "more": false
+   },
+   "serverTime": "2026-10-05T10:00:00+05:30"
+  },
+  "weekEnd W2": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "chantingAverage": 16
+   },
+   "serverTime": "2026-10-11T19:00:00+05:30"
+  },
+  "attendance W2": {
+   "ok": true,
+   "data": {
+    "devotee": "A",
+    "leader": null,
+    "coordinator": null,
+    "master": null,
+    "used": "A",
+    "by": "devotee",
+    "notice": null
+   },
+   "serverTime": "2026-10-11T19:00:00+05:30"
+  },
+  "submit nothing filled": {
+   "ok": false,
+   "error": {
+    "code": "INCOMPLETE",
+    "message": "4 answers are missing.",
+    "fields": [
+     {
+      "path": "days",
+      "message": "Fill at least one whole day"
+     },
+     {
+      "path": "weekEnd.nightStay",
+      "message": "Night Stay missing"
+     },
+     {
+      "path": "weekEnd.principles",
+      "message": "4 regulative principles missing"
+     },
+     {
+      "path": "attendance",
+      "message": "Attendance: mark Present or Absent"
+     }
+    ]
+   },
+   "serverTime": "2026-10-11T19:00:00+05:30"
+  },
+  "submit behalf": {
+   "ok": true,
+   "data": {
+    "submittedAt": "2026-10-11T19:00:00+05:30",
+    "scores": {
+     "bed": 14,
+     "wake_up": 14,
+     "day_sleep": 14,
+     "japa": 14,
+     "pathan": 11,
+     "sravan": 14,
+     "seva": 67,
+     "attendance": 0,
+     "body": 14,
+     "soul": 13,
+     "overall": 24
+    },
+    "daysFilled": 1
+   },
+   "serverTime": "2026-10-11T19:00:00+05:30"
+  },
+  "get W2 submitted": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "SUBMITTED",
+    "submittedAt": "2026-10-11T19:00:00+05:30",
+    "daysFilled": 1,
+    "days": [
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 30,
+      "readingMin": 20,
+      "serviceMin": 60,
+      "hearing": [
+       {
+        "lectureId": "SD-W001-SPL"
+       },
+       {
+        "text": "A class on Sunday"
+       }
+      ],
+      "reading": {
+       "bookId": "B01"
+      },
+      "chetnaPositive": [
+       "Appreciative"
+      ],
+      "chetnaNegative": [
+       "Angry"
+      ]
+     },
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "marks": [
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "24 to 20 min",
+       "marks": 20
+      },
+      "sravan": {
+       "label": "30 to 25 min",
+       "marks": 25
+      }
+     },
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "weekEnd": {
+     "nightStay": "YES",
+     "principles": "NO",
+     "chantingAverage": "16"
+    },
+    "scores": {
+     "bed": 14,
+     "wake_up": 14,
+     "day_sleep": 14,
+     "japa": 14,
+     "pathan": 11,
+     "sravan": 14,
+     "seva": 67,
+     "attendance": 0,
+     "body": 14,
+     "soul": 13,
+     "overall": 24
+    }
+   },
+   "serverTime": "2026-10-11T19:00:00+05:30"
+  },
+  "attendance class week": {
+   "ok": false,
+   "error": {
+    "code": "CONFLICT",
+    "message": "No regular class this week (Diwali): your coordinator gives attendance."
+   },
+   "serverTime": "2026-10-18T10:00:00+05:30"
+  },
+  "get W3 class week": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-12",
+    "status": "NOT_STARTED",
+    "opensAt": "2026-10-18T18:00:00+05:30",
+    "closesAt": "2026-10-19T21:00:00+05:30",
+    "canSubmit": false,
+    "days": [
+     {
+      "date": "2026-10-12",
+      "name": "Monday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-13",
+      "name": "Tuesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-14",
+      "name": "Wednesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-15",
+      "name": "Thursday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-16",
+      "name": "Friday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-17",
+      "name": "Saturday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-18",
+      "name": "Sunday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-17T18:00:00+05:30",
+     "open": true,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": "P",
+     "by": "class",
+     "notice": null,
+     "locked": false,
+     "classWeek": {
+      "kind": "FESTIVAL",
+      "note": "Diwali",
+      "everyonePresent": true,
+      "by": "sps",
+      "at": "2026-10-11T19:00:00+05:30"
+     },
+     "opensAt": "2026-10-18T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-18T10:00:00+05:30"
+  },
+  "saveDay W3": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-18T10:00:00+05:30"
+  },
+  "get missed": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "MISSED",
+    "daysFilled": 0,
+    "overall": 0
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "saveDay missed": {
+   "ok": false,
+   "error": {
+    "code": "WINDOW_CLOSED",
+    "message": "This week is closed."
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "attendance missed": {
+   "ok": false,
+   "error": {
+    "code": "WINDOW_CLOSED",
+    "message": "Attendance for this week is closed."
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "get B auto-submitted": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "SUBMITTED",
+    "submittedAt": "2026-10-12T21:05:00+05:30",
+    "daysFilled": 1,
+    "days": [
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "marks": [
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "weekEnd": {
+     "nightStay": "",
+     "principles": "",
+     "chantingAverage": "16"
+    },
+    "scores": {
+     "bed": 14,
+     "wake_up": 14,
+     "day_sleep": 14,
+     "japa": 14,
+     "pathan": 0,
+     "sravan": 0,
+     "seva": 67,
+     "attendance": 0,
+     "body": 14,
+     "soul": 5,
+     "overall": 22
+    }
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "get reopened": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-10-05",
+    "status": "REOPENED",
+    "opensAt": "2026-10-11T18:00:00+05:30",
+    "closesAt": "2026-10-15T21:00:00+05:30",
+    "canSubmit": true,
+    "days": [
+     {
+      "date": "2026-10-05",
+      "name": "Monday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-06",
+      "name": "Tuesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-07",
+      "name": "Wednesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-08",
+      "name": "Thursday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-09",
+      "name": "Friday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-10",
+      "name": "Saturday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-11",
+      "name": "Sunday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-10T18:00:00+05:30",
+     "open": true,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-11T00:00:00+05:30"
+    }
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "saveDay reopened": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 20
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 10
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "below 5 min",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "below 5 min",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "weekEnd reopened": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "chantingAverage": 16
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "attendance reopened": {
+   "ok": true,
+   "data": {
+    "devotee": "P",
+    "leader": null,
+    "coordinator": null,
+    "master": null,
+    "used": "P",
+    "by": "devotee",
+    "notice": null
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "submit reopened": {
+   "ok": true,
+   "data": {
+    "submittedAt": "2026-10-13T10:00:00+05:30",
+    "scores": {
+     "bed": 11,
+     "wake_up": 6,
+     "day_sleep": 14,
+     "japa": 14,
+     "pathan": 0,
+     "sravan": 0,
+     "seva": 0,
+     "attendance": 100,
+     "body": 10,
+     "soul": 5,
+     "overall": 29
+    },
+    "daysFilled": 1
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "get behalf old week": {
+   "ok": false,
+   "error": {
+    "code": "FORBIDDEN",
+    "message": "Coordinators see only the week being filled now. Ask the IYF head for an earlier week."
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "get head old week": {
+   "ok": true,
+   "data": {
+    "weekId": "2026-09-28",
+    "status": "SUBMITTED",
+    "submittedAt": "2026-10-05T10:00:00+05:30",
+    "daysFilled": 2,
+    "days": [
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {
+      "sleptAt": "22:05",
+      "wokeAt": "04:35",
+      "rounds": 16,
+      "chantingDoneAt": "06:50",
+      "chantingSameDay": true,
+      "dayRestMin": 30,
+      "hearingMin": 0,
+      "readingMin": 0,
+      "serviceMin": 60
+     },
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "marks": [
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {
+      "to_bed": {
+       "label": "10:00 - 10:15 PM",
+       "marks": 25
+      },
+      "wake_up": {
+       "label": "04:30 - 04:45 AM",
+       "marks": 25
+      },
+      "day_sleep": {
+       "label": "1 hr or less",
+       "marks": 25
+      },
+      "japa": {
+       "label": "Before 07:15 AM",
+       "marks": 25
+      },
+      "pathan": {
+       "label": "No Reading",
+       "marks": 0
+      },
+      "sravan": {
+       "label": "No Hearing",
+       "marks": 0
+      }
+     },
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "weekEnd": {
+     "nightStay": "YES",
+     "principles": "YES",
+     "chantingAverage": "16"
+    },
+    "scores": {
+     "bed": 29,
+     "wake_up": 29,
+     "day_sleep": 29,
+     "japa": 29,
+     "pathan": 0,
+     "sravan": 0,
+     "seva": 100,
+     "attendance": 0,
+     "body": 29,
+     "soul": 10,
+     "overall": 35
+    }
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "get head not a devotee": {
+   "ok": false,
+   "error": {
+    "code": "FORBIDDEN",
+    "message": "You are not in a batch, so there is no weekly form for you."
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "saveDay inactive comes back": {
+   "ok": true,
+   "data": {
+    "version": 1,
+    "state": "complete",
+    "missing": [],
+    "marks": {
+     "to_bed": {
+      "label": "10:00 - 10:15 PM",
+      "marks": 25
+     },
+     "wake_up": {
+      "label": "04:30 - 04:45 AM",
+      "marks": 25
+     },
+     "day_sleep": {
+      "label": "1 hr or less",
+      "marks": 25
+     },
+     "japa": {
+      "label": "Before 07:15 AM",
+      "marks": 25
+     },
+     "pathan": {
+      "label": "No Reading",
+      "marks": 0
+     },
+     "sravan": {
+      "label": "No Hearing",
+      "marks": 0
+     }
+    }
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  },
+  "home after": {
+   "ok": true,
+   "data": {
+    "profile": {
+     "login": "6000000196",
+     "iyfId": null,
+     "name": "Arjun Das",
+     "batchId": "SPS2"
+    },
+    "user": {
+     "login": "6000000196",
+     "role": "DEVOTEE",
+     "name": "Arjun Das",
+     "iyfId": null,
+     "scopes": {
+      "devotee": {
+       "batchId": "SPS2"
+      },
+      "groupLeader": null,
+      "facilitator": null,
+      "trainee": null,
+      "coordinator": [],
+      "master": false,
+      "ftp": false,
+      "rights": {}
+     },
+     "photoAt": null,
+     "batchIds": [
+      "SPS2"
+     ],
+     "mustChangePassword": false,
+     "needsYear": true
+    },
+    "weeks": [
+     {
+      "weekId": "2026-10-12",
+      "status": "DRAFT",
+      "opensAt": "2026-10-18T18:00:00+05:30",
+      "closesAt": "2026-10-19T21:00:00+05:30",
+      "canSubmit": false,
+      "days": [
+       {
+        "date": "2026-10-12",
+        "name": "Monday",
+        "future": false,
+        "state": "complete",
+        "version": 1,
+        "day": {
+         "v": 1,
+         "sleptAt": "22:05",
+         "wokeAt": "04:35",
+         "rounds": 16,
+         "chantingDoneAt": "06:50",
+         "chantingSameDay": true,
+         "dayRestMin": 30,
+         "hearingMin": 0,
+         "readingMin": 0,
+         "serviceMin": 60
+        }
+       },
+       {
+        "date": "2026-10-13",
+        "name": "Tuesday",
+        "future": false,
+        "state": "complete",
+        "version": 1,
+        "day": {
+         "v": 1,
+         "sleptAt": "22:05",
+         "wokeAt": "04:35",
+         "rounds": 16,
+         "chantingDoneAt": "06:50",
+         "chantingSameDay": true,
+         "dayRestMin": 30,
+         "hearingMin": 0,
+         "readingMin": 0,
+         "serviceMin": 60
+        }
+       },
+       {
+        "date": "2026-10-14",
+        "name": "Wednesday",
+        "future": true,
+        "state": "empty",
+        "version": 0,
+        "day": {}
+       },
+       {
+        "date": "2026-10-15",
+        "name": "Thursday",
+        "future": true,
+        "state": "empty",
+        "version": 0,
+        "day": {}
+       },
+       {
+        "date": "2026-10-16",
+        "name": "Friday",
+        "future": true,
+        "state": "empty",
+        "version": 0,
+        "day": {}
+       },
+       {
+        "date": "2026-10-17",
+        "name": "Saturday",
+        "future": true,
+        "state": "empty",
+        "version": 0,
+        "day": {}
+       },
+       {
+        "date": "2026-10-18",
+        "name": "Sunday",
+        "future": true,
+        "state": "empty",
+        "version": 0,
+        "day": {}
+       }
+      ],
+      "weekEnd": {
+       "version": 0,
+       "nightStay": null,
+       "principles": null,
+       "opensAt": "2026-10-17T18:00:00+05:30",
+       "open": false,
+       "state": "missing"
+      },
+      "attendance": {
+       "devotee": null,
+       "leader": null,
+       "coordinator": null,
+       "master": null,
+       "used": "P",
+       "by": "class",
+       "notice": null,
+       "locked": false,
+       "classWeek": {
+        "kind": "FESTIVAL",
+        "note": "Diwali",
+        "everyonePresent": true,
+        "by": "sps",
+        "at": "2026-10-11T19:00:00+05:30"
+       },
+       "opensAt": "2026-10-18T00:00:00+05:30"
+      }
+     }
+    ],
+    "versions": {
+     "rules": "r4",
+     "journals": "j5",
+     "names": "2"
+    },
+    "progress": {
+     "currentBookId": null,
+     "heard": [
+      "SD-W001-SPL"
+     ]
+    },
+    "latestAnnouncementAt": null,
+    "announcementTimes": [],
+    "birthdays": []
+   },
+   "serverTime": "2026-10-13T10:00:00+05:30"
+  }
+ },
+ "cost": {
+  "get W2 not started": {
+   "action": "week.get",
+   "hops": 9,
+   "rows": 24
+  },
+  "get bad week": {
+   "action": "week.get",
+   "hops": 2,
+   "rows": 9
+  },
+  "get W1 not started": {
+   "action": "week.get",
+   "hops": 9,
+   "rows": 24
+  },
+  "get closed week": {
+   "action": "week.get",
+   "hops": 8,
+   "rows": 24
+  },
+  "saveDay new draft": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 26
+  },
+  "saveDay retried": {
+   "action": "week.saveDay",
+   "hops": 11,
+   "rows": 27
+  },
+  "saveDay stale": {
+   "action": "week.saveDay",
+   "hops": 11,
+   "rows": 27
+  },
+  "saveDay future": {
+   "action": "week.saveDay",
+   "hops": 8,
+   "rows": 25
+  },
+  "saveDay not in week": {
+   "action": "week.saveDay",
+   "hops": 8,
+   "rows": 25
+  },
+  "saveDay no version": {
+   "action": "week.saveDay",
+   "hops": 8,
+   "rows": 25
+  },
+  "saveDay lookups": {
+   "action": "week.saveDay",
+   "hops": 16,
+   "rows": 47
+  },
+  "saveDay bad lookups": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 35
+  },
+  "saveDay unknown field": {
+   "action": "week.saveDay",
+   "hops": 9,
+   "rows": 26
+  },
+  "saveDay clears a field": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 27
+  },
+  "saveDay existing draft": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 26
+  },
+  "saveDay W1 day 2": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 27
+  },
+  "saveDay closed week": {
+   "action": "week.saveDay",
+   "hops": 8,
+   "rows": 24
+  },
+  "saveDay behalf": {
+   "action": "week.saveDay",
+   "hops": 15,
+   "rows": 27
+  },
+  "saveDay behalf other batch": {
+   "action": "week.saveDay",
+   "hops": 4,
+   "rows": 10
+  },
+  "get W2 draft": {
+   "action": "week.get",
+   "hops": 9,
+   "rows": 26
+  },
+  "get W2 behalf": {
+   "action": "week.get",
+   "hops": 12,
+   "rows": 27
+  },
+  "weekEnd too early": {
+   "action": "week.saveWeekEnd",
+   "hops": 8,
+   "rows": 25
+  },
+  "attendance too early": {
+   "action": "week.setAttendance",
+   "hops": 5,
+   "rows": 24
+  },
+  "attendance bad mark": {
+   "action": "week.setAttendance",
+   "hops": 2,
+   "rows": 9
+  },
+  "attendance W1": {
+   "action": "week.setAttendance",
+   "hops": 8,
+   "rows": 25
+  },
+  "submit incomplete": {
+   "action": "week.submit",
+   "hops": 11,
+   "rows": 27
+  },
+  "weekEnd W1": {
+   "action": "week.saveWeekEnd",
+   "hops": 11,
+   "rows": 26
+  },
+  "weekEnd retried": {
+   "action": "week.saveWeekEnd",
+   "hops": 10,
+   "rows": 26
+  },
+  "weekEnd stale": {
+   "action": "week.saveWeekEnd",
+   "hops": 10,
+   "rows": 26
+  },
+  "weekEnd bad value": {
+   "action": "week.saveWeekEnd",
+   "hops": 8,
+   "rows": 25
+  },
+  "weekEnd no version": {
+   "action": "week.saveWeekEnd",
+   "hops": 8,
+   "rows": 25
+  },
+  "get W1 draft": {
+   "action": "week.get",
+   "hops": 9,
+   "rows": 27
+  },
+  "submit W1": {
+   "action": "week.submit",
+   "hops": 13,
+   "rows": 27
+  },
+  "submit again": {
+   "action": "week.submit",
+   "hops": 3,
+   "rows": 10
+  },
+  "saveDay submitted": {
+   "action": "week.saveDay",
+   "hops": 3,
+   "rows": 10
+  },
+  "weekEnd submitted": {
+   "action": "week.saveWeekEnd",
+   "hops": 3,
+   "rows": 10
+  },
+  "get W1 submitted": {
+   "action": "week.get",
+   "hops": 4,
+   "rows": 11
+  },
+  "attendance submitted week": {
+   "action": "week.setAttendance",
+   "hops": 8,
+   "rows": 25
+  },
+  "get W1 submitted after mark": {
+   "action": "week.get",
+   "hops": 4,
+   "rows": 11
+  },
+  "submit before window": {
+   "action": "week.submit",
+   "hops": 8,
+   "rows": 25
+  },
+  "history": {
+   "action": "history.list",
+   "hops": 3,
+   "rows": 10
+  },
+  "weekEnd W2": {
+   "action": "week.saveWeekEnd",
+   "hops": 12,
+   "rows": 26
+  },
+  "attendance W2": {
+   "action": "week.setAttendance",
+   "hops": 8,
+   "rows": 25
+  },
+  "submit nothing filled": {
+   "action": "week.submit",
+   "hops": 12,
+   "rows": 25
+  },
+  "submit behalf": {
+   "action": "week.submit",
+   "hops": 16,
+   "rows": 28
+  },
+  "get W2 submitted": {
+   "action": "week.get",
+   "hops": 4,
+   "rows": 11
+  },
+  "attendance class week": {
+   "action": "week.setAttendance",
+   "hops": 7,
+   "rows": 25
+  },
+  "get W3 class week": {
+   "action": "week.get",
+   "hops": 9,
+   "rows": 26
+  },
+  "saveDay W3": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 26
+  },
+  "get missed": {
+   "action": "week.get",
+   "hops": 7,
+   "rows": 25
+  },
+  "saveDay missed": {
+   "action": "week.saveDay",
+   "hops": 5,
+   "rows": 10
+  },
+  "attendance missed": {
+   "action": "week.setAttendance",
+   "hops": 4,
+   "rows": 24
+  },
+  "get B auto-submitted": {
+   "action": "week.get",
+   "hops": 6,
+   "rows": 25
+  },
+  "get reopened": {
+   "action": "week.get",
+   "hops": 9,
+   "rows": 29
+  },
+  "saveDay reopened": {
+   "action": "week.saveDay",
+   "hops": 12,
+   "rows": 29
+  },
+  "weekEnd reopened": {
+   "action": "week.saveWeekEnd",
+   "hops": 11,
+   "rows": 29
+  },
+  "attendance reopened": {
+   "action": "week.setAttendance",
+   "hops": 8,
+   "rows": 27
+  },
+  "submit reopened": {
+   "action": "week.submit",
+   "hops": 13,
+   "rows": 30
+  },
+  "get behalf old week": {
+   "action": "week.get",
+   "hops": 7,
+   "rows": 25
+  },
+  "get head old week": {
+   "action": "week.get",
+   "hops": 6,
+   "rows": 12
+  },
+  "get head not a devotee": {
+   "action": "week.get",
+   "hops": 2,
+   "rows": 8
+  },
+  "saveDay inactive comes back": {
+   "action": "week.saveDay",
+   "hops": 13,
+   "rows": 27
+  },
+  "home after": {
+   "action": "home.get",
+   "hops": 6,
+   "rows": 29
+  }
+ }
+}

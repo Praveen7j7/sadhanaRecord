@@ -1,0 +1,811 @@
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* =====================================================================================================================
+   Sadhana Record design system. No web fonts (system serif + system sans). One token set; the AREA of the screen
+   (data-area on the shell root and <html>) picks the accent family: devotee = lapis blue, coordinator = saffron,
+   admin = deep wine red. Neutrals are warm (sandalwood / indigo night) and carry at most 3 % of the accent.
+   ===================================================================================================================== */
+
+/* ---- brand and area (D1, IYF 8 Oct 2026): ONE brand and action colour, the IYF logo's blue, in every area;
+   the area (devotee / coordinator / admin / public) shows only as a marker: the area tag, the menu section dot,
+   the page overline. The logo blue, a shade deeper for text on the page wash: #004fdc (6.7:1 on white, ≥ 4.7:1 on the wash)
+   / #78a8ff (7.8:1 on the dark page, ≥ 4.7:1 on its soft fill); navy for brand surfaces. ---- */
+:root, [data-area] {
+  --acc-l: #004fdc; --on-l: #ffffff;
+  --acc-d: #78a8ff; --on-d: #0b1640;
+  --brand-navy: #002888; --brand-cyan: #00f0f8;
+}
+:root, [data-area='devotee'], [data-area='public'] { --area-l: #004fdc; --area-d: #78a8ff; }
+[data-area='coordinator'] { --area-l: #a14a08; --area-d: #f2a25a; }
+/* admin: burgundy / wine (a red-violet), never the error scarlet */
+[data-area='admin'] { --area-l: #7a2346; --area-d: #e9a6c0; }
+/* gold, the logo's second colour: --gold-text for words (base surfaces only, ≥ 6:1), --gold-decorative for rules, halos, quote marks */
+:root { --gold-text: #7a5300; --gold-decorative: #f8b000; --gold: var(--gold-text); }
+:root[data-theme='dark'] { --gold-text: #f8b000; --gold-decorative: #f8b000; }   /* ladder #3: the liveliest pixel in dark, not dimmed */
+/* a colour per batch level (staff console #9, 22 Oct 2026; lib/batchcolor.js): SPS blue, DPS gold, BSS teal, BVS violet,
+   TRD saffron, ETP wine — a little lighter on the night, so each still reads against the dark surfaces */
+:root { --sw-sps: #3b6fe0; --sw-dps: #c99a1c; --sw-bss: #1f9a8a; --sw-bvs: #8a5cd6; --sw-trd: #e07b1f; --sw-etp: #a3324f; }
+:root[data-theme='dark'] { --sw-sps: #7aa2ff; --sw-dps: #e3b84a; --sw-bss: #4cc4b2; --sw-bvs: #b394ee; --sw-trd: #f2a25a; --sw-etp: #e07a95; }
+
+/* ---- scale tokens (theme-independent) ---- */
+:root {
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', 'Noto Serif', Georgia, serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  /* type roles: display 28–38 serif · page title 21–26 serif · section 17–18 sans 650 · body 16/1.5 · meta 14 ·
+     overline / nav / status 12–13 bold · stats 24–28 serif tabular · quote 16.5–18 / 1.45 serif */
+  --fs-display: clamp(1.75rem, 1.45rem + 1.4vw, 2.375rem); --lh-display: 1.15; --fw-display: 600;
+  --fs-h1: clamp(1.3125rem, 1.2rem + 0.55vw, 1.625rem); --lh-h1: 1.2; --fw-h1: 600;
+  --fs-h2: clamp(1.1875rem, 1.12rem + 0.3vw, 1.375rem); --lh-h2: 1.25; --fw-h2: 600;
+  --fs-h3: clamp(1.0625rem, 1.03rem + 0.15vw, 1.125rem); --lh-h3: 1.3; --fw-h3: 650;
+  --fs-body: 1rem; --lh-body: 1.5;
+  --fs-sm: 0.875rem; --lh-sm: 1.45;
+  --fs-label: 0.875rem; --lh-label: 1.3; --fw-label: 550;
+  --fs-caption: 0.75rem; --lh-caption: 1.35;
+  /* --fs-xs was used by seven screens (week picker, temporary password, leaderboard, ready-to-move-up, the facilitation
+     board, the card, the scoreboards) but never defined, so their small print rendered at its parent's size (22 Oct 2026) */
+  --fs-xs: var(--fs-caption);
+  --fs-status: 0.8125rem;
+  --fs-nav: 0.75rem; --lh-nav: 1; --fw-nav: 650;
+  --fs-stat: clamp(1.5rem, 1.38rem + 0.5vw, 1.75rem);
+  --fs-quote: clamp(1.03125rem, 0.99rem + 0.25vw, 1.125rem); --lh-quote: 1.45;
+  /* spacing (4 px grid) */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 20px; --sp-6: 24px; --sp-7: 32px; --sp-8: 48px;
+  --gutter: 16px;
+  /* radii: modest; full only for chips, pills and the nav */
+  --r-xs: 6px; --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-xl: 24px; --r-full: 999px;   /* 8 Oct 2026: 10 / 14 / 20 → 12 / 16 / 24 */
+  /* motion */
+  /* --d-3 (sheets, the drawer): 440ms, not 320 (11 Oct 2026). The balanced/low tiers multiply it by 0.8 (below),
+     so 320 became 256ms, and this app's easing puts 50% of a 256ms move in the first frame — a pop, not a glide.
+     440 → 352ms there, ~38% in the first frame. The curve is unchanged; only the time it is given. */
+  --d-1: 120ms; --d-2: 200ms; --d-3: 440ms; --d-page: 220ms; --d-quote: 560ms; --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: linear(0, 0.36 12%, 0.78 26%, 1.02 42%, 1.01 58%, 1); --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  /* layers */
+  --z-sticky: 20; --z-bar: 30; --z-nav: 40;
+  /* controls and shell metrics */
+  --ctl-h: 44px; --bar-h: 56px; --nav-h: 64px; --nav-gap: 10px; --rail-w: 88px;
+  --safe-t: env(safe-area-inset-top, 0px); --safe-b: env(safe-area-inset-bottom, 0px);
+  --nav-space: calc(var(--nav-h) + var(--nav-gap) + var(--safe-b));
+  --content-max: 1120px;
+  /* page widths (Phase 24, G1): prose and songs read in a column, forms in a narrower one; both start at the content's
+     left edge, under the title, never centred away from it. Full pages use the content width. */
+  --page-read: 720px; --page-form: 560px;
+  /* where a sticky strip may stop: the top bar's real bottom (its 1 px line included) — Phase 24, G3. A second sticky
+     layer (the Day form's chips) sits at --sticky-top plus that strip's own height. */
+  --sticky-top: calc(var(--bar-h) + 1px + var(--safe-t));
+  /* layout classes (media queries cannot read custom properties: the same numbers are written in each query)
+     compact < 600 · medium 600–1023 (nav rail) · expanded 1024–1439 (sidebar) · wide ≥ 1440 (content ≤ 1280) */
+  /* glass, per tier (lib/tier.js sets data-tier): balanced is the default; high stronger; low opaque (section "glass") */
+  --glass-alpha: 84%; --glass-blur: blur(8px) saturate(140%);
+}
+/* The breakpoint values of the layout tokens (Phase 24, V14). They must stay OUTSIDE @layer, like the base values above:
+   an unlayered rule always beats a layered one, so inside `@layer components` they never applied and every screen kept
+   the phone's 16 px margins, a 1,120 px page and 74 px of room for a bottom bar that is not there. */
+@media (min-width: 600px) { :root { --gutter: 24px; --nav-space: 0px; } }
+@media (min-width: 1024px) { :root { --gutter: 32px; --sticky-top: calc(var(--bar-h) + 9px + var(--safe-t)); } }   /* the desktop bar has 8 px more above */
+@media (min-width: 1440px) { :root { --content-max: 1280px; } }
+:root[data-tier='high'] { --glass-alpha: 70%; --glass-blur: blur(16px) saturate(150%); }
+/* ladder #18: the wash's gold stop a little stronger where the phone can afford the gradient */
+:root:is([data-tier='high'], [data-tier='balanced']) { --wash-gold: 14%; }
+:root:is([data-tier='balanced'], [data-tier='low']) { --d-1: 96ms; --d-2: 160ms; --d-3: 352ms; }   /* motion × 0.8 */
+
+/* ---- light theme (default); the theme is resolved in JS (System follows the phone) and set as data-theme ----
+   Warm neutrals: sandalwood paper with white raised surfaces. The old names (--text, --surface-2, --ok, --warn …)
+   stay as aliases, so every screen reads the new values without changes. */
+:root, [data-area] {
+  --accent: var(--acc-l); --on-accent: var(--on-l); --area: var(--area-l);
+  --bg-n: #f3eee5; --surface-n: #fbf9f6; --surface-elevated: #ffffff; --surface-floating: #ffffff; --muted-n: #efe9df; --hover-n: #e7e0d3;
+  --border-n: #e3dbcd; --divider: #ece6db; --border-strong: #8c8273;
+  --text-primary: #1e1a15; --text-secondary: #4a433a; --text-muted: #655c50;
+  --success: #1d7348; --warning: #865400; --danger: #b02e1c; --info: #1f6873; --warn-line: #c98a12;
+  --success-soft: #e4f0e9; --warning-soft: #f5ecdc; --danger-soft: #f8e6e3; --info-soft: #e2eff0;
+  --hi: #e3f1d4; --mid: #fbefd2; --lo: #fbe1de;
+  --shadow-1: 0 1px 2px rgb(60 40 10 / 0.08), 0 2px 6px -2px rgb(60 40 10 / 0.08);   /* ladder #9 (22 Oct): cards lift off the paper */
+  --shadow-2: 0 8px 20px -8px rgb(60 40 10 / 0.18), 0 2px 4px rgb(60 40 10 / 0.05);
+  --shadow-3: 0 20px 44px -14px rgb(60 40 10 / 0.3);
+  --glass-bg: rgb(255 255 255 / 0.8); --glass-edge: rgb(255 255 255 / 0.7); --glass-line: rgb(60 40 10 / 0.09);
+  --scrim: rgb(20 14 6 / 0.42); --shine: rgb(255 255 255 / 0.55);
+  --chev: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23655c50' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  /* one fixed colour per score category, on every chart (8 Oct 2026); Overall is the brand */
+  --viz-body: #4f7fb0; --viz-soul: #a5802a; --viz-seva: #2f8576; --viz-att: #7a5aa6;
+  /* how much of the area accent the neutrals carry: never more than 3 % */
+  --mix-bg: 2.5%; --mix-s: 2%; --mix-s2: 3%; --mix-b: 3%; --mix-soft: 12%; --mix-sem: 12%;
+  --mix-wash: 10%;   /* the ambient wash's peak: above 10 % muted text at the top of the page falls under 4.5:1 */
+  /* aliases (old names) and plain fallbacks for browsers without color-mix */
+  --text: var(--text-primary); --ok: var(--success); --warn: var(--warning); --ok-soft: var(--success-soft); --warn-soft: var(--warning-soft);
+  --bg: var(--bg-n); --surface: var(--surface-n); --surface-muted: var(--muted-n); --surface-hover: var(--hover-n); --surface-2: var(--surface-muted); --border: var(--border-n);
+  --accent-soft: #e8ecf5; --accent-muted: #9aa8c6; --accent-hover: var(--accent-soft); --accent-strong: var(--accent); --accent-line: var(--border-strong);
+  --surface-tint: var(--surface-hover); --halo: var(--accent-soft); --danger-line: var(--danger); --danger-hover: var(--danger-soft); --ok-line: var(--success);
+  --panel-bg: var(--surface-floating); --ring: var(--accent);
+  color-scheme: light;
+}
+/* dark: an indigo night with clear tonal steps (bg → surface → elevated → floating) */
+:root[data-theme='dark'], :root[data-theme='dark'] [data-area] {
+  --accent: var(--acc-d); --on-accent: var(--on-d); --area: var(--area-d);
+  /* ladder #2 (22 Oct 2026): the four steps 6 L* apart (3.4 / 9.2 / 15.1 / 21.1) — 4.4 apart, every dark list read as one slab */
+  --bg-n: #0d0b13; --surface-n: #1b1826; --surface-elevated: #272339; --surface-floating: #352f49; --muted-n: #221e2f; --hover-n: #322d44;
+  --border-n: #3d3752; --divider: #2d293b; --border-strong: #756e86;
+  --text-primary: #f1ede6; --text-secondary: #c9c2b7; --text-muted: #a39c91;
+  --success: #6fd49b; --warning: #f2c46a; --danger: #ff917c; --info: #7cc7d1; --warn-line: #b8892a;
+  --success-soft: #1d2f2a; --warning-soft: #352f2b; --danger-soft: #3a2630; --info-soft: #1f303a;
+  --hi: #1f3d1a; --mid: #4a3a10; --lo: #4d2420;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-2: 0 8px 22px -8px rgb(0 0 0 / 0.6), 0 2px 4px rgb(0 0 0 / 0.3);
+  --shadow-3: 0 20px 44px -12px rgb(0 0 0 / 0.75);
+  --glass-bg: rgb(45 42 57 / 0.8); --glass-edge: rgb(255 255 255 / 0.08); --glass-line: rgb(255 255 255 / 0.06);
+  --scrim: rgb(0 0 0 / 0.58); --shine: rgb(255 255 255 / 0.08);
+  --chev: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23a39c91' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --viz-body: #8fb8ff; --viz-soul: #f2c75c; --viz-seva: #5fd6bd; --viz-att: #c9a6ff;   /* ladder #8: more chroma on the night */
+  --mix-bg: 2%; --mix-s: 2.5%; --mix-s2: 3%; --mix-b: 3%; --mix-soft: 18%; --mix-sem: 14%; --mix-wash: 13%;
+  color-scheme: dark;
+}
+@supports not (color: color-mix(in srgb, red 50%, blue)) {
+  :root[data-theme='dark'], :root[data-theme='dark'] [data-area] { --accent-soft: #2a2c46; --accent-muted: #4f6390; }
+}
+/* the accent tints the neutrals (≤ 3 %) and derives its soft / muted / hover tones; semantic soft fills sit 12–14 % over a raised surface */
+@supports (color: color-mix(in srgb, red 50%, blue)) {
+  :root, [data-area] {
+    --bg: color-mix(in srgb, var(--accent) var(--mix-bg), var(--bg-n));
+    --surface: color-mix(in srgb, var(--accent) var(--mix-s), var(--surface-n));
+    --surface-muted: color-mix(in srgb, var(--accent) var(--mix-s2), var(--muted-n));
+    --surface-hover: color-mix(in srgb, var(--accent) var(--mix-s2), var(--hover-n));
+    --border: color-mix(in srgb, var(--accent) var(--mix-b), var(--border-n));
+    --accent-soft: color-mix(in srgb, var(--accent) var(--mix-soft), var(--surface-elevated));
+    --accent-muted: color-mix(in srgb, var(--accent) 72%, var(--surface-elevated));
+    --accent-hover: color-mix(in srgb, var(--accent) 17%, var(--surface-elevated));
+    --accent-strong: color-mix(in srgb, var(--accent) 86%, var(--text));
+    --accent-line: color-mix(in srgb, var(--accent) 40%, var(--border));
+    --halo: color-mix(in srgb, var(--accent) 24%, transparent);
+    --success-soft: color-mix(in srgb, var(--success) var(--mix-sem), var(--surface-elevated));
+    --warning-soft: color-mix(in srgb, var(--warning) var(--mix-sem), var(--surface-elevated));
+    --danger-soft: color-mix(in srgb, var(--danger) var(--mix-sem), var(--surface-elevated));
+    --info-soft: color-mix(in srgb, var(--info) var(--mix-sem), var(--surface-elevated));
+    --danger-line: color-mix(in srgb, var(--danger) 40%, transparent);
+    --danger-hover: color-mix(in srgb, var(--danger) 18%, var(--surface-elevated));
+    --ok-line: color-mix(in srgb, var(--success) 35%, transparent);
+    --glass-bg: color-mix(in srgb, var(--surface-floating) var(--glass-alpha), transparent);
+    --panel-bg: color-mix(in srgb, var(--surface-floating) 88%, transparent);
+    /* the page's ambient wash: area accent from the top centre, gold from the top right, gone by ~40 % of the first screen */
+    --wash: radial-gradient(120% 42vh at 50% 0, color-mix(in srgb, var(--accent) var(--mix-wash), transparent), transparent),
+      radial-gradient(60% 34vh at 100% 0, color-mix(in srgb, var(--gold-decorative) var(--wash-gold, 9%), transparent), transparent);
+  }
+}
+
+/* tiers: high keeps three shadow levels, balanced two, low one (hairline + soft); low draws a flat tinted band at the
+   top of the page instead of the two radial washes */
+:root[data-tier='balanced'], :root[data-tier='balanced'] [data-area] { --shadow-3: var(--shadow-2); }
+:root[data-tier='low'], :root[data-tier='low'] [data-area] { --shadow-2: var(--shadow-1); --shadow-3: var(--shadow-1); }
+@supports (color: color-mix(in srgb, red 50%, blue)) {
+  :root[data-tier='low'], :root[data-tier='low'] [data-area] { --wash: linear-gradient(color-mix(in srgb, var(--accent) 7%, transparent), transparent 38vh); }
+}
+
+@theme inline {
+  --color-bg: var(--bg); --color-surface: var(--surface); --color-surface-2: var(--surface-2); --color-ink: var(--text); --color-muted: var(--text-muted);
+  --color-line: var(--border); --color-brand: var(--accent); --color-brand-ink: var(--on-accent); --color-accent: var(--accent);
+  --color-danger: var(--danger); --color-ok: var(--ok);
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', 'Noto Serif', Georgia, serif;
+}
+
+/* ===================================================== base ===================================================== */
+@layer base {
+  /* compact reset (Tailwind's preflight, minus what this app never uses) */
+  *, ::before, ::after, ::backdrop { box-sizing: border-box; margin: 0; padding: 0; border: 0 solid; }
+  h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+  a { color: inherit; text-decoration: inherit; }
+  b, strong { font-weight: bolder; }
+  table { border-collapse: collapse; text-indent: 0; border-color: inherit; }
+  summary { display: list-item; }
+  ol, ul, menu { list-style: none; }
+  img, svg, video, canvas { display: block; vertical-align: middle; }
+  img, video { max-width: 100%; height: auto; }
+  button, input, select, optgroup, textarea, ::file-selector-button { font: inherit; letter-spacing: inherit; color: inherit; background-color: transparent; border-radius: 0; opacity: 1; }
+  button, input:where([type='button'], [type='reset'], [type='submit']), ::file-selector-button { appearance: button; }
+  ::placeholder { opacity: 1; }
+  textarea { resize: vertical; }
+  ::-webkit-date-and-time-value { min-height: 1lh; text-align: inherit; }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
+  [hidden]:where(:not([hidden='until-found'])) { display: none !important; }
+  /* keyboard focus and scrollIntoView never leave a control under the top bar or the floating nav (WCAG 2.4.11) */
+  html { scroll-padding: calc(var(--sticky-top) + 8px) 0 calc(var(--nav-space) + 12px); line-height: 1.5; -webkit-text-size-adjust: 100%; background: var(--bg); -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; min-height: 100vh; background: var(--bg); transition: background-color var(--d-2) var(--ease); color: var(--text); font-family: var(--font-sans); font-size: var(--fs-body); line-height: var(--lh-body); font-variant-numeric: tabular-nums; text-rendering: optimizeLegibility; }
+  /* No pull-to-refresh once the app is installed (16 Oct 2026, seen on the Play Store build).
+     A swipe down near the top of any screen was showing the browser's reload spinner and reloading
+     the page. In a browser tab that is the gesture people expect; in an installed app it is a way to
+     lose what you have typed — on the sign-in screen it empties both fields, and on a half-filled
+     week it throws the form away. Installed apps do not reload themselves because someone scrolled.
+
+     Scoped to the installed display modes, so the same page in a browser tab keeps the gesture. All
+     three are listed because a Trusted Web Activity reports standalone on most phones but not on
+     every launcher, and a fix that silently matches nothing is worse than no fix. The app
+     updates on its own anyway (the service worker takes the new version on the next open), so there
+     is nothing a person needs to pull down for. Inner scrollers already say overscroll-behavior:
+     contain; this is the root page, which they could not reach. */
+  @media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui) {
+    html, body { overscroll-behavior-y: contain; }
+  }
+
+  h1, h2 { font-family: var(--font-serif); font-weight: 600; letter-spacing: -0.005em; text-wrap: balance; }
+  h3 { text-wrap: balance; } p { text-wrap: pretty; }
+  :where(.pill, .badge, .status, td, .tabular) { font-variant-numeric: tabular-nums; }   /* numbers that line up (8 Oct 2026) */
+  h1 { font-size: var(--fs-h1); line-height: var(--lh-h1); }
+  h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); }
+  h3 { font-family: var(--font-sans); font-size: var(--fs-h3); line-height: var(--lh-h3); font-weight: var(--fw-h3); }
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; border-radius: var(--r-xs); }
+  ::selection { background: var(--accent-soft); color: var(--text); }
+}
+@keyframes pulse { 50% { opacity: 0.45; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes rise { from { opacity: 0; transform: translateY(4px); } }
+@keyframes fadein { from { opacity: 0; } }
+@keyframes shimmer { to { transform: translateX(100%); } }
+
+/* ============================================= typography classes ============================================== */
+@layer components {
+  .t-h2 { font-family: var(--font-serif); font-size: var(--fs-h2); line-height: var(--lh-h2); font-weight: var(--fw-h2); }
+  .t-over { font-family: var(--font-sans); font-size: var(--fs-caption); line-height: var(--lh-caption); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); }
+  .t-over.acc { color: var(--area); }   /* an overline names the area: its marker colour */
+  .t-stat { font-family: var(--font-serif); font-size: var(--fs-stat); line-height: 1.1; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .serif { font-family: var(--font-serif); }
+}
+
+/* ===================================================== shell ===================================================== */
+@layer components {
+  .skip { position: absolute; left: 8px; top: -60px; z-index: 60; padding: 10px 14px; border-radius: var(--r-md); background: var(--accent); color: var(--on-accent); font-weight: 600; text-decoration: none; }
+  .skip:focus { top: calc(8px + var(--safe-t)); }
+  .shell { min-height: 100vh; background: var(--bg); color: var(--text); transition: background-color var(--d-2) var(--ease); }
+  /* the devotee area sits under a static ambient wash (painted once; scrolls with the page, never fixed) */
+  .shell[data-area='devotee'] { background: var(--wash, none) no-repeat, var(--bg); }
+  .main { min-width: 0; }
+  .content { width: 100%; max-width: var(--content-max); margin: 0 auto; padding: var(--sp-2) var(--gutter) calc(var(--nav-space) + var(--sp-6)); box-sizing: border-box; }
+  .content > * { animation: rise var(--d-2) var(--ease) both; }
+
+  /* top app bar: left IconButton (menu or back), centred serif title, right bell. Glass once content scrolls under it. */
+  .topbar { position: sticky; top: 0; z-index: var(--z-bar); display: grid; grid-template-columns: 48px minmax(0, 1fr) 48px; align-items: center; gap: var(--sp-2);
+    min-height: var(--bar-h); padding: var(--safe-t) max(8px, calc(var(--gutter) - 6px)) 0; box-sizing: content-box; background: transparent;
+    border-bottom: 1px solid transparent; transition: background-color var(--d-2) var(--ease), border-color var(--d-2) var(--ease), box-shadow var(--d-2) var(--ease); }
+  .topbar .tb-l { grid-column: 1; justify-self: start; }
+  .topbar .tb-c { grid-column: 2; min-width: 0; text-align: center; }
+  .topbar .tb-r { grid-column: 3; justify-self: end; }
+  .pagetitle { margin: 0; font-family: var(--font-serif); font-size: 1.25rem; line-height: 1.2; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .brand { font-family: var(--font-serif); font-weight: 600; color: var(--accent); text-decoration: none; letter-spacing: -0.005em; }
+  .badge { position: absolute; top: 5px; right: 3px; min-width: 18px; height: 18px; padding: 0 5px; box-sizing: border-box; border-radius: var(--r-full); background: var(--accent); color: var(--on-accent);
+    font-size: 0.6875rem; font-weight: 700; line-height: 18px; text-align: center; box-shadow: 0 0 0 2px var(--bg); pointer-events: none; }
+  .offline { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 0 0 var(--sp-3); padding: 8px 12px; border-radius: var(--r-full); background: var(--warn-soft); color: var(--warn); font-size: var(--fs-sm); font-weight: 550; }
+
+  /* bottom navigation: a floating glass pill, icon + label, an accent indicator behind the active icon */
+  .nav { position: fixed; left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); bottom: calc(var(--nav-gap) + var(--safe-b)); z-index: var(--z-nav);
+    display: flex; height: var(--nav-h); margin: 0 auto; max-width: 520px; padding: 0 6px; box-sizing: border-box; border-radius: var(--r-full); }
+  .nav a { flex: 1 1 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-width: 0; min-height: 48px; color: var(--text-muted); text-decoration: none;
+    font-size: var(--fs-nav); line-height: var(--lh-nav); font-weight: var(--fw-nav); transition: color var(--d-2) var(--ease); border-radius: var(--r-full); }
+  .nav a span:last-child { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .nav .ind { display: grid; place-items: center; width: 52px; height: 30px; border-radius: var(--r-full); transition: background-color var(--d-2) var(--ease), transform var(--d-2) var(--ease); }
+  .nav a[aria-current='page'] { color: var(--accent); font-weight: 700; }
+  /* ladder #7 (22 Oct 2026): the active item's pill carries its AREA (blue devotee, saffron coordinator, wine admin);
+     its text and every button stay brand blue */
+  .nav a[aria-current='page'] .ind { background: color-mix(in srgb, var(--area) 14%, var(--surface-elevated)); }
+  .nav a:active .ind { transform: scale(0.94); }
+  .nav a:focus-visible { outline-offset: -4px; }
+
+  /* side menu: drawer from the LEFT on phones, permanent sidebar from 1024 px */
+  .sidebar { display: none; }
+  .drawer { position: fixed; inset: 0 auto 0 0; width: min(86vw, 330px); height: 100%; max-height: none; max-width: none; margin: 0; padding: 0; box-sizing: border-box; overflow: auto; overscroll-behavior: contain;
+    background: var(--surface); color: var(--text); border: 0; border-radius: 0 var(--r-xl) var(--r-xl) 0; box-shadow: var(--shadow-3);
+    transform: translateX(-100%); transition: transform var(--d-3) var(--ease), overlay var(--d-3) allow-discrete, display var(--d-3) allow-discrete; }
+  .drawer[open] { transform: none; }
+  .drawer::backdrop { background: transparent; transition: background-color var(--d-3), overlay var(--d-3) allow-discrete, display var(--d-3) allow-discrete; }
+  .drawer[open]::backdrop { background: var(--scrim); }
+  .drawer-in { min-height: 100%; padding: calc(var(--safe-t) + 8px) 12px calc(var(--safe-b) + 16px); box-sizing: border-box; }
+  .drawer-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 52px; padding: 0 4px 4px 8px; }
+
+  /* one column that never grows past the drawer: long lines (a coordinator's batch list) are cut with … instead */
+  .menu { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .menu > * { min-width: 0; }
+  .menu-h { margin: 18px 12px 6px; }
+  .mi { position: relative; display: flex; align-items: center; gap: 12px; min-height: 46px; padding: 0 12px; border-radius: var(--r-md); color: var(--text); text-decoration: none; background: none; border: 0;
+    font: inherit; font-size: 0.9375rem; cursor: pointer; transition: background-color var(--d-1) var(--ease), color var(--d-1) var(--ease), scale var(--d-1) var(--ease); }
+  .mi svg { color: var(--text-muted); flex: none; }
+  @media (hover: hover) { .mi:hover { background: var(--surface-hover); } }
+  .mi[aria-current='page'] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .mi[aria-current='page'] svg { color: var(--accent); }
+  .mi .pill { margin-left: auto; }
+  .mi-danger, .mi-danger svg { color: var(--danger) !important; }
+  .mprofile { display: flex; align-items: center; gap: 12px; padding: 12px; margin: 4px 0 2px; border-radius: var(--r-lg); background: var(--surface-2); color: var(--text); text-decoration: none; transition: background-color var(--d-1); }
+  @media (hover: hover) { .mprofile:hover { background: var(--accent-soft); } }
+  /* Phase 24 (V8): who you are is never cut to one line — the name and the roles · batches wrap to two lines each */
+  .mp-name, .mp-role { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; overflow-wrap: anywhere; }
+  .mp-name { font-weight: 600; line-height: 1.3; }
+  .mp-role { margin-top: 2px; color: var(--text-muted); font-size: var(--fs-caption); line-height: var(--lh-caption); }
+  .avatar { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border-radius: 50%; background: var(--accent); color: var(--on-accent); font-family: var(--font-serif); font-weight: 600; font-size: 1.2rem;
+    background-image: linear-gradient(145deg, color-mix(in srgb, var(--accent) 82%, #fff), var(--accent) 58%, color-mix(in srgb, var(--accent) 82%, #000)); }   /* ladder #13: a little depth */
+  /* …and on the profile's own hero (Account), a gold ring: the person is the subject of that screen */
+  .acc-hero .avatar { box-shadow: 0 0 0 2px var(--surface-elevated), 0 0 0 4px var(--gold-decorative); }
+  .menu-area { display: inline-flex; align-items: center; gap: 6px; }
+  .menu-area::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--area); }   /* the area marker */
+
+  /* the gutter, nav-space and content-max per breakpoint: unlayered, beside the tokens (top of this file, V14) */
+  /* medium (600–1023 px), every role: the same navigation as a rail with labels on the left (lib/nav.js); it scrolls
+     when a phone on its side is too short for every item */
+  .nav-rail { display: none !important; }
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .shell { padding-left: calc(var(--rail-w) + env(safe-area-inset-left, 0px)); }
+    .shell .nav { inset: 0 auto 0 0; width: calc(var(--rail-w) + env(safe-area-inset-left, 0px)); height: auto; max-width: none; margin: 0; flex-direction: column; justify-content: flex-start; gap: 4px;
+      padding: calc(var(--safe-t) + var(--bar-h) + 16px) 0 16px env(safe-area-inset-left, 0px); border-radius: 0; border: 0; border-right: 1px solid var(--border); box-shadow: none; background: var(--surface);
+      -webkit-backdrop-filter: none; backdrop-filter: none; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+    .shell .nav a { flex: none; min-height: 68px; margin: 0 8px; border-radius: var(--r-lg); }
+    .shell .nav-rail { display: flex !important; }
+    /* a phone on its side (about 360 px tall): the rail starts higher and its tabs are shorter */
+    @media (max-height: 480px) { .shell .nav { padding-top: calc(var(--safe-t) + 12px); } .shell .nav a { min-height: 56px; } }
+  }
+  @media (min-width: 1024px) {
+    .shell { display: grid; grid-template-columns: 280px minmax(0, 1fr); }
+    .nav, .menu-btn { display: none !important; }
+    /* more menu below the fold (laptops ~860 px tall): a soft shadow at the bottom says so (8 Oct 2026). Phase 24, V9: it
+       was a fade drawn OVER the last 40 px even when nothing was below, so "Log out" looked disabled on every screen. Now
+       a scroll shadow behind the items: the first layer is the surface attached to the END of the list (local), which
+       covers the shadow once the list is scrolled to its end — or when it never scrolls at all. */
+    .sidebar { display: block; position: sticky; top: 0; height: 100vh; overflow: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: 20px 14px 24px; box-sizing: border-box; border-right: 1px solid var(--border);
+      background: linear-gradient(var(--surface), var(--surface)) center bottom / 100% 32px no-repeat local,
+        linear-gradient(transparent, color-mix(in srgb, var(--text) 9%, transparent)) center bottom / 100% 20px no-repeat scroll, var(--surface); }
+    .sidebar .brand { display: block; padding: 6px 12px 14px; font-size: min(1.375rem, 22px); white-space: nowrap; }
+    /* every page is always listed (10 Oct 2026), so on a pointer screen the rows are a mouse's size, not a finger's:
+       the whole list fits a laptop screen (800 px) without scrolling; a touch screen keeps 46 px rows */
+    @media (pointer: fine) { .sidebar .mi { min-height: 36px; } .sidebar .menu-h { margin: 12px 12px 4px; } .sidebar .mprofile { padding: 8px 12px; } }
+    .content { padding-bottom: var(--sp-8); }
+    /* Phase 24 (U4, V34): the bar's band spans the whole main area (it stopped at 1,120 px); its title starts exactly at
+       the content's left edge — the padding is the content column's own offset. With no Back button the left cell is
+       gone and the gaps are margins, so nothing pushes the title 8 px right of the page. */
+    .topbar { --edge: max(var(--gutter), calc((100% - var(--content-max)) / 2 + var(--gutter)));
+      grid-template-columns: auto minmax(0, 1fr) auto; column-gap: 0; max-width: none; margin: 0; padding-top: 8px; padding-left: var(--edge); padding-right: calc(var(--edge) - 6px); }
+    .topbar .tb-l:empty, .topbar .tb-l:has(> .menu-btn) { display: none; }
+    .topbar .tb-l { margin-right: var(--sp-2); }
+    .topbar .tb-c { text-align: left; grid-column: 2; }
+    .pagetitle { font-size: var(--fs-h1); }
+    .topbar .tb-r { grid-column: 3; margin-left: var(--sp-2); }
+  }
+  /* wide (≥ 1440 px): content capped at 1,280 px (the token, at the top of this file), a wider sidebar */
+  @media (min-width: 1440px) { .shell { grid-template-columns: 300px minmax(0, 1fr); } }
+  /* Staff and admin screens are for managing, not reading: on a wide monitor the 1120/1280 reading column left about
+     500 px empty (the user, 10 Oct 2026, measured at 1920 px on the coordinator and facilitator Homes). They go to
+     1440 px — wider, but still bounded, so a very wide screen does not stretch a table across a metre of glass.
+     Devotee screens keep the reading column: long lines of text are harder to read, not easier. */
+  @media (min-width: 1280px) { .shell[data-area='coordinator'], .shell[data-area='admin'] { --content-max: 1440px; } }
+
+  /* glass — only on surfaces that float over content: top bar (once scrolled), bottom nav, drawer, sheets, carousel controls */
+  .nav, .glass { background: var(--glass-bg); border: 1px solid var(--glass-edge); box-shadow: inset 0 1px 0 var(--glass-edge), 0 0 0 1px var(--glass-line), var(--shadow-2);
+    -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); }
+  .topbar[data-scrolled] { background: var(--glass-bg); border-bottom-color: var(--glass-line); box-shadow: inset 0 -1px 0 var(--glass-edge), 0 6px 16px -12px rgb(60 40 10 / 0.25);
+    -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); }
+  .drawer, .sheet { background: var(--panel-bg); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: inset 0 1px 0 var(--glass-edge), 0 0 0 1px var(--glass-line), var(--shadow-3); }
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .nav, .glass, .drawer, .sheet { background: var(--surface-floating); }
+    .topbar[data-scrolled] { background: var(--bg); }
+  }
+  /* low tier (small memory, data saver, 2G, reduced transparency, measured slowness): solid surfaces, no blur on every scroll */
+  :root[data-tier='low'] :is(.nav, .glass, .drawer, .sheet, .topbar[data-scrolled]) { background: var(--surface-floating); border-color: var(--border); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  /* balanced: glass only on the bottom nav, the drawer and sheets; the top bar and small glass buttons are opaque */
+  :root[data-tier='balanced'] :is(.glass, .topbar[data-scrolled]) { background: var(--surface-floating); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  @media (prefers-reduced-transparency: reduce) {
+    .nav, .glass, .drawer, .sheet, .topbar[data-scrolled] { background: var(--surface-floating); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  }
+}
+
+/* ================================================== layout helpers ================================================= */
+@layer components {
+  .wrap { margin: 0 auto; width: 100%; max-width: 36rem; padding: 0 var(--gutter) 64px; box-sizing: border-box; }
+  .grid2 { display: grid; gap: var(--sp-4); align-items: start; }
+  .grid2 > * { min-width: 0; }
+  @media (min-width: 768px) { .grid2 { grid-template-columns: 1fr 1fr; } .grid2 > :only-child { grid-column: 1 / -1; } .grid2 > .section, .grid2 > * > .section:last-child { margin-bottom: 0; } }
+  /* two fields side by side: aligned at the top (an error under one never moves the other); keep both labels to one line.
+     G7 (Phase 24, V4): side by side only when EACH gets 9.5rem — decided by the space the pair has, not the window, so in
+     a 330 px card (Requests at 1024) the date field no longer runs over the facilitator beside it */
+  .pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: 0 12px; align-items: start; }
+  .pair > * { min-width: 0; }
+  .pair input[type='date'].input { min-width: 0; }
+  .center { text-align: center; }
+
+  /* page widths (Phase 24, G1 / V15): a reading or form column starts at the content's left edge, under the title */
+  .page-read { width: 100%; max-width: var(--page-read); margin-inline: 0; }
+  .page-form { width: 100%; max-width: var(--page-form); margin-inline: 0; }
+  /* one card (Phase 24, G4 / V27): radius 16, padding 16 on a phone and 20 from 640 px, shadow-1 — .card, .section and
+     .cblock were 16 / 16→20 at 640 / 16→20 at 600 */
+  .card { border: 1px solid var(--border); background: var(--surface-elevated); border-radius: var(--r-lg); padding: var(--sp-4); box-shadow: var(--shadow-1); }
+  .section { margin-bottom: var(--sp-4); border: 1px solid var(--border); background: var(--surface-elevated); border-radius: var(--r-lg); padding: var(--sp-4); box-shadow: var(--shadow-1); }
+  @media (min-width: 640px) { .card, .section { padding: var(--sp-5); } }
+  /* one key-value list (G4 / V27), drawn exactly as a profile section's rows (ui/EditSection): stacked on a phone; from
+     480 px the label in a column of at least 8.5rem / 34 %, the value left-aligned beside it; a hairline between rows */
+  .kv { display: grid; grid-template-columns: minmax(0, 1fr); margin: 0; }
+  .kv > dt, .kv > dd { margin: 0; overflow-wrap: anywhere; }
+  .kv > dt { padding: 10px 0 2px; border-top: 1px solid var(--divider); font-size: var(--fs-sm); color: var(--text-muted); }
+  .kv > dd { padding: 0 0 10px; font-size: 0.9375rem; color: var(--text); font-weight: 550; }
+  .kv > dt:first-of-type { border-top: 0; padding-top: 0; }
+  .kv > dd:last-of-type { padding-bottom: 0; }
+  @media (min-width: 480px) {
+    .kv { grid-template-columns: minmax(8.5rem, 34%) minmax(0, 1fr); column-gap: 12px; align-items: stretch; }   /* stretch: the two hairlines of a row meet */
+    .kv > dt { line-height: 1.6; }
+    .kv > dt { padding-bottom: 10px; }
+    .kv > dd { padding-top: 10px; border-top: 1px solid var(--divider); }
+    .kv > dt:first-of-type + dd { border-top: 0; padding-top: 0; }
+    .kv > dt:last-of-type { padding-bottom: 0; }
+  }
+  .section > h3, .sec-h { margin: 0 0 var(--sp-3); display: flex; align-items: center; gap: 10px; font-family: var(--font-sans); font-size: var(--fs-h3); line-height: var(--lh-h3); font-weight: var(--fw-h3); }
+  .section > h3 > svg, .sec-h > svg { color: var(--accent); flex: none; }
+  .well { border-radius: var(--r-md); background: var(--surface-2); padding: var(--sp-3); }
+  .bignum { font-family: var(--font-serif); font-size: clamp(2.5rem, 2rem + 2vw, 3.25rem); font-weight: 600; line-height: 1; color: var(--accent); }
+  .sticky-top { position: sticky; top: var(--sticky-top); z-index: var(--z-sticky); background: var(--bg); padding: 8px 0; margin: 0 0 8px; border-bottom: 1px solid var(--border); }
+}
+
+/* ===================================================== buttons ===================================================== */
+@layer components {
+  .btn { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: var(--ctl-h); padding: 0 16px; border-radius: var(--r-md);
+    border: 1px solid transparent; background: var(--accent-soft); color: var(--accent); font: inherit; font-size: 0.9375rem; font-weight: 600; line-height: 1.2; text-align: center; text-decoration: none; cursor: pointer;
+    transition: background-color var(--d-1) var(--ease), color var(--d-1) var(--ease), border-color var(--d-1) var(--ease), box-shadow var(--d-1) var(--ease), transform var(--d-1) var(--ease);
+    -webkit-user-select: none; user-select: none; }
+  @media (hover: hover) { .btn:hover:not(:disabled) { background: var(--accent-hover); } }
+  .btn:active:not(:disabled) { transform: scale(0.98); }
+  .btn:disabled, .btn[aria-disabled='true'] { cursor: not-allowed; opacity: 0.55; }
+  .btn > svg { flex: none; }
+  .btn-primary { width: 100%; background: var(--accent); color: var(--on-accent); box-shadow: 0 1px 2px rgb(60 40 10 / 0.14), inset 0 1px 0 rgb(255 255 255 / 0.12); }
+  @media (hover: hover) { .btn-primary:hover:not(:disabled) { background: var(--accent-strong); } }
+  .btn-outline { background: var(--surface-elevated); border-color: var(--border-strong); color: var(--text); }
+  @media (hover: hover) { .btn-outline:hover:not(:disabled) { background: var(--surface-hover); } }
+  .btn-text { background: transparent; color: var(--accent); padding: 0 10px; }
+  @media (hover: hover) { .btn-text:hover:not(:disabled) { background: var(--accent-soft); } }
+  .btn-danger { background: var(--danger-soft); color: var(--danger); border-color: var(--danger-line); }
+  @media (hover: hover) { .btn-danger:hover:not(:disabled) { background: var(--danger-hover); } }
+  .btn-danger-solid { background: var(--danger); color: var(--surface-n); }
+  @media (hover: hover) { .btn-danger-solid:hover:not(:disabled) { background: var(--danger); filter: brightness(0.92); } }
+  /* Phase 24 (G10, V28): a small button is small in its type and padding, not its height — 44 px on a touch screen, like
+     every other control (the invisible ::after tap area left 36 px buttons that looked and measured cramped on 24
+     screens). A mouse keeps the compact 36 px. */
+  .btn-sm { min-height: var(--ctl-h); padding: 0 12px; font-size: var(--fs-sm); }
+  @media (pointer: fine) { .btn-sm { min-height: 36px; } }
+  .btn-block { width: 100%; }
+  /* tertiary text action: looks like a link, behaves like a button (44 px target, visible focus, underline on hover) */
+  .link { display: inline-flex; align-items: center; gap: 6px; min-height: var(--ctl-h); padding: 0 6px; margin: 0 -6px; border: 0; border-radius: var(--r-sm); background: none; color: var(--accent);
+    font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; text-underline-offset: 3px; }
+  @media (hover: hover) { .link:hover { text-decoration: underline; } }
+  .link.text-danger { color: var(--danger); }
+  /* plain inline link inside text */
+  .ilink { color: var(--accent); font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .iconbtn { position: relative; display: inline-grid; place-items: center; flex: none; width: var(--ctl-h); height: var(--ctl-h); padding: 0; border: 0; border-radius: var(--r-full); background: transparent;
+    color: var(--text); cursor: pointer; text-decoration: none; transition: background-color var(--d-1) var(--ease), transform var(--d-1) var(--ease); }
+  @media (hover: hover) { .iconbtn:hover { background: var(--surface-hover); } }
+  .iconbtn:active { transform: scale(0.94); }
+  .iconbtn:disabled { opacity: 0.4; cursor: default; }
+  .iconbtn.tonal { background: var(--accent-soft); color: var(--accent); }
+  .spin { display: inline-block; width: 16px; height: 16px; box-sizing: border-box; border-radius: 50%; border: 2px solid currentColor; border-right-color: transparent; animation: spin 0.7s linear infinite; vertical-align: -3px; flex: none; }
+}
+
+/* ===================================================== forms ===================================================== */
+@layer components {
+  .field { margin-bottom: var(--sp-4); }
+  .label { display: block; margin: 0 0 6px; font-size: var(--fs-label); line-height: var(--lh-label); font-weight: var(--fw-label); color: var(--text); }
+  .label .opt { margin-left: 0.3em; color: var(--text-muted); font-weight: 400; }
+  .hint { margin: 6px 0 0; font-size: var(--fs-sm); line-height: var(--lh-sm); color: var(--text-muted); }
+  .err, .vmsg { display: flex; align-items: flex-start; gap: 6px; margin: 6px 0 0; font-size: var(--fs-sm); line-height: var(--lh-sm); color: var(--danger); }
+  .vmsg.ok { color: var(--ok); }
+  .vmsg > svg, .err > svg { flex: none; margin-top: 2px; }
+  .input { box-sizing: border-box; display: block; width: 100%; min-height: var(--ctl-h); padding: 0 12px; border: 1px solid color-mix(in srgb, var(--accent) 10%, var(--border-strong)); border-radius: var(--r-md); background: var(--surface-elevated);
+    color: var(--text); font: inherit; font-size: 1rem; line-height: 1.4; transition: border-color var(--d-1) var(--ease), box-shadow var(--d-1) var(--ease), background-color var(--d-1) var(--ease); }
+  .input::placeholder { color: var(--text-muted); opacity: 0.85; }
+  /* ladder #1 (22 Oct 2026): a field is raised and bordered; only a field that cannot be used takes the muted fill */
+  .input:disabled { background: var(--surface-muted); }
+  @media (hover: hover) { .input:hover:not(:disabled) { border-color: var(--text-muted); } }
+  .input:focus { outline: none; border-color: var(--accent); background: var(--surface-elevated); box-shadow: 0 0 0 3px var(--halo); }
+  .input:disabled { opacity: 0.6; cursor: not-allowed; }
+  .input[aria-invalid='true'] { border-color: var(--danger); }
+  .input[aria-invalid='true']:focus { box-shadow: 0 0 0 3px var(--danger-line); }
+  .input.is-ok { border-color: var(--ok); }
+  textarea.input { min-height: 96px; padding: 10px 12px; resize: vertical; }
+  select.input { appearance: none; -webkit-appearance: none; padding-right: 2.5rem; text-overflow: ellipsis; background-image: var(--chev); background-repeat: no-repeat; background-position: right 14px center; background-size: 12px 8px; }
+  input[type='date'].input, input[type='datetime-local'].input { appearance: none; -webkit-appearance: none; text-align: left; }
+  input[type='date'].input::-webkit-date-and-time-value, input[type='datetime-local'].input::-webkit-date-and-time-value { text-align: left; min-height: 1.4em; }
+  input[type='date'].input::-webkit-calendar-picker-indicator, input[type='datetime-local'].input::-webkit-calendar-picker-indicator { cursor: pointer; opacity: 0.65; }
+  :root[data-theme='dark'] input.input::-webkit-calendar-picker-indicator { filter: invert(0.85); }
+  .ctl-wrap { position: relative; }
+  .ctl-wrap > .input { padding-right: 40px; }
+  .ctl-wrap > .ctl-end { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); display: grid; color: var(--text-muted); pointer-events: none; }
+  .ctl-wrap > .ctl-end.ok { color: var(--ok); }
+  .ctl-wrap > .ctl-eye { position: absolute; right: 2px; top: 50%; transform: translateY(-50%); display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: var(--r-md); background: transparent; color: var(--text-muted); cursor: pointer; }
+  .ctl-wrap > .ctl-eye[aria-pressed='true'] { color: var(--text); }
+  @media (hover: hover) { .ctl-wrap > .ctl-eye:hover { color: var(--text); } }
+  .ctl-wrap > .input[id]:has(+ .ctl-eye) { padding-right: 48px; }
+  .fsec { margin: 0 0 var(--sp-5); padding: 0; border: 0; min-width: 0; }
+  .fsec > legend, .fsec-h { display: block; padding: 0; margin: 0 0 4px; font-size: var(--fs-h3); line-height: var(--lh-h3); font-weight: var(--fw-h3); }
+  .fsec-d { margin: 0 0 var(--sp-3); color: var(--text-muted); font-size: var(--fs-sm); }
+  .factions { display: grid; gap: 8px; margin-top: var(--sp-4); }
+  @media (min-width: 480px) { .factions { grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); } }
+  .factions.end { display: flex; flex-wrap: wrap; justify-content: flex-end; }
+  .factions.end > .btn { width: auto; }
+  .row { display: flex; align-items: center; gap: 12px; }
+
+
+  /* segmented control: in styles/seg.css (loaded with the screens that use it, 8 Oct 2026) */
+
+
+  /* time picker field and sheet */
+}
+
+/* ================================================== feedback & states ================================================== */
+@layer components {
+  /* notice: a semantic soft fill, a 3 px bar on the leading edge and an icon (never colour alone: the icon and the words say it) */
+  .banner { --tone: var(--info); display: flex; align-items: flex-start; gap: 10px; margin: 0 0 var(--sp-4); padding: 12px 14px; border-radius: var(--r-md); border: 0; border-left: 3px solid var(--tone);
+    background: var(--info-soft); font-size: var(--fs-sm); line-height: var(--lh-sm); color: var(--text); }
+  .banner > svg { flex: none; margin-top: 1px; color: var(--tone); }
+  .banner .b-body { flex: 1; min-width: 0; }
+  .banner .b-act { flex: none; margin: -8px -6px -8px 0; }
+  .banner-err { --tone: var(--danger); background: var(--danger-soft); }
+  .banner-ok { --tone: var(--success); background: var(--success-soft); }
+  .banner.warn { --tone: var(--warning); background: var(--warning-soft); }
+  .warn { background: var(--warn-soft); border-color: var(--warn-line); color: var(--text); }
+  .warn > svg { color: var(--warn); }
+  /* shimmer: one GPU-friendly sweep (transform on a pseudo-element), shown after 150 ms of waiting */
+  .skw { animation: fadein var(--d-1) ease 150ms both; }
+  .sk { position: relative; display: block; overflow: hidden; background: var(--surface-2); border-radius: var(--r-md); }
+  .sk::after { content: ''; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, var(--shine), transparent); animation: shimmer 1.4s ease-in-out infinite; }
+  .sk-line { height: 12px; border-radius: var(--r-full); }
+  .sk-thin { height: 9px; } .sk-big { height: 20px; }
+  .sk-block { border-radius: var(--r-lg); }
+  .sk-circle { flex: none; width: 36px; height: 36px; border-radius: 50%; }
+  .sk-pill { width: 96px; height: 40px; border-radius: var(--r-full); }
+  .sk-card { display: grid; gap: 12px; padding: var(--sp-4); border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); }
+  .sk-row { display: flex; align-items: center; gap: 12px; padding: 12px 14px; }
+  .sk-row + .sk-row { border-top: 1px solid var(--border); }
+  .sk-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+  .sk-bars { display: flex; align-items: flex-end; gap: 8px; height: 200px; }
+  .sk-bars > * { flex: 1; }
+  .refresh { display: flex; align-items: center; justify-content: flex-end; gap: 8px; min-height: 36px; margin: 0 0 8px; font-size: var(--fs-caption); color: var(--text-muted); }
+  .refresh .btn-text { min-height: var(--ctl-h); font-size: var(--fs-sm); }
+  .pill { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px; border: 1px solid var(--border); border-radius: var(--r-full); background: var(--surface-2); color: var(--text-muted);
+    font-size: var(--fs-caption); line-height: 1.5; font-weight: 600; white-space: nowrap; }
+  .pill[data-tone='ok'] { border-color: var(--ok-line); background: var(--ok-soft); color: var(--ok); }
+  .pill[data-tone='warn'] { border-color: var(--warn-line); background: var(--warn-soft); color: var(--warn); }
+  .pill[data-tone='bad'] { border-color: var(--danger-line); background: var(--danger-soft); color: var(--danger); }
+  .pill[data-tone='info'] { border-color: var(--accent-line); background: var(--accent-soft); color: var(--accent); }
+  .pill[data-tone='accent'] { border-color: transparent; background: var(--accent); color: var(--on-accent); }
+  /* ladder #11 (22 Oct 2026): a status reads at a glance — a 7 px dot in the pill's own colour (counts, the accent pills, stay plain) */
+  .pill:is([data-tone='ok'], [data-tone='warn'], [data-tone='bad'], [data-tone='info'])::before { content: ''; flex: none; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  /* status: a dot plus a word in the semantic colour (instead of grey pills down a list) */
+  .status { --tone: var(--text-muted); display: inline-flex; align-items: center; gap: 6px; margin: 0; color: var(--tone); font-size: var(--fs-status); line-height: 1.3; font-weight: 650; }
+  .status::before { content: ''; flex: none; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+  .status[data-tone='ok'] { --tone: var(--success); }
+  .status[data-tone='warn'] { --tone: var(--warning); }
+  .status[data-tone='bad'] { --tone: var(--danger); }
+  .status[data-tone='info'] { --tone: var(--info); }
+  .status[data-tone='accent'] { --tone: var(--accent); }
+}
+
+/* ============================================ dialogs: bottom sheet / centred ============================================ */
+@layer components {
+  @starting-style {
+    .drawer[open] { transform: translateX(-100%); }
+    .drawer[open]::backdrop, .sheet[open]::backdrop { background: transparent; }
+  }
+  /* low tier: fades only. The drawer, and sheets on phones, fade in place instead of sliding */
+  :root[data-tier='low'] .drawer { transform: none; opacity: 0; transition: opacity var(--d-2) ease, overlay var(--d-2) allow-discrete, display var(--d-2) allow-discrete; }
+  :root[data-tier='low'] .drawer[open] { opacity: 1; }
+  @media (max-width: 599px) {
+    :root[data-tier='low'] .sheet { transform: none; opacity: 0; transition: opacity var(--d-2) ease, overlay var(--d-2) allow-discrete, display var(--d-2) allow-discrete; }
+    :root[data-tier='low'] .sheet[open] { opacity: 1; }
+  }
+  @starting-style { :root[data-tier='low'] :is(.drawer, .sheet)[open] { opacity: 0; } }
+  :root[data-tier='low'] :is(.content > *, .toast, .netbar, .confirm) { animation-name: fadein; }
+}
+
+
+/* ============================================ home: greeting, today, week strip, quick actions ============================================ */
+@layer components {
+  .greet { margin: 4px 0 var(--sp-5); }
+  .greet .date { margin: 0 0 4px; }
+  .greet h2 { margin: 0; font-size: var(--fs-display); line-height: var(--lh-display); font-weight: var(--fw-display); letter-spacing: -0.01em; }
+  .greet .sub { margin: 6px 0 0; color: var(--text-secondary); font-size: var(--fs-sm); }
+  /* the first-run guide's room while its file loads (G22): the card under it must not jump when it arrives — the guide
+     is 172–180 px since it became titles only (G12) */
+  .fr-wait { min-height: 11rem; margin-bottom: var(--sp-4); }
+  /* block types. hero: one per screen (accent wash, icon chip, serif title, one primary action) · content: a raised unit
+     of action or content · stat tile (.stat): muted, serif number. Cards never sit inside cards. */
+  /* ladder #4 (22 Oct 2026): a two-stop wash that reads as the screen's one hero — 14 % accent over white (20 % over the
+     raised surface in dark), a 35 % accent edge and the top shine; a low-end phone gets the flat soft accent */
+  .hero-card { position: relative; overflow: hidden; margin-bottom: var(--sp-4); padding: var(--sp-5); border-radius: var(--r-xl); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+    background: linear-gradient(160deg, color-mix(in srgb, var(--accent) var(--hero-mix, 14%), var(--surface-elevated)), var(--surface-elevated) 62%); box-shadow: inset 0 1px 0 var(--shine), var(--shadow-2); }
+  :root[data-theme='dark'] .hero-card { --hero-mix: 20%; }
+  :root[data-tier='low'] .hero-card { background: var(--accent-soft); box-shadow: var(--shadow-2); }
+  .cblock, .today { margin-bottom: var(--sp-4); padding: var(--sp-4); border-radius: var(--r-lg); border: 1px solid var(--border); background: var(--surface-elevated); box-shadow: inset 0 1px 0 var(--shine), var(--shadow-1); }
+  :root[data-tier='low'] :is(.cblock, .today) { box-shadow: var(--shadow-1); }
+  @media (min-width: 640px) { .cblock, .today { padding: var(--sp-5); } }
+  .ichip { display: grid; place-items: center; flex: none; width: 44px; height: 44px; border-radius: 14px; background: var(--accent-soft); color: var(--accent); }
+  /* the hero's actions sit side by side only when the card itself is wide (not in Home's narrower column on a tablet) */
+  .hero-card { container-type: inline-size; }
+  /* the status block (Phase 4): the line, the days, the next action as a row with the person's initial */
+  .s-line { margin: 4px 0 2px; font-family: var(--font-serif); font-size: var(--fs-h2); line-height: 1.25; font-weight: 600; }
+  .s-meta { margin: 0 0 var(--sp-3); color: var(--text-secondary); font-size: var(--fs-sm); }
+  .s-pill { display: flex; align-items: center; gap: 10px; min-height: 52px; margin-top: var(--sp-3); padding: 6px 14px 6px 6px; border-radius: var(--r-full);
+    background: var(--accent); color: var(--on-accent); font-weight: 650; text-decoration: none; box-shadow: var(--shadow-1); }
+  .s-pill .avatar { width: 40px; height: 40px; background: color-mix(in srgb, var(--on-accent) 20%, transparent); color: var(--on-accent); }
+  .s-acts { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: var(--sp-2); font-size: var(--fs-sm); }
+  .s-acts .link { display: inline-flex; align-items: center; min-height: 44px; }
+  .s-warn { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: var(--sp-2) 0 0; color: var(--warning); font-size: var(--fs-sm); }
+  .needs { border-left: 3px solid var(--warning); }
+  .cblock.dcard { padding: 0 0 var(--sp-4); overflow: hidden; } .cblock.dcard > :not(figure) { margin-inline: var(--sp-4); }
+  .qa a .ico[data-cat='soul'] { color: var(--viz-soul); } .qa a .ico[data-cat='body'] { color: var(--viz-body); }
+
+  /* Home: one column on phones; from a 600 px wide content area, the day's work on the left and the devotional side on the right */
+  .home { container: home / inline-size; }
+  .home-g { display: grid; grid-template-columns: minmax(0, 1fr); column-gap: var(--sp-6); align-items: start; }
+  .home-g > * { min-width: 0; }
+  @container home (min-width: 600px) { .home-g { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); } }
+  /* the day strip: no box per day; a check in a filled dot for a complete day, the selected day an accent-soft fill */
+  .days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; margin: 0 0 var(--sp-3); }
+  .chip { box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-width: 0; min-height: 56px; padding: 4px 0; border: 1px solid transparent; border-radius: var(--r-md);
+    background: transparent; color: var(--text-muted); font-size: var(--fs-caption); font-weight: 650; text-decoration: none; transition: background-color var(--d-1) var(--ease), border-color var(--d-1) var(--ease); }
+  .chip b { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--border-strong); color: var(--text-muted); font-size: 0.8125rem; line-height: 1; font-weight: 700; }
+  .chip:not(.chip-done, .chip-part, .chip-off, .chip-miss) b { color: transparent; }
+  .chip-off { opacity: 0.55; }
+  .chip-off b { box-shadow: none; }
+  .chip-done b { background: var(--success); color: var(--surface-elevated); box-shadow: none; }
+  .chip-part b { background: var(--warning-soft); color: var(--warning); box-shadow: inset 0 0 0 1.5px var(--warning); }
+  .chip-miss { color: var(--warning); } .chip-miss b { background: var(--warning); color: var(--surface-elevated); box-shadow: none; }   /* a past day not filled: amber, with "!" */
+  .chip-on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); box-shadow: 0 0 0 3px var(--halo); }
+  /* ladder #5: today stands out by tier — glow on high, the halo on balanced, a plain double line on low */
+  :root[data-tier='high'] .chip-on { box-shadow: 0 0 0 3px var(--halo), 0 0 16px color-mix(in srgb, var(--accent) 35%, transparent); }
+  :root[data-tier='low'] .chip-on { box-shadow: inset 0 0 0 1px var(--accent); }
+  nav.chips, .sticky-top.chips { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+
+  /* four tiles: 2 × 2, or one row of four once Home's own column is wide enough — never three and a lone tile (V16) */
+  .home-main { container: hmain / inline-size; }
+  .qa { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+  @container hmain (min-width: 560px) { .qa { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  .qa a { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 10px; align-items: center; min-height: 60px; padding: 10px; box-sizing: border-box; height: 100%;
+    border-radius: var(--r-lg); background: var(--surface); color: var(--text); text-decoration: none; transition: background-color var(--d-1) var(--ease), transform var(--d-1) var(--ease); }
+  @media (hover: hover) { .qa a:hover { background: var(--surface-hover); } }
+  .qa a:active { transform: scale(0.985); }
+  .qa .ico { grid-row: 1 / 3; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); }
+  .qa .qt { font-weight: 600; font-size: clamp(0.875rem, 0.8rem + 0.3vw, 0.9375rem); line-height: 1.25; overflow-wrap: anywhere; }   /* wraps, never "Share t…" (V10) */
+  .qa .qs { font-size: var(--fs-caption); line-height: 1.3; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .block-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: var(--sp-6) 0 var(--sp-3); }
+  .block-h h2 { position: relative; margin: 0; padding-bottom: 6px; font-size: var(--fs-h2); }
+  /* ladder #6: a 40 × 2 px gold hairline under a section's title */
+  .block-h h2::after { content: ''; position: absolute; left: 0; bottom: 0; width: 40px; height: 2px; border-radius: 1px; background: linear-gradient(90deg, var(--gold-decorative), transparent); }
+  .block-h .t-over { margin: 0; }
+  .block-h .refresh { margin: 0 -10px 0 0; }
+  .ann-teaser { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 12px 14px; border-radius: var(--r-lg); border: 1px solid var(--border); background: var(--surface-elevated);
+    color: var(--text); text-decoration: none; margin-bottom: var(--sp-4); transition: border-color var(--d-1) var(--ease); }
+  @media (hover: hover) { .ann-teaser:hover { border-color: var(--accent-line); } }
+  .ann-teaser .ico { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); }
+  /* the one news item on Home keeps its point: title and body two lines each (Phase 24, V10) */
+  .ann-teaser .at, .ann-teaser .ab { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; overflow-wrap: anywhere; }
+  .ann-teaser .at { font-weight: 600; }
+  .ann-teaser .ab { color: var(--text-muted); font-size: var(--fs-sm); }
+  .stat { display: grid; gap: 2px; padding: 12px; border-radius: var(--r-md); background: var(--surface-2); text-align: left; text-decoration: none; color: var(--text);
+    box-shadow: inset 0 3px 0 color-mix(in srgb, var(--area) 75%, transparent); }   /* ladder #7: a summary tile names its area */
+  .stat b { font-family: var(--font-serif); font-size: var(--fs-stat); line-height: 1.1; font-weight: 600; color: var(--accent); }
+  .stat span { font-size: var(--fs-caption); color: var(--text-muted); }
+  .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  @media (min-width: 640px) { .stats.four { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+}
+
+/* ===================================================== lists and rows ===================================================== */
+@layer components {
+  @media (hover: hover) { a.rowlink:hover { border-color: var(--accent-line); background: var(--surface-tint); } }
+  .rowlink { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 8px 12px; box-sizing: border-box; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface);
+    color: var(--text); text-decoration: none; transition: border-color var(--d-1) var(--ease), background-color var(--d-1) var(--ease); }
+  /* a structured list: rows inside one card, separated by hairlines */
+  .list { margin: 0; padding: 0; list-style: none; border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow-1); overflow: hidden; }
+  .list > li + li { border-top: 1px solid var(--border); }
+  .lrow { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 10px 14px; box-sizing: border-box; color: var(--text); text-decoration: none; }
+  @media (hover: hover) { a.lrow:hover { background: var(--surface-tint); } }
+  .lrow .lmain { flex: 1; min-width: 0; }
+  .lrow .lt { display: block; font-weight: 600; overflow-wrap: anywhere; }
+  .lrow .ls { display: block; color: var(--text-muted); font-size: var(--fs-sm); overflow-wrap: anywhere; }
+  .lrow .lend { flex: none; display: flex; align-items: center; gap: 6px; }
+  /* tables on wide screens */
+
+
+}
+
+
+/* Press feedback, one rule for every tappable control (the head, 7 Oct 2026): on tap or click the control sinks a
+   little (scale ~0.97–0.985) at once, so a phone feels the press; never on hover (touch screens have none), and the
+   keyboard has :focus-visible. .btn, .iconbtn, the bar's tabs and the Home quick actions have their own (above).
+   :where() keeps it weaker than any component's own rule. */
+@layer components {
+  /* small controls sink more, wide rows less (a full-width row must not jump) */
+  :where(.chipbtn, .seg button, .pa button, .tab, .cal-d, .wsel, .chip):active:not(:disabled, [aria-disabled='true']) { scale: 0.97; }
+  :where(.mi, .wr-day, .cs-row, a.action, button.action, a.lrow, a.rowlink, a.mrow-main, .ann-teaser, summary):active:not(:disabled, [aria-disabled='true']) { scale: 0.99; }
+  /* rows and cards also darken a touch while pressed (they have no hover on a phone) */
+  :where(a.lrow, a.rowlink, a.mrow-main, .wr-day, .ann-teaser, a.action, button.action, .cs-row):active:not(:disabled) { background-color: var(--surface-hover); }
+  :where(a.lrow, a.rowlink, a.mrow-main, .ann-teaser, .cal-d, .wsel, .chip, summary) { transition: background-color var(--d-1) var(--ease), scale var(--d-1) var(--ease); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* still a clear press, without movement: the tint stays, the sink goes */
+  :active { scale: none !important; }
+  *, *::before, *::after { transition: none !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
+}
+.nav .ind .badge { top: -3px; right: 6px; box-shadow: 0 0 0 2px var(--surface); }
+.content:focus { outline: none; }
+.menu > .menu { gap: 2px; }
+.mprofile .avatar { box-shadow: 0 0 0 2px var(--surface); }
+/* ---- brand lockup: lotus mark | IYF Delhi / ISKCON Youth Forum (splash, welcome) ---- */
+.lockup { display: inline-flex; align-items: center; gap: 14px; margin: 0 auto 22px; text-align: left; }
+.lk-rule { width: 1px; height: 40px; background: linear-gradient(transparent, #c9a24f, transparent); flex: none; }
+.lk-text { display: grid; gap: 2px; }
+.lk-org { font-family: var(--font-serif); font-size: 1.5rem; line-height: 1.05; font-weight: 600; letter-spacing: .005em; color: var(--text); }
+.lk-sub { font-family: var(--font-sans); font-size: .6875rem; line-height: 1.2; font-weight: 650; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+.lockup-lg .lk-rule { height: 48px; background: linear-gradient(transparent, #e3c47a, transparent); }
+.lockup-lg .lk-org { font-size: 1.875rem; color: #fff; }
+.lockup-lg .lk-sub { color: #e3c47a; }
+
+/* the IYF emblem (official logo's round mark) in the lockup, the sidebar and the drawer */
+.lk-emblem, .brand-emblem { aspect-ratio: 1; object-fit: cover; max-width: none; }
+.lk-emblem { display: block; width: 56px; height: 56px; flex: none; border-radius: 50%; box-shadow: 0 6px 18px rgba(10, 30, 60, .28), 0 0 0 1px rgba(227, 196, 122, .45); }
+.lockup-lg .lk-emblem { width: 72px; height: 72px; }
+.brand-row { display: inline-flex; align-items: center; gap: 10px; }
+.brand-emblem { width: 30px; height: 30px; border-radius: 50%; flex: none; box-shadow: 0 2px 6px rgba(10, 30, 60, .25); }
+.avatar-photo { padding: 0; overflow: hidden; }
+.avatar-photo .photo { box-shadow: none; }
+
+/* ---- splash (static in index.html) ---- */
+#splash { position: fixed; inset: 0; z-index: 100; display: grid; place-content: center; justify-items: center; gap: 4px; overflow: hidden; padding: env(safe-area-inset-top, 0px) 24px env(safe-area-inset-bottom, 0px);
+  background: radial-gradient(120% 70% at 50% 0%, #0b4fd6, #002888 62%); color: #fff; text-align: center; font-family: var(--font-serif); transition: opacity 420ms ease, visibility 0s linear 420ms; }
+#splash.out { opacity: 0; visibility: hidden; pointer-events: none; }
+/* a returning, signed-in person: their kept Home is already drawn underneath, so no fade (main.js, A6) */
+#splash.resume { transition: none; }
+#splash p { margin: 0; }
+.sp-name { margin-top: 6px !important; font-size: clamp(2.125rem, 1.6rem + 3vw, 3rem); line-height: 1.1; font-weight: 600; letter-spacing: -0.01em; }
+/* a calm entrance and a slim progress line, like an installed app's launch screen */
+.sp-in { animation: sp-rise 600ms cubic-bezier(.2, .7, .2, 1) both; }
+.sp-in2 { animation: sp-rise 600ms cubic-bezier(.2, .7, .2, 1) 160ms both; }
+.sp-bar { position: absolute; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 56px); width: 120px; height: 2px; margin-left: -60px; border-radius: 2px; overflow: hidden; background: rgba(255, 255, 255, .14); }
+.sp-bar::after { content: ''; position: absolute; inset: 0; width: 40%; border-radius: 2px; background: #e3c47a; animation: sp-load 1.1s ease-in-out infinite; }
+@keyframes sp-rise { from { opacity: 0; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes sp-load { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+/* the same line, size and weight as the Welcome's byline (9 Oct 2026): understated under the name */
+.sp-sub { margin-top: 6px !important; font-style: italic; font-weight: 400; font-size: clamp(0.9375rem, 4.1vw, 1rem); line-height: 1.4; color: #e6defa; text-wrap: balance; }
+/* ladder #12 (22 Oct 2026): the dark launch screen carries the brand — a navy glow behind the emblem over #0f1a3a, fading
+   to the night colour by 45vh (it was purple, with no brand blue at all) */
+@media (prefers-color-scheme: dark) { #splash { background: radial-gradient(70% 42% at 50% 44%, rgb(0 40 136 / 0.9), transparent 72%), linear-gradient(180deg, #0f1a3a, #0d0b13 45vh); color: #f1ecfd; } }
+@media (prefers-reduced-motion: reduce) { #splash { transition: none; } .sp-in, .sp-in2, .sp-bar::after { animation: none; } }
+@layer components {
+  /* toasts: above the nav; a card each, a colour strip + icon by kind, a line runs down its time */
+  .toasts { position: fixed; left: 50%; bottom: calc(var(--nav-space) + 12px); z-index: 45; display: grid; gap: 8px; width: min(440px, calc(100vw - 24px)); transform: translateX(-50%); pointer-events: none; }
+  .tq { display: grid; gap: 8px; }
+  .toast { --k: var(--success); position: relative; display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 6px 4px 6px 10px; overflow: hidden; border: 1px solid var(--border); border-left: 3px solid var(--k);
+    border-radius: var(--r-lg); background: var(--surface-floating); color: var(--text); box-shadow: var(--shadow-3); font-size: var(--fs-sm); pointer-events: auto; animation: rise var(--d-2) var(--ease); }
+  .toast[data-kind='info'] { --k: var(--info); } .toast[data-kind='err'] { --k: var(--danger); }
+  .t-ic { display: grid; place-items: center; flex: none; width: 30px; height: 30px; border-radius: 50%; color: var(--k); background: color-mix(in srgb, var(--k) 14%, transparent); }
+  .toast .btn-text { color: var(--accent); }
+  .toast::after { content: ''; position: absolute; inset: auto 0 0; height: 2px; background: var(--k); opacity: .35; transform-origin: left; animation: tlife var(--ms, 5000ms) linear forwards; }
+  @keyframes tlife { to { transform: scaleX(0); } }
+  @media (prefers-reduced-motion: reduce) { .toast::after { display: none; } }
+  /* the slim connection bar under the top bar */
+  .netbar { position: sticky; top: var(--sticky-top); z-index: var(--z-sticky); display: flex; align-items: center; justify-content: center; gap: 8px; margin: 0 calc(var(--gutter) * -1) 8px;
+    padding: 6px 12px; background: var(--warn-soft); color: var(--warn); border-bottom: 1px solid var(--warn-line); font-size: var(--fs-sm); font-weight: 550; animation: rise var(--d-2) var(--ease); }
+  @media (min-width: 1024px) { .toasts { bottom: 24px; } .netbar { margin: 0 0 8px; border-radius: var(--r-md); border: 1px solid var(--warn-line); } }
+}
+
+/* route changes and the sign-in hand-off: a short crossfade where view transitions exist */
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 180ms; }
+@supports (view-transition-name: none) { .content > * { animation: none; } }
+.pagetitle:focus { outline: none; }
+
+/* the area named in words (never colour alone): top bar on phones, sidebar on wide screens */
+.area-tag { display: inline-flex; align-items: center; gap: 4px; font: 650 0.6875rem/1 var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--area); }
+.tb-c .area-tag { margin-bottom: 2px; }
+.sidebar .area-tag { margin: -6px 12px 10px; }
+
+/* more contrast and Windows high-contrast: public/contrast.css, linked with a media query in index.html, so it never
+   blocks the first paint for everyone else (8 Oct 2026) */
+
+/* C5 (22 Oct 2026): the Home painting settles as it scrolls into view — a 6 % zoom easing to rest, tied to the scroll
+   itself (no script, no timer). High tier only, never with reduced motion, and only where the browser has scroll-driven
+   animations; everywhere else the painting simply sits still, as before. `scale` is its own property, so the crossfade
+   between paintings (opacity) is untouched. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    :root[data-tier='high'] .dcard .darshan img { animation: dv-settle linear both; animation-timeline: view(); animation-range: entry 0% cover 45%; }
+  }
+}
+@keyframes dv-settle { from { scale: 1.06; } to { scale: 1; } }

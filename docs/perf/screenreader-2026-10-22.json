@@ -1,0 +1,55 @@
+{
+ "at": "2026-10-22T12:09:09.898Z",
+ "routes": 60,
+ "findings": [
+  {
+   "persona": "signed-out@390",
+   "route": "#/welcome",
+   "level": "MINOR",
+   "kind": "generic-title",
+   "detail": "document.title is \"IYF Delhi Sadhana Record\" on every route"
+  },
+  {
+   "persona": "signed-out@1280",
+   "route": "#/welcome",
+   "level": "MINOR",
+   "kind": "generic-title",
+   "detail": "document.title is \"IYF Delhi Sadhana Record\" on every route"
+  },
+  {
+   "persona": "devotee@390",
+   "route": "#/account",
+   "level": "MINOR",
+   "kind": "focus-order",
+   "detail": "Tab order jumps back up the page 3× — reading order may not match the visual order"
+  },
+  {
+   "persona": "devotee@1280",
+   "route": "#/account",
+   "level": "MINOR",
+   "kind": "focus-order",
+   "detail": "Tab order jumps back up the page 3× — reading order may not match the visual order"
+  },
+  {
+   "persona": "coordinator@390",
+   "route": "#/home",
+   "level": "MINOR",
+   "kind": "focus-order",
+   "detail": "Tab order jumps back up the page 3× — reading order may not match the visual order"
+  },
+  {
+   "persona": "coordinator@390",
+   "route": "#/stats",
+   "level": "MINOR",
+   "kind": "focus-order",
+   "detail": "Tab order jumps back up the page 3× — reading order may not match the visual order"
+  },
+  {
+   "persona": "head@390",
+   "route": "#/home",
+   "level": "MINOR",
+   "kind": "focus-order",
+   "detail": "Tab order jumps back up the page 3× — reading order may not match the visual order"
+  }
+ ]
+}

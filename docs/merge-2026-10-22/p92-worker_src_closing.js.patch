@@ -1,0 +1,42 @@
+diff --git a/worker/src/closing.js b/worker/src/closing.js
+index 92bbf4d..824e283 100644
+--- a/worker/src/closing.js
++++ b/worker/src/closing.js
+@@ -21,6 +21,7 @@ import { addDays } from './weeks.js';
+ import { startWeek } from './devotees.js';
+ import { endSessions } from './session.js';
+ import { managed } from './staff.js';
++import { takeBack } from './enrol.js';
+ 
+ /**
+  * The numbered-intake series a batch id belongs to: VL2, VL3 or ETP. Null for everything that runs
+@@ -193,15 +194,13 @@ export async function closingClose(d, ctx, req) {
+   for (const row of d.decisions) {
+     const m = byLogin.get(String(row.login)), note = cleanName(row.note || '');
+     if (row.decision === 'qualified') {
+-      // their training ends; their batch does not change — they were never in the training as a
+-      // member, only enrolled. They become a facilitator: facilitator_name is what grants the scope.
++      // their training ends; their batch does not change — they were never in the training as a member, only
++      // enrolled. Qualifying no longer GRANTS facilitation (ADR 0010, the head, 22 Oct 2026): the temporary one the
++      // training gave them is taken back like everyone else's, and FTP — or, until FTP exists, the head in Admin ›
++      // Facilitators — makes it lasting. A head who made them lasting before closing keeps them facilitating.
+       stmts.push(q(db, "UPDATE enrolments SET state = 'ENDED', to_week = ?, ended_by = ?, ended_at = ? WHERE id = ?",
+         lastWeek, ctx.login, at, m.id));
+-      // `order` is NOT NULL and positions them in the pick list: last, after everyone already there
+-      stmts.push(q(db, `INSERT OR IGNORE INTO facilitators ("name", "in_cohort", "order")
+-                        VALUES (?, 1, (SELECT COALESCE(MAX("order"), 0) + 1 FROM facilitators))`, m.name));
+-      stmts.push(q(db, 'UPDATE accounts SET facilitator_name = ?, updated_at = ?, updated_by = ? WHERE login = ?',
+-        m.name, at, ctx.login, m.login));
++      stmts.push(...takeBack(db, ctx, m.login, at));
+       stmts.push(q(db, `INSERT INTO batch_closings (batch_id, login, decision, to_batch, note, decided_by, decided_at)
+                         VALUES (?, ?, 'qualified', '', ?, ?, ?)`, batchId, m.login, note, ctx.login, at));
+       continue;
+@@ -213,6 +212,8 @@ export async function closingClose(d, ctx, req) {
+       // class-batch path: the wrong membership ended and the account was switched off.
+       stmts.push(q(db, "UPDATE enrolments SET state = 'ENDED', to_week = ?, ended_by = ?, ended_at = ? WHERE id = ?",
+         lastWeek, ctx.login, at, m.id));
++      // and the facilitation the training gave them goes back (ADR 0010)
++      stmts.push(...takeBack(db, ctx, m.login, at));
+       stmts.push(q(db, `INSERT INTO batch_closings (batch_id, login, decision, to_batch, note, decided_by, decided_at)
+                         VALUES (?, ?, ?, '', ?, ?, ?)`, batchId, m.login, row.decision, note, ctx.login, at));
+       continue;

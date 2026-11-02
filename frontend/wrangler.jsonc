@@ -1,0 +1,12 @@
+{
+  // The app, served as static files by Cloudflare: https://sadhana-record.iyfdelhi-sadhana.workers.dev
+  // Update:  npm test && npm run build && npm run size && npx wrangler deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sadhana-record",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true },
+  // Every screen is a hash route (/#/week) on the one page /, so nothing needs the single-page fallback. A file that
+  // isn't there answers 404 (public/404.html, which sends a person to the app), never the page itself: an old
+  // version asking for a screen file must fail cleanly, not get HTML cached for a year under the file's name.
+  "assets": { "directory": "./dist", "not_found_handling": "404-page" }
+}

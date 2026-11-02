@@ -1,0 +1,27 @@
+This is a short account of what has been built for IYF Delhi, what it can carry, and what it costs to run.
+
+Until now, sādhana was recorded on paper and in spreadsheets.  That works for a batch. It does not work for a thousand devotees across six batches, with facilitators who need to see who is struggling this week.
+
+Sadhana Record is a single app serving every role in IYF Delhi —  devotees, group leaders, facilitators, coordinators, and the IYF head —  each seeing only what they are responsible for.
+
+It runs entirely on Cloudflare's network. One database, one server program, and a copy of every table into Google Sheets, so coordinators can still work in a spreadsheet when they prefer to.
+
+The running cost today is nothing.  The whole system sits inside Cloudflare's free tier — no servers, no monthly hosting bill, no licence fees.
+
+It has been load-tested, not estimated.  With two thousand test devotees it handled the Sunday evening rush with room to spare. It is comfortable to about four and a half thousand active devotees.
+
+The limit is the database, which answers one query at a time — about thirty-five to thirty-eight calls a second.  Beyond roughly five thousand devotees, the paid plan costs five US dollars a month, and needs no change to the app.
+
+The app is deliberately small. Fifty-five kilobytes to start —  smaller than a single photograph — so it opens quickly on an inexpensive phone and a weak signal.
+
+Behind it: over a hundred screens, a hundred and fourteen server routes, thirty-seven database migrations, a hundred and nineteen paintings and seventy-eight verses from Śrīla Prabhupāda's books.
+
+Every release is gated by nearly four thousand automatic checks.  If one fails, the release stops.
+
+No Aadhaar, no identity documents, nothing we do not need.  A phone number is the identity. Minors need a guardian's consent, as the law requires.
+
+Three things remain.  The app is not yet in the Play Store or the App Store.  Screen-reader testing on real phones is still to be done.  And it has not yet been tried by a group of devotees before release — that is the next step.
+
+What this gives IYF Delhi is not a scoreboard.  It is the ability to notice a devotee who has gone quiet, in the week it happens, rather than at the end of a term.
+
+Built for IYF Delhi. Owned by IYF Delhi. Running at no cost.

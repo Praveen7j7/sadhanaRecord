@@ -1,0 +1,1771 @@
+{
+ "meta": {
+  "batches": [
+   {
+    "batchId": "SPS",
+    "name": "SPS",
+    "tracks": "full",
+    "level": "SPS",
+    "coordinatorName": "Sps Names"
+   },
+   {
+    "batchId": "SPS2",
+    "name": "SPS Group 2",
+    "tracks": "full",
+    "level": "SPS",
+    "coordinatorName": ""
+   },
+   {
+    "batchId": "SPSO",
+    "name": "SPS Online",
+    "tracks": "full",
+    "level": "SPS",
+    "coordinatorName": ""
+   },
+   {
+    "batchId": "DPS",
+    "name": "DPS",
+    "tracks": "full",
+    "level": "DPS",
+    "coordinatorName": "Sps Names"
+   },
+   {
+    "batchId": "BSS",
+    "name": "BSS",
+    "tracks": "full",
+    "level": "BSS",
+    "coordinatorName": ""
+   },
+   {
+    "batchId": "BVS",
+    "name": "BVS",
+    "tracks": "full",
+    "level": "BVS",
+    "coordinatorName": ""
+   },
+   {
+    "batchId": "TRD",
+    "name": "Temple Residents",
+    "tracks": "full",
+    "level": "TRD",
+    "coordinatorName": ""
+   }
+  ],
+  "facilitators": [
+   "Abhaya Vishnu Prabhuji",
+   "Adhbut Gaur Prabhuji",
+   "Aditya Prabhuji",
+   "Aryan Yudhishtir Prabhuji",
+   "Dasaratha Prana Prabhuji",
+   "Deepak Prabhuji",
+   "Devesa Hari Prabhuji",
+   "Divyanshu Prabhuji",
+   "Gopinath Murari Prabhuji",
+   "Kisora Mohan Prabhuji",
+   "Mukund Bandu Prabhuji",
+   "Natvar Gopinath Prabhuji",
+   "Neeraj Prabhuji",
+   "Rohit Prabhuji",
+   "Sarveshwar Ram Prabhuji",
+   "Saumya Chaitanya Prabhuji",
+   "Shrawan Prabhuji",
+   "Sidhalaxman Prabhuji",
+   "Suraj Prabhuji",
+   "Vanmali Balram Prabhuji",
+   "Yogesh Girdhari Prabhuji",
+   "Abhinav Nimai Prabhuji",
+   "Adigopa Nimai Prabhuji",
+   "Ankit Narula Prabhuji",
+   "Anurag Prabhuji",
+   "Dwarkanath Hrishikesh Prabhuji",
+   "Gokulendra Kanhai Prabhuji",
+   "Jaya Vamandev Prabhuji",
+   "Kanishk Prabhuji",
+   "Kundal Keshav Prabhuji",
+   "Mahanand Gopa Prabhuji",
+   "Nischal Chaitanya Prabhuji",
+   "Param Dham Prabhuji",
+   "Pundrik Vidyanidhi Prabhuji",
+   "Sachisuta Sevak Prabhuji",
+   "Sadbhuj Gaur Prabhuji",
+   "Sagar Bansal pr",
+   "Samarpit Gaur Prabhuji",
+   "Sikhi Mahiti Prabhuji",
+   "Sourav Mazumdar Prabhuji",
+   "Upanand Gopa Prabhuji",
+   "Vilasa Padmanabha Prabhuji"
+  ],
+  "classDays": [
+   {
+    "id": "SUN",
+    "name": "Sunday"
+   },
+   {
+    "id": "SAT",
+    "name": "Saturday"
+   }
+  ],
+  "push": null,
+  "submitWindow": {
+   "opens": "SUN 18:00",
+   "closes": "MON 21:00"
+  },
+  "minApp": ""
+ },
+ "master.facilitators": {
+  "facilitators": [
+   {
+    "name": "Abhaya Vishnu Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Adhbut Gaur Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Aditya Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Aryan Yudhishtir Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Dasaratha Prana Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Deepak Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Devesa Hari Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Divyanshu Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Gopinath Murari Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Kisora Mohan Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Mukund Bandu Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Natvar Gopinath Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "natvar",
+    "members": 2,
+    "waiting": 1,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Neeraj Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Rohit Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sarveshwar Ram Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Saumya Chaitanya Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Shrawan Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sidhalaxman Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Suraj Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Vanmali Balram Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Yogesh Girdhari Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Abhinav Nimai Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Adigopa Nimai Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Ankit Narula Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Anurag Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Dwarkanath Hrishikesh Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Gokulendra Kanhai Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Jaya Vamandev Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Kanishk Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Kundal Keshav Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Mahanand Gopa Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Nischal Chaitanya Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Param Dham Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Pundrik Vidyanidhi Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sachisuta Sevak Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sadbhuj Gaur Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sagar Bansal pr",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Samarpit Gaur Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sikhi Mahiti Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Sourav Mazumdar Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Upanand Gopa Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   },
+   {
+    "name": "Vilasa Padmanabha Prabhuji",
+    "active": true,
+    "source": "DASHBOARD",
+    "inDashboard": true,
+    "temporary": false,
+    "login": "",
+    "members": 0,
+    "waiting": 0,
+    "changedBy": "",
+    "changedAt": ""
+   }
+  ],
+  "counts": {
+   "on": 42,
+   "off": 0
+  }
+ },
+ "master.orphans": {
+  "students": [],
+  "facilitators": [
+   "Abhaya Vishnu Prabhuji",
+   "Adhbut Gaur Prabhuji",
+   "Aditya Prabhuji",
+   "Aryan Yudhishtir Prabhuji",
+   "Dasaratha Prana Prabhuji",
+   "Deepak Prabhuji",
+   "Devesa Hari Prabhuji",
+   "Divyanshu Prabhuji",
+   "Gopinath Murari Prabhuji",
+   "Kisora Mohan Prabhuji",
+   "Mukund Bandu Prabhuji",
+   "Natvar Gopinath Prabhuji",
+   "Neeraj Prabhuji",
+   "Rohit Prabhuji",
+   "Sarveshwar Ram Prabhuji",
+   "Saumya Chaitanya Prabhuji",
+   "Shrawan Prabhuji",
+   "Sidhalaxman Prabhuji",
+   "Suraj Prabhuji",
+   "Vanmali Balram Prabhuji",
+   "Yogesh Girdhari Prabhuji",
+   "Abhinav Nimai Prabhuji",
+   "Adigopa Nimai Prabhuji",
+   "Ankit Narula Prabhuji",
+   "Anurag Prabhuji",
+   "Dwarkanath Hrishikesh Prabhuji",
+   "Gokulendra Kanhai Prabhuji",
+   "Jaya Vamandev Prabhuji",
+   "Kanishk Prabhuji",
+   "Kundal Keshav Prabhuji",
+   "Mahanand Gopa Prabhuji",
+   "Nischal Chaitanya Prabhuji",
+   "Param Dham Prabhuji",
+   "Pundrik Vidyanidhi Prabhuji",
+   "Sachisuta Sevak Prabhuji",
+   "Sadbhuj Gaur Prabhuji",
+   "Sagar Bansal pr",
+   "Samarpit Gaur Prabhuji",
+   "Sikhi Mahiti Prabhuji",
+   "Sourav Mazumdar Prabhuji",
+   "Upanand Gopa Prabhuji",
+   "Vilasa Padmanabha Prabhuji"
+  ]
+ },
+ "master.facLogins": {
+  "logins": [
+   {
+    "username": "natvar",
+    "facilitator": "Natvar Gopinath Prabhuji",
+    "name": "Natvar Gopinath Prabhuji",
+    "status": "ACTIVE",
+    "mustChangePassword": false,
+    "lastLogin": "2026-10-14T10:00:00+05:30",
+    "kind": "login",
+    "batch": "TRD"
+   }
+  ]
+ },
+ "master.requests": {
+  "signUps": [
+   {
+    "phone": "6000000154",
+    "name": "Chandra Waiting",
+    "batchId": "SPS",
+    "at": "2026-10-14T10:00:00+05:30",
+    "facilitator": "Natvar Gopinath Prabhuji",
+    "classDay": "SUN",
+    "email": "devotee@gmail.com",
+    "whatsapp": "",
+    "profile": {
+     "dob": "2001-01-01",
+     "bloodGroup": "O+",
+     "emergency": {
+      "name": "Some One",
+      "relation": "Friend",
+      "phone": "6000000135"
+     },
+     "address": {
+      "line": "House 12, Gali 3",
+      "area": "Punjabi Bagh",
+      "city": "West Delhi",
+      "state": "Delhi",
+      "pin": "110026"
+     }
+    },
+    "parentName": null,
+    "parentPhone": null,
+    "parentConsentAt": null,
+    "privacyConsentAt": null,
+    "matches": []
+   }
+  ],
+  "resets": []
+ },
+ "master.devotees.SPS": {
+  "weekId": "2026-10-12",
+  "closesAt": "2026-10-19T21:00:00+05:30",
+  "attendanceOpensAt": "2026-10-18T00:00:00+05:30",
+  "attendanceOpen": false,
+  "classWeek": null,
+  "rows": [
+   {
+    "login": "6000000151",
+    "name": "Arjun Das",
+    "iyfId": null,
+    "batchId": "SPS",
+    "accountStatus": "ACTIVE",
+    "membership": "ACTIVE",
+    "facilitator": "Natvar Gopinath Prabhuji",
+    "classDay": "SUN",
+    "whatsapp": "",
+    "hasPhoto": false,
+    "status": "NOT_STARTED",
+    "daysFilled": 0,
+    "days": [],
+    "submittedAt": null,
+    "byCoordinator": false,
+    "overall": null,
+    "leaderLogin": null,
+    "reopenUntil": null,
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "locked": false
+    }
+   }
+  ]
+ },
+ "master.devotees.SPS.past": {
+  "weekId": "2026-09-14",
+  "closesAt": "2026-09-21T21:00:00+05:30",
+  "attendanceOpensAt": "2026-09-20T00:00:00+05:30",
+  "attendanceOpen": false,
+  "classWeek": null,
+  "rows": [
+   {
+    "login": "6000000152",
+    "name": "Bhima Das",
+    "iyfId": null,
+    "batchId": "SPS",
+    "accountStatus": "ACTIVE",
+    "membership": "ACTIVE",
+    "facilitator": "Natvar Gopinath Prabhuji",
+    "classDay": null,
+    "whatsapp": "",
+    "hasPhoto": false,
+    "status": "NOT_STARTED",
+    "daysFilled": 0,
+    "days": [],
+    "submittedAt": null,
+    "byCoordinator": false,
+    "overall": null,
+    "leaderLogin": null,
+    "reopenUntil": null,
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "locked": false
+    }
+   }
+  ]
+ },
+ "master.devotees.DPS": {
+  "weekId": "2026-10-12",
+  "closesAt": "2026-10-19T21:00:00+05:30",
+  "attendanceOpensAt": "2026-10-18T00:00:00+05:30",
+  "attendanceOpen": false,
+  "classWeek": null,
+  "rows": [
+   {
+    "login": "6000000152",
+    "name": "Bhima Das",
+    "iyfId": null,
+    "batchId": "DPS",
+    "accountStatus": "ACTIVE",
+    "membership": "ACTIVE",
+    "facilitator": "Natvar Gopinath Prabhuji",
+    "classDay": "SUN",
+    "whatsapp": "",
+    "hasPhoto": false,
+    "status": "NOT_STARTED",
+    "daysFilled": 0,
+    "days": [],
+    "submittedAt": null,
+    "byCoordinator": false,
+    "overall": null,
+    "leaderLogin": null,
+    "reopenUntil": null,
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "locked": false
+    }
+   }
+  ]
+ },
+ "master.devotee.A": {
+  "login": "6000000151",
+  "name": "Arjun Das",
+  "iyfId": null,
+  "status": "ACTIVE",
+  "batchId": "SPS",
+  "facilitator": "Natvar Gopinath Prabhuji",
+  "classDay": "SUN",
+  "email": "devotee@gmail.com",
+  "whatsapp": "",
+  "since": "2026-10-12",
+  "levelEntryDate": "2026-10-14",
+  "hasPhoto": false,
+  "photoUpdatedAt": null,
+  "profile": {
+   "dob": "2001-01-01",
+   "age": 25,
+   "bloodGroup": "O+",
+   "profession": "",
+   "skills": [],
+   "connectedSince": "",
+   "emergency": {
+    "name": "Some One",
+    "relation": "Friend",
+    "phone": "6000000135"
+   },
+   "address": {
+    "line": "House 12, Gali 3",
+    "area": "Punjabi Bagh",
+    "city": "West Delhi",
+    "state": "Delhi",
+    "pin": "110026"
+   },
+   "parentConsent": null,
+   "privacyConsentAt": null
+  },
+  "memberships": [
+   {
+    "batchId": "SPS",
+    "state": "ACTIVE",
+    "fromWeek": "2026-10-12",
+    "toWeek": null,
+    "facilitator": "Natvar Gopinath Prabhuji",
+    "classDay": "SUN",
+    "reason": "approved"
+   }
+  ],
+  "trainings": [],
+  "lastWeeks": []
+ },
+ "master.wall": {
+  "announcements": [
+   {
+    "id": 1,
+    "title": "For my students",
+    "body": "Japa at six.",
+    "audience": [
+     "STU:Natvar Gopinath Prabhuji"
+    ],
+    "pinned": false,
+    "expiresAt": null,
+    "author": "Natvar Gopinath Prabhuji",
+    "createdAt": "2026-10-14T10:00:00+05:30",
+    "updatedAt": "2026-10-14T10:00:00+05:30",
+    "publishAt": null,
+    "shownAt": "2026-10-14T10:00:00+05:30",
+    "scheduled": false,
+    "canEdit": true,
+    "image": null,
+    "likes": 0,
+    "liked": false,
+    "comments": 0,
+    "reach": {
+     "done": false,
+     "tried": 0,
+     "sent": 0,
+     "gone": 0,
+     "failed": 0,
+     "doneAt": null
+    }
+   },
+   {
+    "id": 2,
+    "title": "SPS class",
+    "body": "Hall B this week.",
+    "audience": [
+     "SPS"
+    ],
+    "pinned": false,
+    "expiresAt": null,
+    "author": "Sps Names",
+    "createdAt": "2026-10-14T10:00:00+05:30",
+    "updatedAt": "2026-10-14T10:00:00+05:30",
+    "publishAt": null,
+    "shownAt": "2026-10-14T10:00:00+05:30",
+    "scheduled": false,
+    "canEdit": true,
+    "image": null,
+    "likes": 0,
+    "liked": false,
+    "comments": 1,
+    "reach": {
+     "done": false,
+     "tried": 0,
+     "sent": 0,
+     "gone": 0,
+     "failed": 0,
+     "doneAt": null
+    }
+   }
+  ],
+  "latestAt": "2026-10-14T10:00:00+05:30",
+  "canReport": true,
+  "canPost": true
+ },
+ "coord.wall": {
+  "announcements": [
+   {
+    "id": 2,
+    "title": "SPS class",
+    "body": "Hall B this week.",
+    "audience": [
+     "SPS"
+    ],
+    "pinned": false,
+    "expiresAt": null,
+    "author": "Sps Names",
+    "createdAt": "2026-10-14T10:00:00+05:30",
+    "updatedAt": "2026-10-14T10:00:00+05:30",
+    "publishAt": null,
+    "shownAt": "2026-10-14T10:00:00+05:30",
+    "scheduled": false,
+    "canEdit": true,
+    "image": null,
+    "likes": 0,
+    "liked": false,
+    "comments": 1,
+    "reach": {
+     "done": false,
+     "tried": 0,
+     "sent": 0,
+     "gone": 0,
+     "failed": 0,
+     "doneAt": null
+    }
+   }
+  ],
+  "latestAt": "2026-10-14T10:00:00+05:30",
+  "canReport": true,
+  "canPost": true
+ },
+ "coord.comments": {
+  "comments": [
+   {
+    "id": 1,
+    "name": "Arjun Das",
+    "body": "Hare Krishna",
+    "at": "2026-10-14T10:00:00+05:30",
+    "mine": false,
+    "canRemove": true
+   }
+  ],
+  "canReport": true,
+  "commentsBlocked": false
+ },
+ "fac.me": {
+  "user": {
+   "login": "natvar",
+   "role": "COORDINATOR",
+   "name": "Natvar Gopinath Prabhuji",
+   "iyfId": null,
+   "scopes": {
+    "devotee": null,
+    "groupLeader": null,
+    "facilitator": {
+     "name": "Natvar Gopinath Prabhuji"
+    },
+    "trainee": null,
+    "coordinator": [],
+    "master": false,
+    "ftp": false,
+    "rights": {}
+   },
+   "photoAt": null,
+   "batchIds": [],
+   "mustChangePassword": false,
+   "needsYear": false
+  },
+  "versions": {
+   "rules": "r4",
+   "journals": "j4"
+  },
+  "today": "2026-10-14",
+  "openWeeks": []
+ },
+ "fac.devotees": {
+  "weekId": "2026-10-12",
+  "closesAt": "2026-10-19T21:00:00+05:30",
+  "facilitator": "Natvar Gopinath Prabhuji",
+  "rows": [
+   {
+    "login": "6000000151",
+    "name": "Arjun Das",
+    "iyfId": null,
+    "phone": "6000000151",
+    "whatsapp": "6000000151",
+    "hasPhoto": false,
+    "batchId": "SPS",
+    "batchName": "SPS",
+    "active": true,
+    "status": "NOT_STARTED",
+    "daysFilled": 0,
+    "days": [],
+    "overall": null,
+    "attendance": null
+   },
+   {
+    "login": "6000000152",
+    "name": "Bhima Das",
+    "iyfId": null,
+    "phone": "6000000152",
+    "whatsapp": "6000000152",
+    "hasPhoto": false,
+    "batchId": "DPS",
+    "batchName": "DPS",
+    "active": true,
+    "status": "NOT_STARTED",
+    "daysFilled": 0,
+    "days": [],
+    "overall": null,
+    "attendance": null
+   }
+  ]
+ },
+ "fac.devotees.past": {
+  "weekId": "2026-09-14",
+  "closesAt": "2026-09-21T21:00:00+05:30",
+  "facilitator": "Natvar Gopinath Prabhuji",
+  "rows": [
+   {
+    "login": "6000000152",
+    "name": "Bhima Das",
+    "iyfId": null,
+    "phone": "6000000152",
+    "whatsapp": "6000000152",
+    "hasPhoto": false,
+    "batchId": "SPS",
+    "batchName": "SPS",
+    "active": true,
+    "status": "NOT_STARTED",
+    "daysFilled": 0,
+    "days": [],
+    "overall": null,
+    "attendance": null
+   }
+  ]
+ },
+ "fac.devotee.A": {
+  "login": "6000000151",
+  "name": "Arjun Das",
+  "iyfId": null,
+  "phone": "6000000151",
+  "whatsapp": "6000000151",
+  "batchId": "SPS",
+  "batchName": "SPS",
+  "active": true,
+  "since": "2026-10-12",
+  "weeks": []
+ },
+ "fac.eligible": {
+  "period": "phase",
+  "from": "2026-08-31",
+  "to": "2026-10-05",
+  "lastClosed": "2026-10-05",
+  "phase": {
+   "phaseId": "kartik-n",
+   "name": "Kartik N",
+   "startsOn": "2026-09-01"
+  },
+  "labels": {
+   "att": "Attendance",
+   "chant": "Chanting rounds",
+   "sad": "Sadhana average",
+   "night": "Night stay",
+   "cls": "Class attendance",
+   "pr": "4 regulative principles"
+  },
+  "students": [
+   {
+    "login": "6000000151",
+    "name": "Arjun Das",
+    "iyfId": "",
+    "batchId": "SPS",
+    "batchName": "SPS",
+    "level": "SPS",
+    "next": [
+     "DPS",
+     "BVS"
+    ],
+    "rule": {
+     "sad": 80,
+     "night": 0.8,
+     "cls": 80,
+     "chant": 8,
+     "pr": "YES"
+    },
+    "figures": {
+     "weeks": 0,
+     "att": null,
+     "heldClasses": 0,
+     "sad": null,
+     "chant": null,
+     "cls": null,
+     "night": null,
+     "pr": null
+    }
+   },
+   {
+    "login": "6000000152",
+    "name": "Bhima Das",
+    "iyfId": "",
+    "batchId": "DPS",
+    "batchName": "DPS",
+    "level": "DPS",
+    "next": [
+     "BSS",
+     "BVS"
+    ],
+    "rule": {
+     "sad": 80,
+     "night": 0.8,
+     "cls": 80,
+     "chant": 12,
+     "pr": "YES"
+    },
+    "figures": {
+     "weeks": 0,
+     "att": null,
+     "heldClasses": 0,
+     "sad": null,
+     "chant": null,
+     "cls": null,
+     "night": null,
+     "pr": null
+    }
+   }
+  ]
+ },
+ "fac.card": {
+  "phaseId": "kartik-n",
+  "name": "Kartik N",
+  "state": "OPEN",
+  "startsOn": "2026-09-01",
+  "endsOn": "2026-12-31",
+  "hasCard": true,
+  "batchId": "",
+  "closed": false,
+  "groups": [
+   {
+    "id": "sadhana",
+    "label": "Sadhna"
+   },
+   {
+    "id": "vl2reg",
+    "label": "Vedic Level 2 registration"
+   },
+   {
+    "id": "target",
+    "label": "Target"
+   }
+  ],
+  "trainee": false,
+  "from": "2026-09-01",
+  "to": "2026-12-31",
+  "weekId": "2026-10-12",
+  "measures": [
+   {
+    "measureId": "sadhna",
+    "seq": 0,
+    "label": "Sadhna",
+    "frequency": "WEEKLY",
+    "group": "sadhana",
+    "kind": "NUMBER",
+    "unit": "score",
+    "fromApp": true,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "stall",
+    "seq": 1,
+    "label": "Stall preaching",
+    "frequency": "WEEKLY",
+    "group": "vl2reg",
+    "kind": "NUMBER",
+    "unit": "hours",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "calls",
+    "seq": 2,
+    "label": "Calling the new students",
+    "frequency": "WEEKLY",
+    "group": "vl2reg",
+    "kind": "NUMBER",
+    "unit": "calls",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "vl1att",
+    "seq": 3,
+    "label": "Sunday VL-1 facilitation attendance",
+    "frequency": "WEEKLY",
+    "group": "vl2reg",
+    "kind": "YESNO",
+    "unit": "",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "vl23att",
+    "seq": 4,
+    "label": "Sunday VL-2 / VL-3 facilitation attendance",
+    "frequency": "WEEKLY",
+    "group": "vl2reg",
+    "kind": "YESNO",
+    "unit": "",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "oneToOne",
+    "seq": 5,
+    "label": "One-to-one meetings with devotees",
+    "frequency": "WEEKLY",
+    "group": "target",
+    "kind": "PER_LEVEL",
+    "unit": "students",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "ftp",
+    "seq": 6,
+    "label": "FTP training attendance",
+    "frequency": "WEEKLY",
+    "group": "target",
+    "kind": "YESNO",
+    "unit": "",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": ""
+   },
+   {
+    "measureId": "seniorMeet",
+    "seq": 7,
+    "label": "Meeting the senior facilitator about students",
+    "frequency": "MONTHLY",
+    "group": "target",
+    "kind": "NUMBER",
+    "unit": "meetings",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": "",
+    "monthValue": ""
+   },
+   {
+    "measureId": "seriousOne",
+    "seq": 8,
+    "label": "Serious students taken one-to-one with the senior",
+    "frequency": "MONTHLY",
+    "group": "target",
+    "kind": "NUMBER",
+    "unit": "students",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": "",
+    "monthValue": ""
+   },
+   {
+    "measureId": "allMeet",
+    "seq": 9,
+    "label": "All-students meeting with the senior facilitator",
+    "frequency": "MONTHLY",
+    "group": "target",
+    "kind": "NUMBER",
+    "unit": "meetings",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": "",
+    "monthValue": ""
+   },
+   {
+    "measureId": "journal",
+    "seq": 10,
+    "label": "Facilitation journal updated",
+    "frequency": "MONTHLY",
+    "group": "target",
+    "kind": "YESNO",
+    "unit": "",
+    "fromApp": false,
+    "target": "",
+    "perLevel": null,
+    "value": "",
+    "source": "",
+    "offered": null,
+    "offeredWeek": "",
+    "monthValue": ""
+   }
+  ],
+  "filledWeeks": [],
+  "targets": {
+   "until": "2026-09-07",
+   "open": false,
+   "openedUntil": ""
+  },
+  "phase": {
+   "average": null,
+   "seva": null,
+   "sadhana": null,
+   "months": [],
+   "filled": 0,
+   "weeks": 17,
+   "from": "2026-09-01",
+   "to": "2026-12-31",
+   "period": "phase",
+   "trend": []
+  },
+  "score": {
+   "score": null,
+   "parts": [
+    {
+     "key": "sadhana",
+     "label": "Sadhana",
+     "value": 0,
+     "reported": false
+    },
+    {
+     "key": "seva",
+     "label": "Seva",
+     "value": 0,
+     "reported": false
+    },
+    {
+     "key": "goal",
+     "label": "Goal",
+     "value": null,
+     "reported": false
+    }
+   ],
+   "counted": [],
+   "stages": [
+    {
+     "stage": "VL3",
+     "label": "VL-2 → VL-3",
+     "target": 0,
+     "eligible": 0,
+     "promoted": 0,
+     "achieved": 0
+    },
+    {
+     "stage": "SPS",
+     "label": "VL-3 → SPS",
+     "target": 0,
+     "eligible": 0,
+     "promoted": 0,
+     "achieved": 0
+    },
+    {
+     "stage": "DPS",
+     "label": "SPS → DPS",
+     "target": 0,
+     "eligible": 0,
+     "promoted": 1,
+     "achieved": 0
+    },
+    {
+     "stage": "BSS",
+     "label": "DPS → BSS",
+     "target": 0,
+     "eligible": 0,
+     "promoted": 0,
+     "achieved": 0
+    },
+    {
+     "stage": "BVS",
+     "label": "DPS → BVS",
+     "target": 0,
+     "eligible": 0,
+     "promoted": 0,
+     "achieved": 0
+    }
+   ],
+   "ready": [],
+   "goalPct": null,
+   "totalTarget": 0,
+   "totalAchieved": 0
+  }
+ },
+ "fac.wall": {
+  "announcements": [
+   {
+    "id": 1,
+    "title": "For my students",
+    "body": "Japa at six.",
+    "audience": [
+     "STU:Natvar Gopinath Prabhuji"
+    ],
+    "pinned": false,
+    "expiresAt": null,
+    "author": "Natvar Gopinath Prabhuji",
+    "createdAt": "2026-10-14T10:00:00+05:30",
+    "updatedAt": "2026-10-14T10:00:00+05:30",
+    "publishAt": null,
+    "shownAt": "2026-10-14T10:00:00+05:30",
+    "scheduled": false,
+    "canEdit": true,
+    "image": null,
+    "likes": 0,
+    "liked": false,
+    "comments": 0,
+    "reach": {
+     "done": false,
+     "tried": 0,
+     "sent": 0,
+     "gone": 0,
+     "failed": 0,
+     "doneAt": null
+    }
+   }
+  ],
+  "latestAt": "2026-10-14T10:00:00+05:30",
+  "canReport": true,
+  "canPost": true
+ },
+ "dev.me": {
+  "user": {
+   "login": "6000000151",
+   "role": "DEVOTEE",
+   "name": "Arjun Das",
+   "iyfId": null,
+   "scopes": {
+    "devotee": {
+     "batchId": "SPS"
+    },
+    "groupLeader": null,
+    "facilitator": null,
+    "trainee": null,
+    "coordinator": [],
+    "master": false,
+    "ftp": false,
+    "rights": {}
+   },
+   "photoAt": null,
+   "batchIds": [
+    "SPS"
+   ],
+   "mustChangePassword": false,
+   "needsYear": true
+  },
+  "versions": {
+   "rules": "r4",
+   "journals": "j4"
+  },
+  "today": "2026-10-14",
+  "openWeeks": []
+ },
+ "dev.home": {
+  "profile": {
+   "login": "6000000151",
+   "iyfId": null,
+   "name": "Arjun Das",
+   "batchId": "SPS"
+  },
+  "user": {
+   "login": "6000000151",
+   "role": "DEVOTEE",
+   "name": "Arjun Das",
+   "iyfId": null,
+   "scopes": {
+    "devotee": {
+     "batchId": "SPS"
+    },
+    "groupLeader": null,
+    "facilitator": null,
+    "trainee": null,
+    "coordinator": [],
+    "master": false,
+    "ftp": false,
+    "rights": {}
+   },
+   "photoAt": null,
+   "batchIds": [
+    "SPS"
+   ],
+   "mustChangePassword": false,
+   "needsYear": true
+  },
+  "weeks": [
+   {
+    "weekId": "2026-10-12",
+    "status": "NOT_STARTED",
+    "opensAt": "2026-10-18T18:00:00+05:30",
+    "closesAt": "2026-10-19T21:00:00+05:30",
+    "canSubmit": false,
+    "days": [
+     {
+      "date": "2026-10-12",
+      "name": "Monday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-13",
+      "name": "Tuesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-14",
+      "name": "Wednesday",
+      "future": false,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-15",
+      "name": "Thursday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-16",
+      "name": "Friday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-17",
+      "name": "Saturday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     },
+     {
+      "date": "2026-10-18",
+      "name": "Sunday",
+      "future": true,
+      "state": "empty",
+      "version": 0,
+      "day": {}
+     }
+    ],
+    "weekEnd": {
+     "version": 0,
+     "nightStay": null,
+     "principles": null,
+     "opensAt": "2026-10-17T18:00:00+05:30",
+     "open": false,
+     "state": "missing"
+    },
+    "attendance": {
+     "devotee": null,
+     "leader": null,
+     "coordinator": null,
+     "master": null,
+     "used": null,
+     "by": null,
+     "notice": null,
+     "locked": false,
+     "classWeek": null,
+     "opensAt": "2026-10-18T00:00:00+05:30"
+    }
+   }
+  ],
+  "versions": {
+   "rules": "r4",
+   "journals": "j4"
+  },
+  "progress": {
+   "currentBookId": null,
+   "heard": []
+  },
+  "latestAnnouncementAt": "2026-10-14T10:00:00+05:30",
+  "announcementTimes": [
+   "2026-10-14T10:00:00+05:30",
+   "2026-10-14T10:00:00+05:30"
+  ],
+  "birthdays": []
+ },
+ "dev.profile": {
+  "name": "Arjun Das",
+  "iyfId": "",
+  "connectedSinceYear": "",
+  "connectedSinceSettable": true,
+  "email": "devotee@gmail.com",
+  "whatsapp": "",
+  "classDay": "SUN",
+  "facilitator": "Natvar Gopinath Prabhuji",
+  "dob": "2001-01-01",
+  "bloodGroup": "O+",
+  "profession": "",
+  "skills": [],
+  "connectedSince": "",
+  "emergency": {
+   "name": "Some One",
+   "relation": "Friend",
+   "phone": "6000000135"
+  },
+  "address": {
+   "line": "House 12, Gali 3",
+   "area": "Punjabi Bagh",
+   "city": "West Delhi",
+   "state": "Delhi",
+   "pin": "110026"
+  },
+  "parentConsent": null,
+  "privacyConsentAt": null,
+  "readingPagesPerHour": 20,
+  "hasPhoto": false,
+  "photoUpdatedAt": null,
+  "trainings": []
+ },
+ "dev.wall": {
+  "announcements": [
+   {
+    "id": 1,
+    "title": "For my students",
+    "body": "Japa at six.",
+    "audience": null,
+    "pinned": false,
+    "expiresAt": null,
+    "author": "Natvar Gopinath Prabhuji",
+    "createdAt": "2026-10-14T10:00:00+05:30",
+    "updatedAt": "2026-10-14T10:00:00+05:30",
+    "publishAt": null,
+    "shownAt": "2026-10-14T10:00:00+05:30",
+    "scheduled": false,
+    "canEdit": false,
+    "image": null,
+    "likes": 0,
+    "liked": false,
+    "comments": 0
+   },
+   {
+    "id": 2,
+    "title": "SPS class",
+    "body": "Hall B this week.",
+    "audience": null,
+    "pinned": false,
+    "expiresAt": null,
+    "author": "Sps Names",
+    "createdAt": "2026-10-14T10:00:00+05:30",
+    "updatedAt": "2026-10-14T10:00:00+05:30",
+    "publishAt": null,
+    "shownAt": "2026-10-14T10:00:00+05:30",
+    "scheduled": false,
+    "canEdit": false,
+    "image": null,
+    "likes": 0,
+    "liked": false,
+    "comments": 1
+   }
+  ],
+  "latestAt": "2026-10-14T10:00:00+05:30",
+  "canReport": true,
+  "canPost": false
+ },
+ "dev.shares": {
+  "facilitator": {
+   "name": "Natvar Gopinath Prabhuji"
+  },
+  "sharedWith": [],
+  "sharedWithMe": [],
+  "limit": 20
+ }
+}

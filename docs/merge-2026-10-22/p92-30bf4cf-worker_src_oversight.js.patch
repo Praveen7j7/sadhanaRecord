@@ -1,0 +1,30 @@
+diff --git a/worker/src/oversight.js b/worker/src/oversight.js
+index 0fde6ca..282c536 100644
+--- a/worker/src/oversight.js
++++ b/worker/src/oversight.js
+@@ -167,6 +167,25 @@ export async function auditList(d, ctx) {
+   if (d.from) { where.push('at >= ?'); args.push(String(d.from)); }
+   if (d.to) { where.push('at <= ?'); args.push(String(d.to) + '~'); }
+   if (d.before) { where.push('id < ?'); args.push(Number(d.before) || 0); }
++  /*
++   * One search box (the head, 22 Oct 2026: "if there are 1000s of logs and I want to search a particular action, I should
++   * be having a search bar"). `q` matches the action, the reason, and the people — by name or login, who did it and whom
++   * it was about — and a target that is itself a name (a renamed facilitator, a phase). `actions` are the ones whose
++   * wording on the screen matched (lib/admin.js holds the wording): "facilitator" finds "changed the facilitator of".
++   * It narrows the other filters, never widens them; newest first, so a common word stops after one page of rows.
++   */
++  const qs = String(d.q ?? '').trim().replace(/[%_]/g, '').slice(0, 60);
++  if (d.q !== undefined && qs.length === 1) throw invalid({ path: 'q', message: 'Type at least two letters.' });
++  const acts = Array.isArray(d.actions) ? d.actions.filter(a => /^[a-zA-Z]+\.[a-zA-Z]+$/.test(String(a))).slice(0, 40) : [];
++  const ors = [];
++  if (qs) {
++    const like = '%' + qs + '%';
++    ors.push('action LIKE ?', 'reason LIKE ?', 'target LIKE ?',
++      'who IN (SELECT login FROM accounts WHERE name LIKE ? OR login = ?)', 'target IN (SELECT login FROM accounts WHERE name LIKE ?)');
++    args.push(like, like, like, like, qs, like);
++  }
++  if (acts.length) { ors.push(`action IN (${acts.map(() => '?').join(',')})`); args.push(...acts); }
++  if (ors.length) where.push('(' + ors.join(' OR ') + ')');
+   const rows = await all(ctx.db, `SELECT id, at, who, role, action, target, batch_id, before, after, reason FROM audit_log ${where.length ? 'WHERE ' + where.join(' AND ') : ''} ORDER BY id DESC LIMIT ?`, ...args, limit + 1);
+   // Phase 6 (9 Oct 2026): the names of the people in these lines, so Activity reads in names, not phone numbers
+   // (one lookup per page, in parts of 90 so D1's bound-parameter limit is never reached)

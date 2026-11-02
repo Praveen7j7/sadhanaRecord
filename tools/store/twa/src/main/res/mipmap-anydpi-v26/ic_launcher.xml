@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The adaptive icon (Android 8+). The launcher masks these layers into the shape the phone uses:
+  a circle, a squircle, a rounded square. Only the middle 72 of 108 dp is guaranteed visible, so
+  artwork drawn to the edge has its border sliced off — which is what the single legacy PNG did
+  here, leaving the emblem jammed against the circle with no margin.
+
+  The two layers are separate on purpose: some launchers shift them against each other for a
+  parallax effect on touch, and a background that was a copy of the foreground would show seams
+  when it moved. Background is the flat purple field; foreground is the emblem on transparency,
+  sized inside the safe zone.
+
+  Both are generated — do not hand-edit. Run tools/store/make-icons.py after the art changes.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+    <!-- themed icons (Android 13+): the launcher tints this silhouette to the wallpaper palette -->
+    <monochrome android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

@@ -1,0 +1,16 @@
+diff --git a/worker/tests/audit-allow.mjs b/worker/tests/audit-allow.mjs
+index c27c1e9..a82f1b6 100644
+--- a/worker/tests/audit-allow.mjs
++++ b/worker/tests/audit-allow.mjs
+@@ -44,6 +44,11 @@ export const ALLOW = [
+   ["SELECT login, name FROM accounts WHERE is_master = 1 OR role IN ('COORDINATOR', 'MASTER')", 'new-head requests: the staff names to show who is asked (rare, head only; a few dozen staff)'],
+   ["SELECT login, name FROM accounts WHERE role IN ('COORDINATOR', 'MASTER') OR is_master = 1", 'the head\'s batch export: coordinator names (rare, head only)'],
+   ["SELECT 1 AS x FROM accounts WHERE facilitator_name = ? AND status <> 'DISABLED'", 'creating a facilitator login (rare, the head only)'],
++  // ADR 0014 A (22 Oct 2026): renaming a facilitator, once, everywhere — the head only, a handful of times a year
++  ['SELECT COUNT(*) AS n FROM accounts WHERE facilitator_name = ?', 'facilitators.rename: what moved, for the head (rare, the head only)'],
++  ['INSERT INTO facilitators ("name", "in_cohort", "order", active, source, seen, deleted_at, changed_by, changed_at) VALUES (?, 0, (SELECT COALESCE(MAX("order"), 0) + 1 FROM facilitators)',
++   'facilitators.rename: ONE row — the old name kept as removed; the subquery only places it last. facilitators is ~25 rows'],
++  ['UPDATE accounts SET facilitator_name = ?, updated_at = ?, updated_by = ? WHERE facilitator_name = ?', 'facilitators.rename: the facilitator\'s own login carries the new name (rare, the head only; one row changes)'],
+   ['SELECT at, action, ms, ok, error_code, detail, app_build FROM run_log ORDER BY id DESC LIMIT ?', 'the technical log: newest first by the primary key, stops at the LIMIT'],
+   ['SELECT id, at, who, role, action, target, batch_id, before, after, reason FROM audit_log WHERE', 'Activity: newest first by the primary key with LIMIT 30; filters narrow it; the log is capped by retention'],
+   ['SELECT id, at FROM audit_log ORDER BY id LIMIT 1', 'retention: the oldest row by the primary key (one row)'],

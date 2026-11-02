@@ -1,0 +1,46 @@
+/* Admin › Reports: Save as PDF is the browser's own print (no PDF library). A4, the IYF cover band in colour, page
+   numbers in the page margin, only the report on paper: the app's bars, menu and the picker are left out. Loaded with
+   the Reports screen only (staff chunk), and it applies only while a report is on the page (body:has(#rpt)). */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 12mm 16mm;
+    @bottom-left { content: 'IYF Delhi · Sadhana Record'; font: 8pt system-ui, sans-serif; color: #6b6b6b; }
+    @bottom-right { content: 'Page ' counter(page) ' of ' counter(pages); font: 8pt system-ui, sans-serif; color: #6b6b6b; }
+  }
+  /* paper is light whatever the screen's theme: declared on the report itself, because the app re-derives its tokens on
+     every [data-area] element (app.css), which a value set on <body> would not reach */
+  body:has(#rpt) { background: #fff !important; }
+  #rpt {
+    color-scheme: light;
+    --bg-n: #fff; --surface-n: #fff; --muted-n: #f3f0ea; --hover-n: #ece6db; --border-n: #d8d0c2;
+    --bg: #fff; --surface-hover: #ece6db; --surface-muted: #f3f0ea; --surface-floating: #fff; --shine: transparent;
+    --text: #1e1a15; --text-primary: #1e1a15; --text-secondary: #3f3a33; --text-muted: #5d554b;
+    --surface: #fff; --surface-2: #f3f0ea; --surface-elevated: #fff; --border: #d8d0c2; --divider: #e6e0d6;
+    --accent: #004fdc; --accent-soft: #e6eefc; --success: #1d7348; --danger: #b02e1c; --warning: #865400; --warn-line: #c98a12;
+    --warning-soft: #f5ecdc; --info-soft: #e2eff0; --viz-body: #4f7fb0; --viz-soul: #a5802a; --viz-seva: #2f8576; --viz-att: #7a5aa6;
+    background: #fff !important; color: #1e1a15;
+  }
+  #rpt .rp-t th[scope='row'] { color: #1e1a15; }
+  body:has(#rpt) :is(.sidebar, .topbar, .nav, .netbar, .skip, .rp-noprint, .toaster, [role='status'].toast) { display: none !important; }
+  body:has(#rpt) :is(.shell, .main, .content) { display: block !important; margin: 0 !important; padding: 0 !important; max-width: none !important; width: auto !important; min-height: 0 !important; background: none !important; box-shadow: none !important; }
+  body:has(#rpt)::before, body:has(#rpt)::after { display: none !important; }
+  #rpt { border: 0 !important; border-radius: 0 !important; box-shadow: none !important; overflow: visible !important; font-size: 9.5pt; }
+  #rpt .rp-cover { border-radius: 4mm; padding: 6mm 7mm !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; break-inside: avoid; }
+  #rpt .rp-sec { padding: 5mm 0 0 !important; border-top: 0.3mm solid #d8d0c2 !important; break-inside: auto; }
+  #rpt .rp-sec h2 { break-after: avoid; font-size: 12pt; }
+  #rpt :is(.rp-tile, .rp-bars li, .rp-health li, tr, figure, .rp-cols > div) { break-inside: avoid; }
+  /* a table moves to the next page whole when it fits on one; a longer one breaks between rows, its head repeated */
+  #rpt .rp-tw { overflow: visible !important; break-inside: avoid; }
+  #rpt .rp-tw::before { break-after: avoid; }
+  #rpt .rp-t { font-size: 8.5pt; }
+  #rpt .rp-t th, #rpt .rp-t td { padding: 1.4mm 2mm; white-space: normal; }
+  #rpt .rp-t thead { display: table-header-group; }
+  #rpt .rp-t thead th { position: static; }
+  #rpt :is(.rp-n, .rp-track, .rp-track i, .rp-health b, .rp-t thead th, rect, .rp-tile) { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  #rpt details > summary { display: none; }
+  #rpt details > :not(summary) { display: block !important; }
+  #rpt .rp-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  #rpt .rp-cols { grid-template-columns: 1fr 1fr; }
+  #rpt a { color: inherit; text-decoration: none; }
+}

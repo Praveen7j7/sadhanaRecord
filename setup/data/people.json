@@ -1,0 +1,521 @@
+{
+ "facilitators": [
+  {
+   "name": "Abhaya Vishnu Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Adhbut Gaur Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Aditya Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Aryan Yudhishtir Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Dasaratha Prana Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Deepak Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Devesa Hari Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Divyanshu Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Gopinath Murari Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Kisora Mohan Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Mukund Bandu Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Natvar Gopinath Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Neeraj Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Rohit Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Sarveshwar Ram Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Saumya Chaitanya Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Shrawan Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Sidhalaxman Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Suraj Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Vanmali Balram Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Yogesh Girdhari Prabhuji",
+   "inCohort": true
+  },
+  {
+   "name": "Abhinav Nimai Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Adigopa Nimai Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Ankit Narula Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Anurag Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Dwarkanath Hrishikesh Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Gokulendra Kanhai Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Jaya Vamandev Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Kanishk Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Kundal Keshav Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Mahanand Gopa Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Nischal Chaitanya Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Param Dham Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Pundrik Vidyanidhi Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Sachisuta Sevak Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Sadbhuj Gaur Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Sagar Bansal pr",
+   "inCohort": false
+  },
+  {
+   "name": "Samarpit Gaur Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Sikhi Mahiti Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Sourav Mazumdar Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Upanand Gopa Prabhuji",
+   "inCohort": false
+  },
+  {
+   "name": "Vilasa Padmanabha Prabhuji",
+   "inCohort": false
+  }
+ ],
+ "leaders": {
+  "SPS": [
+   {
+    "name": "Divyanshu Pr",
+    "rows": 486,
+    "merged": [
+     "zDivyanshu pr"
+    ]
+   },
+   {
+    "name": "Suraj Bhatt Pr",
+    "rows": 308,
+    "merged": []
+   },
+   {
+    "name": "Aditya Kumar",
+    "rows": 308,
+    "merged": []
+   },
+   {
+    "name": "Kapil Singh Pr",
+    "rows": 280,
+    "merged": []
+   },
+   {
+    "name": "Pradeep Rajbhar pr",
+    "rows": 280,
+    "merged": []
+   },
+   {
+    "name": "Sunil Chauhan Pr",
+    "rows": 274,
+    "merged": []
+   },
+   {
+    "name": "Rupesh Pr",
+    "rows": 270,
+    "merged": []
+   },
+   {
+    "name": "Anshu Saxena Pr",
+    "rows": 248,
+    "merged": []
+   },
+   {
+    "name": "Tushar Pr",
+    "rows": 236,
+    "merged": []
+   },
+   {
+    "name": "Ojas Pr",
+    "rows": 195,
+    "merged": []
+   },
+   {
+    "name": "Mani Bhushan Pr",
+    "rows": 104,
+    "merged": []
+   },
+   {
+    "name": "Aman Pr",
+    "rows": 45,
+    "merged": []
+   },
+   {
+    "name": "Mithlesh pr",
+    "rows": 16,
+    "merged": []
+   },
+   {
+    "name": "Suraj Pr",
+    "rows": 16,
+    "merged": []
+   },
+   {
+    "name": "Vishal pr",
+    "rows": 11,
+    "merged": []
+   },
+   {
+    "name": "sivansu pr",
+    "rows": 10,
+    "merged": []
+   }
+  ],
+  "SPS2": [
+   {
+    "name": "Raj pr",
+    "rows": 457,
+    "merged": []
+   },
+   {
+    "name": "Rahul Kumar",
+    "rows": 389,
+    "merged": [
+     "Rahul Kumar Pr"
+    ]
+   },
+   {
+    "name": "Aditya Mishra Pr",
+    "rows": 358,
+    "merged": []
+   },
+   {
+    "name": "Pitambar pr",
+    "rows": 232,
+    "merged": []
+   },
+   {
+    "name": "Chetan pr",
+    "rows": 220,
+    "merged": []
+   },
+   {
+    "name": "SHUBHAM Pr",
+    "rows": 194,
+    "merged": [
+     "SHUBHAM"
+    ]
+   },
+   {
+    "name": "Prakash Chaudhary Pr",
+    "rows": 148,
+    "merged": []
+   },
+   {
+    "name": "Naman Verma Pr",
+    "rows": 144,
+    "merged": []
+   },
+   {
+    "name": "Nitin Gupta",
+    "rows": 57,
+    "merged": []
+   },
+   {
+    "name": "Nikhil Pr",
+    "rows": 45,
+    "merged": []
+   },
+   {
+    "name": "Shivam",
+    "rows": 43,
+    "merged": []
+   },
+   {
+    "name": "Shivanshu pr",
+    "rows": 42,
+    "merged": []
+   },
+   {
+    "name": "Ojas Pr",
+    "rows": 40,
+    "merged": []
+   },
+   {
+    "name": "SHIVANSHU DWIVEDI",
+    "rows": 40,
+    "merged": []
+   },
+   {
+    "name": "Ayush Pr",
+    "rows": 36,
+    "merged": []
+   },
+   {
+    "name": "Shivam Bansal Pr",
+    "rows": 36,
+    "merged": []
+   },
+   {
+    "name": "Rahul Pr",
+    "rows": 35,
+    "merged": []
+   },
+   {
+    "name": "Shivam Kumar Pr",
+    "rows": 33,
+    "merged": []
+   },
+   {
+    "name": "Ritik pr",
+    "rows": 20,
+    "merged": []
+   },
+   {
+    "name": "Rupesh Pr",
+    "rows": 20,
+    "merged": []
+   },
+   {
+    "name": "Deepak Pr",
+    "rows": 18,
+    "merged": []
+   },
+   {
+    "name": "Pradeep Pr",
+    "rows": 18,
+    "merged": []
+   },
+   {
+    "name": "Neeraj Khakriyal Pr",
+    "rows": 11,
+    "merged": []
+   },
+   {
+    "name": "Nitin",
+    "rows": 10,
+    "merged": []
+   }
+  ],
+  "SPSO": [
+   {
+    "name": "Rajat Gupta Pr",
+    "rows": 360,
+    "merged": []
+   },
+   {
+    "name": "Dilip Dubey Pr",
+    "rows": 347,
+    "merged": [
+     "Dilip Dubey pr"
+    ]
+   },
+   {
+    "name": "Sanjeev Kumar Pr",
+    "rows": 337,
+    "merged": []
+   },
+   {
+    "name": "Sumit Pr",
+    "rows": 333,
+    "merged": []
+   }
+  ],
+  "DPS": [
+   {
+    "name": "Nitin Gupta pr",
+    "rows": 209,
+    "merged": []
+   },
+   {
+    "name": "Sagar Bansal Pr",
+    "rows": 208,
+    "merged": []
+   },
+   {
+    "name": "Divyanshu Yadav pr",
+    "rows": 207,
+    "merged": []
+   },
+   {
+    "name": "Aryan Chauhan Pr",
+    "rows": 200,
+    "merged": []
+   },
+   {
+    "name": "Shrawan Pr",
+    "rows": 192,
+    "merged": []
+   },
+   {
+    "name": "HG Divya Jyoti pr",
+    "rows": 14,
+    "merged": []
+   },
+   {
+    "name": "Anurag Negi Pr",
+    "rows": 12,
+    "merged": []
+   },
+   {
+    "name": "Pradeep Pr",
+    "rows": 12,
+    "merged": []
+   },
+   {
+    "name": "Shivansu Pr",
+    "rows": 10,
+    "merged": []
+   },
+   {
+    "name": "Nittin pr",
+    "rows": 6,
+    "merged": []
+   }
+  ],
+  "BSS": [
+   {
+    "name": "Sagar Bansal Pr",
+    "rows": 123,
+    "merged": []
+   },
+   {
+    "name": "Deepak Raghav pr",
+    "rows": 42,
+    "merged": []
+   },
+   {
+    "name": "HG Kundal Keshav Pr",
+    "rows": 35,
+    "merged": []
+   },
+   {
+    "name": "HG Aryan Yudhistra pr",
+    "rows": 28,
+    "merged": []
+   },
+   {
+    "name": "Aryan Pr",
+    "rows": 8,
+    "merged": []
+   }
+  ],
+  "BVS": [
+   {
+    "name": "Arun Ojha Pr",
+    "rows": 315,
+    "merged": []
+   },
+   {
+    "name": "Vivek Prabhu",
+    "rows": 312,
+    "merged": []
+   },
+   {
+    "name": "Abhinav verma pr",
+    "rows": 235,
+    "merged": []
+   },
+   {
+    "name": "Rohit Chauhan Pr",
+    "rows": 228,
+    "merged": [
+     "Rohit Chauhan pr"
+    ]
+   },
+   {
+    "name": "Divya Jyoti Pr",
+    "rows": 156,
+    "merged": []
+   },
+   {
+    "name": "Sandeep Phogat pr",
+    "rows": 65,
+    "merged": []
+   }
+  ]
+ }
+}

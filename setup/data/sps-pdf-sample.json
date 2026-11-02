@@ -1,0 +1,220 @@
+{
+ "file": "SPS SCORING Final-3.pdf",
+ "days": [
+  {
+   "day": "MON",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "01:00 - 07:00 PM",
+    "marks": 10
+   },
+   "pathan": {
+    "label": "09 to 05 min",
+    "marks": 10
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  },
+  {
+   "day": "TUE",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "01:00 - 07:00 PM",
+    "marks": 10
+   },
+   "pathan": {
+    "label": "19 to 10 min",
+    "marks": 15
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  },
+  {
+   "day": "WED",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "07:00 - 09:00 PM",
+    "marks": 5
+   },
+   "pathan": {
+    "label": "19 to 10 min",
+    "marks": 15
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  },
+  {
+   "day": "THU",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "07:15 - 09:30 AM",
+    "marks": 20
+   },
+   "pathan": {
+    "label": "09 to 05 min",
+    "marks": 10
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  },
+  {
+   "day": "FRI",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "Before 07:15 AM",
+    "marks": 25
+   },
+   "pathan": {
+    "label": "below 5 min",
+    "marks": 5
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  },
+  {
+   "day": "SAT",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "07:15 - 09:30 AM",
+    "marks": 20
+   },
+   "pathan": {
+    "label": "below 5 min",
+    "marks": 5
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  },
+  {
+   "day": "SUN",
+   "to_bed": {
+    "label": "10:00 - 10:15 PM",
+    "marks": 25
+   },
+   "wake_up": {
+    "label": "04:30 - 04:45 AM",
+    "marks": 25
+   },
+   "day_sleep": {
+    "label": "1 hr or less",
+    "marks": 25
+   },
+   "japa": {
+    "label": "07:15 - 09:30 AM",
+    "marks": 20
+   },
+   "pathan": {
+    "label": "below 5 min",
+    "marks": 5
+   },
+   "sravan": {
+    "label": "30 to 25 min",
+    "marks": 25
+   },
+   "seva_min": 15
+  }
+ ],
+ "totals": {
+  "to_bed": 175,
+  "wake_up": 175,
+  "day_sleep": 175,
+  "japa": 110,
+  "pathan": 65,
+  "sravan": 175,
+  "seva_min": 105
+ },
+ "percent": {
+  "to_bed": 100,
+  "wake_up": 100,
+  "day_sleep": 100,
+  "japa": 63,
+  "pathan": 37,
+  "sravan": 100,
+  "seva": 58
+ },
+ "note": "Seva 105 min \u2192 58 here is \u00f7180; the Excel SPS card (and the app, decision 29) use \u00f790 capped at 100."
+}

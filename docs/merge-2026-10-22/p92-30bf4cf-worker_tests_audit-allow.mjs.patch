@@ -1,0 +1,13 @@
+diff --git a/worker/tests/audit-allow.mjs b/worker/tests/audit-allow.mjs
+index a82f1b6..cca4226 100644
+--- a/worker/tests/audit-allow.mjs
++++ b/worker/tests/audit-allow.mjs
+@@ -44,6 +44,8 @@ export const ALLOW = [
+   ["SELECT login, name FROM accounts WHERE is_master = 1 OR role IN ('COORDINATOR', 'MASTER')", 'new-head requests: the staff names to show who is asked (rare, head only; a few dozen staff)'],
+   ["SELECT login, name FROM accounts WHERE role IN ('COORDINATOR', 'MASTER') OR is_master = 1", 'the head\'s batch export: coordinator names (rare, head only)'],
+   ["SELECT 1 AS x FROM accounts WHERE facilitator_name = ? AND status <> 'DISABLED'", 'creating a facilitator login (rare, the head only)'],
++  // ADR 0015 (22 Oct 2026): the head finding a person on Admin › Access — head only, typed, 20 rows at most
++  ["SELECT login, name, role, status, is_master, facilitator_name, grants FROM accounts WHERE login NOT LIKE 'deleted-%' AND (name LIKE ? OR login LIKE ?) ORDER BY name LIMIT", 'access.search: the head looking a person up by name (a contains-search, as every name search here; rare, head only, LIMIT 20)'],
+   // ADR 0014 A (22 Oct 2026): renaming a facilitator, once, everywhere — the head only, a handful of times a year
+   ['SELECT COUNT(*) AS n FROM accounts WHERE facilitator_name = ?', 'facilitators.rename: what moved, for the head (rare, the head only)'],
+   ['INSERT INTO facilitators ("name", "in_cohort", "order", active, source, seen, deleted_at, changed_by, changed_at) VALUES (?, 0, (SELECT COALESCE(MAX("order"), 0) + 1 FROM facilitators)',

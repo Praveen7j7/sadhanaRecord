@@ -1,0 +1,117 @@
+# The checks that must pass before anything is released (phase 6.3; audit F-02: there was no CI at all, and every
+# check depended on one Mac with a hard-coded Chrome path).
+#
+# Three jobs, deliberately separated by what they cost:
+#   fast     every push — under two minutes, so it is never the reason someone skips it
+#   browser  nightly and on demand — 25 minutes, needs Chrome
+#   deploy   never automatic (see the note at the bottom)
+#
+# What this does NOT do: deploy. Releases stay manual, through `npm run release` and the phase gate, because the
+# gate checks what production is actually serving and messages the peer sessions sharing the disk. CI cannot do
+# either. See docs/OPERATIONS.md §4.
+name: checks
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '30 20 * * *'        # 02:00 IST, the quietest hour for the free-plan budgets
+  workflow_dispatch:
+
+jobs:
+  fast:
+    name: tests, audits and budgets
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'      # node:sqlite needs ≥ 22.13 unflagged; vite 8 and vitest 5 need ≥ 20.19
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      # The server suites need NO dependencies at all: D1 is node:sqlite, Google and Web Push are faked
+      # (worker/tests/harness.mjs). They run first because they are the fastest and catch the most.
+      - name: worker — 43 suites, and the SQL audits
+        working-directory: worker
+        run: npm run audit:sql          # suites, then query-plans.mjs and write-audit.mjs: fails on a NEW scan of a
+                                        # growing table or a new mass write, against tests/audit-allow.mjs
+
+      - name: app — install
+        working-directory: frontend
+        run: npm ci
+
+      - name: app — tests
+        working-directory: frontend
+        run: npm test
+
+      - name: app — build, size and precache budgets
+        working-directory: frontend
+        run: |
+          npm run build
+          npm run size                  # startup JS ≤ 60 KB, CSS ≤ 15 KB, largest lazy ≤ 35 KB, precache ≤ 800 KB,
+                                        # and fails if staff-only code or a painting is in the precache
+
+      - name: the generated docs are up to date
+        run: node tools/docs/codes.mjs --check     # the error-code table in docs/API_REFERENCE.md
+
+      # Roadmap 6.7 / audit T F-15: no fixture may carry a dialable Indian mobile. 6000000331 in a mock
+      # once reached a real stranger on WhatsApp, so this is a hard gate, not a convention.
+      - name: no real-looking phone numbers in fixtures
+        run: node tools/test/phones.mjs
+
+  browser:
+    name: browser checks (every screen, every role, 11 widths)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    # Not on every push: ~25 minutes and it needs a real browser. Nightly, or by hand before a release.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+
+      - name: app — install
+        working-directory: frontend
+        run: npm ci
+
+      # verify.mjs and the gate read CHROME from the environment; without it they look for Chrome in /Applications
+      # (audit F-02: the hard-coded macOS path was why these could only ever run on one laptop).
+      - name: the suites, against the in-app mock on a dev server
+        working-directory: frontend
+        env:
+          CHROME: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          npx vite --port 5199 &
+          # Wait for the server to answer rather than sleeping a fixed number of seconds — a fixed sleep is what
+          # made these checks flaky in the first place (audit F-11). No extra dependency: curl is already here.
+          for i in $(seq 1 60); do
+            curl -sf http://localhost:5199/ >/dev/null && break
+            [ "$i" = 60 ] && { echo "the dev server did not come up in 60s"; exit 1; }
+            sleep 1
+          done
+          node ../tools/browser/verify.mjs
+          node ../tools/browser/components.mjs
+          node ../tools/browser/back-guard.mjs
+          node ../tools/browser/motion-audit.mjs
+
+      - name: keep the screenshots of a failed run
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-screenshots
+          path: frontend/screenshots/
+          retention-days: 7
+
+# Deploying is NOT here, on purpose. A release has to: read what production is currently serving (the phase gate),
+# apply migrations remotely in order, warn the other sessions sharing this disk, and prove an already-open app
+# moves to the new version by itself. `frontend/scripts/release.mjs` does all of that and must be run by a person
+# who can see the result. CI's job is to make sure the code is worth releasing.

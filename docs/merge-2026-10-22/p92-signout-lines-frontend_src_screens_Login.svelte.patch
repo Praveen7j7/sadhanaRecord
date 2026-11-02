@@ -1,0 +1,14 @@
+diff --git a/frontend/src/screens/Login.svelte b/frontend/src/screens/Login.svelte
+index e96b0f6..ada51b7 100644
+--- a/frontend/src/screens/Login.svelte
++++ b/frontend/src/screens/Login.svelte
+@@ -88,6 +88,8 @@
+   </form>
+   <div class="mt-2 flex items-center gap-3 text-sm text-muted" aria-hidden="true"><span class="h-px flex-1 bg-[var(--border)]"></span>New here?<span class="h-px flex-1 bg-[var(--border)]"></span></div>
+   <a class="btn btn-block mt-3" href="#/signup"><Icon name="plus" size={18} />Create an account</a>
+-  <p class="auth-trust"><Icon name="lock" size={14} />Your details stay with IYF Delhi · <a class="link" href="/privacy.html">Privacy</a></p>
++  <!-- the two lines under Create an account, as on Welcome (the head, 22 Oct 2026) -->
++  <p class="auth-foot auth-approve">New accounts require coordinator approval.</p>
++  <p class="auth-trust"><Icon name="lock" size={14} />Your details stay private. · <a class="link" href="/privacy.html">Privacy</a></p>
+   {/if}
+ </Plain>

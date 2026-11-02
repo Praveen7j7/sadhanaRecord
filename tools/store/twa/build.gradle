@@ -1,0 +1,46 @@
+// The Play Store shell for Sadhana Record (a Trusted Web Activity).
+// It carries no copy of the app: it opens the live site full screen, so web releases need no Play upload.
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'org.iyfdelhi.sadhana'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'org.iyfdelhi.sadhana'
+        minSdk 24
+        targetSdk 36
+        versionCode 3
+        versionName '1.0.0'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(System.getenv('SR_KEYSTORE') ?: 'sadhana-release.jks')
+            storePassword System.getenv('SR_STORE_PASS')
+            keyAlias System.getenv('SR_KEY_ALIAS') ?: 'sadhana'
+            keyPassword System.getenv('SR_KEY_PASS')
+        }
+    }
+
+    buildTypes {
+        release {
+            /* NOT obfuscated, on purpose. Play warns "There is no deobfuscation file associated with this
+               App Bundle" — that warning is for apps that DO obfuscate and then cannot read their own crash
+               reports. This shell is ~40 KB of our own code plus the Android Browser Helper library; there
+               is nothing to shrink and nothing to make unreadable, so there is no mapping file to upload
+               and the warning does not apply. It never blocks an upload. */
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
+}

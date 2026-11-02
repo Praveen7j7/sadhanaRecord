@@ -1,0 +1,83 @@
+{
+  "note": "Worker deploys, newest last. Written by worker/scripts/deploy.mjs (roadmap 6.5). `rollbackTo` is the version that was serving BEFORE this deploy.",
+  "deploys": [
+    {
+      "at": "2026-10-15T06:08:43.057Z",
+      "version": "15c7b52d-cc0c-4f81-b7c5-cc9bf1eeca25",
+      "rollbackTo": "cc1ccc75-ca2e-450b-972e-77bf5b2f88e6",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-15T06:52:25.862Z",
+      "version": "4cfc4209-c67a-497b-aadd-9d1be045aa61",
+      "rollbackTo": "15c7b52d-cc0c-4f81-b7c5-cc9bf1eeca25",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-15T07:56:55.577Z",
+      "version": "fb89f3aa-1b35-4f23-a553-fd0bb4bbcafb",
+      "rollbackTo": "4cfc4209-c67a-497b-aadd-9d1be045aa61",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-15T22:19:28.951Z",
+      "version": "452dd07f-f3e1-4c9d-b7ab-5dffdfeaf88a",
+      "rollbackTo": "fb89f3aa-1b35-4f23-a553-fd0bb4bbcafb",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-18T14:54:09.528Z",
+      "version": "f1f6e579-d2d2-4d37-b693-a40a666d5a0b",
+      "rollbackTo": "6a27ec2a-7989-4b72-a62b-5a4c54144749",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-19T09:43:22.365Z",
+      "version": "be468dd6-8e39-49f8-9233-d04e400467e0",
+      "rollbackTo": "f1f6e579-d2d2-4d37-b693-a40a666d5a0b",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-22T08:53:36.130Z",
+      "version": "ff95e8b8-f74a-4b91-96a8-9337b2086a88",
+      "rollbackTo": "be468dd6-8e39-49f8-9233-d04e400467e0",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-22T08:54:53.798Z",
+      "version": "ae18ba82-138e-4eaa-8631-5a048cabf201",
+      "rollbackTo": "ff95e8b8-f74a-4b91-96a8-9337b2086a88",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-22T18:49:58.818Z",
+      "version": "01c62ce8-1b5e-445e-97ef-2ed88a7b146f",
+      "rollbackTo": "ae18ba82-138e-4eaa-8631-5a048cabf201",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-23T09:19:51.487Z",
+      "version": "7e5c22c3-d447-4071-bbf7-bb557e6191e6",
+      "rollbackTo": "01c62ce8-1b5e-445e-97ef-2ed88a7b146f",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-26T12:34:27.495Z",
+      "version": "2a91ddaf-7a9a-4298-932d-c0ed96f238c2",
+      "rollbackTo": "7e5c22c3-d447-4071-bbf7-bb557e6191e6",
+      "checks": "audit:sql passed"
+    },
+    {
+      "at": "2026-10-27T07:14:25.442Z",
+      "version": "a3efed47-0132-44c1-87fc-f29b5a3b5bc7",
+      "rollbackTo": "2a91ddaf-7a9a-4298-932d-c0ed96f238c2",
+      "checks": "SKIPPED"
+    },
+    {
+      "at": "2026-11-02T02:51:04.905Z",
+      "version": "0afe645c-624d-458b-9b1b-7bc59a0cbc33",
+      "rollbackTo": "a3efed47-0132-44c1-87fc-f29b5a3b5bc7",
+      "checks": "audit:sql passed"
+    }
+  ]
+}

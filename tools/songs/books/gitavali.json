@@ -1,0 +1,2507 @@
+{
+ "collection": "Gītāvalī",
+ "poet": "Bhaktivinoda Thakura",
+ "edition": "Bhaktivinoda_Thakura_Gitavali.pdf",
+ "editionReason": "Both editions contain the whole Gītāvalī. Gitavali.pdf (85 pp., translation by Daśaratha-suta dāsa) prints every stanza with its number '(1)', '(2)' … and the book's own translation '1) …' right after it — the same shape as the songs already in the app — with full, consistent diacritics and clean pages. Gitavali2.pdf (114 pp.) uses a 'Text N' layout with word-for-word glosses between verse and translation, a different (plainer, b-for-v) transliteration, frequent typesetting errors (e.g. 'jwwel', 'jur6āo', words run together in the glosses), and shorter paraphrase translations. Gitavali.pdf was used for every song.",
+ "songs": [
+  {
+   "id": "s202",
+   "title": "Sacir Angane Kabhu",
+   "heading": "Prasād-Sevāya (During the Honoring of Spiritual Food), Song 3",
+   "firstLine": "śacīr aṅgane kabhu, mādhavendra-purī prabhu,",
+   "lang": "bn",
+   "cats": [
+    "arati"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 11",
+   "parts": [
+    {
+     "v": "(1)\nbhāi-re!\nśacīr aṅgane kabhu, mādhavendra-purī prabhu,\nprasādānna korena bhojan\nkhāite khāite tā'ra, āilo prema sudurbār,\nbole, śuno sannyāsīra gaṇ"
+    },
+    {
+     "t": "1) O brothers! Mādhavendra Purī Prabhu sometimes honored prasād in the courtyard of Mother Śacī. While eating and eating he would become overwhelmed by symptoms of ecstatic love of God. Once he addressed the renunciates who were accompanying him, “O assembled sannyāsīs! Just listen to this:"
+    },
+    {
+     "v": "(2)\nmocā-ghanṭa phula-baḍi, dāli-dālnā-caccaḍi,\nśacī-mātā korilo randhan\ntā'ra śuddhā bhakti heri', bhojana korilo hari,\nsudhā-sama e anna-byañjan"
+    },
+    {
+     "t": "2) “Mother Śacī has cooked many varieties of prasād, such as semi-solid delicacies made with banana flower, a special dahl preparation, baskets of fruits, small square cakes made of lentils and cooked-down milk, among others. Seeing her pure devotion, Lord Kṛṣṇa personally ate all these preparations, which are just like nectar."
+    },
+    {
+     "v": "(3)\nyoge yogī pāy jāhā, bhoge āj ha'be tāhā,\n`hari' boli' khāo sabe bhāi\nkṛṣṇaera prasād-anna, tri-jagat kore dhanya,\ntripurāri nāce jāhā pāi'"
+    },
+    {
+     "t": "3) “O brothers! All the results that the mystic yogīs obtain by the diligent practice of yoga will be obtained today by taking these remnants of the Lord. Everyone come and eat the prasād of Lord Hari and shout His holy name! The three worlds are made glorious by the presence of the foodgrains left by Lord Kṛṣṇa. Even Lord Tripurāri dances in great joy on obtaining that prasād.”"
+    }
+   ],
+   "notes": "Page starts p. 11 (heading 'Song 3') and the text is on p. 12. The book prints an endnote marker 'ii*' after the last word of translation 3; the marker is left out (the endnote is not transcribed). Book's note before Songs 2–3: '[The next two songs are to be sung while honoring the Lord's prasād]'. Apostrophes are printed as curly ’ in the book; straight ' used here.",
+   "uncertain": ""
+  },
+  {
+   "id": "s203",
+   "title": "Sri Caitanya Nityananda",
+   "heading": "Prasād-Sevāya (During the Honoring of Spiritual Food), Song 4",
+   "firstLine": "śrī-caitanya nityānanda, śrīvāsādi bhakta-vṛnda,",
+   "lang": "bn",
+   "cats": [
+    "arati"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 12",
+   "parts": [
+    {
+     "v": "(1)\nbhāi-re!\nśrī-caitanya nityānanda, śrīvāsādi bhakta-vṛnda,\ngaurīdāsa paṇḍiter ghare\nluci, cini, khīr, sār, miṭhāi, pāyass āra,\npiṭhā-pāna āsvādan kore"
+    },
+    {
+     "t": "1) O brothers! Lord Caitanya, Lord Nityānanda, and Their devotees headed by Śrīvāsa Ṭhākura relish different varieties of prasād at the home of Gaurīdāsa Paṇḍita. They take purīs made with white flour and sugar, khīra, solid cream, sweets, sweet-rice, and a kind of cake and condensed-milk preparation."
+    },
+    {
+     "v": "(2)\nmahāprabhu bhakta-gaṇe, parama-ānanda-mane,\nājñā dilo korite bhojan\nkṛṣṇaera prasād-anna, bhojane hoiyā dhanya,\n`kṛṣṇa' boli' ḍāke sarva-jan"
+    },
+    {
+     "t": "2) Śrī Caitanya Mahāprabhu, in great ecstasy, gave the order to all of His devotees to eat. Becoming very fortunate by taking the prasād of Lord Kṛṣṇa, everyone chants aloud, “Kṛṣṇa! Kṛṣṇa!”"
+    }
+   ],
+   "notes": "Book's note: '[This fourth song is to be sung while eating the Lord's sweets]'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s204",
+   "title": "Eka Dina Nilacale",
+   "heading": "Prasād-Sevāya (During the Honoring of Spiritual Food), Song 5",
+   "firstLine": "eka-dina nīlācale, prasād-sevana-kāle,",
+   "lang": "bn",
+   "cats": [
+    "arati"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 13",
+   "parts": [
+    {
+     "v": "(1)\nbhāi-re!\neka-dina nīlācale, prasād-sevana-kāle,\nmahāprabhu śrī-kṛṣṇa-caitanya\nbolilen bhakta-gaṇe, khecarānna śuddha-mane,\nsevā kori' hao āj dhanya"
+    },
+    {
+     "t": "1) O brothers! One day in Jagannātha Purī, at the time of honoring the Lord's prasād, Mahāprabhu Śrī Kṛṣṇa Caitanya said to all the devotees, “May you become blessed on this day by honoring the khicurī of the Lord in a pure state of mind."
+    },
+    {
+     "v": "(2)\nkhecarānna piṭhā-pānā, apūrva prasāda nānā,\njagannātha dilo tomā sabe\nākanṭha bhojana kori', bolo mukhe `hari hari',\navidyā-durita nāhi robe"
+    },
+    {
+     "t": "2) “Lord Jagannātha has given you varieties of extraordinary and wonderful prasād, such as khicurī and piṭhā-pānā (a type of cake and condensed-milk preparation). Therefore, take all of this prasād until you are filled up to the neck, and with your voices chant `Hari! Hari!' In such a transcendental atmosphere, ignorance and sin cannot remain."
+    },
+    {
+     "v": "(3)\njagannātha-prasādānna, viriñci-śambhura mānya,\nkhāile prema hoibe udoy\nemona durlabha dhana, pāiyācho sarva-jana,\njaya jaya jagannātha jay"
+    },
+    {
+     "t": "3) “These prasād foodgrains of Lord Jagannātha are worshipable even by Lord Brahmā and Lord Śiva. Upon the eating of it, love of God arises within the heart. All of you have obtained such a rare treasure. All glories! All glories! All glories to Lord Jagannātha!”"
+    }
+   ],
+   "notes": "Book's note: '[This fifth song is to be sung while honoring the Lord's khicurī]'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s205",
+   "title": "Rama Krsna Gocarane",
+   "heading": "Prasād-Sevāya (During the Honoring of Spiritual Food), Song 6",
+   "firstLine": "rāma-kṛṣṇa gocāraṇe, jaibena dūra vane,",
+   "lang": "bn",
+   "cats": [
+    "arati",
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 14",
+   "parts": [
+    {
+     "v": "(1)\nbhāi-re!\nrāma-kṛṣṇa gocāraṇe, jaibena dūra vane,\neto cinti' yaśodā-rohinī\nkhīr, sār, chānā, nanī, du'jane khāowāno āni',\nvātsalye ānanda mane gaṇi'"
+    },
+    {
+     "t": "1) O brothers! Mother Yaśodā and Mother Rohinī were thinking, “Today our two boys, Balarāma and Kṛṣṇa, will go to a distant forest to tend Their cows.” Contemplating thus in the ecstasy of parental affection, they prepared a wonderful feast for the two boys, consisting of khīra, solid cream, curd, and fresh yellow butter."
+    },
+    {
+     "v": "(2)\nvayasya rākhāla-gaṇe, khāy rāma-kṛṣṇa-sane,\nnāce gāy ānanda-antare\nkṛṣṇaera prasāda khāy, udara bhoriyā jāy,\n`āra deo' `āra deo' kore"
+    },
+    {
+     "t": "2) All the cowherd boyfriends take lunch with Balarāma and Kṛṣṇa while dancing and singing in ecstasy. They eat the remnants of Kṛṣṇa's meal until their bellies are full, and still exclaim, “Give us more! Give us more!”"
+    }
+   ],
+   "notes": "Book's note: '[This sixth song is to be sung while honoring the Lord's bāla-bhoga]'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s206",
+   "title": "Ekbar Bhavo Mane",
+   "heading": "Śrī Nagar-Kīrtan (Congregational Chanting in Public Places), Song 3 (Śrī-Nāma)",
+   "firstLine": "ekbār bhāvo mane,",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 22",
+   "parts": [
+    {
+     "v": "(1)\nekbār bhāvo mane,\nāśā-baśe bhrami' hethā pā'be ki sukha jīvane\nke tumi, kothāy chile, ki korite hethā ele,\nkibā kāj kore' gele, jā'be kothā śarīra-patane"
+    },
+    {
+     "t": "1) Consider this just once: While you wander in this world, under the control of material desires, what happiness will you achieve in this mundane life? Who are you? Where have you come from? How did you come here? What have you done? And where will you go at the time of death when your body drops?"
+    },
+    {
+     "v": "(2)\nkeno sukha, duḥkha, bhoy, ahaṁtā-mamatā-moy,\ntuccha jay-parājay, krodha-hiṁsā, dveṣa anya-jane\nbhakativinoda koy, kori' gorā-padāśroy,\ncid-ānanda-rasa-moy hao rādhā-kṛṣṇa-nāma-gāne"
+    },
+    {
+     "t": "2) What is the use of so much worldly happiness, distress and fear, which arise from the false egotism of “I” and “mine”? And what is the use of insignificant victory and defeat, anger, violence, and envy toward other living beings? Bhaktivinoda says, “Just take shelter at the lotus feet of Lord Gaurasundara and sing the names of Rādhā and Kṛṣṇa, and you will become saturated with the mellows of pure spiritual bliss.”"
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s207",
+   "title": "Anga Upanga Astra Parsada Sange",
+   "heading": "Śrī Nagar-Kīrtan (Congregational Chanting in Public Places), Song 6 (Śrī-Nāma)",
+   "firstLine": "aṅga-upāṅga-astra-pārṣada saṅge",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "gaura"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 24",
+   "parts": [
+    {
+     "v": "(1)\naṅga-upāṅga-astra-pārṣada saṅge\nnāco-i bhāva-mūrati gorā raṅge"
+    },
+    {
+     "t": "1) Lord Gaurāṅga, the personification of ecstatic love of God, dances in the company of His plenary portions, along with the parts and parcels of His plenary portions, with His divine weapons, and with His personal associates."
+    },
+    {
+     "v": "(2)\ngāota kali-yuga-pāvana nām\nbhrama-i śacī-suta nadīyā dhām"
+    },
+    {
+     "t": "2) The son of Mother Śacī wanders throughout the abode of Nadīyā singing the holy names of Kṛṣṇa, which are the deliverer of all living beings imprisoned within the age of Kali, as follows:"
+    },
+    {
+     "v": "(3)\n(hare) haraye namaḥ kṛṣna yādavāya namaḥ\ngopāla govinda rāma śrī-madhusūdana"
+    },
+    {
+     "t": "3) “O Lord Hari! Obeisances unto Hari, who is Kṛṣṇa, the best of the Yadus, the herder of the cows, the pleasure of the cows, the supreme enjoyer, and the blessed killer of the demon named Madhu.”"
+    }
+   ],
+   "notes": "Not the same song as s084 (hari haraye namaḥ kṛṣṇa yādavāya namaḥ / yādavāya mādhavāya…): only stanza 3 here shares that opening phrase.",
+   "uncertain": "Stanza 3 line 1: the name is printed with partial diacritics ('kṛṣna' / 'krṣna' — the n has no underdot and the r-dot is faint even at scale 2.2); transcribed 'kṛṣna'."
+  },
+  {
+   "id": "s208",
+   "title": "Nitai Ki Nam Eneche Re",
+   "heading": "Śrī Nagar-Kīrtan (Congregational Chanting in Public Places), Song 7 (Śrī-Nāma)",
+   "firstLine": "nitāi ki nām eneche re",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "gaura"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 25",
+   "parts": [
+    {
+     "v": "(refrain)\nhare kṛṣṇa hare"
+    },
+    {
+     "t": "(refrain): Hare Kṛṣṇa Hare"
+    },
+    {
+     "v": "(1)\nnitāi ki nām eneche re\n(nitāi) nām eneche, nāmer hāṭe,\nśraddhā-mūlye nām diteche re"
+    },
+    {
+     "t": "1) Oh, what a wonderful name Lord Nityānanda has brought! Nitāi has brought the divine name to the Marketplace of the Holy Name, and He is giving away that name for the mere price of your faith! Oh!"
+    },
+    {
+     "v": "(2)\nhare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare re\nhare rāma hare rāma rāma rāma hare hare re"
+    },
+    {
+     "t": "2) Hare Kṛṣṇa, Hare Kṛṣṇa, Kṛṣṇa Krṣna, Hare Hare—Oh! Hare Rāma, Hare Rāma, Rāma Rāma, Hare Hare—Oh!"
+    },
+    {
+     "v": "(3)\n(nitāi) jīvera daśā, malina dekhe',\nnām eneche braja theke re\ne nām śiva jape pañca-mukhe re\n(madhur e harinām)\ne nām brahmā jape catur-mukhe re\n(madhur e harinām)\ne nām nārada jape vīṇā-yantre re\n(madhur e harinām)\ne nāmābase ajāmila vaikuṇṭhe gelo re\ne nām bolte bolte braje calo re\n(bhaktivinoda bole)"
+    },
+    {
+     "t": "3) Oh, seeing the miserable condition of the fallen souls of this world, Nitāi has personally brought the holy name from the transcendental realm of Vraja! Oh, Lord Śiva chants this holy name with his five mouths! This holy name is so sweet! Oh, Lord Brahmā chants this holy name with his four mouths! This holy name is so sweet! Oh, Nārada Muni chants this holy name while playing on his vīṇā! This holy name is so sweet! Oh, just by the dim reflection of this holy name, the sinful Ajāmila went to Vaikuṇṭha! Bhaktivinoda therefore says, “Oh, continuously chanting this holy name, go at once to the divine realm of Vraja! This holy name is so sweet!”"
+    }
+   ],
+   "notes": "",
+   "uncertain": "Translation 2: the book prints 'Krṣna' (fourth name, partial diacritics) — kept as printed."
+  },
+  {
+   "id": "s209",
+   "title": "Hari Bole Modera Gaura Elo",
+   "heading": "Śrī Nagar-Kīrtan (Congregational Chanting in Public Places), Song 8 (Śrī-Nāma)",
+   "firstLine": "‘hari’ bole’ modera gaura elo",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "gaura"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 26",
+   "parts": [
+    {
+     "v": "(refrain)\n‘hari’ bole’ modera gaura elo"
+    },
+    {
+     "t": "(refrain) Our Lord Gaura came chanting “Hari! Hari!”"
+    },
+    {
+     "v": "(1)\nelo re gaurāṅga-cānda preme elothelo\nnitāi-adwaita-saṅge godrume paśilo"
+    },
+    {
+     "t": "1) Lord Gaurāṅga-cānda came looking very disheveled, as if mad, due to ecstatic love of God, and along with Lord Nityānanda and Advaita Ācārya, He entered the land of Godruma."
+    },
+    {
+     "v": "(2)\nsaṅkīrtana-rase mete nām bilāilo\nnāmera hāṭe ese preme jagat bhāsāilo"
+    },
+    {
+     "t": "2) Deeply absorbed in the intoxicating mellows of saṅkīrtan, He distributed the holy name. Having come to the Marketplace of the Holy Name, He caused the whole universe to swim in ecstatic love of God."
+    },
+    {
+     "v": "(3)\ngodruma-bāsīr āj duḥkha dūre gelo\nbhakta-vṛnda-saṅge āsi' hāṭa jāgāilo"
+    },
+    {
+     "t": "3) Today all the miseries of the residents of Godruma-dvīpa have gone far away, for Lord Gaurāṅga, having come here along with all His devotees, caused the Marketplace of the Holy Name to appear here in Godruma."
+    },
+    {
+     "v": "(4)\nnadīyā bhramite gorā elo nāmer hāṭe\ngaura elo hāṭe, saṅge nitāi elo hāṭe"
+    },
+    {
+     "t": "4) Wandering all over the land of Nadīyā, Lord Gaura came to the Marketplace of the Holy Name. Lord Gaura came to the Marketplace along with Nitāi."
+    },
+    {
+     "v": "(5)\nnāce mātoyārā nitāi godrumera māṭhe\njagat mātāy nitāi premera mālasāṭe"
+    },
+    {
+     "t": "5) Maddened with ecstasy, Lord Nityānanda dances in the fields of Godruma. Due to ecstatic love of God, He moves His powerful arms like a challenging wrestler and thus overwhelms the universe in ecstasy."
+    },
+    {
+     "v": "(6)\n(torā dekhe' jā' re)\nadwaitādi bhakta-vṛnda nāce ghāṭe ghāṭe\npalāya duranta kali poḍiyā bibhrāṭe"
+    },
+    {
+     "t": "6) (Oh, all of you please go and see!) The Vaiṣṇavas headed by Advaita Ācārya are dancing along the banks of the Gaṅgā from one bathing ghāṭ to the next! At such a sight as this, the wicked personality Kali falls into great danger and thus runs for his life."
+    },
+    {
+     "v": "(7)\nki sukhe bhāsilo jīva gorācānder nāṭe\ndekhiyā śuniyā pāṣaṇḍīr buka phāṭe"
+    },
+    {
+     "t": "7) In what indescribable happiness did all living beings swim while Lord Gauracandra was dancing? By seeing and hearing of such pastimes, the hearts of the atheists break."
+    }
+   ],
+   "notes": "Book's note before the song: '[This song is for singing while performing parikramā of Navadvīpa-dhām]'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s210",
+   "title": "Nadiya Nagare Nitai Nece Nece Gay Re",
+   "heading": "Śrīman Mahāprabhur Śata-Nāma (One Hundred Names of Śrī Caitanya Mahāprabhu), Song 1",
+   "firstLine": "nadīyā-nagare nitāi nece' nece' gāy re",
+   "lang": "bn",
+   "cats": [
+    "gaura",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 27",
+   "parts": [
+    {
+     "v": "(refrain)\nnadīyā-nagare nitāi nece' nece' gāy re"
+    },
+    {
+     "t": "(Refrain:) Oh! In the towns and villages of Nadīyā, Lord Nityānanda ecstatically dances and sings these names of Śrī Caitanya Mahāprabhu:"
+    },
+    {
+     "h": "Part 1"
+    },
+    {
+     "v": "(1)\njagannātha-suta mahāprabhu viśvambhara\nmāyāpur-śaśī navadvīpa-sudhākara"
+    },
+    {
+     "t": "1) Lord Caitanya is the beloved son of Jagannātha Miśra. He is Mahāprabhu, the great master, and maintainer of the whole world. He is the shining moon of Māyāpur, and the source of all nectar for the land of Navadvīpa."
+    },
+    {
+     "v": "(2)\nśacī-suta gaurahari nimāi-sundara\nrādhā-bhāva-kānti-ācchādita naṭabara"
+    },
+    {
+     "t": "2) He is the beloved son of Śacī Mātā, and is Lord Hari with a fair golden complexion. As He was born under a nīm tree He was called Nimāi-sundara (beautiful Nimāi). He is covered by the sentiment and luster of Śrīmatī Rādhārāṇī, and He is the best of all dancers."
+    },
+    {
+     "v": "(3)\nnāmānanda capala bālaka mātṛ-bhakta\nbrahmānḍa-vadana tarkī kautukānurakta"
+    },
+    {
+     "t": "3) He becomes restless upon hearing the holy names of Lord Hari. In His boyhood pastimes He is swift and agile, and is devoted to His mother. He displays the entire universe within His mouth, is a great logician, and is fond of joking and playing pranks."
+    },
+    {
+     "h": "Part 2"
+    },
+    {
+     "v": "(4)\nvidyārthi-uḍupa caura-dvayera mohana\ntairthika-sarvasva grāmya-bālikā-krīḍana"
+    },
+    {
+     "t": "4) He is the moon among scholarly students, and He bewildered two thieves who tried to steal His jewels when He was a small child. He is the cynosure of all philosophers, and He teased and joked with the village girls of Nadīyā."
+    },
+    {
+     "v": "(5)\nlakṣmī-prati bora-dātā uddhata bālaka\nśrī-śacīra pati-putra-śoka-nibāraka"
+    },
+    {
+     "t": "5) He is the giver of blessings to Lakṣmī-priyā (His first wife). He is very mischievous as a child, and is the dispeller of the grief Śacī-mātā felt after losing her husband Jagannātha and first son Viśvarūpa."
+    },
+    {
+     "v": "(6)\nlakṣmī-pati pūrva-deśa-sarva-kleśa-hara\ndigvijayi-darpa-hārī viṣnu-priyeśwara"
+    },
+    {
+     "t": "6) He is the Lord and husband of Lakṣmī-priyā. By His saṅkīrtan movement He removed all the distress of East Bengal. He eradicated the pride of the conquering panḍita named Keśava Kaśmiri, and is the beloved Lord of Viṣnu-priyā (His second wife)."
+    },
+    {
+     "h": "Part 3"
+    },
+    {
+     "v": "(7)\nārya-dharma-pāla pitṛ-gayā pinḍa-dātā\npurī-śiṣya madhvācārya-sampradāya-pātā"
+    },
+    {
+     "t": "7) He is the preserver of sanātana-dharma, and the giver of the pinḍa oblation at the holy town of Gayā after the disappearance of His father Jagannāth Miśra. He became the disciple of Īśvara Purī, and is the protector of the Madhvācārya Sampradāya."
+    },
+    {
+     "v": "(8)\nkṛṣṇa-nāmonmatta kṛṣṇa-tattva-adhyāpaka\nnāma-saṅkīrtana-yuga-dharma-pravartaka"
+    },
+    {
+     "t": "8) He becomes madly intoxicated by tasting the holy name of Kṛṣṇa, and is the professor of the science of Kṛṣṇa consciousness. Thus He inaugurated the religion of the age, nāma-saṅkīrtan."
+    },
+    {
+     "v": "(9)\nadwaita-bāndhava śrīnivāsa-gṛha-dhana\nnityānanda-prāna gadādharera jīvana"
+    },
+    {
+     "t": "9) He is the friend of Advaita Ācārya, the treasure of Śrīvāsa Ṭhākura's home, the life and soul of Nityānanda Prabhu, and the very source of life for Gadādhara Panḍita."
+    },
+    {
+     "h": "Part 4"
+    },
+    {
+     "v": "(10)\nantardwīpa-śaśadhara sīmanta-vijaya\ngodruma-bihārī madhyadwīpa-līlāśraya"
+    },
+    {
+     "t": "10) He is the moon of Antardvīpa, and the triumph of Sīmantadvīpa. He enjoys wandering and frolicking on the island of Godruma, and is the shelter of pastimes in Madhyadvīpa."
+    },
+    {
+     "v": "(11)\nkoladwīpa-pati ṛtudwīpa-maheśwara\njahnu-modadruma-rudradwīpera īśwara"
+    },
+    {
+     "t": "11) He is the Lord of Koladvīpa, the great controller of Ritudvīpa, and the creator of Jahnudvīpa, Modadrumadvīpa, and Rudradvīpa."
+    },
+    {
+     "v": "(12)\nnava-khanḍa-raṅganātha jāhnavī-jīvana\njagāi-mādhāi-ādi durvṛtta-tāraṇa"
+    },
+    {
+     "t": "12) He is thus the Supreme Lord of the nine islands of Navadvīpa, which serves as the stage for His wonderful pastimes. He is the life of the River Gaṅgā, and the deliverer of all sorts of rogues and rascals beginning with Jagāi and Mādhāi."
+    },
+    {
+     "h": "Part 5"
+    },
+    {
+     "v": "(13)\nnagara-kīrtana-siṁha kājī-uddhāraṇa\nśuddha-nāma-pracāraka bhaktārti-haraṇa"
+    },
+    {
+     "t": "13) He is the lion of the village kīrtanas, and the deliverer of Chānd Kazi. He is the preacher of the pure holy name, and the remover of the distresses of His devotees."
+    },
+    {
+     "v": "(14)\nnārāyanī-kṛpā-sindhu jīvera niyantā\nadhama-paḍuyā-danḍī bhakta-doṣa-hantā"
+    },
+    {
+     "t": "14) He is the ocean of mercy for Nārāyanī (the mother of Śrīla Vṛndāvana dāsa Ṭhākura), and is the regulator of all souls. He is the chastiser of the fallen students who criticized His chanting of “gopī! gopī!”, and is the destroyer of the sins of His devotees."
+    },
+    {
+     "v": "(15)\nśrī-kṛṣṇa-caitanya-candra bhāratī-tāraṇa\nparivraja-śiromaṇi utkala-pāvana"
+    },
+    {
+     "t": "15) He was initiated into sannyāsa with the name of Śrī Kṛṣṇa Caitanya, and He is beautiful like the moon. He delivered His sannyāsa-guru Keśava Bhāratī, is Himself the crest-jewel of all wandering renunciates, and is the savior of the region of Orissa."
+    },
+    {
+     "h": "Part 6"
+    },
+    {
+     "v": "(16)\nambu-liṅga-bhuvaneśa-kapoteśa-pati\nkhīr-cora-gopāla-darśana-sukhī yati"
+    },
+    {
+     "t": "16) He is the master of Lord Śiva, who is known in three different Śaiva tīrthas as Ambu-liṅga, Bhuvaneśvara, and Kapoteśvara (visited by Lord Caitanya on His way to Jagannātha Purī). As a sannyāsī He rejoiced at the sight of the Orissan deities Kṣīra-cora Gopīnātha and Sākṣī Gopāla."
+    },
+    {
+     "v": "(17)\nnirdanḍi-sannyāsī sārvabhauma-kṛpāmoya\nswānanda-āswādānandī sarva-sukhāśroya"
+    },
+    {
+     "t": "17) He became a sannyāsī without a danḍa (due to Lord Nityānanda's breaking it in three parts and throwing it in the Bhargī River), and is full of mercy for Sārvabhauma Bhaṭṭācārya. He is ecstatic by tasting the bliss of Himself in the form of Kṛṣṇa, and He is the resting place of all universal happiness."
+    },
+    {
+     "v": "(18)\npuraṭa-sundara vāsudeva-trāna-kartā\nrāmānanda-sakhā bhaṭṭa-kula-kleśa-hartā"
+    },
+    {
+     "t": "18) He is beautiful like molten gold, and He delivered the leper Vāsudeva. He is the intimate friend of Rāmānanda Rāy, and the remover of all miseries from the family of Vyeṅkaṭa Bhaṭṭa."
+    },
+    {
+     "h": "Part 7"
+    },
+    {
+     "v": "(19)\nbauddha-jain-māyāvādi-kutarka-khanḍana\ndakṣina-pāvana bhakti-grantha-uddhāraṇa"
+    },
+    {
+     "t": "19) He is the refuter of the atheistic arguments of the Buddhists, Jains, and Māyāvādīs. He is the savior of South India, and He has brought to light the two devotional literatures, Kṛṣṇa-karnāmṛta and Brahma-saṁhitā."
+    },
+    {
+     "v": "(20)\nālāla-darśanānandī rathāgra-nartaka\ngajapati-trāna devānanda-uddhāraka"
+    },
+    {
+     "t": "20) He became ecstatic at the sight of the deity Ālālanātha, and He danced in front of the Jagannātha cart during the Ratha-yātrā festival. He delivered Gajapati Pratāpa-Rudra, and was the savior of Devānanda Panḍita."
+    },
+    {
+     "v": "(21)\nkuliyā-prakāśe duṣṭa paḍuyāra trāna\nrūpa-sanāntana-bandhu sarva-jīva-prāna"
+    },
+    {
+     "t": "21) By His appearance at Kuliyā He delivered the ill-behaved student community there. He is the friend of Rūpa and Sanātana Goswāmī, and the life of all souls."
+    },
+    {
+     "h": "Part 8"
+    },
+    {
+     "v": "(22)\nbṛndābanānanda-mūrti balabhadra-saṅgī\nyavana-uddhārī bhaṭṭa-ballabhera raṅgī"
+    },
+    {
+     "t": "22) He is the personification of bliss in the transcendental realm of Vṛndāvana, and He is the companion and friend of Balabhadra Bhaṭṭācārya. On His return from Vṛndāvana He delivered many Mohammedans, and He is very fond of intimate exchanges with Vallabha Bhaṭṭa."
+    },
+    {
+     "v": "(23)\nkāśībāsi-sannyāsī-uddhārī prema-dātā\nmarkaṭa-vairāgī-danḍī ā-canḍāla-trātā"
+    },
+    {
+     "t": "23) He delivered the Māyāvādī sannyāsīs of Kāśī, and He is the bestower of love of God. He is the chastiser of the false renunciates (called markaṭa-vairāgīs for being like monkeys), and He is the savior of everyone down to the lowest class of men."
+    },
+    {
+     "v": "(24)\nbhaktera gaurava-kārī bhakta-prāna-dhana\nharidāsa-raghunātha-swarūpa-jīvana"
+    },
+    {
+     "t": "24) He is the glorifier of His devotees, and is the treasured wealth of their lives. He is the very life of such devotees as Haridāsa Ṭhākura, Raghunātha Dāsa Goswāmī, and Svarūpa Dāmodara."
+    },
+    {
+     "v": "(25)\nnadīyā-nagare nitāi nece' nece' gāy re\nbhakativinoda tā'r poḍe raṅga-pāy re"
+    },
+    {
+     "t": "25) Oh! In the towns and villages of Nadīyā, Lord Nityānanda dances and dances ecstatically while singing these divine names, and Bhaktivinoda falls down at His reddish lotus feet. Oh!"
+    }
+   ],
+   "notes": "The book divides this song into Parts 1–8 (kept as heading parts); stanza numbering runs on through the parts. Several words are printed with partial diacritics (e.g. 'trāna', 'prāna', 'khanḍana', 'panḍita', 'Viṣnu', 'sanāntana') and are kept as printed.",
+   "uncertain": "Stanza 21 line 2: 'rūpa-sanāntana-bandhu' is printed so (an extra n compared with 'sanātana'); kept as printed."
+  },
+  {
+   "id": "s211",
+   "title": "Jaya Godruma Pati Gora",
+   "heading": "Śrīman Mahāprabhur Śata-Nāma (One Hundred Names of Śrī Caitanya Mahāprabhu), Song 2",
+   "firstLine": "jaya godruma-pati gorā",
+   "lang": "bn",
+   "cats": [
+    "gaura",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 32",
+   "parts": [
+    {
+     "v": "(1)\njaya godruma-pati gorā\nnitāi-jīvana, advaitera dhana,\nvṛndāvana-bhāva-vibhorā\ngadādhara-prāna, śrīvāsa-śaraṇa,\nkṛṣṇa-bhakta-mānasa-corā"
+    },
+    {
+     "t": "1) All glories to Lord Gaura, the master of Godruma! He is the very life of Lord Nityānanda, the treasure of Śrī Advaita, and He is always overwhelmed with the ecstatic moods of Vṛndāvana. He is the life-breath of Gadādhara Panḍita, the shelter of Śrīvāsa Panḍita, and the thief of the hearts of all the devotees of Lord Kṛṣṇa."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s212",
+   "title": "Kali Yuga Pavana Visvambhara",
+   "heading": "Śrīman Mahāprabhur Śata-Nāma (One Hundred Names of Śrī Caitanya Mahāprabhu), Song 3",
+   "firstLine": "kali-yuga-pāvana viśvambhara",
+   "lang": "bn",
+   "cats": [
+    "gaura",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 32",
+   "parts": [
+    {
+     "v": "(1)\nkali-yuga-pāvana viśvambhara\ngauḍa-citta-gagaṇa-śaśadhara\nkīrtana-vidhātā, para-prema-dātā,\nśacī-suta puraṭa-sundara"
+    },
+    {
+     "t": "1) Lord Viśvambhara is the savior of the age of Kali, the full moon in the sky of the hearts of Bengal, the inaugurator of congregational chanting, the bestower of transcendental ecstatic love, the beloved son of Mother Śacī, and He has a pure golden complexion."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s213",
+   "title": "Krsna Caitanya Advaita Prabhu Nityananda",
+   "heading": "Śrīman Mahāprabhur Śata-Nāma (One Hundred Names of Śrī Caitanya Mahāprabhu), Song 4",
+   "firstLine": "kṛṣṇa-caitanya advaita prabhu nityānanda",
+   "lang": "bn",
+   "cats": [
+    "gaura",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 33",
+   "parts": [
+    {
+     "v": "(1)\nkṛṣṇa-caitanya advaita prabhu nityānanda\ngadādhara śrīnivāsa murāri mukunda\nsvarūpa-rūpa-sanātana-purī-rāmānanda"
+    },
+    {
+     "t": "1) (Please chant these holy names of the Lord and His personal associates): Kṛṣṇa-Caitanya, Advaita, Prabhu Nityānanda, Gadādhara, Śrīnivāsa, Murāri, Mukunda, Svarūpa, Rūpa, Sanātana, Purī, and Rāmānanda."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s214",
+   "title": "Nagare Nagare Gora Gay",
+   "heading": "Śrī Kṛṣṇaer Viṁśottara-Śata-Nām (One Hundred and Twenty Names of Lord Kṛṣṇa), Song 1",
+   "firstLine": "nagare nagare gorā gāy",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 33",
+   "parts": [
+    {
+     "v": "(refrain)\nnagare nagare gorā gāy"
+    },
+    {
+     "t": "(Refrain:) From village to village Lord Gaura sings these names of Śrī Kṛṣṇa:"
+    },
+    {
+     "h": "Part 1"
+    },
+    {
+     "v": "(1)\nyaśomatī-stanya-pāyī śrī-nanda-nandana\nindra-nīla-maṇi braja-janera jīvana"
+    },
+    {
+     "t": "1) Kṛṣṇa is the baby who feeds on the breast milk of Mother Yaśodā. He is the son of Mahārāja Nanda, dark blue like an indra-nīla gem (sapphire), and the life of the residents of Vraja."
+    },
+    {
+     "v": "(2)\nśrī-gokula-niśācarī-pūtanā-ghātana\nduṣṭa-tṛnāvarta-hantā śakaṭa-bhañjana"
+    },
+    {
+     "t": "2) He destroyed the witch of Gokula named Pūtanā, He killed the wicked whirlwind demon Tṛnāvarta, and He broke the cart in which the demon Śakaṭāsura was hiding."
+    },
+    {
+     "v": "(3)\nnavanīta-cora dadhi-haraṇa-kuśala\nyamala-arjuna-bhañjī govinda gopāla"
+    },
+    {
+     "t": "3) He likes to steal butter, and is an expert thief of yogurt. He broke the two arjuna trees, He is a cowherd boy who always gives pleasure to the cows, and He is the protector of the cows."
+    },
+    {
+     "h": "Part 2"
+    },
+    {
+     "v": "(4)\ndāmodara bṛndābana-go-vatsa-rākhāla\nvatsāsurāntaka hari nija-jana-pāla"
+    },
+    {
+     "t": "4) He is so naughty that His mother bound Him around the waist with ropes, and He is the keeper of the cows and calves of Vṛndāvana. He is the the destroyer of the calf-demon Vatsāsura, He is the remover of all evils, and is the protector of His devotees."
+    },
+    {
+     "v": "(5)\nbaka-śatru agha-hantā brahma-vimohana\ndhenuka-nāśana kṛṣṇa kāliya-damana"
+    },
+    {
+     "t": "5) He is the enemy of the stork-demon Bakāsura, the slayer of the snake-demon Aghāsura, the bewilderer of Lord Brahmā, the destroyer of the ass-demon Dhenukāsura, He is all-attractive, and the subduer of the Kāliya serpent."
+    },
+    {
+     "v": "(6)\npītāmbara śikhi-piccha-dhārī venu-dhara\nbhānḍīra-kānana-līlā dāvānala-hara"
+    },
+    {
+     "t": "6) He dresses in yellow silk cloth, wears peacock feathers on His head, and He always holds a flute. He performs pastimes in the Bhānḍīra forest, and He swallowed a forest fire in order to save the inhabitants of Vraja."
+    },
+    {
+     "h": "Part 3"
+    },
+    {
+     "v": "(7)\nnaṭabara guhācara śarata-bihārī\nvallabī-vallabha deva gopī-vastra-hārī"
+    },
+    {
+     "t": "7) He is the best of dancers, He wanders in the caves of Govardhana Hill, and He enjoys various amorous pastimes in the autumn season. He is the lover of the young cowherd maidens, the Supreme Lord of all, and the stealer of the gopīs' garments."
+    },
+    {
+     "v": "(8)\nyajña-patnī-gaṇa-prati karunāra sindhu\ngovardhana-dhṛk mādhava braja-bāsī-bandhu"
+    },
+    {
+     "t": "8) He is the ocean of mercy for the wives of the sacrificial brāhmanas, He is the holder of Govardhana Hill, the husband of the goddess of fortune, and the dearmost friend of the inhabitants of Vraja."
+    },
+    {
+     "v": "(9)\nindra-darpa-hārī nanda-rakṣitā mukunda\nśrī-gopī-vallabha rasa-krīḍa pūrnānanda"
+    },
+    {
+     "t": "9) He broke Indra's pride, and is the protector of His father, Nanda Mahārāja. He is the giver of liberation, the lover of the cowherd maidens of Vraja, the enjoyer of the rāsa dance, and the reservoir of fully complete pleasure."
+    },
+    {
+     "h": "Part 4"
+    },
+    {
+     "v": "(10)\nśrī-rādhā-vallabha rādhā-mādhava sundara\nlalitā-viśākhā-ādi sakhī-prāneśwara"
+    },
+    {
+     "t": "10) He is the lover of Śrīmatī Rādhārāṇī, the very springtime of Her life, and is very handsome. He is the Lord of the lives of all the sakhīs of Vṛndāvana, headed by Lalitā and Viśākhā."
+    },
+    {
+     "v": "(11)\nnava-jaladhara-kānti madana-mohana\nvana-mālī smera-mukha gopī-prāna-dhana"
+    },
+    {
+     "t": "11) He possesses the lovely complexion of a fresh raincloud, He is the bewilderer of Cupid, and is always garlanded with fresh forest flowers. His face is full of sweet smiles and laughter, and He is the wealth of the lives of all the young cowherd maidens in Vraja."
+    },
+    {
+     "v": "(12)\ntri-bhaṅgī muralī-dhara jamunā-nāgara\nrādhā-kunḍa-raṅga-netā rasera sāgara"
+    },
+    {
+     "t": "12) He possesses a beautiful three-fold bending form, and holds a flute known as muralī. He is the lover of the Yamunā river, the director of all the amorous love-sports at Rādhā Kunḍa, and He is the ocean of sweet devotional mellows."
+    },
+    {
+     "h": "Part 5"
+    },
+    {
+     "v": "(13)\ncandrāvalī-prāna-nātha kautukābhilāṣī\nrādhā-māna-sulampaṭa milana-prayāsī"
+    },
+    {
+     "t": "13) He is the Lord of the life of Candrāvalī, and He is desirous of joking and playing pranks. He is very anxious to enjoy the moods of His beloved Rādhikā's feigned sulking, and He always endeavors to meet with Her."
+    },
+    {
+     "v": "(14)\nmānasa-gaṅgāra dānī prasūna-taskara\ngopī-saha haṭha-kārī braja-baneśwara"
+    },
+    {
+     "t": "14) He is the giver of the Mānasa Gaṅgā lake to the inhabitants of Vṛndāvana, and a thief of flower blossoms. He acts very outrageously with the maidens of Vṛndāvana, not caring for social restrictions, and He is the Lord of the Vraja-manḍala forests."
+    },
+    {
+     "v": "(15)\ngokula-sampad gopa-duḥkha-nivāraṇa\ndurmada-damana bhakta-santāpa-haraṇa"
+    },
+    {
+     "t": "15) He is the wealth of Gokula, and He protects the cowherd boys from all miseries. He curbs all foolish pride and removes all distress from His devotees."
+    },
+    {
+     "h": "Part 6"
+    },
+    {
+     "v": "(16)\nsudarśana-mocana śrī-śaṅkha-cūḍāntaka\nrāmānuja śyāma-cānda muralī-vādaka"
+    },
+    {
+     "t": "16) He is the liberator of the demigod Sudarśana, and is the destroyer of the demon Śaṅkhacūḍa. He is the younger brother of Lord Baladeva (Rāma), He is the beautiful dark moon of Vṛndāvana, and the player of the muralī flute."
+    },
+    {
+     "v": "(17)\ngopī-gīta-śrotā madhu-sūdana murāri\nariṣṭa-ghātaka rādhā-kunḍādi-bihārī"
+    },
+    {
+     "t": "17) He listens to the devotional songs of the gopīs, and is the slayer of the demon Madhu. He is the enemy of the demon Mura, the killer of the bull-demon Ariṣṭāsura, and He regularly enjoys amorous sports at Rādhā Kunḍa and other places in Vraja."
+    },
+    {
+     "v": "(18)\nvyomāntaka padma-netra keśi-nisūdana\nraṅga-krīḍa kaṁsa-hantā malla-praharaṇa"
+    },
+    {
+     "t": "18) He is the destroyer of the sky-demon Vyomāsura, His eyes are shaped like lotus petals, and He is the killer of the horse-demon Keśī. He is fond of frolicsome pastimes, is the slayer of King Kaṁsa, and is the conquerer of Kaṁsa's wrestlers named Cānūra and Muṣṭika."
+    },
+    {
+     "h": "Part 7"
+    },
+    {
+     "v": "(19)\nvasudeva-suta vṛṣṇai-vaṁśa-kīrti-dhvaja\ndīna-nātha mathureśa devakī-garbha-ja"
+    },
+    {
+     "t": "19) He is the beloved son of Vasudeva, and the emblem of fame for the Vṛṣṇai dynasty. The Lord of the fallen souls, He is the Monarch of Mathurā, and He appears to have taken birth from the womb of Devakī."
+    },
+    {
+     "v": "(20)\nkubjā-kṛpāmoya viṣnu śauri nārāyana\ndwārakeśa naraka-ghna śrī-yadu-nandana"
+    },
+    {
+     "t": "20) He is full of mercy for the hunchbacked girl Kubjā. He is the maintainer of the entire creation, the son of Vasudeva, the refuge of all souls, the Lord of Dvārakā, the slayer of the demon Narakāsura, and the beloved descendant of the Yadu dynasty."
+    },
+    {
+     "v": "(21)\nśrī-rukminī-kānta satyā-pati sura-pāla\npānḍava-bāndhava śiśupālādira kāla"
+    },
+    {
+     "t": "21) He is the lover of Rukminī, the husband of Satyā, the protecter of the godly, the beloved friend of the five Pānḍava brothers, and the cause of death for Śiśupāla and other demonic kings."
+    },
+    {
+     "h": "Part 8"
+    },
+    {
+     "v": "(22)\njagadīśa janārdana keśavārta-trāna\nsarva-avatāra-bīja viśvera nidāna"
+    },
+    {
+     "t": "22) He is the Lord of the universe, the maintainer of all living beings, the possessor of beautiful hair, and the deliverer from all misery. He is the primordial seed of all His various incarnations, and is the origin of all universes."
+    },
+    {
+     "v": "(23)\nmāyeśwara yogeśwara brahma-tejādhāra\nsarvātmāra ātmā prabhu prakṛtira pāra"
+    },
+    {
+     "t": "23) He is the Lord of Māyā, the master of mysticism, and the proprietor of the spiritual powers of the brāhmanas. The Soul of all souls, He is the Supreme Lord and master, being the opposite shore of the ocean of material nature."
+    },
+    {
+     "v": "(24)\npatita-pāvana jagannātha sarveśwara\nbṛndābana-candra sarva-rasera ākara"
+    },
+    {
+     "t": "24) Lord Kṛṣṇa is the purifier of the fallen souls, the Lord of the universe, the controller of all beings, the moon of Vṛndāvana, and the original reservoir of all rasas."
+    },
+    {
+     "v": "(25)\nnagare nagare gorā gāy\nbhakativinoda tachu pāy"
+    },
+    {
+     "t": "25) From village to village Lord Gaurāṅga sings these names of Kṛṣṇa, and Bhaktivinoda remains at His lotus feet."
+    }
+   ],
+   "notes": "The book divides this song into Parts 1–8 (kept as heading parts); stanza numbering runs on through the parts. Words with partial diacritics (e.g. 'tṛnāvarta', 'karunāra', 'prāna', 'kunḍa', 'viṣnu', 'nārāyana', 'rukminī', 'pānḍava', 'trāna') are kept as printed. Translation 4 prints 'the the' and translation 21 'protecter'; both kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s215",
+   "title": "Krsna Govinda Hare",
+   "heading": "Śrī Kṛṣṇaer Viṁśottara-Śata-Nām (One Hundred and Twenty Names of Lord Kṛṣṇa), Song 2",
+   "firstLine": "kṛṣṇa govinda hare",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 38",
+   "parts": [
+    {
+     "v": "(1)\nkṛṣṇa govinda hare\ngopī-vallabha śaure"
+    },
+    {
+     "t": "1) O Kṛṣṇa! O Govinda! O Hari! O Gopī-vallabha! O Śauri!"
+    },
+    {
+     "v": "(2)\nśrīnivāsa, dāmodara, śrī-rāma, murāre\nnanda-nandana, mādhava, nṛsiṁha, kaṁsāre"
+    },
+    {
+     "t": "2) O Śrīnivāsa! O Dāmodara! O Śrī Rāma! O Murāri! O Nanda-nandana! O Mādhava! O Nṛsiṁha! O Kaṁsāri!"
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s216",
+   "title": "Radha Vallabha Madhava Sri Pati",
+   "heading": "Śrī Kṛṣṇaer Viṁśottara-Śata-Nām (One Hundred and Twenty Names of Lord Kṛṣṇa), Song 3",
+   "firstLine": "rādhā-vallabha, mādhava, śrī-pati, mukunda",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 38",
+   "parts": [
+    {
+     "v": "(1)\nrādhā-vallabha, mādhava, śrī-pati, mukunda\ngopīnātha, madana-mohana, rāsa-rasānanda\nanaṅga-sukhada-kuñja-bihārī govinda"
+    },
+    {
+     "t": "1) Kṛṣṇa is the lover of Rādhā, sweet like honey of the springtime, the husband of Lakṣmī, the awarder of liberatlon, the Lord of the gopīs, the bewilderer of Cupid, the relisher of the blissful mellows of the rāsa dance, the enjoyer of amorous sports in the grove at Rādhā Kunḍa known as Anaṅga-sukhada-kuñja, and the pleasure of the cows."
+    }
+   ],
+   "notes": "Translation prints 'liberatlon' (typo in the book); kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s217",
+   "title": "Radha Vallabha Radha Vinoda",
+   "heading": "Śrī Kṛṣṇaer Viṁśottara-Śata-Nām (One Hundred and Twenty Names of Lord Kṛṣṇa), Song 5",
+   "firstLine": "rādhā-vallabha, rādhā-vinoda",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 38",
+   "parts": [
+    {
+     "v": "(1)\nrādhā-vallabha, rādhā-vinoda\nrādhā-mādhava, rādhā-pramoda"
+    },
+    {
+     "t": "1) Kṛṣṇa is the lover of Rādhā, the pleasure of Rādhā, the springtime of Rādhā, and the delight of Rādhā."
+    },
+    {
+     "v": "(2)\nrādhā-ramaṇa, rādhā-nātha,\nrādhā-varaṇāmoda\nrādhā-rasika, rādhā-kānta,\nrādhā-milana-moda"
+    },
+    {
+     "t": "2) Kṛṣṇa is the lover of Rādhā, the Lord of Rādhā, He delights in beholding the beautiful complexion of Rādhā, He relishes everything in relation to Rādhā, He is the beloved of Rādhā, and He feels joy in meeting with Rādhā."
+    }
+   ],
+   "notes": "The heading 'Song 5' and '(1)' are at the foot of p. 38; the verse text is on p. 39.",
+   "uncertain": ""
+  },
+  {
+   "id": "s218",
+   "title": "Jaya Yasoda Nandana Krsna Gopala Govinda",
+   "heading": "Śrī Kṛṣṇaer Viṁśottara-Śata-Nām (One Hundred and Twenty Names of Lord Kṛṣṇa), Song 6",
+   "firstLine": "jaya yaśodā-nandana kṛṣṇa gopāla govinda",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 39",
+   "parts": [
+    {
+     "v": "(1)\njaya yaśodā-nandana kṛṣṇa gopāla govinda\njaya madana-mohana hare ananta mukunda"
+    },
+    {
+     "t": "1) All glories to Kṛṣṇa, the son of Mother Yaśodā, the cowherd boy and giver of pleasure to the cows! All glories to the conquerer of Cupid, Lord Hari, who takes away all inauspiciousness, who is unlimited, and the awarder of liberation!"
+    },
+    {
+     "v": "(2)\njaya acyuta mādhava rām bṛndābana-candra\njaya muralī-vadana śyāma gopī-janānanda"
+    },
+    {
+     "t": "2) All glories to the infallible Lord, husband of the goddess of fortune, the supreme enjoyer, and the moon of Vṛndāvana! All glories to Kṛṣṇa, who always holds a flute to His mouth, who is the color of a dark blue raincloud, and is the bliss of the gopīs!"
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s219",
+   "title": "Haraye Namah Krsna Yadavaya Namah",
+   "heading": "Śrī Nām-Kīrtan (Chanting of the Holy Names), Song 5",
+   "firstLine": "(hare) haraye namaḥ kṛṣṇa yādavāya namaḥ",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 43",
+   "parts": [
+    {
+     "v": "(1)\n(hare) haraye namaḥ kṛṣṇa yādavāya namaḥ\nyādavāya mādhavāya keśavāya namaḥ\ngopāla govinda rām śrī-madhusūdan\nrādhā-govinda bolo (4 times)"
+    },
+    {
+     "t": "1) I offer my respectful obeisances unto Hari, the Supreme Personality of Godhead, Kṛṣṇa, the descendant of the Yadu dynasty, husband of the goddess of fortune and the killer of the demon Keśī, the protector of the cows, the pleaser of the cows, the supreme enjoyer, and the slayer of the demon Madhu. Chant the holy names “Rādhā-Govinda!”"
+    },
+    {
+     "v": "(2)\ngovinda govinda govinda bolo\nrādhā-govinda bolo (4 times)\nguru-kṛpā jale nāśi' viṣaya-anala\nrādhā-govinda bolo (4 times)"
+    },
+    {
+     "t": "2) Chant “Govinda! Govinda! Govinda!” Chant “Rādhā-Govinda!” Now that the waters of the spiritual master's mercy have extinguished the blazing fire of worldly existence, chant “Rādhā-Govinda!”"
+    },
+    {
+     "v": "(3)\nkṛṣṇaete arpiyā deha-gehādi sakal\nrādhā-govinda bolo (4 times)\nananya-bhāvete citta koriyā saral\nrādhā-govinda bolo (4 times)"
+    },
+    {
+     "t": "3) Offering body, home, family and all to Śrī Kṛṣṇa, chant “Rādhā-Govinda!” In a mood of unalloyed determination, becoming simple and straightforward in your heart, chant “Rādhā-Govinda!”"
+    },
+    {
+     "v": "(4)\nrūpānuga vaiṣṇavera piyā pada-jal\nrādhā-govinda bolo (4 times)\ndāśa aparādha tyaji' bhukti-mukti-phal\nrādhā-govinda bolo (4 times)"
+    },
+    {
+     "t": "4) Drinking the water that has washed the feet of a Vaiṣṇava who follows in the footsteps of Śrīla Rūpa Goswāmī, chant “Rādhā-Govinda!” Giving up the ten offenses to the holy name, as well as the alluring fruits of material enjoyment and liberation, chant “Rādhā-Govinda!”"
+    },
+    {
+     "v": "(5)\nsakhīra caraṇa-reṇu koriyā sambal\nrādhā-govinda bolo (4 times)\nswarūpete braja-bāse hoiyā śītal\nrādhā-govinda bolo (4 times)"
+    },
+    {
+     "t": "5) Making the dust from the feet of a gopī your only means of support, chant “Rādhā-Govinda!” Feeling relieved by living in Vraja in your eternal spiritual form, chant “Rādhā-Govinda!”"
+    }
+   ],
+   "notes": "Its first three lines are the same as the opening of s084 'Hari Haraye Namah Krsna Yadavaya Namah' (listed in the app under Narottama Dasa Thakura), but from line 4 on this Gītāvalī song differs ('rādhā-govinda bolo (4 times)', 'govinda govinda govinda bolo' …), so it is transcribed as a separate song. The head may want to compare the two.",
+   "uncertain": ""
+  },
+  {
+   "id": "s220",
+   "title": "Krsna Bhakti Vina Kabhu Nahi Phalodoy",
+   "heading": "Śreyo-Nirṇaya (Ascertainment of Spiritual Welfare), Song 1",
+   "firstLine": "kṛṣṇa-bhakti vinā kabhu nāhi phalodoy",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 44",
+   "parts": [
+    {
+     "v": "(1)\nkṛṣṇa-bhakti vinā kabhu nāhi phalodoy\nmiche sab dharmādharma jīver upādhimoy"
+    },
+    {
+     "t": "1) There is no profit in a life devoid of devotional service to Kṛṣṇa. Therefore all the so-called religiosity and irreligiosity of a living being who is bewildered by false worldly designations is simply useless."
+    },
+    {
+     "v": "(2)\nyoga-yāga-tapo-dhyān, sannyāsādi brahma-jñān,\nnānā-kānḍa-rūpe jīver bandhana-kāraṇa hoy"
+    },
+    {
+     "t": "2) Mysticism, performance of Vedic sacrifices, severe austerities, meditation, renunciation of the world, and cultivating knowledge of the impersonal Brahman—although appearing in the forms of various spiritual paths—are all causes of the soul's further bondage to this world."
+    },
+    {
+     "v": "(3)\nvinoder vākya dharo, nānā kānḍa tyāg koro,\nnirupādhi kṛṣṇa-preme hṛdoye deho āśroy"
+    },
+    {
+     "t": "3) Please heed this advice of Bhaktivinoda: Give up all these various paths, and just keep pure love of Kṛṣṇa sheltered within your heart, for this alone is transcendental to all mundane designations."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s221",
+   "title": "Piriti Sac Cid Anande Rupavati Nari",
+   "heading": "Śreyo-Nirṇaya (Ascertainment of Spiritual Welfare), Song 3",
+   "firstLine": "pīriti sac-cid-ānande rūpavatī nārī",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 46",
+   "parts": [
+    {
+     "v": "(1)\npīriti sac-cid-ānande rūpavatī nārī\ndayā-dharma-ādi guna alaṅkāra sab tāhāri"
+    },
+    {
+     "t": "1) Love and affection for the nature of eternity, knowledge, and bliss is like a very beautiful woman whose ornaments are all the good qualities headed by mercifulness and religiosity."
+    },
+    {
+     "v": "(2)\njñāna tā'r paṭṭa-śāṭī, yoga-gandha-paripāṭī\ne sabe śobhitā satī kore kṛṣṇa-mana curi"
+    },
+    {
+     "t": "2) The divine wisdom of pure jñāna is her silken sārī, and the practice of the yoga of devotional service is her excellent bodily fragrance. Adorned by these qualities, that beautiful and chaste woman steals away the mind of Kṛṣṇa Himself."
+    },
+    {
+     "v": "(3)\nrūpa vinā alaṅkāre, kibā śobhā e-saṁsāre\npīriti-vihīna gune kṛṣṇae nā tuṣite pāri"
+    },
+    {
+     "t": "3) If ornaments are worn by one completely devoid of beauty, then is such a person considered to be beautiful in this world? Similarly, one possessing good qualities like mercifulness and religiosity is unable to satisfy Lord Kṛṣṇa if devoid of love for Him."
+    },
+    {
+     "v": "(4)\nvānarīra alaṅkāra, śobhā nāhi hoy tā'ra\nkṛṣṇa-prem vinā tathā gune nā ādara kori"
+    },
+    {
+     "t": "4) Just as there is no beauty to an ornament worn on the body of a female monkey, in the same way I do not hold in very high esteem qualities such as mercifulness and religiosity if they are devoid of love for Kṛṣṇa."
+    }
+   ],
+   "notes": "",
+   "uncertain": "Translation 3, first word: printed in a way that may read 'lf' (lowercase l) rather than 'If'; transcribed as 'If'."
+  },
+  {
+   "id": "s222",
+   "title": "Nirakar Nirakar Koriya Citkar",
+   "heading": "Śreyo-Nirṇaya (Ascertainment of Spiritual Welfare), Song 4",
+   "firstLine": "`nirākār nirākār', koriyā cītkār",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 46",
+   "parts": [
+    {
+     "v": "(1)\n`nirākār nirākār', koriyā cītkār\nkeno sādhaker śānti bhāṅgo, bhāi, bār bār"
+    },
+    {
+     "t": "1) O brothers, by your screaming out again and again, “The Supreme Lord is formless! The Absolute Truth is a void!”, why do you so insist on disturbing the peace of the Vaiṣṇavas?"
+    },
+    {
+     "v": "(2)\ntumi jā' bujhecho bhālo, tāi lo'ye koto kāl,\nbhakti vinā phalodoy tarke nāhi, jāno sār"
+    },
+    {
+     "t": "2) Having accepted this impersonal philosophy, which you consider to be very good, you are simply wasting so much time. You should understand this essential truth: Without devotion for the Supreme Lord, no factual gain is brought about by engaging in mere dry arguments."
+    },
+    {
+     "v": "(3)\nsāmānya tarkera bale, bhakti nāhi āsvādile,\njanama hoilo bṛthā, nā korile suvicār"
+    },
+    {
+     "t": "3) Your birth as a human being is useless, for although you are supposed to be great philosophers, you did not judge rightly in this regard—by the power of mundane logic and argument you have failed to taste the bliss of pure devotion to the Supreme Lord."
+    },
+    {
+     "v": "(4)\nrūpāśraye kṛṣṇa bhaji', jadi hari-preme maji,\ntā' ho'le alabhya, bhāi, ki koribe bolo ār"
+    },
+    {
+     "t": "4) If I worship Kṛṣṇa under the shelter of Śrīla Rūpa Goswāmī, and thereby deeply immerse myself in divine love for Lord Hari—and you are unable to attain that state, O brothers, then what will you do? What more will you say?"
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s223",
+   "title": "Keno Ar Koro Dvesa",
+   "heading": "Śreyo-Nirṇaya (Ascertainment of Spiritual Welfare), Song 5",
+   "firstLine": "keno ār koro dveṣa, videśi-jana-bhajane",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 47",
+   "parts": [
+    {
+     "v": "(1)\nkeno ār koro dveṣa, videśi-jana-bhajane\nbhajanera liṅga nānā, nānā deśe nānā jane"
+    },
+    {
+     "t": "1) Why do you continue to hate the way the Lord is worshiped by people of other lands? There exist a number of authentic ways to worship God, according to the customs of various peoples living in different countries."
+    },
+    {
+     "v": "(2)\nkeho mukta-kacche bhaje, keho hāṭu gāḍi' pūje\nkeho vā nayana mudi' thāke brahma-ārādhāne"
+    },
+    {
+     "t": "2) Some people worship the Lord in an untidy or careless manner; some worship Him by bending down on their knees; still others close their eyes while worshiping His impersonal Brahman aspect."
+    },
+    {
+     "v": "(3)\nkeho yogāsane pūje, keho saṅkīrtane maje\nsakale bhajiche sei eka-mātra kṛṣṇa-dhane"
+    },
+    {
+     "t": "3) Some people worship Him by assuming various yoga postures, and some immerse themselves in the congregational chanting of the Lord's holy names; but all of them worship that one and only supreme treasure—Lord Śrī Kṛṣṇa."
+    },
+    {
+     "v": "(4)\nataeva bhrātṛ-bhāve, thāko sabe su-sadbhāve\nhari-bhakti sādho sadā, e jīvane vā maraṇe"
+    },
+    {
+     "t": "4) Therefore you should all reflect a mood of brotherhood and live together in transcendental friendship. Always practice devotional service to Lord Hari, whether in situations of life or death."
+    }
+   ],
+   "notes": "The book prints an endnote marker 'iv*' after translation 4; the marker is left out (the endnote is not transcribed).",
+   "uncertain": ""
+  },
+  {
+   "id": "s224",
+   "title": "Bhavo Na Bhavo Na Mana",
+   "heading": "Bhajan-Gītā (Songs for Worship), Song 2",
+   "firstLine": "bhāvo nā bhāvo nā, mana, tumi ati duṣṭa",
+   "lang": "bn",
+   "cats": [
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 49",
+   "parts": [
+    {
+     "v": "(1)\nbhāvo nā bhāvo nā, mana, tumi ati duṣṭa\n(viṣaya-viṣe ācho he)\nkāma-krodha-lobha-moha-madādi-āviṣṭa\n(ripur baśe ācho he)"
+    },
+    {
+     "t": "1) My dear mind, you have not thought of this! You have not thought of this! You are very wicked! (Oh, you are deeply sunk in the poison of worldly sense gratification!) You are overwhelmed by lust, anger, greed, illusion, madness, and so on! (Oh, you are under the sway of the enemy!)"
+    },
+    {
+     "v": "(2)\nasad-vārtā-bhukti-mukti-pipāsā-ākṛṣṭa\n(asat-kathā bhālo lāge he)\npratiṣṭhāśā-kuṭināṭi-śaṭhatādi-piṣṭa\n(sarala to' ho'le nā he)\nghireche tomāre, bhāi, e sab ariṣṭa\n(e sab to' śatru he)"
+    },
+    {
+     "t": "2) You are attracted by a thirst for hearing mundane news, enjoying material sense objects, and seeking liberation! (Oh, you think that nonsensical talk sounds very pleasant!) You have become crushed by the desire for fame, as well as by hypocrisy and crooked dealings! (Oh, you are not very simple or straightforward!) You are completely surrounded, dear brother, by all these inauspicious signs of death! (Oh, these are indeed your deadly enemies!)"
+    },
+    {
+     "v": "(3)\ne sab nā cheḍe' kise pā'be rādhā-kṛṣṇa\n(jatane chāḍo, chāḍo he)\nsādhu-saṅga vinā ār kothā tava iṣṭa\n(sādhu-saṅga koro, koro he)\nvaiṣṇava-caraṇe maja, ghucibe aniṣṭa\n(ek-bār bheve' dekho he)"
+    },
+    {
+     "t": "3) If you do not give up all these things, then how will you attain Rādhā and Kṛṣṇa? (Oh, carefully abandon, just abandon them!) Other than the association of sādhus, where else is your real benefit to be found? (Oh, just keep the company, keep the company of saintly devotees!) Just immerse yourself in the lotus feet of a Vaiṣṇava, and all unwanted things will disappear! (Oh, just think about all of this for once and see for yourself!)"
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s225",
+   "title": "Sri Rupa Vadane Sri Saci Kumar",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 1 [Lalita—Ekatālā & Daśakuśī]",
+   "firstLine": "śrī-rūpa-vadane śrī-śacī-kumār",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 51",
+   "parts": [
+    {
+     "v": "(1)\nśrī-rūpa-vadane śrī-śacī-kumār\nswa-nām-mahimā koralo pracār"
+    },
+    {
+     "t": "1) Through the mouth of Śrīla Rūpa Goswāmī, the son of Mother Śacī preached the glories of His own divine holy name."
+    },
+    {
+     "v": "(2)\njo nām, so hari—kachu nāhi bheda\nso nām satya-miti gāyati veda"
+    },
+    {
+     "t": "2) There is no difference between that holy name of Lord Hari and Lord Hari Himself. The Vedic scriptures sing of the true glory of the Lord's holy name."
+    },
+    {
+     "h": "[Daśakuśī]"
+    },
+    {
+     "v": "(3)\nsabu upaniṣada, ratna-mālā-dyuti,\njhakamaki' caraṇa-samīpe\nmaṅgala-ārati, koro-i anukṣana,\ndvi-gunita-pañca-pradīpe"
+    },
+    {
+     "t": "3) All the Upaniṣads are like a necklace of beautifully effulgent jewels shining before the lotus feet of the holy name. They perpetually perform maṅgala ārati for the holy name with lamps of two rows of five ghee wicks."
+    },
+    {
+     "v": "(4)\ncaudda bhuvana māha, deva-nara-dānava,\nbhāga jāṅkara balavān\nnāma-rasa-pīyuṣa, pibo-i anukṣana,\nchoḍata karama-geyān"
+    },
+    {
+     "t": "4) Within the fourteen worlds, those demigods, men and demons whose fortune has been very great constantly drink the nectar of the sweet mellows of the holy name, casting aside all kinds of fruitive activities and intellectual forms of knowledge."
+    },
+    {
+     "v": "(5)\nnitya-mukta punaḥ, nāma-upāsana,\nsatata koro-i sāma-gāne\ngoloke baiṭhata, gāowe nirantara,\nnāma-viraha nāhi jāne"
+    },
+    {
+     "t": "5) The eternally liberated souls living in the spiritual world, however, always worship the holy name in beautifully composed hymns and sit in Goloka Vṛndāvana perpetually singing the name. Therefore they do not know any separation from the holy name."
+    },
+    {
+     "v": "(6)\nsabu-rasa-ākara, `hari' iti dvy-akṣara,\nsabu-bhāve koraluṅ āśroy\nnāma caraṇe pa'ḍi, bhaktivinoda kohe,\ntuwā pade māgahuṅ niloy"
+    },
+    {
+     "t": "6) The two syllables Ha and ri are a mine of all varieties of devotional mellow. Every ecstasy of devotion has taken shelter in them. Falling at the lotus feet of the holy name, Bhaktivinoda says, “O Harinām, I pray for residence at Your lotus feet.”"
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'. Brajabuli-style language, listed as bn. The melody note '[Daśakuśī]' printed before stanza 3 is kept as a heading part.",
+   "uncertain": ""
+  },
+  {
+   "id": "s226",
+   "title": "Jaya Jaya Harinam Cidanandamrta Dham",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 2 [Lalita—Daśakuśī]",
+   "firstLine": "jaya jaya harinām, cidānandāmṛta-dhām,",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 52",
+   "parts": [
+    {
+     "v": "(1)\njaya jaya harinām, cidānandāmṛta-dhām,\npara-tattva akṣara-ākār\nnija-jane kṛpā kori', nāma-rūpe avatari',\njīve doyā korile apār"
+    },
+    {
+     "t": "1) All glories, all glories to the holy name of the Lord, the abode of immortal transcendental bliss! The Supreme Absolute Truth, who possesses an eternal form of sacred syllables, has descended in the form of the holy name. Thereby He shows mercy to His own devotees while showering boundless compassion upon all fallen souls."
+    },
+    {
+     "v": "(2)\njaya `hari', `kṛṣṇa', `rām', jaga-jana-suviśrām,\nsarva-jana-mānasa-rañjana\nmuni-vṛnda nirantar, je nāmera samādar,\nkori' gāy bhoriyā vadana"
+    },
+    {
+     "t": "2) All glories to the Supreme Personality of Godhead who is called by different names such as Hari, Kṛṣṇa and Rāma! He is the auspicious resting place of all living entities within the universe, and He delights the minds of all souls. Wise sages maintain great reverence for His holy name and constantly sing it by filling their mouths with the sound."
+    },
+    {
+     "v": "(3)\nohe kṛṣṇa-nāmākṣar, tumi sarva-śakti-dhar,\njīvera kalyāna-vitaraṇe\ntomā vinā bhava-sindhu, uddhārite nāhi bandhu,\nāsiyācho jīva-uddhāraṇe"
+    },
+    {
+     "t": "3) O Lord Kṛṣṇa in the form of name-syllables! You possess all supreme powers, and are engaged in bestowing pure auspiciousness upon the living beings. Without You there is no other friend to rescue us from the ocean of material existence. You have come for the deliverance of all fallen souls."
+    },
+    {
+     "v": "(4)\nāche tāpa jīve jata, tumi saba koro hata,\nhelāya tomāre eka-bār\nḍāke jadi kono jan, ho'ye dīn akiñcan,\nnāhi dekhi' anya pratikār"
+    },
+    {
+     "t": "4) For all souls within this world there is much misery and sorrow. O Harinām, if someone calls upon You just once, feeling himself very meek and lowly, possessing nothing and seeing no other remedy for his relief, You then easily destroy all his sorrows."
+    },
+    {
+     "v": "(5)\ntava svalpa-sphūrti pāy, ugra-tāpa dūre jāy,\nliṅga-bhaṅga hoy anāyāse\nbhakativinoda koy, jaya harināma jay,\npaḍe' thāki tuwā pada-āśe"
+    },
+    {
+     "t": "5) If one simply obtains a faint glimpse of Your actual identity, then all sorts of terrible miseries are cast far away; indeed, the very form of suffering itself is easily broken to pieces. Bhaktivinoda says, “All glories, all glories to the holy name of Lord Hari! O Harinām, I perpetually fall to the ground in hope of attaining Your lotus feet.”"
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s227",
+   "title": "Visve Udita Nama Tapan",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 3 [Vibhāṣa—Ekatālā]",
+   "firstLine": "viśve udita, nāma-tapan,",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 53",
+   "parts": [
+    {
+     "v": "(1)\nviśve udita, nāma-tapan,\navidyā-vināśa lāgi'\nchoḍata saba, māyā-vibhava,\nsādhu tāhe anurāgī"
+    },
+    {
+     "t": "1) The brilliant sun of the transcendental holy name of the Lord has appeared in the material universe in order to destroy ignorance. Casting aside all worldly attractions, the saintly souls cultivate affection for the name alone."
+    },
+    {
+     "v": "(2)\nharināma-prabhākara, avidyā-timira-hara,\ntomār mahimā kebā jāne\nke heno panḍita-jan, tomāra māhātmya-gaṇ,\nuccaiḥ-sware sakala bākhāne"
+    },
+    {
+     "t": "2) The sun of the holy name is the dispeller of the darkness of ignorance. O Harinām, who actually knows Your greatness? What sort of learned man is capable of loudly singing the host of Your glories?"
+    },
+    {
+     "v": "(3)\ntomāra ābhās pahilohi bhāy\ne bhava-timira kavalita-prāy"
+    },
+    {
+     "t": "3) O holy name, from the first moment one perceives a glimpse of You appearing on the horizon of the heart, the darkness of this material world is almost totally devoured."
+    },
+    {
+     "v": "(4)\nacire timira nāśiyā prajñān\ntattvāndha-nayane korena vidhān"
+    },
+    {
+     "t": "4) Quickly destroying all remaining darkness, You bestow divine wisdom upon our spiritually blinded eyes."
+    },
+    {
+     "v": "(5)\nsei to' prajñān viśuddha bhakati\nupajāy hari-viṣayinī mati"
+    },
+    {
+     "t": "5) That divine wisdom gives rise within the heart to pure devotion, from which awakens an understanding of the transcendental characteristics of Lord Hari."
+    },
+    {
+     "v": "(6)\ne adbhuta-līlā satata tomār\nbhakativinoda jāniyāche sār"
+    },
+    {
+     "t": "6) This wonderful pastime of Yours is eternally taking place, and Bhaktivinoda has understood its essence."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s228",
+   "title": "Jnani Jnana Yoge Koriya Jatane",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 4 [Lalita—Daśakuśī]",
+   "firstLine": "jñānī jñāna-yoge, koriyā jatane,",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 54",
+   "parts": [
+    {
+     "v": "(1)\njñānī jñāna-yoge, koriyā jatane,\nbrahmera sākṣāt kore\nbrahma-sākṣātkār, aprarābdha karma,\nsampūrna jñānete hare"
+    },
+    {
+     "t": "1) The learned man, endeavoring in the practice of jñāna-yoga, eventually achieves direct perception of the Supreme Brahman. That realization of Brahman awards one with fully complete transcendental knowledge, which removes all of one's aprārabdha, or unfructified karmic reactions accrued in previous births."
+    },
+    {
+     "v": "(2)\ntabu to' prārabdha, nāhi hoy kṣoy,\nphala-bhoga binā kabhu\nbrahma-bhūta jīva, phala-bhoga lāgi',\njanama-maraṇa labhu"
+    },
+    {
+     "t": "2) However, by dint of Brahman realization one's prārabdha, or karmic reactions that are presently fructifying, are not diminished unless one actually undergoes the suffering of those reactions. Therefore, despite being a Brahman-realized soul, one must still experience the present reactions of his karma and thus be implicated in the cycle of birth and death."
+    },
+    {
+     "v": "(3)\nkintu ohe nāma, tava sphūrti ha'le,\nekāntī janera āro\nprārabdhāprārabdha, kichu nāhi thāke,\nvede gāya bāro bāro"
+    },
+    {
+     "t": "3) But, O holy name, if You are manifest on the tongue of Your unalloyed devotee, then all of his sinful reactions of both past and present lives are completely destroyed. This truth is sung by the Vedas again and again."
+    },
+    {
+     "v": "(4)\ntomāra udaye, jīvera hṛdoya,\nsampūrna śodhita hoy\nkarma-jñāna-bandha, saba dūre jāya,\nanāyāse bhava-kṣoy"
+    },
+    {
+     "t": "4) O holy name, when You arise within the living being's heart, it becomes completely purified. The shackles of materialistic activities and intellectual knowledge are cast far away, and the soul's worldly existence comes to an end without any difficulty."
+    },
+    {
+     "v": "(5)\nbhakativinoda, bāhu tule' koy,\nnāmera niśāna dharo\nnāma-ḍaṅkā-dhvani, koriyā jāibe,\nbheṭibe muralīdharo"
+    },
+    {
+     "t": "5) Bhaktivinoda raises his arms and says, “Take up the banner of the holy name and walk along sounding the drum of the holy name. In this way you will surely obtain the direct audience of Lord Muralīdhara, the holder of the flute.”"
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'. Verse 1 prints 'aprarābdha', the translation 'aprārabdha'; both kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s229",
+   "title": "Harinam Tuwa Aneka Swarup",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 5 [Lalita-Vibhāṣa—Ekatālā]",
+   "firstLine": "harinām, tuwā aneka swarūp",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 55",
+   "parts": [
+    {
+     "v": "(1)\nharinām, tuwā aneka swarūp\nyaśodā-nandana, ānanda-vardhana,\nnanda-tanaya rasa-kūp"
+    },
+    {
+     "t": "1) O Harinām, You possess unlimited forms, such as the beloved son of Mother Yaśodā, the increaser of bliss, the son of Nanda, and the reservoir of all transcendental mellows."
+    },
+    {
+     "v": "(2)\npūtanā-ghātana, tṛnāvarta-hana,\nśakaṭa-bhañjana gopāl\nmuralī-vadana, agha-baka-mardana,\ngovardhana-dhārī rākhāl"
+    },
+    {
+     "t": "2) You are the slayer of the demons Pūtanā and Tṛnāvarta, the breaker of the cart, the protector of the cows, the player of the muralī flute, the destroyer of the demons Agha and Baka, the holder of Govardhan Hill, and You are a cowherd boy."
+    },
+    {
+     "v": "(3)\nkeśī-mardana, brahma-vimohana,\nsurapati-darpa-vināśī\nariṣṭa-pātana, gopī-vimohana,\njamunā-pulina-vilāsī"
+    },
+    {
+     "t": "3) You killed the demon Keśī, bewildered Lord Brahmā, and broke the pride of Indra, king of Heaven. You are the destroyer of the demon Ariṣṭa, the enchanter of the young cowherd girls, and You like to sport along the banks of the river Yamunā."
+    },
+    {
+     "v": "(4)\nrādhikā-rañjana, rāsa-rasāyana,\nrādhā-kunḍa-kuñja-bihārī\nrāma, kṛṣṇa, hari, mādhava, narahari,\nmatsyādi-gaṇa-avatārī"
+    },
+    {
+     "t": "4) You give delight to Śrī Rādhikā, bring the nectar of life to the rāsa dance, and sport in the groves near Rādhā Kunḍa. You are the reservoir of pleasure, the all-attractive one, the remover of inauspiciousness, the husband of the goddess of fortune, the half-man half-lion incarnation, and You are the source of all other incarnations such as Matsya, the fish avatāra."
+    },
+    {
+     "v": "(5)\ngovinda, vāmana, śrī-madhusūdana,\nyādava-candra, vanamālī\nkāliya-śātana, gokula-rañjana,\nrādhā-bhajana-sukha-śālī"
+    },
+    {
+     "t": "5) You are pleasing to the cows, You are the dwarf brāhmana incarnation, and the splendrous slayer of the demon Madhu. You are the moon of the Yadu dynasty, and You always wear beautiful garlands of fresh forest flowers. You are the punisher of the Kāliya serpent, the delighter of Gokula, and You rejoice in the worship of Śrīmatī Rādhārāṇī."
+    },
+    {
+     "v": "(6)\nityādika nām, swarūpe prakām,\nbāḍuk mora rati rāge\nrūpa-swarūpa-pada, jāni' nija sampada,\nbhaktivinoda dhori' māge"
+    },
+    {
+     "t": "6) O Harinām, thus according to Your own sweet will You are manifest in all these forms and in many others also. Please let my love and attachment for them increase more and more. Bhaktivinoda recognizes his own priceless treasure and clasps the lotus feet of Rūpa Goswāmī and Swarūpa Dāmodara Goswāmī while offering this prayer."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s230",
+   "title": "Vacya O Vacaka Dui Swarup Tomar",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 6 [Vibhāṣa—Jhāṅphi, Lophā]",
+   "firstLine": "vācya o vācaka—dui swarūp tomār",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 57",
+   "parts": [
+    {
+     "v": "(1)\nvācya o vācaka—dui swarūp tomār\nvācya—tava śrī-vigraha cid-ānandākār"
+    },
+    {
+     "t": "1) O Lord, You possess two transcendental forms, properly called vācya (that which is nameable) and vācaka (that which denotes). The vācya is Your beautiful personal bodily form full of transcendental knowledge and bliss."
+    },
+    {
+     "v": "(2)\nvācaka swarūp tava `śrī-kṛṣṇaādi' nām\nvarna-rūpī sarva-jīva-ānanda-viśrām"
+    },
+    {
+     "t": "2) The vācaka forms are Your holy names, such as Śrī Kṛṣṇa and so forth. Thus appearing in the form of transcendental sound vibration, You are the resting place for the bliss of all souls."
+    },
+    {
+     "v": "(3)\nei dui swarūpe tava ananta prakāś\ndoyā kori' deya jīve tomāra vilās"
+    },
+    {
+     "t": "3) Your unlimited manifestations are found in these two forms. Taking pity and being very kind, they confer upon the fallen souls entrance into Your divine pastimes."
+    },
+    {
+     "v": "(4)\nkintu jāniyāchi nātha vācaka-swarūp\nvācyāpekṣā doyamoy, ei aparūp"
+    },
+    {
+     "t": "4) But of these two forms of Yours, O Lord, I have understood Your vācaka form to be even more merciful than Your vācya form. Thus do I find Your holy name most wonderful."
+    },
+    {
+     "v": "(5)\nnāma nāmī bheda nāi, vedera vacan\ntabu nāma—nāmī ho'te adhika korun"
+    },
+    {
+     "t": "5) It is the declaration of the Vedas that the holy name of the Lord and the Lord Himself are non-different, yet still the holy name is more merciful than the Lord Himself."
+    },
+    {
+     "v": "(6)\nkṛṣṇae-aparādhi jadi nāme śraddhā kori'\nprāna bhori' ḍāke nām—`rama, kṛṣṇa, hari',"
+    },
+    {
+     "t": "6) If one is an offender to Lord Kṛṣṇa personally, but has genuine faith in the holy name and calls out with all his heart and soul, “Rāma!” “Kṛṣṇa!” “Hari!”…"
+    },
+    {
+     "v": "(7)\naparādha dūre jāy, ānanda-sāgare\nbhāse sei anāyāse rasera pāthāre"
+    },
+    {
+     "t": "7) …then all his offenses are cast far away, and he floats without difficulty in the ocean of divine bliss and transcendental mellows."
+    },
+    {
+     "v": "(8)\nvigraha-swarūp vācye aparādha kori'\nśuddha-nāmāśraye sei aparādhe tori'"
+    },
+    {
+     "t": "8) A person may commit offenses to the vācya or the transcendental figure of the Lord, but if he is under the shelter of the pure holy name, he crosses over all those offenses."
+    },
+    {
+     "v": "(9)\nbhakativinoda māge śrī-rūpa-caraṇe\nvācaka-swarūp nāme rati anukṣane"
+    },
+    {
+     "t": "9) At the lotus feet of Śrīla Rūpa Goswāmī, Bhaktivinoda begs for constant loving attachment for the vācaka or divine holy name of the Supreme Lord."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'. Verse 6 line 2 prints '`rama' (without macron) and the translation 'Rāma'; kept as printed. The ellipses '...' are printed as three dots.",
+   "uncertain": ""
+  },
+  {
+   "id": "s231",
+   "title": "Ohe Harinam Tava Mahima Apar",
+   "heading": "Śrī Nāmāṣṭaka (Eight Prayers Glorifying the Holy Name), Song 7 [Lalita Jhiṅjhiṭa—Ekatālā]",
+   "firstLine": "ohe harinām, tava mahimā apār",
+   "lang": "bn",
+   "cats": [
+    "name"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 58",
+   "parts": [
+    {
+     "v": "(1)\nohe harinām, tava mahimā apār\ntava pade nati āmi kori bār bār"
+    },
+    {
+     "t": "1) O holy name! Your glories are boundless! Therefore I bow down at Your lotus feet again and again."
+    },
+    {
+     "v": "(2)\ngokuler mahotsava ānanda-sāgar!\ntomār caraṇe paḍi' hoiyā kātar"
+    },
+    {
+     "t": "2) O grand festival of Gokula! O ocean of bliss! I fall down at Your lotus feet, for I am feeling very distressed and troubled at heart."
+    },
+    {
+     "v": "(3)\ntumi kṛṣṇa, pūrna-vapu, rasera nidān\ntava pade poḍi' tava guna kori gān"
+    },
+    {
+     "t": "3) You are Lord Kṛṣṇa, Your divine form is fully perfect and complete, and You are the origin of all transcendental mellows. Falling down at Your lotus feet, I sing of Your divine qualities."
+    },
+    {
+     "v": "(4)\nje kore tomār pade ekānta āśroy\ntā'r ārti-rāśi nāś koroha niścoy"
+    },
+    {
+     "t": "4) You definitely destroy the multitude of afflictions of that person who takes exclusive shelter at Your holy feet."
+    },
+    {
+     "v": "(5)\nsarva aparādha tumi nāśa koro tā'r\nnāma-aparādhāvadhi nāśaho tāhār"
+    },
+    {
+     "t": "5) You destroy all of his offenses, even to the extent of the nāma-aparādhas (the ten offenses against the chanting of the holy name)."
+    },
+    {
+     "v": "(6)\nsarva-doṣa dhauta kori' tāhāra hṛdoy-\nsiṁhāsane baiso tumi parama āśroy"
+    },
+    {
+     "t": "6) Cleansing him of all impurities, You who are the supreme shelter are then seated upon the throne of his heart."
+    },
+    {
+     "v": "(7)\nati-ramya cid-ghana-ānanda-mūrtimān\n`raso vai saḥ' boli' veda kore tuwā gān"
+    },
+    {
+     "t": "7) You are delightful and beautiful, the personification of complete cognizance and thickened bliss. The Vedas sing of You, saying, “The Supreme Personality of Godhead is verily the personification of all transcendental mellows.”"
+    },
+    {
+     "v": "(8)\nbhaktivinoda rūpa-goswāmī-caraṇe\nmāgaye sarvadā nāma-sphūrti sarva-kṣane"
+    },
+    {
+     "t": "8) At the lotus feet of Śrīla Rūpa Goswāmī, Bhaktivinoda constantly begs that at every moment there may be the direct revelation of the holy name."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrīla Rūpa Goswāmī's Sanskrit Nāmāṣṭaka'. The book prints an endnote marker 'v*' after translation 7; the marker is left out.",
+   "uncertain": ""
+  },
+  {
+   "id": "s232",
+   "title": "Radhika Carana Padma",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 1",
+   "firstLine": "rādhikā-caraṇa-padma, sakala śreyera sadma,",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 61",
+   "parts": [
+    {
+     "v": "(1)\nrādhikā-caraṇa-padma, sakala śreyera sadma,\njatane je nāhi ārādhilo\nrādhā-padmāṅkita dhāma, bṛndābana jār nāma,\ntāhā je nā āśroy korilo"
+    },
+    {
+     "t": "1) He who has failed to carefully worship the lotus feet of Śrīmatī Rādhikā, which are the abode of all auspiciousness; he who has not taken shelter in the transcendental abode known as Vṛndāvana, which is decorated with the beautiful lotus flower named Rādhā..."
+    },
+    {
+     "v": "(2)\nrādhikā-bhāva-gambhīr, citta jebā mahādhīr,\ngaṇa-saṅga nā koilo jīvane\nkemone se śyāmānanda, rasa-sindhu-snānānanda,\nlabhibe bujhoha eka-mane"
+    },
+    {
+     "t": "2) ...he who in this life has not associated with the devotees of Rādhikā, who are very wise and whose devotion for Rādhā is very deep—how will such a person ever experience the bliss of bathing in the ocean of Lord Śyāma's sublime mellows? Please understand this most attentively."
+    },
+    {
+     "v": "(3)\nrādhikā ujjvala-raser ācārya\nrādhā-mādhava-śuddha-prem vicārya"
+    },
+    {
+     "t": "3) Śrīmatī Rādhikā is the exemplary teacher of the brilliant mellows of conjugal love. This pure love between Rādhā and Mādhava is worthy of discussion and contemplation."
+    },
+    {
+     "v": "(4)\nje dharilo rādhā-pada parama jatane\nse pailo kṛṣṇa-pada amūlya-ratane"
+    },
+    {
+     "t": "4) He who has grasped hold of the lotus feet of Rādhā with great care obtains the lotus feet of Kṛṣṇa, which are like priceless jewels."
+    },
+    {
+     "v": "(5)\nrādhā-pada vinā kabhu kṛṣṇa nāhi mile\nrādhār dāsīr kṛṣṇa sarva-vede bole"
+    },
+    {
+     "t": "5) Without taking shelter of the lotus feet of Rādhā, one can never personally meet Lord Kṛṣṇa. The Vedic scriptures declare that Kṛṣṇa is the property of the maidservants of Śrī Rādhā."
+    },
+    {
+     "v": "(6)\nchoḍata dhana-jan, kalatra-suta-mita,\nchoḍata karama geyān\nrādhā-pada-paṅkaja, madhurata sevan,\nbhakativinoda paramān"
+    },
+    {
+     "t": "6) Abandoning wealth, followers, wife, sons, and friends, and giving up materialistic activities and intellectual knowledge, being absorbed in the sweetness of service to the lotus feet of Śrīmatī Rādhārāṇī—this is Bhaktivinoda's conviction."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s233",
+   "title": "Virajar Pare Suddha Paravyoma Dham",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 2",
+   "firstLine": "virajār pāre śuddha-paravyoma-dhām",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 62",
+   "parts": [
+    {
+     "v": "(1)\nvirajār pāre śuddha-paravyoma-dhām\ntad upari śrī-gokula-bṛndāraṇya nām"
+    },
+    {
+     "t": "1) Beyond the Virajā River lies the pure spiritual sky, and above that Vaikuṇṭha realm lies the divine abode known as Śrī Goloka Vṛndāvana."
+    },
+    {
+     "v": "(2)\nbṛndābana cintāmaṇi, cid-ānanda-ratna-khani,\ncinmoy apūrva-daraśan\ntahi mājhe camatkār, kṛṣṇa vanaspati sār,\nnīla-maṇi tamāla jemon"
+    },
+    {
+     "t": "2) The land of Vṛndāvana is made of spiritual gems and is therefore likened to a mine of fully cognizant and blissful jewels. This transcendentally conscious realm is certainly a wonderful and extraordinary sight. Within that abode is the most astonishing presence of Lord Kṛṣṇa, who is compared to a tamāl tree, the king of trees possessing the hue of a dark sapphire."
+    },
+    {
+     "v": "(3)\ntāhe eka svarna-mayī, latā sarva-dhāma-jayī,\nuthiyāche parama-pāvanā\nhlādinī-śaktir sār, `mahābhāva' nām jār,\ntribhuvana-mohana-mohinī"
+    },
+    {
+     "t": "3) Entwined upon that blackish tree a beautiful golden creeper has arisen, who is the conqueror of all realms, being the supreme purifier. Her name is Mahābhāva, being the essence of the supreme pleasure-giving hlādinī potency. She is the enchantress of Śrī Kṛṣṇa, who is Himself the enchanter of the three worlds."
+    },
+    {
+     "v": "(4)\nrādhā-nāme paricita, tuṣiyā govinda-cita,\nvirājaye parama ānande\nsei latā-patra-phul, lalitādi sakhī-kul,\nsabe mili' vṛkṣe dṛḍha bāndhe"
+    },
+    {
+     "t": "4) Known by the name of Rādhā, She remains shining there in great ecstasy, always engaged in satisfying Govinda's heart. The leaves and flowers of that creeper form the assembly of Her girlfriends headed by Lalitā. Together She and all Her friends entwine that blackish tree in a tight embrace."
+    },
+    {
+     "v": "(5)\nlatār paraśe praphulla tamāl\nlatā chāḍi' nāhi rahe kono kāl"
+    },
+    {
+     "t": "5) At the touch of this creeper, the tamāl tree blooms; without the embrace of the creeper, He can no longer exist."
+    },
+    {
+     "v": "(6)\ntamāla chaḍiyā latā nāhi vāñce\nse latā milan sadā-kāla yāce"
+    },
+    {
+     "t": "6) The creeper never desires to leave the company of the tamāl tree; the creeper perpetually craves Their union."
+    },
+    {
+     "v": "(7)\nbhakativinoda milan dohār\nnā cāhe kakhona vinā kichu ār"
+    },
+    {
+     "t": "7) Other than the meeting of these two, Bhaktivinoda desires nothing, but nothing else."
+    }
+   ],
+   "notes": "",
+   "uncertain": ""
+  },
+  {
+   "id": "s234",
+   "title": "Ramani Siromani Brsabhanu Nandini",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 3",
+   "firstLine": "ramaṇī-śiromaṇi, bṛṣabhānu-nandinī,",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 64",
+   "parts": [
+    {
+     "v": "(1)\nramaṇī-śiromaṇi, bṛṣabhānu-nandinī,\nnīla-vasana-paridhāna\nchinna-puraṭa jini', varna-vikāśinī,\nbaddha-kabarī hari-prāna"
+    },
+    {
+     "t": "1) The beloved daughter of King Vṛṣabhānu is the crest-jewel of all young women. She is fond of wearing blue garments. Her radiant complexion is very pleasing and conquers the beauty of freshly cut gold, Her locks of hair are nicely arranged, and She is the life and soul of Lord Kṛṣṇa."
+    },
+    {
+     "v": "(2)\nābharaṇa-manḍita, hari-rasa-panḍita,\ntilaka-śusobhita-bhālā\nkañculikācchāditā, stana-maṇi-manḍitā,\nkajjala-nayanī rasālā"
+    },
+    {
+     "t": "2) She is artfully adorned with jewels, She is very learned in the science of Hari-rasa, and Her forehead is nicely decorated with tilaka. Her breasts are covered with a beautiful corset and adorned with valuable gems, and Her eyes are anointed with black collyrium. Thus She appears to be relishable sweetness personified."
+    },
+    {
+     "v": "(3)\nsakala tyajiyā se rādhā-caraṇe\ndāsī ho'ye bhaja parama-jatane"
+    },
+    {
+     "t": "3) Giving up everything and becoming a maidservant at the lotus feet of Rādhā, just worship and serve Her with great care and attention."
+    },
+    {
+     "v": "(4)\nsaundarya-kirana dekhiyā jāṅhār\nrati-gaurī-līlā garva-parihār"
+    },
+    {
+     "t": "4) Beholding Her effulgent rays of pure beauty, the goddesses Rati, Gaurī, and Līlā abandon all their pride."
+    },
+    {
+     "v": "(5)\nśacī-lakṣmī-satya saubhāgya bolane\nparājita hoy jāṅhāra caraṇe"
+    },
+    {
+     "t": "5) The good fortune attributed to the goddesses śacī, Lakṣmī, and Satyā is completely defeated in the presence of Rādhā's feet."
+    },
+    {
+     "v": "(6)\nkṛṣṇa-vaśīkāre candrāvalī-ādi\nparājay māne hoiyā vivādī"
+    },
+    {
+     "t": "6) The group of rival gopīs led by Candrāvalī are forced to accept their defeat before Śrīmatī Rādhārāṇī, for She alone controls Kṛṣṇa. Thus they always sulk and simply remain quarrelsome."
+    },
+    {
+     "v": "(7)\nhari-dayita rādhā-caraṇa prayāsī\nbhakativinoda śrī-godruma-bāsī"
+    },
+    {
+     "t": "7) Bhaktivinoda, a resident of Śrī Godruma, always endeavors for the lotus feet of Rādhā, the most beloved of Lord Hari."
+    }
+   ],
+   "notes": "Translation 5 prints 'śacī' with a lowercase ś; kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s235",
+   "title": "Rasika Nagari Gana Siromani",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 4",
+   "firstLine": "rasika nāgarī- gaṇa-śiromaṇi,",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 65",
+   "parts": [
+    {
+     "v": "(1)\nrasika nāgarī- gaṇa-śiromaṇi,\nkṛṣṇa-preme sarahaṁsī\nbṛṣabhānu-rāja, śuddha kalpa-ballī,\nsarva-lakṣmī-gaṇa-aṁśī"
+    },
+    {
+     "t": "1) Śrīmatī Rādhārāṇī is the crest jewel of all amorous young maidens who take pleasure in relishing transcendental mellows. She is a beautiful swan in the waters of love for Kṛṣṇa, a transcendental wish-fulfilling creeper on the family tree of king Vṛṣabhānu, and the original source of all the goddesses of fortune."
+    },
+    {
+     "v": "(2)\nrakta paṭṭa-vastra, nitamba-upari,\nkṣudra ghanṭi dule tā'y\nkuca-yugopari, duli' muktā-mālā,\ncitta-hārī śobhā pāy"
+    },
+    {
+     "t": "2) Upon Her hips She wears red silken cloth on which tiny bells are swinging, and upon Her breasts sways a lovely necklace of pearls. In this way She looks so splendrous that She steals the heart of the beholder."
+    },
+    {
+     "v": "(3)\nsarasija-vara-karnikā-samān,\natiśoy kāntimatī\nkaiśora amṛta, tārunya-karpūr,\nmiśra-smitādharā satī"
+    },
+    {
+     "t": "3) Her bodily luster is exceptionally effulgent, like the golden whorl of the best of lotus flowers. Her two sweetly smiling lips display the immortal nectar of adolescence mixed with the fragrant camphor of new youthfulness. She is completely faithful to Lord Kṛṣṇa."
+    },
+    {
+     "v": "(4)\nbanānte āgata, braja-pati-suta,\nparama-cañcala-bare\nheri' śaṅkākula, nayana-bhaṅgite,\nādarete stava kore"
+    },
+    {
+     "t": "4) Seeing that the supremely mischievous son of Nanda has arrived on the outskirts of the Vṛndāvana forest as He returns from tending the cows, She becomes stricken with anxiety and affectionately offers prayers to Him by the hints and signals of Her eyes."
+    },
+    {
+     "v": "(5)\nbrajera mahilā-gaṇera parān,\nyaśomatī-priya-pātrī\nlalita lalitā-snehete praphulla-\nśarīrā lalita-gātrī"
+    },
+    {
+     "t": "5) Śrīmatī Rādhārāṇī is the life and soul of all the elder women of Vraja, and is especially dear to Mother Yaśodā. Basking in the affection of charming Lalitā-devī, Rādhā's bodily form has fully blossomed like a lotus, thus displaying Her beautiful and graceful limbs."
+    },
+    {
+     "v": "(6)\nviśākhāra sane, bana-phula tuli',\ngāṅthe vaijayantī mālā\nsakala-śreyasī, kṛṣṇa-vakṣaḥ-sthita,\nparama-preyasī bālā"
+    },
+    {
+     "t": "6) Accompanied by Viśākhā, Rādhā picks forest flowers and strings together a vaijayantī flower garland for Kṛṣṇa. She is the well-wisher of all, and is always situated upon the chest of the Lord, being the most beloved young girlfriend of Kṛṣṇa."
+    },
+    {
+     "v": "(7)\nsnigdha venu-rave, druta-gati jāi',\nkuñje peye naṭa-bare\nhasita-nayanī, namra-mukhī satī,\nkarna kanḍūyana kore"
+    },
+    {
+     "t": "7) Hearing the soft sound of the flute, She moves swiftly through the forest, and finding in the bowers of Vraja the best of dancing actors, the chaste Rādhā with smiling eyes turns her face downward in shyness while restlessly scratching Her ear."
+    },
+    {
+     "v": "(8)\nsparśiyā kamala, vāyu su-śītala,\nkore jabe kunḍa-nīra\nnidāghe tathāy, nija-gaṇa saha,\ntuṣaya gokula-vīra"
+    },
+    {
+     "t": "8) When the breeze, which is scented with the fragrance of lotus flowers, makes the waters of Rādhā-kunḍa very cool, then, in the warmth of the summer in those cooling waters, Rādhā along with all Her girlfriends satisfies the hero of Gokula."
+    },
+    {
+     "v": "(9)\nbhakativinoda, rūpa-raghunāthe,\nkohaye caraṇa dhori'\nheno rādhā-dāsya, sudhīra-sampad,\nkabe dibe kṛpā kori'"
+    },
+    {
+     "t": "9) Bhaktivinoda says to Rūpa and Raghunātha, clasping their lotus feet, “When will you bestow your mercy upon me and give me eternal service to such a Rādhā as this, for Her service is the wealth of the truly wise.”"
+    }
+   ],
+   "notes": "Verse 1 line 1 is printed with a space after the hyphen ('nāgarī- gaṇa'); kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s236",
+   "title": "Mahabhava Cintamani",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 5",
+   "firstLine": "mahābhāva-cintāmaṇi, udbhāvita tanu-khāni,",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 67",
+   "parts": [
+    {
+     "v": "(1)\nmahābhāva-cintāmaṇi, udbhāvita tanu-khāni,\nsakhī-pati-sajjā prabhāvatī\nkārunya-tārunya ār, lāvanya-amṛta-dhār,\ntāhe snātā lakṣmī-jayī satī"
+    },
+    {
+     "t": "1) Śrīmatī Rādhārāṇī's transcendental bodily form has arisen out of the mahābhāva-cintāmaṇi. She is the decoration of the Lord of the sakhīs, and is effulgent with divinely splendrous potency. She takes her first bath in the shower of the nectar of compassion, Her second bath in the nectar of youth, and Her third bath in the nectar of bodily luster. She thus conquers the beauty of even the goddess of fortune, and is endowed with the prominent quality of chastity."
+    },
+    {
+     "v": "(2)\nlajjā paṭṭa-vastra jār, saundarya kuṅkuma-sār,\nkasturī-citrita kalevara\nkampāśru-pulaka-raṅga, stambha-sveda-svara-bhaṅga,\njāḍyonmāda nava-ratna-dhara"
+    },
+    {
+     "t": "2) She wears the silken sārī of modesty, and on Her forehead She wears the red kuṅkum dot of loveliness. Her body is decorated with pictures drawn in musk, and She wears a necklace that is adorned with the fresh jewels of the ecstatic symptoms—shivering in the body, flowing of tears from the eyes, standing of hairs on the body, being stunned, perspiring, faltering of the voice, inactivity, and madness."
+    },
+    {
+     "v": "(3)\npañca-viṁśati guna, phula-mālā su-śobhana,\ndhīrādhīra bhāva-paṭṭa-vāsā\npihita-māna-dhammillā, saubhāgya-tilakojvalā,\nkṛṣṇa-nāma-yaśaḥ karnollāsā"
+    },
+    {
+     "t": "3) Śrī Rādhā is very much beautified by wearing the flower garland strung with Her twenty-five transcendental qualities, and She is clothed in the two-part silken garment of both sober and non-sober emotional ecstasies. Covered indignation constitutes Her braided and ornamented hair, and She is radiant with the tilak of auspicious fortune. The name and glories of Kṛṣṇa are the delight of Her ears."
+    },
+    {
+     "v": "(4)\nrāga-tāmbūlita oṣṭha, kauṭilya-kajjala-spaṣṭa,\nsmita-karpūrita narma-śīlā\nkīrti-yaśa-antaḥpure, garva-khaṭṭopari sphure,\ndulita prema-vaicittya-mālā"
+    },
+    {
+     "t": "4) Śrīmatī Rādhārāṇī's lips have become very red from chewing betel nuts, and the black collyrium of cunningness is clearly visible on Her eyes. Her smile is like sweet camphor, and she is always fond of joking. She sits upon a bed of pride in a palace of fame and glory, and a garland of extraordinary transformations of ecstatic love hangs swinging from around Her neck."
+    },
+    {
+     "v": "(5)\npranaya-roṣa-kañculī- pihita stana-yugmakā,\ncandrā-jayī kacchapī ravinī\nsakhī-dwaya-skandhe, līlā-karāmbujārpana-śīlā,\nśyāmā śyāmāmṛta-vitaraṇī"
+    },
+    {
+     "t": "5) Her breasts are covered by the bodice of loving anger. She plays on a lute called kacchapī (turtle-shaped) to announce the conquest of Her rival Candrāvalī. Rādhā is always fond of placing Her playful lotuslike hands on the shoulders of two of Her girlfriends. Her youthful form is very graceful and slender, and She is the exclusive distributor of the nectar of Lord Śyāmasundara."
+    },
+    {
+     "v": "(6)\ne heno rādhikā-pada, tomāder su-sampada,\ndante tṛṇa yāce tava pāy\ne bhaktivinoda dīn, rādhā-dāsyāmṛta-kana,\nrūpa raghunātha! deho tāy"
+    },
+    {
+     "t": "6) O Rūpa and Raghunātha! Your great treasure is the lotus feet of such a Rādhikā. This Bhaktivinoda, who is very fallen and lowly, prays at your lotus feet with a straw of the street between his teeth. Please bestow upon me a nectarean particle of eternal service to Śrīmatī Rādhārāṇī!"
+    }
+   ],
+   "notes": "Translation 3: the book prints an endnote marker 'vi*' after 'qualities,' and sets the rest of that translation in italics; the marker is left out and the text kept. Verse 5 line 1 printed with a space after the hyphen ('kañculī- pihita'); kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s237",
+   "title": "Baraja Bipine Jamuna Kule",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 6",
+   "firstLine": "baraja-bipinejamunā-kūle",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 68",
+   "parts": [
+    {
+     "v": "(1)\nbaraja-bipinejamunā-kūle\nmañca manoharaśobhita phule"
+    },
+    {
+     "t": "1) In the forests of Vraja on the banks of the Yamunā there are beautiful thrones bedecked with flowers."
+    },
+    {
+     "v": "(2)\nbanaspati-latātuṣaye āṅkhi\ntad upari kotoḍākaye pākhī"
+    },
+    {
+     "t": "2) The creepers and fruit trees give satisfaction to the eyes and upon these trees and creepers many birds sing sweetly."
+    },
+    {
+     "v": "(3)\nmalaya anilavahaye dhīre\nali-kula madhu-lobheye phire"
+    },
+    {
+     "t": "3) A breeze from the Malaya hills blows ever so gently while swarms of bumblebees fly about in search of honey."
+    },
+    {
+     "v": "(4)\nbāsantīra rākāuḍupa tadā\nkaumudī bitoreādare sadā"
+    },
+    {
+     "t": "4) The full glowing moon of the spring season then distributes its cooling rays out of love and respect."
+    },
+    {
+     "v": "(5)\nemata samayerasika-bara\nārambhilo rāsamuralī-dhara"
+    },
+    {
+     "t": "5) At such a time as this the best of relishers begins His rāsa dance the holder of the flute."
+    },
+    {
+     "v": "(6)\nśata-koṭī gopīmājhete hari\nrādhā-saha nāceānanda kori"
+    },
+    {
+     "t": "6) Millions of cowherd maidens Lord Hari is in the midst dancing along with Rādhā rejoicing in great bliss."
+    },
+    {
+     "v": "(7)\nmādhava-mohinīgāiyā gīta\nharilo sakalajagata-cita"
+    },
+    {
+     "t": "7) The Enchantress of Mādhava singing beautiful songs steals away the minds of all the three worlds."
+    },
+    {
+     "v": "(8)\nsthāvara-jaṅgamamohilā satī\nhārāolo candrā- valīra mati"
+    },
+    {
+     "t": "8) All moving and non-moving beings enchanted by chaste Rādhā who has forcefully defeated the pride of Candrāvalī."
+    },
+    {
+     "v": "(9)\nmathiyā baraja-kiśora-man\nantarita hoyrādhā takhon"
+    },
+    {
+     "t": "9) After agitating the mind of youthful Vraja-Kiśor Rādhā oh so suddenly disappears from the scene."
+    },
+    {
+     "v": "(10)\nbhakativinodaparamāda gaṇe\nrāsa bhāṅgalo (āji)rādhā vihane"
+    },
+    {
+     "t": "10) This Bhaktivinoda perceives some calamity—the rāsa dance has now stopped in the absence of Rādhā."
+    }
+   ],
+   "notes": "In this song the book runs many words together without a space (e.g. 'bipinejamunā', 'manoharaśobhita', 'latātuṣaye', 'kotoḍākaye', 'anilavahaye', 'rākāuḍupa', 'bitoreādare', 'samayerasika', 'rāsamuralī', 'gopīmājhete', 'nāceānanda', 'mohinīgāiyā', 'sakalajagata', 'jaṅgamamohilā', 'hoyrādhā', 'bhakativinodaparamāda', '(āji)rādhā') and prints 'candrā- valīra' with a stray space; all kept exactly as printed for the head to decide whether to insert spaces. The verse numbering continues into Song 7 (11–18).",
+   "uncertain": "Whole song: word spacing as printed is clearly a typesetting fault (see notes); transcribed as printed, not corrected."
+  },
+  {
+   "id": "s238",
+   "title": "Sata Koti Gopi Madhava Man",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 7",
+   "firstLine": "śata-koṭi gopīmādhava-man",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 70",
+   "parts": [
+    {
+     "v": "(11)\nśata-koṭi gopīmādhava-man\nrākhite nārilokori' jatan"
+    },
+    {
+     "t": "11) Millions of cowherd damsels are unable to please the mind of Mādhava although endeavoring to do so."
+    },
+    {
+     "v": "(12)\nvenu-gīte ḍākerādhikā-nām\n`eso eso rādhe!'ḍākoye śyām"
+    },
+    {
+     "t": "12) The flute song calls the name of Rādhikā “Come here, come here, Rādhe!” Śyāma calls out in the night."
+    },
+    {
+     "v": "(13)\nbhāṅgiyā śrī-rāsa-manḍala tabe\nrādhā-anveṣanecalaye jabe"
+    },
+    {
+     "t": "13) When the Śrī-rāsa-manḍala comes to a halt in search of Beloved Rādhā He then goes."
+    },
+    {
+     "v": "(14)\n`dekhā diyā rādhe!rākhoha prān!'\nboliyā kāṅdayekānane kān"
+    },
+    {
+     "t": "14) “Please appear, O Rādhe! Kindly save My life!” calling out while weeping Kān in the forest."
+    },
+    {
+     "v": "(15)\nnirjana kānanerādhāre dhori'\nmiliyā parānjuḍāya hari"
+    },
+    {
+     "t": "15) In a secluded grove embracing Rādhikā regaining His life and soul Hari is relieved."
+    },
+    {
+     "v": "(16)\nbole, `tuṅhu vinākāhāra rāsa?\ntuṅhu lāgi' morbaraja-bāsa'"
+    },
+    {
+     "t": "16) Saying, “Without You, where is the rāsa dance? Only because of You do I live in Vraja.”"
+    },
+    {
+     "v": "(17)\ne heno rādhikā-caraṇa-tale\nbhakativinodakāṅdiyā bole"
+    },
+    {
+     "t": "17) At the lotus feet of such a Rādhikā this Bhaktivinoda says weeping,"
+    },
+    {
+     "v": "(18)\n`tuwā gaṇa-mājheāmāre gaṇi'\nkiṅkorī koriyārakho apani'"
+    },
+    {
+     "t": "18) “Among Your personal associates please count me also; making me Your maidservant keep me as Your own.”"
+    }
+   ],
+   "notes": "The book numbers this song's stanzas 11–18, continuing from Song 6; kept as printed. As in Song 6, many words are run together without a space (e.g. 'gopīmādhava', 'nārilokori'', 'ḍākerādhikā', 'rādhe!'ḍākoye', 'anveṣanecalaye', 'rādhe!rākhoha', 'kāṅdayekānane', 'kānanerādhāre', 'parānjuḍāya', 'vinākāhāra', 'morbaraja', 'bhakativinodakāṅdiyā', 'mājheāmāre', 'koriyārakho'); kept exactly as printed.",
+   "uncertain": "Whole song: word spacing as printed is clearly a typesetting fault (see notes); transcribed as printed, not corrected."
+  },
+  {
+   "id": "s239",
+   "title": "Radha Bhajane Jadi Mati Nahi Bhela",
+   "heading": "Śrī Rādhāṣṭaka (Eight Prayers in Glorification of Śrīmatī Rādhārāṇī), Song 8",
+   "firstLine": "rādha-bhajane jadi mati nāhi bhelā",
+   "lang": "bn",
+   "cats": [
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 72",
+   "parts": [
+    {
+     "v": "(1)\nrādha-bhajane jadi mati nāhi bhelā\nkṛṣṇa-bhajana tava akāraṇa gelā"
+    },
+    {
+     "t": "1) If your desire for the worship of Śrīmatī Rādhārāṇī does not come about, then your so-called worship of Kṛṣṇa is completely useless."
+    },
+    {
+     "v": "(2)\nātapa-rohita sūraya nāhi jāni\nrādhā-virahita mādhava nāhi māni"
+    },
+    {
+     "t": "2) Just as I never know the sun to be without without sunlight, so I do not care to regard Mādhava without Rādhā."
+    },
+    {
+     "v": "(3)\nkevala mādhava pūjaye so ajñānī\nrādhā anādara koro-i abhimānī"
+    },
+    {
+     "t": "3) One who worships Mādhava alone is imperfect in his knowledge, and one who disrespects Rādhā is simply conceited and proud."
+    },
+    {
+     "v": "(4)\nkabaṅhi nāhi korobi tāṅkor saṅga\ncitte icchasi jadi braja-rasa-raṅga"
+    },
+    {
+     "t": "4) You should never associate with such a person if you at all desire within your heart to participate in the eternal sportive pastimes of Vraja."
+    },
+    {
+     "v": "(5)\nrādhikā-dāsī jadi hoy abhimān\nśīghra-i mila-i taba gokula-kān"
+    },
+    {
+     "t": "5) If one considers oneself to be a humble maidservant of Rādhikā, then such a person very quickly meets the Lord of Gokula."
+    },
+    {
+     "v": "(6)\nbrahmā, śiva, nārada, śruti, nārāyanī\nrādhikā-pada-raja pūjaye māni'"
+    },
+    {
+     "t": "6) Lord Brahmā, Lord Śiva, Nārada Muni, the personified Vedas, and Lakṣmī-devī all honor and worship the dust of Rādhikā's lotus feet."
+    },
+    {
+     "v": "(7)\numā, ramā, satyā, śacī, candrā, rukminī\nrādha-avatāra sabe,—āmnāya-vānī"
+    },
+    {
+     "t": "7) The Vedic scriptures declare that the goddesses Umā, Ramā, Satyā, Śacī, Candrā, and Rukminī are all personal expansions of Śrīmatī Rādhārāṇī."
+    },
+    {
+     "v": "(8)\nheno rādhā-paricaryā jāṅkara dhan\nbhakativinoda tā'r māgaye caraṇ"
+    },
+    {
+     "t": "8) Bhaktivinoda, whose only treasure is the service of such a Rādhā, humbly begs for Her lotus feet."
+    }
+   ],
+   "notes": "Translation 2 prints 'without without' (typo in the book); kept as printed. Verse 1 and 7 print 'rādha-' without the final macron; kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s240",
+   "title": "Bhojana Lalase Rasane Amar",
+   "heading": "Pariśiṣṭa (Supplementary Poem)",
+   "firstLine": "bhojana-lālase, rasane āmār,",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 72",
+   "parts": [
+    {
+     "v": "(1)\nbhojana-lālase, rasane āmār,\nśunoha vidhāna mor\nśrī-nāma-yugala-rāga-sudhā-rasa,\nkhāiyā thākoha bhor"
+    },
+    {
+     "t": "1) O my tongue, you who are overwhelmed with the desire for tasting material enjoyment, please hear my instructions. Always remain deeply absorbed in drinking the nectarean loving mellows of the beautiful names of the divine couple Rādhā and Kṛṣṇa."
+    },
+    {
+     "v": "(2)\nnava-sundar pīyūṣa rādhikā-nām\nati-miṣṭa manohar tarpana-dhām"
+    },
+    {
+     "t": "2) The name of Rādhikā is ever-fresh and lovely, and is pure ambrosia. It is very sweet, utterly enchanting and is the abode of complete satisfaction."
+    },
+    {
+     "v": "(3)\nkṛṣṇa-nām madhurādbhuta gāḍha dugdhe\natīva jatane koro miśrita lubdhe"
+    },
+    {
+     "t": "3) With great care, you should eagerly blend this ambrosial name of Rādhikā with the wonderful sweet condensed milk of the name of Kṛṣṇa."
+    },
+    {
+     "v": "(4)\nsurabhi rāga hima ramya taṅhi āni'\naharaha pān koroha sukha jāni'"
+    },
+    {
+     "t": "4) Now add into that mixture the sweet fragrance of loving affection, which is both cool and delightful. Drink this nectar day and night, and you will know what true happiness is."
+    },
+    {
+     "v": "(5)\nnāhi rabe rasane prākṛta pipāsā\nadbhuta rasa tuwā pūrāobo āśā"
+    },
+    {
+     "t": "5) No longer will there remain on the tongue a thirst for mundane tastes, for these wonderful transcendental mellows will fulfill all of your desires."
+    },
+    {
+     "v": "(6)\ndāsa-raghunātha-pade bhaktivinod\njāco-i rādhā-kṛṣṇa-nāma pramod"
+    },
+    {
+     "t": "6) At the lotus feet of Raghunātha dāsa Goswāmī, Bhaktivinoda begs for ecstatic rapture in hearing and chanting the divine names of Rādhā and Kṛṣṇa."
+    }
+   ],
+   "notes": "Printed after the Śrī Rādhāṣṭaka songs as 'Pariśiṣṭa — Supplementary Poem' (the ninth of the section's 'Nine Songs').",
+   "uncertain": ""
+  },
+  {
+   "id": "s241",
+   "title": "Pita Varana Kali Pavana Gora",
+   "heading": "Śrī Śikṣāṣṭaka (Eight Prayers of Divine Instruction), Song 1 [Jhāṅphi—Lophā]",
+   "firstLine": "pīta-varaṇa kali-pāvana gorā",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "gaura"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 73",
+   "parts": [
+    {
+     "v": "(1)\npīta-varaṇa kali-pāvana gorā\ngāoyāi aichana bhāva-vibhorā"
+    },
+    {
+     "t": "1) Lord Gaurāṅga, whose complexion is golden and who is the deliverer of the fallen souls of Kali-yuga, sings as follows, overwhelmed with spiritual ecstasy:"
+    },
+    {
+     "v": "(2)\ncitta-darpana-parimārjana-kārī\nkṛṣṇa-kīrtana jaya citta bihārī"
+    },
+    {
+     "t": "2) “All glories to the chanting of the holy name of Kṛṣṇa! It thoroughly cleanses the mirror of the heart. This chanting delights the soul."
+    },
+    {
+     "v": "(3)\nhelā-bhava-dāva-nirvāpana-vṛtti\nkṛṣṇa-kīrtana jaya kleśa-nivṛtti"
+    },
+    {
+     "t": "3) “All glories to the chanting of the holy name of Kṛṣṇa! It extinguishes the horrible forest fire of material existence. This chanting removes all material tribulations."
+    },
+    {
+     "v": "(4)\nśreyaḥ-kumuda-vidhu-jyotsnā-prakāś\nkṛṣṇa-kīrtana jaya bhakti-vilās"
+    },
+    {
+     "t": "4) “All glories to the chanting of the holy name of Kṛṣṇa! It appears like the moon in the heart and distributes its cooling moonlight, thus causing the white lotus of good fortune to bloom. This chanting is the pastime of devotion."
+    },
+    {
+     "v": "(5)\nviśuddha-vidyā-vadhū jīvana-rūp\nkṛṣṇa-kīrtana jaya siddha-swarūp"
+    },
+    {
+     "t": "5) “All glories to the chanting of the holy name of Kṛṣṇa! It is compared to a young bride, chaste and devoted to transcendental knowledge itself. This chanting is the highest perfection of life."
+    },
+    {
+     "v": "(6)\nānanda-payo-nidhi-vardhana-kīrti\nkṛṣṇa-kīrtana jaya plāvana-mūrti"
+    },
+    {
+     "t": "6) “All glories to the chanting of the holy name of Kṛṣṇa! It is glorious, as it causes the ocean of ecstatic bliss to swell and overflow. This chanting is an inundation of love of Godhead."
+    },
+    {
+     "v": "(7)\npade pade pīyūṣa-swāda-pradātā\nkṛṣṇa-kīrtana jaya prema-vidhātā"
+    },
+    {
+     "t": "7) “All glories to the chanting of the holy name of Kṛṣṇa! It gives one a taste of fully satisfying nectar at every step. This chanting is the bestower of ecstatic love of God.”"
+    },
+    {
+     "v": "(8)\nbhaktivinoda-swātma-snapana-vidhān\nkṛṣṇa-kīrtana jaya prema-nidān"
+    },
+    {
+     "t": "8) All glories to the chanting of the holy name of Kṛṣṇa! It bathes the soul of Bhaktivinoda. This chanting is a storehouse of love of God."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrī Caitanya Mahāprabhu's Sanskrit Śikṣāṣṭakam'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s242",
+   "title": "Tunhu Doya Sagara Tarayite Prani",
+   "heading": "Śrī Śikṣāṣṭaka (Eight Prayers of Divine Instruction), Song 2",
+   "firstLine": "tuṅhu doyā-sāgara tārayite prāṇī",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 75",
+   "parts": [
+    {
+     "v": "(1)\ntuṅhu doyā-sāgara tārayite prāṇī\nnām aneka tuwā śikhāoli āni'"
+    },
+    {
+     "t": "1) O Lord, You are an ocean of mercy. You have brought Your innumerable holy names to this world and have taught the chanting of them to the fallen living beings just for their deliverance."
+    },
+    {
+     "v": "(2)\nsakala śakati dei nāme tohārā\ngrahane rākholi nāhi kāla-vicārā"
+    },
+    {
+     "t": "2) You invest all Your energies in Your own holy name, and for chanting Your holy name You have not established any rules such as consideration of time or place."
+    },
+    {
+     "v": "(3)\nśrī-nāma-cintāmaṇi tohāri samānā\nviśve bilāoli karunā-nidānā"
+    },
+    {
+     "t": "3) Your divine holy name, being nondifferent from You, is like touchstone. You have distributed Your holy name throughout the entire creation, and that is the essence of Your kindness."
+    },
+    {
+     "v": "(4)\ntuwā doyā aichana parama udārā\natiśoy manda nātha! bhāga hāmārā"
+    },
+    {
+     "t": "4) Such is Your mercy, which is supremely magnanimous, O Lord, but I am extremely unfortunate."
+    },
+    {
+     "v": "(5)\nnāhi janamalo nāme anurāga mor\nbhakativinoda-citta duḥkhe vibhor"
+    },
+    {
+     "t": "5) My attraction for the holy name has never come about; therefore the heart of Bhaktivinoda is overwhelmed with sadness."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrī Caitanya Mahāprabhu's Sanskrit Śikṣāṣṭakam'.",
+   "uncertain": ""
+  },
+  {
+   "id": "s243",
+   "title": "Aparadha Phale Mama",
+   "heading": "Śrī Śikṣāṣṭaka (Eight Prayers of Divine Instruction), Song 6 [Choṭa-Daśakuśī—Lophā]",
+   "firstLine": "aparādha-phale mama, citta bhelo vajra-sama,",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 79",
+   "parts": [
+    {
+     "v": "(1)\naparādha-phale mama, citta bhelo vajra-sama,\ntuwā nāme nā labhe vikār\nhatāś hoiye, hari, tava nām ucca kori',\nboro duḥkhe ḍāki bār bār"
+    },
+    {
+     "t": "1) O Lord Hari, as a result of my offenses incurred in previous lifetimes, my heart has become hard as a thunderbolt, and feels no change upon chanting Your holy name. Now in utter hopelessness, O Lord Hari, I loudly sing Your name, and in great distress I call out to You again and again."
+    },
+    {
+     "v": "(2)\ndīna doyāmoy karunā-nidān\nbhāva-bindhu dei rākhoha parān"
+    },
+    {
+     "t": "2) O Lord who is compassionate towards the fallen souls! O origin of all mercy! Please give to me a drop of divine ecstasy and thereby save my life!"
+    },
+    {
+     "v": "(3)\nkabe tuwā nāma-uccaraṇe mor\nnayane jharabo dara dara lor"
+    },
+    {
+     "t": "3) When will an incessant stream of tears flow dripping and dripping from my eyes at the articulation of Your holy name?"
+    },
+    {
+     "v": "(4)\ngad-gada-swara kanṭhe upajabo\nmukhe bola ādha ādha bāhirābo"
+    },
+    {
+     "t": "4) When will a faltering voice choked with emotion arise in my throat, and when will words garbled due to ecstasy come from my mouth?"
+    },
+    {
+     "v": "(5)\npulake bharabo śarīra hāmāra\nsweda-kampa-stambha habe bāra bāra"
+    },
+    {
+     "t": "5) When will my body be filled with ecstatic rapture, and when will there be perspiration, trembling, and a stunned sensation again and again?"
+    },
+    {
+     "v": "(6)\nvivarna-śarīre hārāobuṅ jñāna\nnāma-samāśraye dharobuṅ parān"
+    },
+    {
+     "t": "6) When, out of divine ecstasy, will all consciousness be lost in my pale and discolored body? And when will I hold onto my very life under the shelter of Your holy name?"
+    },
+    {
+     "v": "(7)\nmilabo hāmāra kiye aiche din\nro-owe bhaktivinoda mati hīn"
+    },
+    {
+     "t": "7) This weeping Bhaktivinoda, who is devoid of all good intelligence, sobs, “O Lord, how will such a day ever be mine?”"
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrī Caitanya Mahāprabhu's Sanskrit Śikṣāṣṭakam'. Verse 2 line 2 prints 'bhāva-bindhu' (translation: 'a drop'); kept as printed.",
+   "uncertain": "Verse 2 line 2: 'bhāva-bindhu' as printed (likely 'bindu'); not corrected."
+  },
+  {
+   "id": "s244",
+   "title": "Gaite Gaite Nama Ki Dasa Hoilo",
+   "heading": "Śrī Śikṣāṣṭaka (Eight Prayers of Divine Instruction), Song 7 [Jhāṅphi—Lophā]",
+   "firstLine": "gāite gāite nāma ki daśā hoilo",
+   "lang": "bn",
+   "cats": [
+    "name",
+    "krsna"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 80",
+   "parts": [
+    {
+     "v": "(1)\ngāite gāite nāma ki daśā hoilo\n`kṛṣṇa-nitya-dāsa mui' hṛdoye sphurilo"
+    },
+    {
+     "t": "1) What was my condition after repeatedly chanting the holy name? The realization that “I am the eternal servant of Kṛṣṇa” spontaneously became manifest within my heart."
+    },
+    {
+     "v": "(2)\njānilām māyā-pāśe e jaḍa-jagate\ngovinda-virahe duḥkha pāi nānā-mate"
+    },
+    {
+     "t": "2) I realized that I was ensnared in the noose of māyā's illusion, being trapped within this dull mundane universe, and that I simply experience misery in various ways due to separation from Lord Govinda."
+    },
+    {
+     "v": "(3)\nār je saṁsāra mor nāhi lāge bhālo\nkāhā jāi' kṛṣṇa heri—e cintā viśālo"
+    },
+    {
+     "t": "3) Furthermore, I realized that I do not like this worldly existence. “Where can I go to see Kṛṣṇa?”—this was my great anxiety."
+    },
+    {
+     "v": "(4)\nkāṅdite kāṅdite mor āṅkhi-variśoy\nvarṣā-dhārā heno cakṣe hoilo udoy"
+    },
+    {
+     "t": "4) Crying and crying, tears poured from my eyes, appearing just like torrents of rain in the monsoon season."
+    },
+    {
+     "v": "(5)\nnimeṣe hoilo mora śata-yuga-sam\ngovinda-viraha ār sahite akṣam"
+    },
+    {
+     "t": "5) Unable to bear separation from Lord Govinda any longer, for me the passing of a moment became like a hundred long ages."
+    },
+    {
+     "h": "[Daśakuśī]"
+    },
+    {
+     "v": "(6)\nśūnya dharā-tala, caudike dekhiye,\nparāna udāsa hoy\nki kori, ki kori, sthira nāhi hoy,\njīvana nāhiko roy"
+    },
+    {
+     "t": "6) As I look about in all directions, the surface of the earth appears to be void, and my very life-breath feels empty. What am I doing? What am I doing? I do not feel at all tranquil, and the life within my body is slipping away."
+    },
+    {
+     "v": "(7)\nbraja-bāsī-gaṇ, mora prāna rākho,\ndekhāo śrī-rādhā-nāthe\nbhakativinoda, minati māniyā,\nlaohe tāhāre sāthe"
+    },
+    {
+     "t": "7) O residents of Vraja-dhāma! Please save my life and show me the Lord of Śrī Rādhā! O consider the prayers of this Bhaktivinoda and take him into His company!"
+    },
+    {
+     "h": "[Eka-tālā]"
+    },
+    {
+     "v": "(8)\nśrī-kṛṣṇa-viraha ār sahite nā pāri\nparān chāḍite ār din dui cāri"
+    },
+    {
+     "t": "8) I am unable to further tolerate this separation from my Lord Śrī Kṛṣṇa and am ready to give up my life in two days or four."
+    },
+    {
+     "h": "[Daśakuśī]"
+    },
+    {
+     "v": "(1)\ngāite govinda-nām, upajilo bhāva-grām,\ndekhilām jamunāra kūle\nbṛṣabhānu-sutā-saṅge, śyāma-naṭa-bara raṅge,\nbāṅśarī bājāya nīpa-mūle"
+    },
+    {
+     "t": "1) Upon singing the holy name of Govinda, a host of ecstasies arose within me... and I saw Lord Śyāmasundar, the best of dancing actors, standing on the banks of the Yamunā in the company of the daughter of Mahārāja Vṛṣabhānu. He was playing His flute with great delight at the base of a kadamba tree."
+    },
+    {
+     "v": "(2)\ndekhiyā yugala-dhana, asthira hoilo mana,\njñāna-hārā hoinu takhon\nkoto-kṣane nāhi jāni, jñāna-labha hoilo māni,\nāra nāhi bhelo daraśan"
+    },
+    {
+     "t": "2) Seeing the treasured Divine Couple of Vraja, my mind became unsteady and I lost consciousness. I do not know for how long I was unconscious, but when I awoke that vision of Rādhā and Kṛṣṇa was no longer present."
+    },
+    {
+     "h": "[Jhāṅphi—Lophā]"
+    },
+    {
+     "v": "(1)\nsakhi go, kemate dharibo parān\nnimeṣa hoilo yugera samān"
+    },
+    {
+     "t": "1) O my dear girlfriend! How will I maintain my life? The passing of a mere moment has become like a vast age of time."
+    },
+    {
+     "h": "[Daśakuśī]"
+    },
+    {
+     "v": "(2)\nśrāvanera dhārā, āṅkhi-variṣoy,\nśūnya bhelo dharā-tala\ngovinda-virahe, prāna nāhi rohe,\nkemone vāñcibo bolo"
+    },
+    {
+     "t": "2) Tears flow from my eyes like torrents of rain in the month of Śravana, and the face of the earth has become totally void. In separation from Govinda my life cannot go on... please tell how I will be able to live."
+    },
+    {
+     "v": "(3)\nbhakativinoda, asthira hoiyā,\npunaḥ nāmāśraya kori'\nḍāke rādhā-nātha, diyā daraśan,\nprāna rākho, nāhe mari"
+    },
+    {
+     "t": "3) Bhaktivinoda has become very restless and again takes shelter of the holy name, calling out, “O Lord of Rādhā! By bestowing Your audience, please save my life! By Your mercy alone I shall not perish!”"
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrī Caitanya Mahāprabhu's Sanskrit Śikṣāṣṭakam'. The book prints this song in several melody sections ([Jhāṅphi—Lophā], [Daśakuśī], [Eka-tālā] …), kept as heading parts; stanza numbering restarts at (1) after stanza 8 and again after the next melody change, exactly as printed. Verse 4 prints 'āṅkhi-variśoy' while the later verse prints 'āṅkhi-variṣoy'; both kept as printed.",
+   "uncertain": ""
+  },
+  {
+   "id": "s245",
+   "title": "Bandhu Gan Sunoha Vacana Mor",
+   "heading": "Śrī Śikṣāṣṭaka (Eight Prayers of Divine Instruction), Song 8 [Daśakuśī]",
+   "firstLine": "bandhu-gaṇ! śunoha vacana mor",
+   "lang": "bn",
+   "cats": [
+    "krsna",
+    "surrender"
+   ],
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 83",
+   "parts": [
+    {
+     "v": "(1)\nbandhu-gaṇ! śunoha vacana mor\nbhāvete vibhora, thākiye jakhon,\ndekhā deya citta-cor"
+    },
+    {
+     "t": "1) O my dear friends! Please hear my words. When the thief of my heart appears to me, I remain overwhelmed in pure ecstasy."
+    },
+    {
+     "v": "(2)\nvicakṣana kori', dekhite cāhile,\nhoy āṅkhi-agocara\npunaḥ nāhi dekhi', kāṅdaye parān,\nduḥkhera nāhi thāke or"
+    },
+    {
+     "t": "2) When I scheme to see Him more closely, He suddenly becomes invisible. Thus losing sight of Him again, my soul weeps, and there is no limit to the unhappiness that I feel."
+    },
+    {
+     "v": "(3)\njagatera bandhu sei kabhu more loy sātha\njathā tathā rakhu more āmāra sei prāna-nātha"
+    },
+    {
+     "t": "3) Sometimes that friend of the universe takes me as one of His associates; but however He chooses to treat me, He is still the Lord of my life."
+    },
+    {
+     "v": "(4)\ndarśana-ānanda-dāne, sukha deya mora prāne,\nbole more pranaya-vacan\npunaḥ adarśana diyā, dagdha kore mora hiyā,\nprāne mora māre prāna-dhan"
+    },
+    {
+     "t": "4) By bestowing His blissful audience, He gives happiness to my soul, and He speaks words of love to me. But again by His absence He burns my heart, and He who is the treasure of my life gives distress to my soul."
+    },
+    {
+     "v": "(5)\njāhe tā'r sukha hoy, sei sukha mama\nnija sukhe-duḥkhe mor sarvadā-i sama"
+    },
+    {
+     "t": "5) Whatever His happiness is, that is also my happiness. Therefore I do not care about my own happiness or distress—they are equal in all ways."
+    },
+    {
+     "v": "(6)\nbhakativinoda, saṁyoge, viyoge,\ntāhe jāne prāneśvara\ntā'ra sukhe sukhī, sei prāna-nāth,\nse kabhu nā hoy para"
+    },
+    {
+     "t": "6) In meeting or in separation, Bhaktivinoda knows only Kṛṣṇa to be the Lord of his life and is made happy only by His happiness. He is the Lord of Bhaktivinoda's soul, and He will never be looked upon with indifference."
+    },
+    {
+     "h": "[Daśakuśī]"
+    },
+    {
+     "v": "(1)\nyoga-pīṭhopari-sthita, aṣṭa-sakhī-suveṣṭita,\nbṛndāraṇye kadamba-kānane\nrādhā-saha vaṁśī-dhārī, viśva-jana-citta-hārī,\nprāna mor tāṅhāra caraṇe"
+    },
+    {
+     "t": "1) Situated upon the Yoga-Pīṭha surrounded by the eight chief gopīs in a kadamba tree grove within Vṛndāvana with His beloved Rādhā is the holder of the flute the stealer of the hearts of all living beings in the universe—I lay down my life at Their lotus feet."
+    },
+    {
+     "v": "(2)\nsakhī-ājñā-mata kori doṅhāra sevan\npālya-dāsī sadā bhāvi doṅhāra caraṇ"
+    },
+    {
+     "t": "2) According to the directions of my superior sakhī, I render service to the Divine Couple. I always consider myself a dependent maidservant of the lotus feet of the Divine Couple."
+    },
+    {
+     "v": "(3)\nkabhu kṛpā kori, mama hasta dhori',\nmadhura vacana bole\ntāmbūla loiyā, khāy dui jane,\nmālā loya kutūhale"
+    },
+    {
+     "t": "3) Sometimes, out of great mercy, my sakhī holds my hand and speaks sweet words to me. Taking the betel nuts I have prepared she offers them to those two persons and accepts flower garlands for Them in great delight."
+    },
+    {
+     "v": "(4)\nadarśana hoy kakhon ki chale\nnā dekhiyā doṅhe hiyā jwale"
+    },
+    {
+     "t": "4) By some deception They periodically disappear from my sight. Not seeing the Divine Couple of Vraja, my heart burns in agony."
+    },
+    {
+     "v": "(5)\njekhāne sekhāne, thākuka du'jane,\nāmi to' caraṇa-dāsī\nmilane ānanda, virahe jātanā,\nsakala samāna bāsi"
+    },
+    {
+     "t": "5) Wherever those two may be I am certainly a humble maidservant of Their lotus feet. I consider the ecstasies of meeting Them and the agonies of separation from Them to be exactly the same."
+    },
+    {
+     "v": "(6)\nrādhā-kṛṣṇa prāna mor jīvane maraṇe\nmore rākhi' māri' sukhe thākuka du'jane"
+    },
+    {
+     "t": "6) In life or death, Rādhā and Kṛṣṇa are my life and soul. May They always be happy, whether They choose to protect me or kill me."
+    },
+    {
+     "v": "(7)\nbhakativinoda, āna nāhi jāne,\npoḍi' nija-sakhī-pāy\nrādhikāra gaṇe, thākiyā satata,\nyugala-caraṇa cāy"
+    },
+    {
+     "t": "7) This Bhaktivinoda knows nothing beyond this. Falling down at the lotus feet of the sakhī whom he serves and always remaining among the associates of Śrī Rādhikā he prays for the lotus feet of the Divine Couple of Vraja."
+    }
+   ],
+   "notes": "Section note in the book: 'Bengali songs based on Śrī Caitanya Mahāprabhu's Sanskrit Śikṣāṣṭakam'. The book prints a second '[Daśakuśī]' section after stanza 6 with numbering restarting at (1); kept as printed. This is the last song of the book ('Thus ends Gītāvalī …'). Second-section stanza 6 ('rādhā-kṛṣṇa prāna mor jīvane maraṇe') shares only its opening words with s092 (Narottama, 'rādhā-kṛṣṇa prāṇa mora jugala-kiśora'); it is a different verse.",
+   "uncertain": ""
+  }
+ ],
+ "present": [
+  {
+   "existingId": "s072",
+   "firstLine": "udilo aruṇa pūraba-bhāge,",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 1"
+  },
+  {
+   "existingId": "s044",
+   "firstLine": "jīv jāgo, jīv jāgo, gauracānda bole",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 3"
+  },
+  {
+   "existingId": "s025",
+   "firstLine": "bhāle gorā-gadādharer ārati nehāri",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 4"
+  },
+  {
+   "existingId": "s015",
+   "firstLine": "jaya jaya gorācānder āratiko śobhā",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 5"
+  },
+  {
+   "existingId": "s043",
+   "firstLine": "jaya jaya rādhā-kṛṣṇa yugala-milana",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 6"
+  },
+  {
+   "existingId": "s023",
+   "firstLine": "bhaja bhakata-vatsala śrī-gaurahari",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 7"
+  },
+  {
+   "existingId": "s013",
+   "firstLine": "śarīra avidyā-jāl, joḍendriya tāhe kāl,",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 10"
+  },
+  {
+   "existingId": "s014",
+   "firstLine": "eka-dina śāntipure, prabhu adwaitera ghare,",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 11"
+  },
+  {
+   "existingId": "s057",
+   "firstLine": "nadīyā-godrume nityānanda mahājana",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 14"
+  },
+  {
+   "existingId": "s033",
+   "firstLine": "gāy gorā madhur sware",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 22"
+  },
+  {
+   "existingId": "s065",
+   "firstLine": "`rādhā-kṛṣna' bol bol bolo re sobāi",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 23"
+  },
+  {
+   "existingId": "s034",
+   "firstLine": "(refrain) gāy gorācānd jīver tore",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 24"
+  },
+  {
+   "existingId": "s011",
+   "firstLine": "rādhā-mādhava kuñja-bihārī",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 38"
+  },
+  {
+   "existingId": "s075",
+   "firstLine": "yaśomatī-nandana, vraja-vara-nāgara,",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 39"
+  },
+  {
+   "existingId": "s029",
+   "firstLine": "`doyāl nitāi caitanya' bole' nāc re āmār man",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 40"
+  },
+  {
+   "existingId": "s042",
+   "firstLine": "‘hari’ bolo, ‘hari’ bolo, ‘hari’ bolo, bhāi re",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 41"
+  },
+  {
+   "existingId": "s027",
+   "firstLine": "bolo hari bolo (3 times)",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 42"
+  },
+  {
+   "existingId": "s020",
+   "firstLine": "ār keno māyā-jāle poḍitecho, jīva-mīn",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 45"
+  },
+  {
+   "existingId": "s024",
+   "firstLine": "bhaja re bhaja re āmār mana ati manda",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 48"
+  },
+  {
+   "existingId": "s058",
+   "firstLine": "nārada muni, bājāya vīṇā,",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 60"
+  },
+  {
+   "existingId": "s069",
+   "firstLine": "śrī-kṛṣṇa-kīrtane jadi mānasa tohār",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 76"
+  },
+  {
+   "existingId": "s063",
+   "firstLine": "prabhu tava pada-yuge mora nivedan",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 77"
+  },
+  {
+   "existingId": "s019",
+   "firstLine": "anādi' karama-phale, poḍi' bhavārnava-jale,",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 78"
+  }
+ ],
+ "leftOut": [
+  {
+   "title": "Prema-Dhvani (Vocalizations of Love)",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 50",
+   "reason": "Not a song: a list of 'kī jaya!' invocations (premse koho śrī kṛṣṇa-caitanya-… kī jaya!, śrī tulasī-devī kī jaya! …) printed after Bhajan-Gītā, with only a one-line English note. Left for the head to decide; easy to add if wanted."
+  },
+  {
+   "title": "Nṛtya-gīta-samāpti-kāle (closing jaya invocations) and signature",
+   "source": "Bhaktivinoda_Thakura_Gitavali.pdf, p. 85",
+   "reason": "Not a song: the 'jaya … kī jaya!' list to be said when the dancing and chanting is concluded, and Bhaktivinoda's signature lines, printed after 'Thus ends Gītāvalī'. Left for the head to decide."
+  }
+ ]
+}

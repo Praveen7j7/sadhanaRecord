@@ -1,0 +1,30 @@
+Android emulator · Android 15 · Chrome/124.0.6367.219
+PASS [android] live: the welcome screen opens
+PASS [android] live: look tier "low", theme light, 412×783, no sideways scroll
+PASS [android] live build: index-DbtPpmAE.js
+PASS [android] live: Login opens from Welcome
+PASS [android] app: the login screen (mock data)
+PASS [android] app: signed in, Home shows
+PASS [android] app: bottom bar Home, Week, Group, Report, Account, inside the screen (773 ≤ 783)
+PASS [android] app: Home, no sideways scroll at 412px
+PASS [android] app: Week shows statuses as a dot and a word (Complete, Complete, Complete, Complete)
+PASS [android] app: Week, no sideways scroll
+PASS [android] app: "How your day is scored" opens as a bottom sheet
+PASS [android] app: the sheet's ✕ closes it
+PASS [android] app: a tap outside the sheet closes it
+PASS [android] app: the phone's Back button closes the sheet and stays on the day
+PASS [android] app: the time wheel opens with Cancel and Done ({"rows":170,"btns":2})
+PASS [android] app: Day form, no sideways scroll
+PASS [android] app: Account has no Appearance section
+PASS [android] app: the Theme row says Automatic, no list of choices
+PASS [android] app: one tap: Light
+PASS [android] app: another tap: Dark
+PASS [android] app: a third tap: back to Automatic
+PASS [android] app: the menu leaves out This week and Report (on the bar) and has Report issue
+PASS [android] app: Report, Daily and Weekly each inside its button
+PASS [android] app: Delete account opens a sheet (password + DELETE), warns it can't be undone, Delete disabled until both are filled
+PASS [android] app: Cancel closes it, still on Account, nothing deleted
+PASS [android] staff: the batch board shows dot-and-word statuses (Not started, Filling, Submitted, No attendance:Not active)
+PASS [android] staff: batch board, no sideways scroll
+PASS [android] staff: a devotee's day with "That day's practice" (That day's practice Hearing and reading show here once the week is submitted.)
+PASS [android] staff: day view, no sideways scroll

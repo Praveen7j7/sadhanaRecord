@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#002888" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="IYF Delhi (ISKCON Youth Forum) Sadhana Record — Every Day, A Step Closer to Kṛṣṇa. Track your spiritual practices, build consistency and grow in bhakti." />
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png" />
+    <link rel="stylesheet" href="/contrast.css" media="(prefers-contrast: more), (forced-colors: active)" />
+    <!-- The list of paintings starts with the page: the Welcome's painting is its largest paint (Phase 8).
+         It is 5 KB gzipped again (22 Oct 2026). It had grown to 30 KB because the 17 flagship paintings' blur
+         placeholders — a 24 px thumbnail each, inlined — were carried inside it and preloaded on EVERY page,
+         for a screen most opens never show. They are in blur.json now, fetched by the panel that draws one. -->
+    <link rel="preload" href="/darshan/darshan.json" as="fetch" crossorigin="anonymous" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/brand/favicon-48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/brand/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png" />
+    <title>IYF Delhi Sadhana Record</title>
+    <!-- the preview a chat app (WhatsApp, Telegram, …) shows when the link is shared: the official IYF Delhi logo -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ISKCON Youth Forum, Delhi" />
+    <meta property="og:title" content="IYF Delhi Sadhana Record" />
+    <meta property="og:description" content="Every Day, A Step Closer to Kṛṣṇa. Track your spiritual practices, build consistency and grow in bhakti. ISKCON Youth Forum, Delhi." />
+    <meta property="og:url" content="https://sadhana-record.iyfdelhi-sadhana.workers.dev/" />
+    <meta property="og:image" content="https://sadhana-record.iyfdelhi-sadhana.workers.dev/brand/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ISKCON Youth Forum, Delhi logo with Sadhana Record" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="apple-mobile-web-app-title" content="Sadhana" />
+  </head>
+  <body>
+    <!-- Splash: plain HTML, shown before any script runs; the app fades it out when its first screen is ready. -->
+    <div id="splash" role="status" aria-label="Opening IYF Delhi Sadhana Record">
+      <div class="lockup lockup-lg sp-in">
+        <img class="lk-emblem" src="/brand/iyf-emblem-256.webp" srcset="/brand/iyf-emblem-64.webp 64w, /brand/iyf-emblem-128.webp 128w, /brand/iyf-emblem-256.webp 256w, /brand/iyf-emblem-512.webp 512w" sizes="72px" width="72" height="72" alt="" decoding="async" fetchpriority="high" />
+        <span class="lk-rule" aria-hidden="true"></span>
+        <span class="lk-text"><span class="lk-org">IYF Delhi</span><span class="lk-sub">ISKCON Youth Forum</span></span>
+      </div>
+      <p class="sp-name sp-in2">Sādhana Record</p>
+      <p class="sp-sub sp-in2">Every Day, A Step Closer to Kṛṣṇa.</p>
+      <span class="sp-bar" aria-hidden="true"></span>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

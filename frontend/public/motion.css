@@ -1,0 +1,56 @@
+/* Phase 7 (9 Oct 2026): motion that is not needed to use the app, loaded after it opens (lib/motion.js) so the startup
+   styles stay small. Nothing here runs with reduced motion or on the Low look tier. */
+@media (prefers-reduced-motion: no-preference) {
+  :root:not([data-tier='low']) {
+    /* pages: the content slides a little in the direction of travel; the top bar and the nav stay put */
+    .content { view-transition-name: page; }
+    &::view-transition-old(root), &::view-transition-new(root) { animation: none; }
+    &::view-transition-old(page) { animation: mo-out 140ms cubic-bezier(.4, 0, 1, 1) both; }
+    &::view-transition-new(page) { animation: mo-in 240ms cubic-bezier(.2, .9, .3, 1.05) both; }
+    &[data-nav='back']::view-transition-old(page) { animation-name: mo-out-back; }
+    &[data-nav='back']::view-transition-new(page) { animation-name: mo-in-back; }
+
+    /* a row that changed since the last refresh glows once */
+    .glow { animation: mo-glow 1.2s ease-out; }
+    /* sparklines draw once */
+    .sp-line { stroke-dasharray: 600; stroke-dashoffset: 600; animation: mo-draw 800ms ease-out 100ms forwards; }
+    /* the bottom bar slides away while scrolling down a long page, and back on the way up */
+    @media (max-width: 599px) {
+      .nav { transition: transform 220ms cubic-bezier(.2, .9, .3, 1), opacity 220ms ease; }
+      .nav.nav-away { transform: translateY(calc(100% + 28px)); opacity: 0; pointer-events: none; }
+    }
+
+    /* the motion table of the 22 Oct audit (§8.2), high and balanced unless said: */
+    /* a card that appears rises 6 px into place — only when it is INSERTED (@starting-style), never the cards already on
+       screen when this file arrives; a transform, so it is no layout shift */
+    .cblock, .hero-card { transition: opacity 200ms ease, translate 200ms cubic-bezier(.2, .9, .3, 1);
+      @starting-style { opacity: 0; translate: 0 6px; } }
+    /* C4 (22 Oct 2026): shared-element travel — Home's week card becomes the Week's header, and Home's day chips become
+       the Day form's day strip, as the page changes (View Transitions; each name is on one element per screen) */
+    .hero-card, .wk-head { view-transition-name: vt-week; }
+    nav.days, nav.sticky-top.chips { view-transition-name: vt-days; }
+    &::view-transition-group(vt-week), &::view-transition-group(vt-days) { animation-duration: 240ms; animation-timing-function: cubic-bezier(.2, .9, .3, 1); }
+    /* the week ring draws in */
+    .ring-arc { animation: mo-ring 440ms cubic-bezier(.2, .9, .3, 1) both; }
+    /* a desktop row lifts a pixel under the pointer */
+    @media (hover: hover) and (min-width: 1024px) {
+      a.lrow, .mrow { transition: translate 120ms ease; }
+      a.lrow:hover, .mrow:hover { translate: 0 -1px; }
+    }
+  }
+  /* high only: today's chip pulses once; the nav's active pill slides to the new tab with the page */
+  :root[data-tier='high'] {
+    .chip-on { animation: mo-pulse 900ms ease-out 1; }
+    .nav a[aria-current='page'] .ind { view-transition-name: nav-pill; }
+    /* 240 ms, no longer than the page slide: taps are not delivered while a page change animates (22 Oct 2026) */
+    &::view-transition-group(nav-pill) { animation-duration: 240ms; animation-timing-function: cubic-bezier(.3, 1.35, .5, 1); }
+  }
+}
+@keyframes mo-ring { from { stroke-dasharray: 0 200; } }
+@keyframes mo-pulse { 0% { box-shadow: 0 0 0 3px var(--halo), 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); } 100% { box-shadow: 0 0 0 3px var(--halo), 0 0 0 12px transparent; } }
+@keyframes mo-in { from { opacity: 0; transform: translateX(18px); } }
+@keyframes mo-out { to { opacity: 0; transform: translateX(-10px); } }
+@keyframes mo-in-back { from { opacity: 0; transform: translateX(-18px); } }
+@keyframes mo-out-back { to { opacity: 0; transform: translateX(10px); } }
+@keyframes mo-glow { from { background-color: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); } }
+@keyframes mo-draw { to { stroke-dashoffset: 0; } }

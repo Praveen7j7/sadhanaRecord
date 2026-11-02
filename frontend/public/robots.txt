@@ -1,0 +1,5 @@
+# Sadhana Record (IYF Delhi). The signed-in app lives behind #/ routes and is not crawled; the public pages are below.
+# The address changes when the own domain is chosen (Phase 9): update the Sitemap line then.
+User-agent: *
+Allow: /
+Sitemap: https://sadhana-record.iyfdelhi-sadhana.workers.dev/sitemap.xml

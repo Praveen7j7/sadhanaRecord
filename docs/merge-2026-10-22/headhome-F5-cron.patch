@@ -1,0 +1,15 @@
+--- a/frontend/src/master/HeadHome.svelte	2026-10-22 17:03:08
++++ b/frontend/src/master/HeadHome.svelte	2026-10-22 17:01:24
+@@ -59,6 +59,12 @@
+         out.push({ tone: turned >= 500 ? 'warn' : '', href: '#/activity',
+                    t: `About ${turned} calls turned away this hour · ${parts.join(', ')}` });
+       }
++      // a scheduled job that failed in the last day (F5, 22 Oct 2026): the Monday deadline, the 9 PM reminder, the
++      // night's clean-up. Until now only Cloudflare's log knew, and nobody reads that day to day.
++      const dayAgo = Date.now() - 864e5;
++      for (const f of st.data.cronFailed || []) {
++        if (Date.parse(f.at) > dayAgo) out.push({ tone: 'warn', href: '#/activity', t: `The ${f.name} run failed · ${human(f.at)} · ${String(f.message || '').slice(0, 60)}` });
++      }
+     }
+     if (bl.data) {
+       const none = bl.data.filter((b) => b.active && !b.coordinatorLogins?.length);

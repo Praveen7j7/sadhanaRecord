@@ -1,0 +1,22 @@
+{
+  "name": "sadhana-record-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run-all.mjs",
+    "dev": "npx --no-install wrangler dev",
+    "deploy": "node scripts/deploy.mjs",
+    "migrate:local": "npx --no-install wrangler d1 migrations apply sadhana --local",
+    "migrate:remote": "npx --no-install wrangler d1 migrations apply sadhana --remote",
+    "audit:sql": "rm -f /tmp/sr-sql.log && SQL_LOG=/tmp/sr-sql.log node tests/run-all.mjs && node tests/query-plans.mjs /tmp/sr-sql.log && node tests/write-audit.mjs /tmp/sr-sql.log && node ../tools/test/phones.mjs",
+    "audit:phones": "node ../tools/test/phones.mjs",
+    "versions": "npx --no-install wrangler versions list",
+    "deploy:raw": "npx --no-install wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

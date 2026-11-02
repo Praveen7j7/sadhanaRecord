@@ -1,0 +1,593 @@
+{
+  "phases": {
+    "4": {
+      "status": "live",
+      "note": "navigation and global layout; released by session prompt-c0 as Cloudflare version 835072c0-8ae9-4fea-9027-1432be202408",
+      "index": "assets/index-CEejoc_v.js",
+      "build": "2026.10.04-2311",
+      "at": "2026-10-04 23:12 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-CEejoc_v.js)",
+        "PASS production serves the expected release (assets/index-CEejoc_v.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "5": {
+      "status": "live",
+      "note": "core components; built in sadhanaRecord-phase5/ (branch phase5); deploys only after phase 4 is recorded live",
+      "checks": {
+        "fingerprint": "1b33c7c07a3ac02f",
+        "at": "2026-10-05 00:05 IST",
+        "summary": [
+          "verify.mjs: 1506 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-DEPfFmGP.js",
+      "build": "2026.10.05-0348",
+      "at": "2026-10-05 03:49 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-DEPfFmGP.js)",
+        "PASS production serves the expected release (assets/index-DEPfFmGP.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "6": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "0a44959f5a2a76b3",
+        "at": "2026-10-05 04:19 IST",
+        "summary": [
+          "verify.mjs: 1506 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-NfyH9c20.js",
+      "build": "2026.10.05-0424",
+      "at": "2026-10-05 04:25 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-NfyH9c20.js)",
+        "PASS production serves the expected release (assets/index-NfyH9c20.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "7": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "c0691b47636b216d",
+        "at": "2026-10-05 08:34 IST",
+        "summary": [
+          "verify.mjs: 1572 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-B3SVPkgc.js",
+      "build": "2026.10.05-0835",
+      "at": "2026-10-05 08:36 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-B3SVPkgc.js)",
+        "PASS production serves the expected release (assets/index-B3SVPkgc.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "8": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "f42deb0f6d818618",
+        "at": "2026-10-05 11:39 IST",
+        "summary": [
+          "verify.mjs: 1607 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-BOqmzliK.js",
+      "build": "2026.10.05-1140",
+      "at": "2026-10-05 11:41 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-BOqmzliK.js)",
+        "PASS production serves the expected release (assets/index-BOqmzliK.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "9": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "52d79c7387cb3bd1",
+        "at": "2026-10-05 15:05 IST",
+        "summary": [
+          "verify.mjs: 1649 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-Bf2SvUbx.js",
+      "build": "2026.10.05-1507",
+      "at": "2026-10-05 15:08 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-Bf2SvUbx.js)",
+        "PASS production serves the expected release (assets/index-Bf2SvUbx.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "10": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "dcd915414ddc4ffe",
+        "at": "2026-10-07 11:59 IST",
+        "summary": [
+          "verify.mjs: 1665 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-w0mCiQqP.js",
+      "build": "2026.10.07-1200",
+      "at": "2026-10-07 12:01 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-w0mCiQqP.js)",
+        "PASS production serves the expected release (assets/index-w0mCiQqP.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "11": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "da4d69a010a3e3f3",
+        "at": "2026-10-08 19:49 IST",
+        "summary": [
+          "verify.mjs: 1688 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-BJsI6KRT.js",
+      "build": "2026.10.08-1950",
+      "at": "2026-10-08 19:52 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-BJsI6KRT.js)",
+        "PASS production serves the expected release (assets/index-BJsI6KRT.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (7)",
+        "PASS no page errors"
+      ]
+    },
+    "12": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "583589f10e376ace",
+        "at": "2026-10-09 14:44 IST",
+        "summary": [
+          "verify.mjs: 1748 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-DbtPpmAE.js",
+      "build": "2026.10.09-1445",
+      "at": "2026-10-09 14:47 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-DbtPpmAE.js)",
+        "PASS production serves the expected release (assets/index-DbtPpmAE.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (9)",
+        "PASS no page errors"
+      ]
+    },
+    "13": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "4f76c4dc153ad027",
+        "at": "2026-10-10 00:47 IST",
+        "summary": [
+          "verify.mjs: 1799 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-Dhjm_4Vw.js",
+      "build": "2026.10.10-0425",
+      "at": "2026-10-10 04:27 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-Dhjm_4Vw.js)",
+        "PASS production serves the expected release (assets/index-Dhjm_4Vw.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (9)",
+        "PASS no page errors"
+      ]
+    },
+    "14": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "f9231e1fb53307b9",
+        "at": "2026-10-10 09:57 IST",
+        "summary": [
+          "verify.mjs: 1799 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-D3q4JWju.js",
+      "build": "2026.10.10-1001",
+      "at": "2026-10-10 10:02 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-D3q4JWju.js)",
+        "PASS production serves the expected release (assets/index-D3q4JWju.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (9)",
+        "PASS no page errors"
+      ]
+    },
+    "15": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "ebe542a6cb21d55b",
+        "at": "2026-10-10 12:04 IST",
+        "summary": [
+          "verify.mjs: 1799 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-BrTJlHAh.js",
+      "build": "2026.10.11-1616",
+      "at": "2026-10-11 16:17 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-BrTJlHAh.js)",
+        "PASS production serves the expected release (assets/index-BrTJlHAh.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (9)",
+        "PASS no page errors"
+      ]
+    },
+    "16": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "3fee8fbedf37c651",
+        "at": "2026-10-11 19:57 IST",
+        "summary": [
+          "verify.mjs: 1809 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-CqIRd71J.js",
+      "build": "2026.10.11-1959",
+      "at": "2026-10-11 20:01 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-CqIRd71J.js)",
+        "PASS production serves the expected release (assets/index-CqIRd71J.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (9)",
+        "PASS no page errors"
+      ]
+    },
+    "17": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "b751cfd849cedc03",
+        "at": "2026-10-12 07:12 IST",
+        "summary": [
+          "verify.mjs: 1809 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-GViiI2CY.js",
+      "build": "2026.10.18-1705",
+      "at": "2026-10-18 17:07 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-GViiI2CY.js)",
+        "PASS production serves the expected release (assets/index-GViiI2CY.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (14)",
+        "PASS no page errors"
+      ]
+    },
+    "18": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "abac8dd563ee538d",
+        "at": "2026-10-18 20:22 IST",
+        "summary": [
+          "verify.mjs: 1847 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-B05nln63.js",
+      "build": "2026.10.18-2024",
+      "at": "2026-10-18 20:26 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-B05nln63.js)",
+        "PASS production serves the expected release (assets/index-B05nln63.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (14)",
+        "PASS no page errors"
+      ]
+    },
+    "19": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "2970418d6e61c68a",
+        "at": "2026-10-19 16:29 IST",
+        "summary": [
+          "verify.mjs: 1885 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed"
+        ]
+      },
+      "index": "assets/index-BFsEoGYS.js",
+      "build": "2026.10.21-1131",
+      "at": "2026-10-21 11:32 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-BFsEoGYS.js)",
+        "PASS production serves the expected release (assets/index-BFsEoGYS.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (14)",
+        "PASS no page errors"
+      ]
+    },
+    "20": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "bd2da831c9d551a3",
+        "at": "2026-10-23 00:18 IST",
+        "summary": [
+          "verify.mjs: 2056 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed",
+          "routevitals: 68 visits within budget",
+          "screenreader: 0 blocker · 0 major · 7 minor"
+        ]
+      },
+      "index": "assets/index-5ecRWMrU.js",
+      "build": "2026.10.23-0020",
+      "at": "2026-10-23 00:22 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-5ecRWMrU.js)",
+        "PASS production serves the expected release (assets/index-5ecRWMrU.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (13)",
+        "PASS no page errors"
+      ]
+    },
+    "21": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "1ebb6fbf96af4f1d",
+        "at": "2026-10-23 14:48 IST",
+        "summary": [
+          "verify.mjs: 2198 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed",
+          "routevitals: 74 visits within budget",
+          "screenreader: 0 blocker · 0 major · 5 minor"
+        ]
+      },
+      "index": "assets/index-P60JWOD0.js",
+      "build": "2026.10.23-1450",
+      "at": "2026-10-23 14:58 IST",
+      "dist": "frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-P60JWOD0.js)",
+        "PASS production serves the expected release (assets/index-P60JWOD0.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (14)",
+        "PASS no page errors"
+      ]
+    },
+    "22": {
+      "status": "live",
+      "index": "assets/index-D_RXQPHd.js",
+      "build": "2026.10.27-0454",
+      "at": "2026-10-27 05:03 IST",
+      "dist": "frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-D_RXQPHd.js)",
+        "PASS production serves the expected release (assets/index-D_RXQPHd.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (16)",
+        "PASS no page errors"
+      ]
+    },
+    "23": {
+      "status": "live",
+      "index": "assets/index-C3qWFgX-.js",
+      "build": "",
+      "at": "2026-10-28 14:17 IST",
+      "dist": "/private/tmp/claude-501/-Users-maclapctp409-Downloads-hpStuff-prompt/8439ec51-26ae-41ca-8111-69c34f039b63/scratchpad/dist-base/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-C3qWFgX-.js)",
+        "PASS production serves the expected release (assets/index-C3qWFgX-.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (19)",
+        "PASS no page errors"
+      ]
+    },
+    "24": {
+      "status": "live",
+      "checks": {
+        "fingerprint": "12fc5cc3c04646e4",
+        "at": "2026-10-28 16:23 IST",
+        "summary": [
+          "verify.mjs: 2595 passed, 0 failed",
+          "components.mjs: 219 passed, 0 failed",
+          "back-guard.mjs: 17 passed, 0 failed",
+          "motion-audit.mjs: 27 passed, 0 failed",
+          "routevitals: 74 visits within budget",
+          "screenreader: 0 blocker · 0 major · 3 minor"
+        ]
+      },
+      "index": "assets/index-cLJMh_AH.js",
+      "build": "",
+      "at": "2026-10-28 16:27 IST",
+      "dist": "/Users/maclapctp409/Downloads/hpStuff/prompt/sadhanaRecord/frontend/dist/index.html",
+      "smoke": [
+        "PASS the app answers (assets/index-cLJMh_AH.js)",
+        "PASS production serves the expected release (assets/index-cLJMh_AH.js)",
+        "PASS the manifest loads",
+        "PASS the API answers meta.get",
+        "PASS the sign-in screen renders",
+        "PASS navigation works: #/welcome renders",
+        "PASS navigation works: #/forgot renders",
+        "PASS navigation works: #/signup renders",
+        "PASS the service worker installs (PWA / offline)",
+        "PASS every lazy screen file loads (19)",
+        "PASS no page errors"
+      ]
+    }
+  }
+}

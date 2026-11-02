@@ -1,0 +1,22 @@
+/* The segmented choice (ui/Seg.svelte and the P / A marks): moved out of the startup CSS on 8 Oct 2026; loaded by the
+   Seg component and with screens.css. */
+@layer components {
+  /* ladder #15 (22 Oct 2026): the chosen option is a raised white pill on a lightly tinted track — the solid blue pill is
+     kept for primary buttons, so a choice no longer looks like a button to press. Chosen = raised + bold + accent text,
+     never colour alone. */
+  .seg { display: flex; gap: 4px; padding: 3px; border-radius: calc(var(--r-md) + 3px); background: color-mix(in srgb, var(--accent) 7%, var(--surface-muted)); border: 1px solid var(--border); }
+  .seg button { box-sizing: border-box; flex: 1 1 0; min-width: 0; min-height: var(--ctl-h); padding: 0 10px; border: 0; border-radius: var(--r-md); background: transparent; color: var(--text); font: inherit; font-size: 0.9375rem; font-weight: 550; cursor: pointer;
+    transition: background-color var(--d-1) var(--ease), color var(--d-1) var(--ease), box-shadow var(--d-1) var(--ease), scale var(--d-1) var(--ease); }
+  @media (hover: hover) { .seg button:hover:not(:disabled):not([aria-pressed='true']) { background: var(--surface-hover); } }
+  .seg button[aria-pressed='true'] { background: var(--surface-elevated); color: var(--accent-strong); font-weight: 700; box-shadow: inset 0 0 0 1px var(--accent-line), var(--shadow-1); }
+  .seg button:disabled { cursor: not-allowed; opacity: 0.55; }
+  .seg button:focus-visible { outline-offset: -2px; }
+  /* B1 (Phase 22): the Seg component lays its options on equal columns. As a flex row with flex-basis 0, a Seg sized to
+     its content (Explorer "Qualify / Everyone", a picker beside a heading) split the sum of the labels evenly, so the
+     longer label ran into the padding and met the edge. Equal grid columns size to the widest label instead; at full
+     width they share the row exactly as before. Hand-built .seg rows (tabs that scroll, links) keep the flex row. */
+  .seg.seg-even { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); }
+  /* only a button that carries an icon is laid out for one, so every other segmented control is unchanged */
+  .seg button:has(> svg) { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+  .seg button > svg { flex: none; }
+}

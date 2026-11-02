@@ -1,0 +1,35 @@
+/* The Sheet component's own styles (ui/Sheet.svelte imports this file): a bottom sheet on phones, a centred dialog
+   from 600 px. Moved out of the startup CSS on 8 Oct 2026 (no sheet is open when the app starts); the drawer, the
+   tier glass and the low-tier fades stay in app.css. */
+@layer components {
+  .sheet { position: fixed; inset: auto 0 0 0; box-sizing: border-box; width: 100%; max-width: none; max-height: 92vh; margin: 0; padding: 8px var(--gutter) calc(var(--safe-b) + 16px); overflow: auto; overscroll-behavior: contain;
+    border: 0; border-radius: var(--r-xl) var(--r-xl) 0 0; color: var(--text);
+    transform: translateY(100%); transition: transform var(--d-3) var(--ease), overlay var(--d-3) allow-discrete, display var(--d-3) allow-discrete; }
+  .sheet::before { content: ''; display: block; width: 36px; height: 4px; margin: 0 auto 12px; border-radius: var(--r-full); background: var(--border-strong); opacity: 0.6; }
+  .sheet[open] { transform: none; }
+  .sheet::backdrop { background: transparent; transition: background-color var(--d-3), overlay var(--d-3) allow-discrete, display var(--d-3) allow-discrete; }
+  .sheet[open]::backdrop { background: var(--scrim); }
+  .sheet h2 { margin: 0 0 4px; font-size: var(--fs-h2); }
+  .sheet-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: var(--sp-3); }
+  .sheet-head .iconbtn { margin: -6px -8px 0 0; }
+  @media (min-width: 600px) {
+    .sheet { inset: 50% auto auto 50%; width: min(480px, calc(100vw - 48px)); padding: 20px 24px 24px; border-radius: var(--r-xl); transform: translate(-50%, -46%); opacity: 0; transition: transform var(--d-3) var(--ease), opacity var(--d-3) var(--ease), overlay var(--d-3) allow-discrete, display var(--d-3) allow-discrete; }
+    .sheet[open] { transform: translate(-50%, -50%); opacity: 1; }
+    .sheet::before { display: none; }
+    .sheet.wide { width: min(620px, calc(100vw - 48px)); }
+  }
+  /* The opening animation (9 Oct 2026, Phase 9): these were outside @layer components, so the unlayered
+     .sheet[open] start value lost to the layered one and the sheet appeared with no transition — it jumped.
+     Inside the layer they are at the same precedence as .sheet[open], so the open really animates. */
+  @starting-style { .sheet[open] { transform: translateY(100%); } }
+  @media (min-width: 600px) { @starting-style { .sheet[open] { transform: translate(-50%, -46%); opacity: 0; } } }
+  /* the sheet slides on the compositor only: no layout or paint work per frame while it opens */
+  .sheet { will-change: transform; }
+  @media (min-width: 600px) { .sheet { will-change: transform, opacity; } }
+  /* Reduce Motion: appear at once, no slide (the backdrop still fades) */
+  @media (prefers-reduced-motion: reduce) {
+    .sheet, .sheet[open] { transition: overlay var(--d-1) allow-discrete, display var(--d-1) allow-discrete; transform: none; opacity: 1; }
+    @starting-style { .sheet[open] { transform: none; opacity: 1; } }
+    @media (min-width: 600px) { .sheet, .sheet[open] { transform: translate(-50%, -50%); } @starting-style { .sheet[open] { transform: translate(-50%, -50%); opacity: 1; } } }
+  }
+}

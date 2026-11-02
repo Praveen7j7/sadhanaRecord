@@ -1,0 +1,12 @@
+-- Which day of the week a batch's class falls on (the head, 17 Oct 2026).
+--
+-- Attendance opened on Sunday for every batch, Saturday ones included: the batches that existed all
+-- met at the weekend, so one day served and classweek.js counted six days from the Monday.
+--
+-- The training batches do not meet at the weekend. A coordinator's class may sit on a weekday, and
+-- on the old rule their attendance would not open until the Sunday AFTER the class they are marking
+-- — so a coordinator could not mark the class they had just taken.
+--
+-- Additive, defaulting to SUN: every batch that exists keeps the behaviour it has, and nothing about
+-- their weeks moves (ADR 0003).
+ALTER TABLE batches ADD COLUMN class_day TEXT NOT NULL DEFAULT 'SUN';
